@@ -16,23 +16,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Start SSH agent
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: |
-            ${{ secrets.PACKAGIST_DEPLOY_PRIVATE_KEY }}
-
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Create composer.json
         run: echo "{}" > composer.json
-
-      - name: Get Composer Cache Directory
-        id: composer-cache
-        run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
       - name: Get Date
         id: get-date
@@ -42,7 +27,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            ${{ steps.composer-cache.outputs.dir }}
+            ~/.composer
             ${{ env.BUILD_DIR }}
           key: ${{ runner.os }}-php-${{ steps.get-date.outputs.date }}
           restore-keys: ${{ runner.os }}-php-
@@ -52,15 +37,13 @@ jobs:
 
       - name: Docker build
         run: |
+          export COMPOSER_HOME="$HOME/.composer"
+          composer config -g github-oauth.github.com "${{ secrets.GENEROI_DEPLOY_PAT }}"
           docker run --rm --init \
             --user $(id -u):$(id -g) \
             --volume $(pwd):/build \
-            --volume "${{ steps.composer-cache.outputs.dir }}:/composer" \
-            --volume "$SSH_AUTH_SOCK:/ssh-auth.sock" \
-            --volume /etc/passwd:/etc/passwd:ro \
-            --volume /etc/group:/etc/group:ro \
-            --env SSH_AUTH_SOCK=/ssh-auth.sock \
-            composer/satis build /build/satis.json /build/${{ env.BUILD_DIR }} --no-interaction
+            --volume "${COMPOSER_HOME}:/composer" \
+            composer/satis -vvv build /build/satis.json /build/${{ env.BUILD_DIR }} --no-interaction
 
       - name: Publish to GitHub pages
         run: |
