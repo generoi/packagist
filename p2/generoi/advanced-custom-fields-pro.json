@@ -1575,6 +1575,50 @@
                     "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
                     "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.3.6"
                 }
+            },
+            {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "6.3.6.1",
+                "version_normalized": "6.3.6.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "bdc621194c3dbeb092fdc8e2bc72fd3073dd8285"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/bdc621194c3dbeb092fdc8e2bc72fd3073dd8285",
+                    "reference": "bdc621194c3dbeb092fdc8e2bc72fd3073dd8285",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-31T18:30:48+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.3.6.1"
+                }
             }
         ]
     }
