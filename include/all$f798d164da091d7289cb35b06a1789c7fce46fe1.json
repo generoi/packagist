@@ -1,0 +1,95 @@
+{
+    "packages": {
+        "generoi/role-based-pricing-for-woocommerce": {
+            "2.1.1": {
+                "name": "generoi/role-based-pricing-for-woocommerce",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/role-based-pricing-for-woocommerce.git",
+                    "reference": "7c63ac410039acf13b9d4650186b100119ed78fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/7c63ac410039acf13b9d4650186b100119ed78fd",
+                    "reference": "7c63ac410039acf13b9d4650186b100119ed78fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2024-08-30T21:11:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer.bjorkskog@genero.fi"
+                    }
+                ],
+                "description": "Role Based Pricing for WooCommerce",
+                "homepage": "https://github.com/generoi/rolebased-pricing-for-woocommerce",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
+                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/2.1.1"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/role-based-pricing-for-woocommerce",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/role-based-pricing-for-woocommerce.git",
+                    "reference": "7c63ac410039acf13b9d4650186b100119ed78fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/7c63ac410039acf13b9d4650186b100119ed78fd",
+                    "reference": "7c63ac410039acf13b9d4650186b100119ed78fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2024-08-30T21:11:56+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer.bjorkskog@genero.fi"
+                    }
+                ],
+                "description": "Role Based Pricing for WooCommerce",
+                "homepage": "https://github.com/generoi/rolebased-pricing-for-woocommerce",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
+                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/2.1.1"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$f798d164da091d7289cb35b06a1789c7fce46fe1.json": {
+            "sha1": "f798d164da091d7289cb35b06a1789c7fce46fe1"
+        }
+    },
+    "metadata-url": "/packagist/p2/%package%.json",
+    "available-packages": [
+        "generoi/role-based-pricing-for-woocommerce"
+    ]
+}
