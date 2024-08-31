@@ -1,0 +1,70 @@
+{
+    "packages": {
+        "kinsta/kinsta-mu-plugins": [
+            {
+                "name": "kinsta/kinsta-mu-plugins",
+                "version": "dev-fix/php82-warning",
+                "version_normalized": "dev-fix/php82-warning",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/kinsta-mu-plugins.git",
+                    "reference": "aee9b2aa65a0c205ab0ca7484ff6003417caba41"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/aee9b2aa65a0c205ab0ca7484ff6003417caba41",
+                    "reference": "aee9b2aa65a0c205ab0ca7484ff6003417caba41",
+                    "shasum": ""
+                },
+                "time": "2023-06-24T16:15:07+00:00",
+                "type": "wordpress-muplugin",
+                "support": {
+                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/fix/php82-warning"
+                }
+            },
+            {
+                "name": "kinsta/kinsta-mu-plugins",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/kinsta-mu-plugins.git",
+                    "reference": "444d8eb32541b687ba66f5b37f7e29286735fa17"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/444d8eb32541b687ba66f5b37f7e29286735fa17",
+                    "reference": "444d8eb32541b687ba66f5b37f7e29286735fa17",
+                    "shasum": ""
+                },
+                "time": "2024-08-31T19:06:30+00:00",
+                "default-branch": true,
+                "type": "wordpress-muplugin",
+                "support": {
+                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.1.1"
+                }
+            },
+            {
+                "name": "kinsta/kinsta-mu-plugins",
+                "version": "dev-php8_warning_fix",
+                "version_normalized": "dev-php8_warning_fix",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/kinsta-mu-plugins.git",
+                    "reference": "dcc085792ea2459b8742ef118533ade499cff20a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/dcc085792ea2459b8742ef118533ade499cff20a",
+                    "reference": "dcc085792ea2459b8742ef118533ade499cff20a",
+                    "shasum": ""
+                },
+                "time": "2021-08-20T13:35:51+00:00",
+                "type": "wordpress-muplugin",
+                "support": {
+                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/php8_warning_fix"
+                }
+            }
+        ]
+    }
+}

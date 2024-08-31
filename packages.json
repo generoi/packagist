@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$e2f75f30252384a67af31b68ccaa22fcb23d5d30.json": {
-            "sha1": "e2f75f30252384a67af31b68ccaa22fcb23d5d30"
+        "include/all$e9e3feeb35d40399ca3d857ce244f6312d9a6cad.json": {
+            "sha1": "e9e3feeb35d40399ca3d857ce244f6312d9a6cad"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -12,6 +12,7 @@
         "generoi/polylang-pro",
         "generoi/role-based-pricing-for-woocommerce",
         "generoi/woocommerce-subscriptions",
-        "generoi/wp-all-import-pro"
+        "generoi/wp-all-import-pro",
+        "kinsta/kinsta-mu-plugins"
     ]
 }
