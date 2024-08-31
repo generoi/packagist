@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "generoi/gravityforms": [
+            {
+                "name": "generoi/gravityforms",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "19b7bae41f9b3a8e49035a970a00f3c807e4767c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/19b7bae41f9b3a8e49035a970a00f3c807e4767c",
+                    "reference": "19b7bae41f9b3a8e49035a970a00f3c807e4767c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2024-08-30T13:32:42+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Gravity Forms",
+                "homepage": "http://www.gravityhelp.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/gravityforms/issues",
+                    "source": "https://github.com/generoi/gravityforms/tree/master"
+                }
+            }
+        ]
+    }
+}
