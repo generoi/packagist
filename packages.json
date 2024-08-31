@@ -1,13 +1,17 @@
 {
     "packages": [],
     "includes": {
-        "include/all$e92341c0d698e31253f13abaf9cac08fe89c821c.json": {
-            "sha1": "e92341c0d698e31253f13abaf9cac08fe89c821c"
+        "include/all$e2f75f30252384a67af31b68ccaa22fcb23d5d30.json": {
+            "sha1": "e2f75f30252384a67af31b68ccaa22fcb23d5d30"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
     "available-packages": [
+        "generoi/advanced-custom-fields-pro",
+        "generoi/facetwp",
+        "generoi/polylang-pro",
         "generoi/role-based-pricing-for-woocommerce",
-        "generoi/woocommerce-subscriptions"
+        "generoi/woocommerce-subscriptions",
+        "generoi/wp-all-import-pro"
     ]
 }

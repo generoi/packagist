@@ -1,0 +1,771 @@
+{
+    "packages": {
+        "generoi/wp-all-import-pro": [
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.1.2",
+                "version_normalized": "4.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "060022d9a7b48e7e0931e72fbca33df8c99d0cd9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/060022d9a7b48e7e0931e72fbca33df8c99d0cd9",
+                    "reference": "060022d9a7b48e7e0931e72fbca33df8c99d0cd9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2016-11-30T16:10:43+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.1.2"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.0",
+                "version_normalized": "4.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "0469ea3790d38376d557f040e6da9e5d852c2b0b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/0469ea3790d38376d557f040e6da9e5d852c2b0b",
+                    "reference": "0469ea3790d38376d557f040e6da9e5d852c2b0b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2016-11-30T17:25:05+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.0"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.1",
+                "version_normalized": "4.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "2a5817e63aa9efcd853ff1536871cc5a50c3afca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/2a5817e63aa9efcd853ff1536871cc5a50c3afca",
+                    "reference": "2a5817e63aa9efcd853ff1536871cc5a50c3afca",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-02-05T15:54:22+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.1"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.3",
+                "version_normalized": "4.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "855c7160a49d8dc79de995d649fa09b2b454e651"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/855c7160a49d8dc79de995d649fa09b2b454e651",
+                    "reference": "855c7160a49d8dc79de995d649fa09b2b454e651",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-03-09T08:11:45+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.3"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.4",
+                "version_normalized": "4.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "6a26e651c5010f6f0e467490b42e50f607609f68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/6a26e651c5010f6f0e467490b42e50f607609f68",
+                    "reference": "6a26e651c5010f6f0e467490b42e50f607609f68",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-03-09T09:03:20+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.4"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.6",
+                "version_normalized": "4.4.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "e42b1c33cd4fc572830291fc74db1fe4233a1824"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/e42b1c33cd4fc572830291fc74db1fe4233a1824",
+                    "reference": "e42b1c33cd4fc572830291fc74db1fe4233a1824",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-01T14:23:25+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.6"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.8",
+                "version_normalized": "4.4.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "5ed2a7f4b99a587be9c0536d8081d28572dc023d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/5ed2a7f4b99a587be9c0536d8081d28572dc023d",
+                    "reference": "5ed2a7f4b99a587be9c0536d8081d28572dc023d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-26T12:59:32+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.8"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.9",
+                "version_normalized": "4.4.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "3372330f62e7f2554f5fade6ec9afe69b0376a9b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/3372330f62e7f2554f5fade6ec9afe69b0376a9b",
+                    "reference": "3372330f62e7f2554f5fade6ec9afe69b0376a9b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-20T15:33:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.9"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.5.0",
+                "version_normalized": "4.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "9cd707efd91cbef3848f4ff5b542ee1584ccd059"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/9cd707efd91cbef3848f4ff5b542ee1584ccd059",
+                    "reference": "9cd707efd91cbef3848f4ff5b542ee1584ccd059",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-16T12:47:02+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.5.0"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.5.1",
+                "version_normalized": "4.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "61d977fca3cc9a02a820456bc844644f02ce3e0e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/61d977fca3cc9a02a820456bc844644f02ce3e0e",
+                    "reference": "61d977fca3cc9a02a820456bc844644f02ce3e0e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:24:51+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.5.1"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.5.5",
+                "version_normalized": "4.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "4f2c3b2d3535a944f1f7a4ebced5309c349bb69c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/4f2c3b2d3535a944f1f7a4ebced5309c349bb69c",
+                    "reference": "4f2c3b2d3535a944f1f7a4ebced5309c349bb69c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-14T09:25:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.5.5"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.5.8",
+                "version_normalized": "4.5.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "91aaceae55477f5f9290a438082532c1c93a8147"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/91aaceae55477f5f9290a438082532c1c93a8147",
+                    "reference": "91aaceae55477f5f9290a438082532c1c93a8147",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-01-03T11:10:27+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.5.8"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.6.5",
+                "version_normalized": "4.6.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "4c705561bf1e8e1ee1c9d0b0263ad29b4fc7def3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/4c705561bf1e8e1ee1c9d0b0263ad29b4fc7def3",
+                    "reference": "4c705561bf1e8e1ee1c9d0b0263ad29b4fc7def3",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-12-02T20:54:33+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.6.5"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.6.6-Beta-1.4",
+                "version_normalized": "4.6.6.0-beta1.4",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "5230c1cfbe0356e6251e535c7265d29fa94214b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/5230c1cfbe0356e6251e535c7265d29fa94214b6",
+                    "reference": "5230c1cfbe0356e6251e535c7265d29fa94214b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-11T16:38:34+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.6.6-Beta-1.4"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.6.6-Beta-1.4.1",
+                "version_normalized": "4.6.6.0-beta1.4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "70c1da111c00efde7e222c2827ecbb404c77d859"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/70c1da111c00efde7e222c2827ecbb404c77d859",
+                    "reference": "70c1da111c00efde7e222c2827ecbb404c77d859",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-11T21:26:25+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.6.6-Beta-1.4.1"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.8.10",
+                "version_normalized": "4.8.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "c026973f1b02c29d9290a5af0b0d482180f94242"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/c026973f1b02c29d9290a5af0b0d482180f94242",
+                    "reference": "c026973f1b02c29d9290a5af0b0d482180f94242",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-30T15:00:45+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.8.10"
+                }
+            },
+            {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.9.0",
+                "version_normalized": "4.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "a3a3886b7e55cc910798b065211cdf12a7e1e9c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/a3a3886b7e55cc910798b065211cdf12a7e1e9c5",
+                    "reference": "a3a3886b7e55cc910798b065211cdf12a7e1e9c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-31T04:08:26+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.9.0"
+                }
+            }
+        ]
+    }
+}

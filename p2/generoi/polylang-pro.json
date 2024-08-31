@@ -1,0 +1,1369 @@
+{
+    "packages": {
+        "generoi/polylang-pro": [
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "46b10e54f7480e85b350c8cb184f7b3b722815f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/46b10e54f7480e85b350c8cb184f7b3b722815f1",
+                    "reference": "46b10e54f7480e85b350c8cb184f7b3b722815f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-03-21T12:08:27+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.1.2"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.1.3",
+                "version_normalized": "2.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "e8488968a39d46c8148c1f1304d237030980dcc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/e8488968a39d46c8148c1f1304d237030980dcc6",
+                    "reference": "e8488968a39d46c8148c1f1304d237030980dcc6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-01T14:15:45+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.1.3"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.1.5",
+                "version_normalized": "2.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "6dd1689e3fb7c6aa23d01ec614f03fcb4448de4d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/6dd1689e3fb7c6aa23d01ec614f03fcb4448de4d",
+                    "reference": "6dd1689e3fb7c6aa23d01ec614f03fcb4448de4d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-06-30T13:00:55+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.1.5"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "9c74c7c843a80fdcd7a29c0ef60fcfd0826e9482"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/9c74c7c843a80fdcd7a29c0ef60fcfd0826e9482",
+                    "reference": "9c74c7c843a80fdcd7a29c0ef60fcfd0826e9482",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-08-17T06:15:47+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2-beta1",
+                "version_normalized": "2.2.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "05e0ad48f2a6bd7c923f91b1ab47302d6a561de6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/05e0ad48f2a6bd7c923f91b1ab47302d6a561de6",
+                    "reference": "05e0ad48f2a6bd7c923f91b1ab47302d6a561de6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-26T12:51:01+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2-beta1"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2-beta2",
+                "version_normalized": "2.2.0.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "2568a07db16239bc1a37b0162b2485d0601223ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/2568a07db16239bc1a37b0162b2485d0601223ab",
+                    "reference": "2568a07db16239bc1a37b0162b2485d0601223ab",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-08-07T17:17:48+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2-beta2"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "8b64174f82599d8d7720572eac11dc2e39089f59"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/8b64174f82599d8d7720572eac11dc2e39089f59",
+                    "reference": "8b64174f82599d8d7720572eac11dc2e39089f59",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-18T18:20:44+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.1"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.3",
+                "version_normalized": "2.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "6be3ffba592504dc37f31c983cdf6969da990147"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/6be3ffba592504dc37f31c983cdf6969da990147",
+                    "reference": "6be3ffba592504dc37f31c983cdf6969da990147",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-27T12:58:43+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.3"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.5",
+                "version_normalized": "2.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "8be6e169498d7966dfe071622e47e988f49938e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/8be6e169498d7966dfe071622e47e988f49938e5",
+                    "reference": "8be6e169498d7966dfe071622e47e988f49938e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-11-21T10:24:19+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.5"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.7",
+                "version_normalized": "2.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "ea8584889b4deb9be3456ed080c49f3f9cf6d548"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/ea8584889b4deb9be3456ed080c49f3f9cf6d548",
+                    "reference": "ea8584889b4deb9be3456ed080c49f3f9cf6d548",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-02T12:50:20+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.7"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.8",
+                "version_normalized": "2.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "c942d6ce7f740746e44b6fb943f01fa0d54a3cf8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/c942d6ce7f740746e44b6fb943f01fa0d54a3cf8",
+                    "reference": "c942d6ce7f740746e44b6fb943f01fa0d54a3cf8",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-10T13:39:13+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.8"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "af3356cb4898e0553c717053dc63b3f12c127e8b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/af3356cb4898e0553c717053dc63b3f12c127e8b",
+                    "reference": "af3356cb4898e0553c717053dc63b3f12c127e8b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-02-02T16:58:06+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.0"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3-beta.1",
+                "version_normalized": "2.3.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "5c69fa65ccc8d0ed52a1c71ce235093f5df2898a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/5c69fa65ccc8d0ed52a1c71ce235093f5df2898a",
+                    "reference": "5c69fa65ccc8d0ed52a1c71ce235093f5df2898a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-10T13:40:44+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3-beta.1"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "16798312b7aba75e8c3bf16f585c0a820e317efe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/16798312b7aba75e8c3bf16f585c0a820e317efe",
+                    "reference": "16798312b7aba75e8c3bf16f585c0a820e317efe",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-03-04T13:11:22+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.1"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.10",
+                "version_normalized": "2.3.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "115016cee09ab6502f285e7a2d26a58bda0e4a10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/115016cee09ab6502f285e7a2d26a58bda0e4a10",
+                    "reference": "115016cee09ab6502f285e7a2d26a58bda0e4a10",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-09-12T10:35:31+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.10"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.3",
+                "version_normalized": "2.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "cddd2733f655d978a5d05f5cb65301ae9f4de59b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/cddd2733f655d978a5d05f5cb65301ae9f4de59b",
+                    "reference": "cddd2733f655d978a5d05f5cb65301ae9f4de59b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-03-21T21:57:57+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.3"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.4",
+                "version_normalized": "2.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "61a8d93adffc1ad311e6f3e68833a4f2399ba10c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/61a8d93adffc1ad311e6f3e68833a4f2399ba10c",
+                    "reference": "61a8d93adffc1ad311e6f3e68833a4f2399ba10c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-11T16:35:43+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.4"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.5.1",
+                "version_normalized": "2.3.5.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "68d323e0776891817a4a6b2d203d0dfca1e708e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/68d323e0776891817a4a6b2d203d0dfca1e708e6",
+                    "reference": "68d323e0776891817a4a6b2d203d0dfca1e708e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-05-09T11:56:34+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.5.1"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.6",
+                "version_normalized": "2.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "12a6c51206ae5145238f642c66c6821e9c5f8145"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/12a6c51206ae5145238f642c66c6821e9c5f8145",
+                    "reference": "12a6c51206ae5145238f642c66c6821e9c5f8145",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-05-18T13:19:04+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.6"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "2b36787e6f571c803246f9b681687ac62c66cf29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/2b36787e6f571c803246f9b681687ac62c66cf29",
+                    "reference": "2b36787e6f571c803246f9b681687ac62c66cf29",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-12-03T10:31:43+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.4.1"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.5.3",
+                "version_normalized": "2.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "bcd85656816c6f9ed33af931bde044fc985e6c97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/bcd85656816c6f9ed33af931bde044fc985e6c97",
+                    "reference": "bcd85656816c6f9ed33af931bde044fc985e6c97",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-04-18T13:28:37+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.5.3"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.5.4",
+                "version_normalized": "2.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "a8d9c2792151fe31f5c66eb9b6811c44a4080f90"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/a8d9c2792151fe31f5c66eb9b6811c44a4080f90",
+                    "reference": "a8d9c2792151fe31f5c66eb9b6811c44a4080f90",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-06-10T16:38:57+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.5.4"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.6.10",
+                "version_normalized": "2.6.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "c97286065a5917d94d5fc8f63ecede8444eaa207"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/c97286065a5917d94d5fc8f63ecede8444eaa207",
+                    "reference": "c97286065a5917d94d5fc8f63ecede8444eaa207",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-03-02T14:13:38+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.6.10"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.7.3",
+                "version_normalized": "2.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "476a8f29e210974aa35c7bd56c8471fdeaa53198"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/476a8f29e210974aa35c7bd56c8471fdeaa53198",
+                    "reference": "476a8f29e210974aa35c7bd56c8471fdeaa53198",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-06-09T11:20:50+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.7.3"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.7.4",
+                "version_normalized": "2.7.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "a2efe0b40715e8144d28e2c92623e366f455a2fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/a2efe0b40715e8144d28e2c92623e366f455a2fd",
+                    "reference": "a2efe0b40715e8144d28e2c92623e366f455a2fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-07-20T10:11:19+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.7.4"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.8.4",
+                "version_normalized": "2.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "9755421e7507bea2e95f659adc64afead2e3ac89"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/9755421e7507bea2e95f659adc64afead2e3ac89",
+                    "reference": "9755421e7507bea2e95f659adc64afead2e3ac89",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-12-09T15:20:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.8.4"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.9.1",
+                "version_normalized": "2.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "e4b4a031f7ea6897406a2f5ca108ef6d42fb8183"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/e4b4a031f7ea6897406a2f5ca108ef6d42fb8183",
+                    "reference": "e4b4a031f7ea6897406a2f5ca108ef6d42fb8183",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-12-16T10:47:15+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.9.1"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v2.9.2",
+                "version_normalized": "2.9.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "f772062c158a232964b0797819d7de887df3c12c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/f772062c158a232964b0797819d7de887df3c12c",
+                    "reference": "f772062c158a232964b0797819d7de887df3c12c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-05T13:57:22+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.9.2"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "f7ffdc12ec9fe752f0589f960177f70ac6bf2cfe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/f7ffdc12ec9fe752f0589f960177f70ac6bf2cfe",
+                    "reference": "f7ffdc12ec9fe752f0589f960177f70ac6bf2cfe",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-27T13:04:29+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v3.0.3"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "3.6.4",
+                "version_normalized": "3.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "0007325c7cd9c00fab358eaeeddc6e76f4af21c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/0007325c7cd9c00fab358eaeeddc6e76f4af21c1",
+                    "reference": "0007325c7cd9c00fab358eaeeddc6e76f4af21c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-29T19:18:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.4"
+                }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "v3.6.4.1",
+                "version_normalized": "3.6.4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "5a29feaed6adf2d209ccca290c375314ceaf1bcf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/5a29feaed6adf2d209ccca290c375314ceaf1bcf",
+                    "reference": "5a29feaed6adf2d209ccca290c375314ceaf1bcf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-29T21:38:54+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v3.6.4.1"
+                }
+            }
+        ]
+    }
+}

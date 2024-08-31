@@ -1,0 +1,4737 @@
+{
+    "packages": {
+        "generoi/advanced-custom-fields-pro": {
+            "v5.5.1": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.5.1",
+                "version_normalized": "5.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "cc38cd98daa3bdc61480f6dfdd1ed6ba8b3c1ce4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/cc38cd98daa3bdc61480f6dfdd1ed6ba8b3c1ce4",
+                    "reference": "cc38cd98daa3bdc61480f6dfdd1ed6ba8b3c1ce4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2016-12-05T15:53:16+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.5.1"
+                }
+            },
+            "v5.5.11": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.5.11",
+                "version_normalized": "5.5.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "dbf3b72e767a9a515c52604e4e85a4c9d61539e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/dbf3b72e767a9a515c52604e4e85a4c9d61539e0",
+                    "reference": "dbf3b72e767a9a515c52604e4e85a4c9d61539e0",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-04-19T17:41:26+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.5.11"
+                }
+            },
+            "v5.5.12": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.5.12",
+                "version_normalized": "5.5.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "e96d51126a703c03802e803dfe7da2a2d7cc9b9f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/e96d51126a703c03802e803dfe7da2a2d7cc9b9f",
+                    "reference": "e96d51126a703c03802e803dfe7da2a2d7cc9b9f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-01T14:13:31+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.5.12"
+                }
+            },
+            "v5.5.14": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.5.14",
+                "version_normalized": "5.5.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "0890153ac3b423be546106f199266ebf2234ee14"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/0890153ac3b423be546106f199266ebf2234ee14",
+                    "reference": "0890153ac3b423be546106f199266ebf2234ee14",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-06-23T16:41:39+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.5.14"
+                }
+            },
+            "v5.5.3": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.5.3",
+                "version_normalized": "5.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "0fb71ef4a257bad03de6eebc5036c5967f9416cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/0fb71ef4a257bad03de6eebc5036c5967f9416cf",
+                    "reference": "0fb71ef4a257bad03de6eebc5036c5967f9416cf",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-01-08T16:28:31+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.5.3"
+                }
+            },
+            "v5.6.0": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.6.0",
+                "version_normalized": "5.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "9210abc5dca0299526bae6c81b9f9e071094da25"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/9210abc5dca0299526bae6c81b9f9e071094da25",
+                    "reference": "9210abc5dca0299526bae6c81b9f9e071094da25",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-26T13:33:01+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.6.0"
+                }
+            },
+            "v5.6.0-beta1": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.6.0-beta1",
+                "version_normalized": "5.6.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "1ea11cdca8bd9e0a2f241373205b2337eb5e51c9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/1ea11cdca8bd9e0a2f241373205b2337eb5e51c9",
+                    "reference": "1ea11cdca8bd9e0a2f241373205b2337eb5e51c9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-06-23T16:42:59+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.6.0-beta1"
+                }
+            },
+            "v5.6.0-beta2": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.6.0-beta2",
+                "version_normalized": "5.6.0.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "f263a2e0828e40b7ab13d550855c88233e19bb38"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/f263a2e0828e40b7ab13d550855c88233e19bb38",
+                    "reference": "f263a2e0828e40b7ab13d550855c88233e19bb38",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-06-30T13:03:36+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.6.0-beta2"
+                }
+            },
+            "v5.6.1": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.6.1",
+                "version_normalized": "5.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "01e5445d450c30c24af9625fe7b10251ec2852af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/01e5445d450c30c24af9625fe7b10251ec2852af",
+                    "reference": "01e5445d450c30c24af9625fe7b10251ec2852af",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-08-07T16:01:32+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.6.1"
+                }
+            },
+            "v5.6.10": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.6.10",
+                "version_normalized": "5.6.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "892fcb5bdb9f7d80b347f29ff9a79792b1faa7c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/892fcb5bdb9f7d80b347f29ff9a79792b1faa7c3",
+                    "reference": "892fcb5bdb9f7d80b347f29ff9a79792b1faa7c3",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-11T16:33:53+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.6.10"
+                }
+            },
+            "v5.6.2": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.6.2",
+                "version_normalized": "5.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "bce1099197aff36eba9c20b9d5ad7cf13be71832"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/bce1099197aff36eba9c20b9d5ad7cf13be71832",
+                    "reference": "bce1099197aff36eba9c20b9d5ad7cf13be71832",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-18T18:22:17+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.6.2"
+                }
+            },
+            "v5.6.7.1": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.6.7.1",
+                "version_normalized": "5.6.7.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "c6353ceed72fb913b7a3ac5144093f5f7d828b19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/c6353ceed72fb913b7a3ac5144093f5f7d828b19",
+                    "reference": "c6353ceed72fb913b7a3ac5144093f5f7d828b19",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-08T12:08:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.6.7.1"
+                }
+            },
+            "v5.7.0-beta4": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.7.0-beta4",
+                "version_normalized": "5.7.0.0-beta4",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "4fa2839caf6bcbc03989b0470085e22b85351420"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/4fa2839caf6bcbc03989b0470085e22b85351420",
+                    "reference": "4fa2839caf6bcbc03989b0470085e22b85351420",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-05-29T16:11:53+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.7.0-beta4"
+                }
+            },
+            "v5.7.10": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.7.10",
+                "version_normalized": "5.7.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "6052f0b54b269b40e95df046f5c4c1d89f9989ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/6052f0b54b269b40e95df046f5c4c1d89f9989ed",
+                    "reference": "6052f0b54b269b40e95df046f5c4c1d89f9989ed",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-04T09:50:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.7.10"
+                }
+            },
+            "v5.7.12": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.7.12",
+                "version_normalized": "5.7.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "2a8600365e0af8192250d210640514252a5f258f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/2a8600365e0af8192250d210640514252a5f258f",
+                    "reference": "2a8600365e0af8192250d210640514252a5f258f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T12:18:05+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.7.12"
+                }
+            },
+            "v5.7.6": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.7.6",
+                "version_normalized": "5.7.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "afc535a17ec0c9210be75d6d6c3b1d6bb100c7d1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/afc535a17ec0c9210be75d6d6c3b1d6bb100c7d1",
+                    "reference": "afc535a17ec0c9210be75d6d6c3b1d6bb100c7d1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-09-19T15:48:32+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.7.6"
+                }
+            },
+            "v5.7.7": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.7.7",
+                "version_normalized": "5.7.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "6da082351993375a6776e10386bbda5923a606b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/6da082351993375a6776e10386bbda5923a606b9",
+                    "reference": "6da082351993375a6776e10386bbda5923a606b9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-12-03T10:24:53+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.7.7"
+                }
+            },
+            "v5.8.0": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.0",
+                "version_normalized": "5.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "3bfd8d07eda50a55080bc64d3fd484ef2b918dc4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/3bfd8d07eda50a55080bc64d3fd484ef2b918dc4",
+                    "reference": "3bfd8d07eda50a55080bc64d3fd484ef2b918dc4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-05-08T15:32:27+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.0"
+                }
+            },
+            "v5.8.0-rc.1": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.0-rc.1",
+                "version_normalized": "5.8.0.0-RC1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "cc8998f70acc407ede7669f15c6e6951064a8f38"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/cc8998f70acc407ede7669f15c6e6951064a8f38",
+                    "reference": "cc8998f70acc407ede7669f15c6e6951064a8f38",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-04-08T14:08:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.0-rc.1"
+                }
+            },
+            "v5.8.0-rc.2": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.0-rc.2",
+                "version_normalized": "5.8.0.0-RC2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "e93467c0074865b298d530072f5d4f1f7049dc67"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/e93467c0074865b298d530072f5d4f1f7049dc67",
+                    "reference": "e93467c0074865b298d530072f5d4f1f7049dc67",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-04-17T11:42:50+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.0-rc.2"
+                }
+            },
+            "v5.8.0-beta3": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.0-beta3",
+                "version_normalized": "5.8.0.0-beta3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "97e37b5797db0c5436a6eb4a2eed2b9a47d59622"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/97e37b5797db0c5436a6eb4a2eed2b9a47d59622",
+                    "reference": "97e37b5797db0c5436a6eb4a2eed2b9a47d59622",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-12-03T10:26:48+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.0-beta3"
+                }
+            },
+            "v5.8.0-beta4": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.0-beta4",
+                "version_normalized": "5.8.0.0-beta4",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "e3bf543db195d9c9a19b98fcda1399129485fdf5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/e3bf543db195d9c9a19b98fcda1399129485fdf5",
+                    "reference": "e3bf543db195d9c9a19b98fcda1399129485fdf5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-03-12T00:53:58+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.0-beta4"
+                }
+            },
+            "v5.8.0-beta4.1": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.0-beta4.1",
+                "version_normalized": "5.8.0.0-beta4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "69157ed6908cacd3f04593034bc9f9a8a52dafb1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/69157ed6908cacd3f04593034bc9f9a8a52dafb1",
+                    "reference": "69157ed6908cacd3f04593034bc9f9a8a52dafb1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-03-28T15:58:15+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.0-beta4.1"
+                }
+            },
+            "v5.8.1": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.1",
+                "version_normalized": "5.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "571637a1b31bbe719619c07f1c76c0cf951b46dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/571637a1b31bbe719619c07f1c76c0cf951b46dd",
+                    "reference": "571637a1b31bbe719619c07f1c76c0cf951b46dd",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-06-06T23:54:23+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.1"
+                }
+            },
+            "v5.8.11": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.11",
+                "version_normalized": "5.8.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "46410e5d8f78a45dc4544cf73a341754dad67ef8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/46410e5d8f78a45dc4544cf73a341754dad67ef8",
+                    "reference": "46410e5d8f78a45dc4544cf73a341754dad67ef8",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-05-22T07:32:05+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.11"
+                }
+            },
+            "v5.8.2": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.2",
+                "version_normalized": "5.8.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "730cb268774a8a61fdac3f418b285ab3d7516485"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/730cb268774a8a61fdac3f418b285ab3d7516485",
+                    "reference": "730cb268774a8a61fdac3f418b285ab3d7516485",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-07-22T09:53:29+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.2"
+                }
+            },
+            "v5.8.4": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.4",
+                "version_normalized": "5.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "4513d3fc3fec2e753b91200fabae9354797b0cb9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/4513d3fc3fec2e753b91200fabae9354797b0cb9",
+                    "reference": "4513d3fc3fec2e753b91200fabae9354797b0cb9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-09-16T11:47:19+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.4"
+                }
+            },
+            "v5.8.5": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.5",
+                "version_normalized": "5.8.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "074da420422f231df48efbefcf23c2e89dab14c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/074da420422f231df48efbefcf23c2e89dab14c0",
+                    "reference": "074da420422f231df48efbefcf23c2e89dab14c0",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-10-15T15:26:40+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.5"
+                }
+            },
+            "v5.8.7": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.7",
+                "version_normalized": "5.8.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "db1ae2097aff075236a94f388cacffcf7d19eda2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/db1ae2097aff075236a94f388cacffcf7d19eda2",
+                    "reference": "db1ae2097aff075236a94f388cacffcf7d19eda2",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-12-19T14:14:45+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.7"
+                }
+            },
+            "v5.8.8": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.8.8",
+                "version_normalized": "5.8.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "822887cd766a50c4208b84a6eb316ca7bcafa7ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/822887cd766a50c4208b84a6eb316ca7bcafa7ee",
+                    "reference": "822887cd766a50c4208b84a6eb316ca7bcafa7ee",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-03-11T11:01:02+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.8.8"
+                }
+            },
+            "v5.9.0": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.9.0",
+                "version_normalized": "5.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "04032121f6e51263ed566922a102b5b719e3cd53"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/04032121f6e51263ed566922a102b5b719e3cd53",
+                    "reference": "04032121f6e51263ed566922a102b5b719e3cd53",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-08-21T12:50:57+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.9.0"
+                }
+            },
+            "v5.9.3": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.9.3",
+                "version_normalized": "5.9.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "49d90d9f9d800e5645558206d3f724e0be3f3f68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/49d90d9f9d800e5645558206d3f724e0be3f3f68",
+                    "reference": "49d90d9f9d800e5645558206d3f724e0be3f3f68",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-11-24T10:26:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.9.3"
+                }
+            },
+            "v5.9.4": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.9.4",
+                "version_normalized": "5.9.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "599944530bd2d3bd2b9a0e2220ca461ad1c4f068"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/599944530bd2d3bd2b9a0e2220ca461ad1c4f068",
+                    "reference": "599944530bd2d3bd2b9a0e2220ca461ad1c4f068",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-02-09T17:01:55+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.9.4"
+                }
+            },
+            "v5.9.5": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v5.9.5",
+                "version_normalized": "5.9.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "2466dd0744b1dcda3f0ca7d1e795846aa41d6575"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/2466dd0744b1dcda3f0ca7d1e795846aa41d6575",
+                    "reference": "2466dd0744b1dcda3f0ca7d1e795846aa41d6575",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-02-25T09:40:23+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.9.5"
+                }
+            },
+            "6.3.6": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "6.3.6",
+                "version_normalized": "6.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "48ea068903f82fcd45dfd041a191ca0959e50ad4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/48ea068903f82fcd45dfd041a191ca0959e50ad4",
+                    "reference": "48ea068903f82fcd45dfd041a191ca0959e50ad4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-30T14:11:11+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.3.6"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "48ea068903f82fcd45dfd041a191ca0959e50ad4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/48ea068903f82fcd45dfd041a191ca0959e50ad4",
+                    "reference": "48ea068903f82fcd45dfd041a191ca0959e50ad4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-30T14:11:11+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.3.6"
+                }
+            }
+        },
+        "generoi/facetwp": {
+            "v2.7.1": {
+                "name": "generoi/facetwp",
+                "version": "v2.7.1",
+                "version_normalized": "2.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "1895ac4d74360135c6317b6a7c1afbc24f3ae8d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/1895ac4d74360135c6317b6a7c1afbc24f3ae8d4",
+                    "reference": "1895ac4d74360135c6317b6a7c1afbc24f3ae8d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2016-12-14T08:02:48+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v2.7.1"
+                }
+            },
+            "v2.7.5": {
+                "name": "generoi/facetwp",
+                "version": "v2.7.5",
+                "version_normalized": "2.7.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "486aa713b2e377cbafd192a9a15b074a29194723"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/486aa713b2e377cbafd192a9a15b074a29194723",
+                    "reference": "486aa713b2e377cbafd192a9a15b074a29194723",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-02-28T11:46:02+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v2.7.5"
+                }
+            },
+            "v2.8.4": {
+                "name": "generoi/facetwp",
+                "version": "v2.8.4",
+                "version_normalized": "2.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "4a649dcdeb331634624834844dd02f15f675df74"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/4a649dcdeb331634624834844dd02f15f675df74",
+                    "reference": "4a649dcdeb331634624834844dd02f15f675df74",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-04-19T14:01:55+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v2.8.4"
+                }
+            },
+            "v2.9.1": {
+                "name": "generoi/facetwp",
+                "version": "v2.9.1",
+                "version_normalized": "2.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "ae118059104b5e206a46eabd1285e0550437ca1f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/ae118059104b5e206a46eabd1285e0550437ca1f",
+                    "reference": "ae118059104b5e206a46eabd1285e0550437ca1f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-06-30T14:05:26+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v2.9.1"
+                }
+            },
+            "v3.0.3": {
+                "name": "generoi/facetwp",
+                "version": "v3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "5a36755dd009fbb2c12ce7bdbbcbac036c3040d1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/5a36755dd009fbb2c12ce7bdbbcbac036c3040d1",
+                    "reference": "5a36755dd009fbb2c12ce7bdbbcbac036c3040d1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-20T15:23:10+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.0.3"
+                }
+            },
+            "v3.1.0": {
+                "name": "generoi/facetwp",
+                "version": "v3.1.0",
+                "version_normalized": "3.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "1e5e1de34ad1a95eb9933945c3b0cbd4981e8613"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/1e5e1de34ad1a95eb9933945c3b0cbd4981e8613",
+                    "reference": "1e5e1de34ad1a95eb9933945c3b0cbd4981e8613",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-08T14:58:01+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.1.0"
+                }
+            },
+            "v3.1.6": {
+                "name": "generoi/facetwp",
+                "version": "v3.1.6",
+                "version_normalized": "3.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "a73bafe118223b2349fd92cf681f43b50df86937"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/a73bafe118223b2349fd92cf681f43b50df86937",
+                    "reference": "a73bafe118223b2349fd92cf681f43b50df86937",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T16:07:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.1.6"
+                }
+            },
+            "v3.3.1": {
+                "name": "generoi/facetwp",
+                "version": "v3.3.1",
+                "version_normalized": "3.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "949dd2f74a27b8d8df95b20f0b8f70e57f0d8358"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/949dd2f74a27b8d8df95b20f0b8f70e57f0d8358",
+                    "reference": "949dd2f74a27b8d8df95b20f0b8f70e57f0d8358",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T12:46:16+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.3.1"
+                }
+            },
+            "v3.4.0": {
+                "name": "generoi/facetwp",
+                "version": "v3.4.0",
+                "version_normalized": "3.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "f6842a77286802eca3315ffe289a81195248752b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/f6842a77286802eca3315ffe289a81195248752b",
+                    "reference": "f6842a77286802eca3315ffe289a81195248752b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-08-13T13:27:35+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.4.0"
+                }
+            },
+            "v3.5.0.1": {
+                "name": "generoi/facetwp",
+                "version": "v3.5.0.1",
+                "version_normalized": "3.5.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "11383fa9e1c719a195d031839847588af170ed2e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/11383fa9e1c719a195d031839847588af170ed2e",
+                    "reference": "11383fa9e1c719a195d031839847588af170ed2e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-03-19T11:29:21+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.5.0.1"
+                }
+            },
+            "v3.6.10": {
+                "name": "generoi/facetwp",
+                "version": "v3.6.10",
+                "version_normalized": "3.6.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "16b5eca74147978adc8680d5fd5c5b09d35090fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/16b5eca74147978adc8680d5fd5c5b09d35090fc",
+                    "reference": "16b5eca74147978adc8680d5fd5c5b09d35090fc",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-12-17T10:42:40+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.6.10"
+                }
+            },
+            "v3.7.4": {
+                "name": "generoi/facetwp",
+                "version": "v3.7.4",
+                "version_normalized": "3.7.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "684bbae13f218edfff3ea8eb8e6f11ea8f130025"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/684bbae13f218edfff3ea8eb8e6f11ea8f130025",
+                    "reference": "684bbae13f218edfff3ea8eb8e6f11ea8f130025",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-15T11:48:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.7.4"
+                }
+            },
+            "v3.8.2": {
+                "name": "generoi/facetwp",
+                "version": "v3.8.2",
+                "version_normalized": "3.8.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "c60b9712e9368c9d8f5e6d5d394ed8f084ab4304"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/c60b9712e9368c9d8f5e6d5d394ed8f084ab4304",
+                    "reference": "c60b9712e9368c9d8f5e6d5d394ed8f084ab4304",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-04-09T14:27:13+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.8.2"
+                }
+            },
+            "4.3.3": {
+                "name": "generoi/facetwp",
+                "version": "4.3.3",
+                "version_normalized": "4.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "38b948408c1cfb1f3f5c3c6f93b1c1be7b4ed8be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/38b948408c1cfb1f3f5c3c6f93b1c1be7b4ed8be",
+                    "reference": "38b948408c1cfb1f3f5c3c6f93b1c1be7b4ed8be",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-30T13:42:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/4.3.3"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/facetwp",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "38b948408c1cfb1f3f5c3c6f93b1c1be7b4ed8be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/38b948408c1cfb1f3f5c3c6f93b1c1be7b4ed8be",
+                    "reference": "38b948408c1cfb1f3f5c3c6f93b1c1be7b4ed8be",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-30T13:42:56+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/4.3.3"
+                }
+            }
+        },
+        "generoi/polylang-pro": {
+            "v2.1.2": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "46b10e54f7480e85b350c8cb184f7b3b722815f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/46b10e54f7480e85b350c8cb184f7b3b722815f1",
+                    "reference": "46b10e54f7480e85b350c8cb184f7b3b722815f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-03-21T12:08:27+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.1.2"
+                }
+            },
+            "v2.1.3": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.1.3",
+                "version_normalized": "2.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "e8488968a39d46c8148c1f1304d237030980dcc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/e8488968a39d46c8148c1f1304d237030980dcc6",
+                    "reference": "e8488968a39d46c8148c1f1304d237030980dcc6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-01T14:15:45+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.1.3"
+                }
+            },
+            "v2.1.5": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.1.5",
+                "version_normalized": "2.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "6dd1689e3fb7c6aa23d01ec614f03fcb4448de4d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/6dd1689e3fb7c6aa23d01ec614f03fcb4448de4d",
+                    "reference": "6dd1689e3fb7c6aa23d01ec614f03fcb4448de4d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-06-30T13:00:55+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.1.5"
+                }
+            },
+            "v2.2": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "9c74c7c843a80fdcd7a29c0ef60fcfd0826e9482"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/9c74c7c843a80fdcd7a29c0ef60fcfd0826e9482",
+                    "reference": "9c74c7c843a80fdcd7a29c0ef60fcfd0826e9482",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-08-17T06:15:47+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2"
+                }
+            },
+            "v2.2-beta1": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2-beta1",
+                "version_normalized": "2.2.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "05e0ad48f2a6bd7c923f91b1ab47302d6a561de6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/05e0ad48f2a6bd7c923f91b1ab47302d6a561de6",
+                    "reference": "05e0ad48f2a6bd7c923f91b1ab47302d6a561de6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-26T12:51:01+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2-beta1"
+                }
+            },
+            "v2.2-beta2": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2-beta2",
+                "version_normalized": "2.2.0.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "2568a07db16239bc1a37b0162b2485d0601223ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/2568a07db16239bc1a37b0162b2485d0601223ab",
+                    "reference": "2568a07db16239bc1a37b0162b2485d0601223ab",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-08-07T17:17:48+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2-beta2"
+                }
+            },
+            "v2.2.1": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "8b64174f82599d8d7720572eac11dc2e39089f59"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/8b64174f82599d8d7720572eac11dc2e39089f59",
+                    "reference": "8b64174f82599d8d7720572eac11dc2e39089f59",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-18T18:20:44+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.1"
+                }
+            },
+            "v2.2.3": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.3",
+                "version_normalized": "2.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "6be3ffba592504dc37f31c983cdf6969da990147"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/6be3ffba592504dc37f31c983cdf6969da990147",
+                    "reference": "6be3ffba592504dc37f31c983cdf6969da990147",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-27T12:58:43+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.3"
+                }
+            },
+            "v2.2.5": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.5",
+                "version_normalized": "2.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "8be6e169498d7966dfe071622e47e988f49938e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/8be6e169498d7966dfe071622e47e988f49938e5",
+                    "reference": "8be6e169498d7966dfe071622e47e988f49938e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-11-21T10:24:19+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.5"
+                }
+            },
+            "v2.2.7": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.7",
+                "version_normalized": "2.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "ea8584889b4deb9be3456ed080c49f3f9cf6d548"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/ea8584889b4deb9be3456ed080c49f3f9cf6d548",
+                    "reference": "ea8584889b4deb9be3456ed080c49f3f9cf6d548",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-02T12:50:20+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.7"
+                }
+            },
+            "v2.2.8": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.2.8",
+                "version_normalized": "2.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "c942d6ce7f740746e44b6fb943f01fa0d54a3cf8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/c942d6ce7f740746e44b6fb943f01fa0d54a3cf8",
+                    "reference": "c942d6ce7f740746e44b6fb943f01fa0d54a3cf8",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-10T13:39:13+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.2.8"
+                }
+            },
+            "v2.3.0": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "af3356cb4898e0553c717053dc63b3f12c127e8b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/af3356cb4898e0553c717053dc63b3f12c127e8b",
+                    "reference": "af3356cb4898e0553c717053dc63b3f12c127e8b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-02-02T16:58:06+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.0"
+                }
+            },
+            "v2.3-beta.1": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3-beta.1",
+                "version_normalized": "2.3.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "5c69fa65ccc8d0ed52a1c71ce235093f5df2898a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/5c69fa65ccc8d0ed52a1c71ce235093f5df2898a",
+                    "reference": "5c69fa65ccc8d0ed52a1c71ce235093f5df2898a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-10T13:40:44+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3-beta.1"
+                }
+            },
+            "v2.3.1": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "16798312b7aba75e8c3bf16f585c0a820e317efe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/16798312b7aba75e8c3bf16f585c0a820e317efe",
+                    "reference": "16798312b7aba75e8c3bf16f585c0a820e317efe",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-03-04T13:11:22+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.1"
+                }
+            },
+            "v2.3.10": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.10",
+                "version_normalized": "2.3.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "115016cee09ab6502f285e7a2d26a58bda0e4a10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/115016cee09ab6502f285e7a2d26a58bda0e4a10",
+                    "reference": "115016cee09ab6502f285e7a2d26a58bda0e4a10",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-09-12T10:35:31+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.10"
+                }
+            },
+            "v2.3.3": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.3",
+                "version_normalized": "2.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "cddd2733f655d978a5d05f5cb65301ae9f4de59b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/cddd2733f655d978a5d05f5cb65301ae9f4de59b",
+                    "reference": "cddd2733f655d978a5d05f5cb65301ae9f4de59b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-03-21T21:57:57+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.3"
+                }
+            },
+            "v2.3.4": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.4",
+                "version_normalized": "2.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "61a8d93adffc1ad311e6f3e68833a4f2399ba10c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/61a8d93adffc1ad311e6f3e68833a4f2399ba10c",
+                    "reference": "61a8d93adffc1ad311e6f3e68833a4f2399ba10c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-11T16:35:43+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.4"
+                }
+            },
+            "v2.3.5.1": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.5.1",
+                "version_normalized": "2.3.5.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "68d323e0776891817a4a6b2d203d0dfca1e708e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/68d323e0776891817a4a6b2d203d0dfca1e708e6",
+                    "reference": "68d323e0776891817a4a6b2d203d0dfca1e708e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-05-09T11:56:34+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.5.1"
+                }
+            },
+            "v2.3.6": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.3.6",
+                "version_normalized": "2.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "12a6c51206ae5145238f642c66c6821e9c5f8145"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/12a6c51206ae5145238f642c66c6821e9c5f8145",
+                    "reference": "12a6c51206ae5145238f642c66c6821e9c5f8145",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-05-18T13:19:04+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.3.6"
+                }
+            },
+            "v2.4.1": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.4.1",
+                "version_normalized": "2.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "2b36787e6f571c803246f9b681687ac62c66cf29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/2b36787e6f571c803246f9b681687ac62c66cf29",
+                    "reference": "2b36787e6f571c803246f9b681687ac62c66cf29",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-12-03T10:31:43+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.4.1"
+                }
+            },
+            "v2.5.3": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.5.3",
+                "version_normalized": "2.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "bcd85656816c6f9ed33af931bde044fc985e6c97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/bcd85656816c6f9ed33af931bde044fc985e6c97",
+                    "reference": "bcd85656816c6f9ed33af931bde044fc985e6c97",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-04-18T13:28:37+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.5.3"
+                }
+            },
+            "v2.5.4": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.5.4",
+                "version_normalized": "2.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "a8d9c2792151fe31f5c66eb9b6811c44a4080f90"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/a8d9c2792151fe31f5c66eb9b6811c44a4080f90",
+                    "reference": "a8d9c2792151fe31f5c66eb9b6811c44a4080f90",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-06-10T16:38:57+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.5.4"
+                }
+            },
+            "v2.6.10": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.6.10",
+                "version_normalized": "2.6.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "c97286065a5917d94d5fc8f63ecede8444eaa207"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/c97286065a5917d94d5fc8f63ecede8444eaa207",
+                    "reference": "c97286065a5917d94d5fc8f63ecede8444eaa207",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-03-02T14:13:38+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.6.10"
+                }
+            },
+            "v2.7.3": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.7.3",
+                "version_normalized": "2.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "476a8f29e210974aa35c7bd56c8471fdeaa53198"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/476a8f29e210974aa35c7bd56c8471fdeaa53198",
+                    "reference": "476a8f29e210974aa35c7bd56c8471fdeaa53198",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-06-09T11:20:50+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.7.3"
+                }
+            },
+            "v2.7.4": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.7.4",
+                "version_normalized": "2.7.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "a2efe0b40715e8144d28e2c92623e366f455a2fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/a2efe0b40715e8144d28e2c92623e366f455a2fd",
+                    "reference": "a2efe0b40715e8144d28e2c92623e366f455a2fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-07-20T10:11:19+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.7.4"
+                }
+            },
+            "v2.8.4": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.8.4",
+                "version_normalized": "2.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "9755421e7507bea2e95f659adc64afead2e3ac89"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/9755421e7507bea2e95f659adc64afead2e3ac89",
+                    "reference": "9755421e7507bea2e95f659adc64afead2e3ac89",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-12-09T15:20:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.8.4"
+                }
+            },
+            "v2.9.1": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.9.1",
+                "version_normalized": "2.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "e4b4a031f7ea6897406a2f5ca108ef6d42fb8183"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/e4b4a031f7ea6897406a2f5ca108ef6d42fb8183",
+                    "reference": "e4b4a031f7ea6897406a2f5ca108ef6d42fb8183",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-12-16T10:47:15+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.9.1"
+                }
+            },
+            "v2.9.2": {
+                "name": "generoi/polylang-pro",
+                "version": "v2.9.2",
+                "version_normalized": "2.9.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "f772062c158a232964b0797819d7de887df3c12c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/f772062c158a232964b0797819d7de887df3c12c",
+                    "reference": "f772062c158a232964b0797819d7de887df3c12c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-05T13:57:22+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v2.9.2"
+                }
+            },
+            "v3.0.3": {
+                "name": "generoi/polylang-pro",
+                "version": "v3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "f7ffdc12ec9fe752f0589f960177f70ac6bf2cfe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/f7ffdc12ec9fe752f0589f960177f70ac6bf2cfe",
+                    "reference": "f7ffdc12ec9fe752f0589f960177f70ac6bf2cfe",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-27T13:04:29+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v3.0.3"
+                }
+            },
+            "3.6.4": {
+                "name": "generoi/polylang-pro",
+                "version": "3.6.4",
+                "version_normalized": "3.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "0007325c7cd9c00fab358eaeeddc6e76f4af21c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/0007325c7cd9c00fab358eaeeddc6e76f4af21c1",
+                    "reference": "0007325c7cd9c00fab358eaeeddc6e76f4af21c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-29T19:18:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.4"
+                }
+            },
+            "v3.6.4.1": {
+                "name": "generoi/polylang-pro",
+                "version": "v3.6.4.1",
+                "version_normalized": "3.6.4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "5a29feaed6adf2d209ccca290c375314ceaf1bcf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/5a29feaed6adf2d209ccca290c375314ceaf1bcf",
+                    "reference": "5a29feaed6adf2d209ccca290c375314ceaf1bcf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-29T21:38:54+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/v3.6.4.1"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/polylang-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "1e0649cfb4e4fca16842cfb1991e1180274fa7a4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/1e0649cfb4e4fca16842cfb1991e1180274fa7a4",
+                    "reference": "1e0649cfb4e4fca16842cfb1991e1180274fa7a4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-30T13:38:29+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Frédéric Demarle"
+                    }
+                ],
+                "description": "Polylang PRO",
+                "homepage": "https://polylang.pro",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/polylang-pro/issues",
+                    "source": "https://github.com/generoi/polylang-pro/tree/master"
+                }
+            }
+        },
+        "generoi/role-based-pricing-for-woocommerce": {
+            "2.1.1": {
+                "name": "generoi/role-based-pricing-for-woocommerce",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/role-based-pricing-for-woocommerce.git",
+                    "reference": "7c63ac410039acf13b9d4650186b100119ed78fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/7c63ac410039acf13b9d4650186b100119ed78fd",
+                    "reference": "7c63ac410039acf13b9d4650186b100119ed78fd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2024-08-30T21:11:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer.bjorkskog@genero.fi"
+                    }
+                ],
+                "description": "Role Based Pricing for WooCommerce",
+                "homepage": "https://github.com/generoi/rolebased-pricing-for-woocommerce",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
+                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/2.1.1"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/role-based-pricing-for-woocommerce",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/role-based-pricing-for-woocommerce.git",
+                    "reference": "129fc5daf861d21eaa219eaca8f604fbce444242"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/129fc5daf861d21eaa219eaca8f604fbce444242",
+                    "reference": "129fc5daf861d21eaa219eaca8f604fbce444242",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2024-08-31T17:51:03+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Addify",
+                        "homepage": "https://woocommerce.com/vendor/addify/"
+                    }
+                ],
+                "description": "Role Based Pricing for WooCommerce",
+                "homepage": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
+                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/master"
+                }
+            }
+        },
+        "generoi/woocommerce-subscriptions": {
+            "3.0.7": {
+                "name": "generoi/woocommerce-subscriptions",
+                "version": "3.0.7",
+                "version_normalized": "3.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-subscriptions.git",
+                    "reference": "fe14ed3123cc051efe564274794e263bd7093e86"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/fe14ed3123cc051efe564274794e263bd7093e86",
+                    "reference": "fe14ed3123cc051efe564274794e263bd7093e86",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=7.0.0"
+                },
+                "time": "2020-09-02T13:14:59+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer.bjorkskog@genero.fi"
+                    }
+                ],
+                "description": "Woocommerce Subscriptions",
+                "homepage": "https://github.com/generoi/woocommerce-subscriptions",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
+                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/3.0.7"
+                }
+            },
+            "6.6.1": {
+                "name": "generoi/woocommerce-subscriptions",
+                "version": "6.6.1",
+                "version_normalized": "6.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-subscriptions.git",
+                    "reference": "3f30fb4ef5338db2b4857d916a2d6169e23749dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/3f30fb4ef5338db2b4857d916a2d6169e23749dd",
+                    "reference": "3f30fb4ef5338db2b4857d916a2d6169e23749dd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2024-08-30T19:36:20+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer.bjorkskog@genero.fi"
+                    }
+                ],
+                "description": "Woocommerce Subscriptions",
+                "homepage": "https://github.com/generoi/woocommerce-subscriptions",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
+                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/6.6.1"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/woocommerce-subscriptions",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-subscriptions.git",
+                    "reference": "fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0",
+                    "reference": "fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2024-08-31T17:55:32+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Woo",
+                        "homepage": "https://woocommerce.com/vendor/woocommerce/"
+                    }
+                ],
+                "description": "Woocommerce Subscriptions",
+                "homepage": "https://woocommerce.com/products/woocommerce-subscriptions/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
+                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/master"
+                }
+            }
+        },
+        "generoi/wp-all-import-pro": {
+            "v4.1.2": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.1.2",
+                "version_normalized": "4.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "060022d9a7b48e7e0931e72fbca33df8c99d0cd9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/060022d9a7b48e7e0931e72fbca33df8c99d0cd9",
+                    "reference": "060022d9a7b48e7e0931e72fbca33df8c99d0cd9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2016-11-30T16:10:43+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.1.2"
+                }
+            },
+            "v4.4.0": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.0",
+                "version_normalized": "4.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "0469ea3790d38376d557f040e6da9e5d852c2b0b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/0469ea3790d38376d557f040e6da9e5d852c2b0b",
+                    "reference": "0469ea3790d38376d557f040e6da9e5d852c2b0b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2016-11-30T17:25:05+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.0"
+                }
+            },
+            "v4.4.1": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.1",
+                "version_normalized": "4.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "2a5817e63aa9efcd853ff1536871cc5a50c3afca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/2a5817e63aa9efcd853ff1536871cc5a50c3afca",
+                    "reference": "2a5817e63aa9efcd853ff1536871cc5a50c3afca",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-02-05T15:54:22+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.1"
+                }
+            },
+            "v4.4.3": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.3",
+                "version_normalized": "4.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "855c7160a49d8dc79de995d649fa09b2b454e651"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/855c7160a49d8dc79de995d649fa09b2b454e651",
+                    "reference": "855c7160a49d8dc79de995d649fa09b2b454e651",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-03-09T08:11:45+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.3"
+                }
+            },
+            "v4.4.4": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.4",
+                "version_normalized": "4.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "6a26e651c5010f6f0e467490b42e50f607609f68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/6a26e651c5010f6f0e467490b42e50f607609f68",
+                    "reference": "6a26e651c5010f6f0e467490b42e50f607609f68",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-03-09T09:03:20+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.4"
+                }
+            },
+            "v4.4.6": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.6",
+                "version_normalized": "4.4.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "e42b1c33cd4fc572830291fc74db1fe4233a1824"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/e42b1c33cd4fc572830291fc74db1fe4233a1824",
+                    "reference": "e42b1c33cd4fc572830291fc74db1fe4233a1824",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-01T14:23:25+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.6"
+                }
+            },
+            "v4.4.8": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.8",
+                "version_normalized": "4.4.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "5ed2a7f4b99a587be9c0536d8081d28572dc023d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/5ed2a7f4b99a587be9c0536d8081d28572dc023d",
+                    "reference": "5ed2a7f4b99a587be9c0536d8081d28572dc023d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-26T12:59:32+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.8"
+                }
+            },
+            "v4.4.9": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.4.9",
+                "version_normalized": "4.4.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "3372330f62e7f2554f5fade6ec9afe69b0376a9b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/3372330f62e7f2554f5fade6ec9afe69b0376a9b",
+                    "reference": "3372330f62e7f2554f5fade6ec9afe69b0376a9b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-20T15:33:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.4.9"
+                }
+            },
+            "v4.5.0": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.5.0",
+                "version_normalized": "4.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "9cd707efd91cbef3848f4ff5b542ee1584ccd059"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/9cd707efd91cbef3848f4ff5b542ee1584ccd059",
+                    "reference": "9cd707efd91cbef3848f4ff5b542ee1584ccd059",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-16T12:47:02+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.5.0"
+                }
+            },
+            "v4.5.1": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.5.1",
+                "version_normalized": "4.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "61d977fca3cc9a02a820456bc844644f02ce3e0e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/61d977fca3cc9a02a820456bc844644f02ce3e0e",
+                    "reference": "61d977fca3cc9a02a820456bc844644f02ce3e0e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:24:51+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.5.1"
+                }
+            },
+            "v4.5.5": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.5.5",
+                "version_normalized": "4.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "4f2c3b2d3535a944f1f7a4ebced5309c349bb69c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/4f2c3b2d3535a944f1f7a4ebced5309c349bb69c",
+                    "reference": "4f2c3b2d3535a944f1f7a4ebced5309c349bb69c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-14T09:25:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.5.5"
+                }
+            },
+            "v4.5.8": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.5.8",
+                "version_normalized": "4.5.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "91aaceae55477f5f9290a438082532c1c93a8147"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/91aaceae55477f5f9290a438082532c1c93a8147",
+                    "reference": "91aaceae55477f5f9290a438082532c1c93a8147",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-01-03T11:10:27+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.5.8"
+                }
+            },
+            "v4.6.5": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "v4.6.5",
+                "version_normalized": "4.6.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "4c705561bf1e8e1ee1c9d0b0263ad29b4fc7def3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/4c705561bf1e8e1ee1c9d0b0263ad29b4fc7def3",
+                    "reference": "4c705561bf1e8e1ee1c9d0b0263ad29b4fc7def3",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-12-02T20:54:33+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/v4.6.5"
+                }
+            },
+            "4.6.6-Beta-1.4": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.6.6-Beta-1.4",
+                "version_normalized": "4.6.6.0-beta1.4",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "5230c1cfbe0356e6251e535c7265d29fa94214b6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/5230c1cfbe0356e6251e535c7265d29fa94214b6",
+                    "reference": "5230c1cfbe0356e6251e535c7265d29fa94214b6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-11T16:38:34+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.6.6-Beta-1.4"
+                }
+            },
+            "4.6.6-Beta-1.4.1": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.6.6-Beta-1.4.1",
+                "version_normalized": "4.6.6.0-beta1.4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "70c1da111c00efde7e222c2827ecbb404c77d859"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/70c1da111c00efde7e222c2827ecbb404c77d859",
+                    "reference": "70c1da111c00efde7e222c2827ecbb404c77d859",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-11T21:26:25+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.6.6-Beta-1.4.1"
+                }
+            },
+            "4.8.10": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.8.10",
+                "version_normalized": "4.8.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "c026973f1b02c29d9290a5af0b0d482180f94242"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/c026973f1b02c29d9290a5af0b0d482180f94242",
+                    "reference": "c026973f1b02c29d9290a5af0b0d482180f94242",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-30T15:00:45+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.8.10"
+                }
+            },
+            "4.9.0": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.9.0",
+                "version_normalized": "4.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "a3a3886b7e55cc910798b065211cdf12a7e1e9c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/a3a3886b7e55cc910798b065211cdf12a7e1e9c5",
+                    "reference": "a3a3886b7e55cc910798b065211cdf12a7e1e9c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-31T04:08:26+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.9.0"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "a3a3886b7e55cc910798b065211cdf12a7e1e9c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/a3a3886b7e55cc910798b065211cdf12a7e1e9c5",
+                    "reference": "a3a3886b7e55cc910798b065211cdf12a7e1e9c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-31T04:08:26+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WP All Import Pro",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.9.0"
+                }
+            }
+        }
+    }
+}

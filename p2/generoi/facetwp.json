@@ -1,0 +1,621 @@
+{
+    "packages": {
+        "generoi/facetwp": [
+            {
+                "name": "generoi/facetwp",
+                "version": "v2.7.1",
+                "version_normalized": "2.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "1895ac4d74360135c6317b6a7c1afbc24f3ae8d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/1895ac4d74360135c6317b6a7c1afbc24f3ae8d4",
+                    "reference": "1895ac4d74360135c6317b6a7c1afbc24f3ae8d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2016-12-14T08:02:48+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v2.7.1"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v2.7.5",
+                "version_normalized": "2.7.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "486aa713b2e377cbafd192a9a15b074a29194723"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/486aa713b2e377cbafd192a9a15b074a29194723",
+                    "reference": "486aa713b2e377cbafd192a9a15b074a29194723",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-02-28T11:46:02+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v2.7.5"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v2.8.4",
+                "version_normalized": "2.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "4a649dcdeb331634624834844dd02f15f675df74"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/4a649dcdeb331634624834844dd02f15f675df74",
+                    "reference": "4a649dcdeb331634624834844dd02f15f675df74",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-04-19T14:01:55+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v2.8.4"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v2.9.1",
+                "version_normalized": "2.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "ae118059104b5e206a46eabd1285e0550437ca1f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/ae118059104b5e206a46eabd1285e0550437ca1f",
+                    "reference": "ae118059104b5e206a46eabd1285e0550437ca1f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-06-30T14:05:26+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v2.9.1"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "5a36755dd009fbb2c12ce7bdbbcbac036c3040d1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/5a36755dd009fbb2c12ce7bdbbcbac036c3040d1",
+                    "reference": "5a36755dd009fbb2c12ce7bdbbcbac036c3040d1",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-20T15:23:10+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.0.3"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v3.1.0",
+                "version_normalized": "3.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "1e5e1de34ad1a95eb9933945c3b0cbd4981e8613"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/1e5e1de34ad1a95eb9933945c3b0cbd4981e8613",
+                    "reference": "1e5e1de34ad1a95eb9933945c3b0cbd4981e8613",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-08T14:58:01+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.1.0"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v3.1.6",
+                "version_normalized": "3.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "a73bafe118223b2349fd92cf681f43b50df86937"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/a73bafe118223b2349fd92cf681f43b50df86937",
+                    "reference": "a73bafe118223b2349fd92cf681f43b50df86937",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T16:07:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.1.6"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v3.3.1",
+                "version_normalized": "3.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "949dd2f74a27b8d8df95b20f0b8f70e57f0d8358"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/949dd2f74a27b8d8df95b20f0b8f70e57f0d8358",
+                    "reference": "949dd2f74a27b8d8df95b20f0b8f70e57f0d8358",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T12:46:16+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.3.1"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v3.4.0",
+                "version_normalized": "3.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "f6842a77286802eca3315ffe289a81195248752b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/f6842a77286802eca3315ffe289a81195248752b",
+                    "reference": "f6842a77286802eca3315ffe289a81195248752b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-08-13T13:27:35+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.4.0"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v3.5.0.1",
+                "version_normalized": "3.5.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "11383fa9e1c719a195d031839847588af170ed2e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/11383fa9e1c719a195d031839847588af170ed2e",
+                    "reference": "11383fa9e1c719a195d031839847588af170ed2e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-03-19T11:29:21+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.5.0.1"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v3.6.10",
+                "version_normalized": "3.6.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "16b5eca74147978adc8680d5fd5c5b09d35090fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/16b5eca74147978adc8680d5fd5c5b09d35090fc",
+                    "reference": "16b5eca74147978adc8680d5fd5c5b09d35090fc",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-12-17T10:42:40+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.6.10"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v3.7.4",
+                "version_normalized": "3.7.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "684bbae13f218edfff3ea8eb8e6f11ea8f130025"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/684bbae13f218edfff3ea8eb8e6f11ea8f130025",
+                    "reference": "684bbae13f218edfff3ea8eb8e6f11ea8f130025",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-15T11:48:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.7.4"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "v3.8.2",
+                "version_normalized": "3.8.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "c60b9712e9368c9d8f5e6d5d394ed8f084ab4304"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/c60b9712e9368c9d8f5e6d5d394ed8f084ab4304",
+                    "reference": "c60b9712e9368c9d8f5e6d5d394ed8f084ab4304",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-04-09T14:27:13+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/v3.8.2"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "4.3.3",
+                "version_normalized": "4.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "38b948408c1cfb1f3f5c3c6f93b1c1be7b4ed8be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/38b948408c1cfb1f3f5c3c6f93b1c1be7b4ed8be",
+                    "reference": "38b948408c1cfb1f3f5c3c6f93b1c1be7b4ed8be",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-30T13:42:56+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "FacetWP, LLC"
+                    }
+                ],
+                "description": "FacetWP",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp/issues",
+                    "source": "https://github.com/generoi/facetwp/tree/4.3.3"
+                }
+            }
+        ]
+    }
+}

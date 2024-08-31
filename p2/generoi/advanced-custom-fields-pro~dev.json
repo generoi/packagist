@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "generoi/advanced-custom-fields-pro": [
+            {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "48ea068903f82fcd45dfd041a191ca0959e50ad4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/48ea068903f82fcd45dfd041a191ca0959e50ad4",
+                    "reference": "48ea068903f82fcd45dfd041a191ca0959e50ad4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-30T14:11:11+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.3.6"
+                }
+            }
+        ]
+    }
+}
