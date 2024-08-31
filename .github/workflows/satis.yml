@@ -1,0 +1,59 @@
+name: Satis Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+env:
+  BUILD_DIR: build
+
+jobs:
+  builder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Start SSH agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: |
+            ${{ secrets.PACKAGIST_DEPLOY_PRIVATE_KEY }}
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get Composer Cache Directory
+        id: composer-cache
+        run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer
+          restore-keys: ${{ runner.os }}-composer
+
+      - name: Build
+        uses: docker://composer/satis:latest
+        with:
+          volume: "${{ steps.composer-cache.outputs.dir }}:/composer"
+          args: composer/satis build satis.json --no-interaction ${{ env.BUILD_DIR }}
+        env:
+          SSH_AUTH_SOCK: ${{ env.SSH_AUTH_SOCK }}
+
+      - name: Publish to GitHub pages
+        run: |
+          git checkout gh-pages
+          rm -rf include/*
+          cp -R ${{ env.BUILD_DIR }}/* .
+          rm -rf ${{ env.BUILD_DIR }}/
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add .
+          git commit -m "Updated repository"
+          git push
