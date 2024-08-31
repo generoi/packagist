@@ -27,24 +27,40 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Create composer.json
+        run: echo "{}" > composer.json
+
       - name: Get Composer Cache Directory
         id: composer-cache
         run: echo "dir=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
-      - name: Cache dependencies
+      - name: Get Date
+        id: get-date
+        run: echo "date=$(/bin/date -u "+%F")" >> $GITHUB_OUTPUT
+
+      - name: Cache dependencies and build
         uses: actions/cache@v4
         with:
-          path: ${{ steps.composer-cache.outputs.dir }}
-          key: ${{ runner.os }}-composer
-          restore-keys: ${{ runner.os }}-composer
+          path: |
+            ${{ steps.composer-cache.outputs.dir }}
+            ${{ env.BUILD_DIR }}
+          key: ${{ runner.os }}-php-${{ steps.get-date.outputs.date }}
+          restore-keys: ${{ runner.os }}-php-
 
-      - name: Build
-        uses: docker://composer/satis:latest
-        with:
-          volume: "${{ steps.composer-cache.outputs.dir }}:/composer"
-          args: composer/satis build satis.json --no-interaction ${{ env.BUILD_DIR }}
-        env:
-          SSH_AUTH_SOCK: ${{ env.SSH_AUTH_SOCK }}
+      - name: Docker pull
+        run: docker pull composer/satis
+
+      - name: Docker build
+        run: |
+          docker run --rm --init \
+            --user $(id -u):$(id -g) \
+            --volume $(pwd):/build \
+            --volume "${{ steps.composer-cache.outputs.dir }}:/composer" \
+            --volume "$SSH_AUTH_SOCK:/ssh-auth.sock" \
+            --volume /etc/passwd:/etc/passwd:ro \
+            --volume /etc/group:/etc/group:ro \
+            --env SSH_AUTH_SOCK=/ssh-auth.sock \
+            composer/satis build /build/satis.json /build/${{ env.BUILD_DIR }} --no-interaction
 
       - name: Publish to GitHub pages
         run: |
