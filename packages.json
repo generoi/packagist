@@ -1,16 +1,18 @@
 {
     "packages": [],
     "includes": {
-        "include/all$969abd8dfc117791356683ea4f7c7b3c133a00c2.json": {
-            "sha1": "969abd8dfc117791356683ea4f7c7b3c133a00c2"
+        "include/all$774db6cbd00a314d3c57a9a6750caeb3ed946398.json": {
+            "sha1": "774db6cbd00a314d3c57a9a6750caeb3ed946398"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
     "available-packages": [
         "generoi/advanced-custom-fields-pro",
         "generoi/facetwp",
+        "generoi/facetwp-i18n",
         "generoi/gravityforms",
         "generoi/polylang-pro",
+        "generoi/relevanssi-premium",
         "generoi/role-based-pricing-for-woocommerce",
         "generoi/woocommerce-subscriptions",
         "generoi/wp-all-import-pro",

@@ -2327,6 +2327,278 @@
                 }
             }
         },
+        "generoi/facetwp-i18n": {
+            "v0.2.1": {
+                "name": "generoi/facetwp-i18n",
+                "version": "v0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-i18n.git",
+                    "reference": "b4eab1095492feb2e17032747b4c5775b6f839d9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/b4eab1095492feb2e17032747b4c5775b6f839d9",
+                    "reference": "b4eab1095492feb2e17032747b4c5775b6f839d9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T11:52:40+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Filtering Plugin for WordPress",
+                "homepage": "https://facetwp.com/add-ons/multilingual",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues",
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/v0.2.1"
+                }
+            },
+            "v1.0.0": {
+                "name": "generoi/facetwp-i18n",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-i18n.git",
+                    "reference": "061d10965085bb4bc987ef2476110fc09a0f6525"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/061d10965085bb4bc987ef2476110fc09a0f6525",
+                    "reference": "061d10965085bb4bc987ef2476110fc09a0f6525",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-12-17T10:43:37+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Filtering Plugin for WordPress",
+                "homepage": "https://facetwp.com/add-ons/multilingual",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues",
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/v1.0.0"
+                }
+            },
+            "v1.0.0.1": {
+                "name": "generoi/facetwp-i18n",
+                "version": "v1.0.0.1",
+                "version_normalized": "1.0.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-i18n.git",
+                    "reference": "0036d0fa9092df73790f10e75a5bd67610e43ab4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/0036d0fa9092df73790f10e75a5bd67610e43ab4",
+                    "reference": "0036d0fa9092df73790f10e75a5bd67610e43ab4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-19T14:52:22+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Filtering Plugin for WordPress",
+                "homepage": "https://facetwp.com/add-ons/multilingual",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues",
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/v1.0.0.1"
+                }
+            },
+            "v1.0.0.2": {
+                "name": "generoi/facetwp-i18n",
+                "version": "v1.0.0.2",
+                "version_normalized": "1.0.0.2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-i18n.git",
+                    "reference": "1a59b96ea83d0ddd7090e9ff00ec8a9d1abcb4e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/1a59b96ea83d0ddd7090e9ff00ec8a9d1abcb4e5",
+                    "reference": "1a59b96ea83d0ddd7090e9ff00ec8a9d1abcb4e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-19T15:39:26+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Filtering Plugin for WordPress",
+                "homepage": "https://facetwp.com/add-ons/multilingual",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues",
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/v1.0.0.2"
+                }
+            },
+            "v1.0.1": {
+                "name": "generoi/facetwp-i18n",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-i18n.git",
+                    "reference": "c7d6cd9fb3dee0f04f5eb45ec219a67a5a51cd78"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/c7d6cd9fb3dee0f04f5eb45ec219a67a5a51cd78",
+                    "reference": "c7d6cd9fb3dee0f04f5eb45ec219a67a5a51cd78",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2022-03-14T17:37:01+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Filtering Plugin for WordPress",
+                "homepage": "https://facetwp.com/add-ons/multilingual",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues",
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/v1.0.1"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/facetwp-i18n",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-i18n.git",
+                    "reference": "78f05c6ee3ef3cb7009041c2cece1f6fea01164d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/78f05c6ee3ef3cb7009041c2cece1f6fea01164d",
+                    "reference": "78f05c6ee3ef3cb7009041c2cece1f6fea01164d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "time": "2024-08-31T21:13:25+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Filtering Plugin for WordPress",
+                "homepage": "https://facetwp.com/add-ons/multilingual",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues",
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/master"
+                }
+            }
+        },
         "generoi/gravityforms": {
             "v2.1.2": {
                 "name": "generoi/gravityforms",
@@ -4769,6 +5041,57 @@
                 "support": {
                     "issues": "https://github.com/generoi/polylang-pro/issues",
                     "source": "https://github.com/generoi/polylang-pro/tree/master"
+                }
+            }
+        },
+        "generoi/relevanssi-premium": {
+            "2.26.0": {
+                "name": "generoi/relevanssi-premium",
+                "version": "2.26.0",
+                "version_normalized": "2.26.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/relevanssi-premium.git",
+                    "reference": "03abacb8d7874feeaea74fb09ab35ef4568f883f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/03abacb8d7874feeaea74fb09ab35ef4568f883f",
+                    "reference": "03abacb8d7874feeaea74fb09ab35ef4568f883f",
+                    "shasum": ""
+                },
+                "time": "2024-08-31T21:11:16+00:00",
+                "type": "wordpress-plugin",
+                "description": "Relevanssi Premium",
+                "homepage": "https://www.relevanssi.com/buy-premium/",
+                "support": {
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.26.0",
+                    "issues": "https://github.com/generoi/relevanssi-premium/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/relevanssi-premium",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/relevanssi-premium.git",
+                    "reference": "03abacb8d7874feeaea74fb09ab35ef4568f883f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/03abacb8d7874feeaea74fb09ab35ef4568f883f",
+                    "reference": "03abacb8d7874feeaea74fb09ab35ef4568f883f",
+                    "shasum": ""
+                },
+                "time": "2024-08-31T21:11:16+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "description": "Relevanssi Premium",
+                "homepage": "https://www.relevanssi.com/buy-premium/",
+                "support": {
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.26.0",
+                    "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             }
         },
