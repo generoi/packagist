@@ -1,12 +1,13 @@
 {
     "packages": [],
     "includes": {
-        "include/all$b3bf232b4d22d72a9eeac141140e82586081ff2c.json": {
-            "sha1": "b3bf232b4d22d72a9eeac141140e82586081ff2c"
+        "include/all$e92341c0d698e31253f13abaf9cac08fe89c821c.json": {
+            "sha1": "e92341c0d698e31253f13abaf9cac08fe89c821c"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
     "available-packages": [
-        "generoi/role-based-pricing-for-woocommerce"
+        "generoi/role-based-pricing-for-woocommerce",
+        "generoi/woocommerce-subscriptions"
     ]
 }

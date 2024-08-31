@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "generoi/woocommerce-subscriptions": [
+            {
+                "name": "generoi/woocommerce-subscriptions",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-subscriptions.git",
+                    "reference": "fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0",
+                    "reference": "fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2024-08-31T17:55:32+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Woo",
+                        "homepage": "https://woocommerce.com/vendor/woocommerce/"
+                    }
+                ],
+                "description": "Woocommerce Subscriptions",
+                "homepage": "https://woocommerce.com/products/woocommerce-subscriptions/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
+                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/master"
+                }
+            }
+        ]
+    }
+}
