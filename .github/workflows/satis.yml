@@ -1,5 +1,5 @@
+# @see https://github.com/ikselven/horde-satis.maintaina.com/blob/10030e3fbca81579dfd8ea2385d2291663b8bcbd/.github/workflows/horde-satis.yml
 name: Satis Build
-
 on:
   workflow_call:
   workflow_dispatch:
@@ -52,6 +52,7 @@ jobs:
 
       - name: Publish to GitHub pages
         run: |
+          rm composer.json
           git checkout gh-pages
           rm -rf include/*
           cp -R ${{ env.BUILD_DIR }}/* .
