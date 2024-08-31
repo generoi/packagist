@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/role-based-pricing-for-woocommerce.git",
-                    "reference": "7c63ac410039acf13b9d4650186b100119ed78fd"
+                    "reference": "410d026e0277b78c0c5cb95469fe74a3dcca64e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/7c63ac410039acf13b9d4650186b100119ed78fd",
-                    "reference": "7c63ac410039acf13b9d4650186b100119ed78fd",
+                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/410d026e0277b78c0c5cb95469fe74a3dcca64e7",
+                    "reference": "410d026e0277b78c0c5cb95469fe74a3dcca64e7",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0.0"
                 },
-                "time": "2024-08-30T21:11:56+00:00",
+                "time": "2024-08-31T16:20:31+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "archive": {
@@ -43,7 +43,7 @@
                 ],
                 "support": {
                     "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
-                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/2.1.1"
+                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/master"
                 }
             }
         ]
