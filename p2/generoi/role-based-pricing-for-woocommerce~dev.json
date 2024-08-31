@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/role-based-pricing-for-woocommerce.git",
-                    "reference": "410d026e0277b78c0c5cb95469fe74a3dcca64e7"
+                    "reference": "129fc5daf861d21eaa219eaca8f604fbce444242"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/410d026e0277b78c0c5cb95469fe74a3dcca64e7",
-                    "reference": "410d026e0277b78c0c5cb95469fe74a3dcca64e7",
+                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/129fc5daf861d21eaa219eaca8f604fbce444242",
+                    "reference": "129fc5daf861d21eaa219eaca8f604fbce444242",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0.0"
                 },
-                "time": "2024-08-31T16:20:31+00:00",
+                "time": "2024-08-31T17:51:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "archive": {
@@ -32,12 +32,12 @@
                 ],
                 "authors": [
                     {
-                        "name": "Christoffer Björkskog",
-                        "email": "christoffer.bjorkskog@genero.fi"
+                        "name": "Addify",
+                        "homepage": "https://woocommerce.com/vendor/addify/"
                     }
                 ],
                 "description": "Role Based Pricing for WooCommerce",
-                "homepage": "https://github.com/generoi/rolebased-pricing-for-woocommerce",
+                "homepage": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
                 "keywords": [
                     "wordpress"
                 ],
