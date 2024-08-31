@@ -1,12 +1,17 @@
 name: Satis Build
 
 on:
+  workflow_call:
   workflow_dispatch:
   push:
     branches:
       - master
 env:
   BUILD_DIR: build
+
+concurrency:
+  group: build
+  cancel-in-progress: true
 
 jobs:
   builder:
