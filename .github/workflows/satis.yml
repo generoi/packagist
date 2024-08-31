@@ -3,6 +3,7 @@ name: Satis Build
 on:
   workflow_call:
   workflow_dispatch:
+  repository_dispatch:
   push:
     branches:
       - master
