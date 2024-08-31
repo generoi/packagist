@@ -2,7 +2,8 @@
     "name": "genero/packagist",
     "homepage": "https://generoi.github.io/packagist",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/generoi/role-based-pricing-for-woocommerce.git" }
+        { "type": "vcs", "url": "https://github.com/generoi/role-based-pricing-for-woocommerce.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-subscriptions.git" }
     ],
     "require-all": true
 }
