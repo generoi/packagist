@@ -5186,6 +5186,55 @@
                 }
             }
         },
+        "generoi/wc-paytrail": {
+            "2.6.2": {
+                "name": "generoi/wc-paytrail",
+                "version": "2.6.2",
+                "version_normalized": "2.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wc-paytrail.git",
+                    "reference": "8dd0eaf3625ef85620cc215d2c30cf434211d6e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wc-paytrail/zipball/8dd0eaf3625ef85620cc215d2c30cf434211d6e6",
+                    "reference": "8dd0eaf3625ef85620cc215d2c30cf434211d6e6",
+                    "shasum": ""
+                },
+                "time": "2024-09-02T16:04:27+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-paytrail/",
+                "support": {
+                    "source": "https://github.com/generoi/wc-paytrail/tree/2.6.2",
+                    "issues": "https://github.com/generoi/wc-paytrail/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/wc-paytrail",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wc-paytrail.git",
+                    "reference": "8dd0eaf3625ef85620cc215d2c30cf434211d6e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wc-paytrail/zipball/8dd0eaf3625ef85620cc215d2c30cf434211d6e6",
+                    "reference": "8dd0eaf3625ef85620cc215d2c30cf434211d6e6",
+                    "shasum": ""
+                },
+                "time": "2024-09-02T16:04:27+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-paytrail/",
+                "support": {
+                    "source": "https://github.com/generoi/wc-paytrail/tree/2.6.2",
+                    "issues": "https://github.com/generoi/wc-paytrail/issues"
+                }
+            }
+        },
         "generoi/woocommerce-subscriptions": {
             "3.0.7": {
                 "name": "generoi/woocommerce-subscriptions",
