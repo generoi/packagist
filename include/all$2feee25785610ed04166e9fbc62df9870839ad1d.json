@@ -5235,6 +5235,153 @@
                 }
             }
         },
+        "generoi/wc-smartship": {
+            "2.0.2": {
+                "name": "generoi/wc-smartship",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wc-smartship.git",
+                    "reference": "b04dd4461a6f1735fe278dd6cb76cb469426622b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wc-smartship/zipball/b04dd4461a6f1735fe278dd6cb76cb469426622b",
+                    "reference": "b04dd4461a6f1735fe278dd6cb76cb469426622b",
+                    "shasum": ""
+                },
+                "time": "2024-09-03T12:08:16+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-smartship-prinetti/",
+                "support": {
+                    "source": "https://github.com/generoi/wc-smartship/tree/2.0.2",
+                    "issues": "https://github.com/generoi/wc-smartship/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/wc-smartship",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wc-smartship.git",
+                    "reference": "b04dd4461a6f1735fe278dd6cb76cb469426622b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wc-smartship/zipball/b04dd4461a6f1735fe278dd6cb76cb469426622b",
+                    "reference": "b04dd4461a6f1735fe278dd6cb76cb469426622b",
+                    "shasum": ""
+                },
+                "time": "2024-09-03T12:08:16+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-smartship-prinetti/",
+                "support": {
+                    "source": "https://github.com/generoi/wc-smartship/tree/2.0.2",
+                    "issues": "https://github.com/generoi/wc-smartship/issues"
+                }
+            }
+        },
+        "generoi/woo-carrier-agents": {
+            "1.8.0": {
+                "name": "generoi/woo-carrier-agents",
+                "version": "1.8.0",
+                "version_normalized": "1.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woo-carrier-agents.git",
+                    "reference": "db023ecdea0f596074c8e8428525ec349e27f740"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/db023ecdea0f596074c8e8428525ec349e27f740",
+                    "reference": "db023ecdea0f596074c8e8428525ec349e27f740",
+                    "shasum": ""
+                },
+                "time": "2024-09-03T12:18:46+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-noutopistehaku/",
+                "support": {
+                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.8.0",
+                    "issues": "https://github.com/generoi/woo-carrier-agents/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/woo-carrier-agents",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woo-carrier-agents.git",
+                    "reference": "db023ecdea0f596074c8e8428525ec349e27f740"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/db023ecdea0f596074c8e8428525ec349e27f740",
+                    "reference": "db023ecdea0f596074c8e8428525ec349e27f740",
+                    "shasum": ""
+                },
+                "time": "2024-09-03T12:18:46+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-noutopistehaku/",
+                "support": {
+                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.8.0",
+                    "issues": "https://github.com/generoi/woo-carrier-agents/issues"
+                }
+            }
+        },
+        "generoi/woo-printables": {
+            "1.4.3": {
+                "name": "generoi/woo-printables",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woo-printables.git",
+                    "reference": "aae6396578adb5517b20555c08827c7e07e06013"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woo-printables/zipball/aae6396578adb5517b20555c08827c7e07e06013",
+                    "reference": "aae6396578adb5517b20555c08827c7e07e06013",
+                    "shasum": ""
+                },
+                "time": "2024-09-03T12:13:58+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/guide/woocommerce-kuitti-pakkauslista-ohje/",
+                "support": {
+                    "source": "https://github.com/generoi/woo-printables/tree/1.4.3",
+                    "issues": "https://github.com/generoi/woo-printables/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/woo-printables",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woo-printables.git",
+                    "reference": "aae6396578adb5517b20555c08827c7e07e06013"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woo-printables/zipball/aae6396578adb5517b20555c08827c7e07e06013",
+                    "reference": "aae6396578adb5517b20555c08827c7e07e06013",
+                    "shasum": ""
+                },
+                "time": "2024-09-03T12:13:58+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/guide/woocommerce-kuitti-pakkauslista-ohje/",
+                "support": {
+                    "source": "https://github.com/generoi/woo-printables/tree/1.4.3",
+                    "issues": "https://github.com/generoi/woo-printables/issues"
+                }
+            }
+        },
         "generoi/woocommerce-subscriptions": {
             "3.0.7": {
                 "name": "generoi/woocommerce-subscriptions",

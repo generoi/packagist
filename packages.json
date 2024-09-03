@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$685362f7028b18640621291721ebec510c8c0ee1.json": {
-            "sha1": "685362f7028b18640621291721ebec510c8c0ee1"
+        "include/all$2feee25785610ed04166e9fbc62df9870839ad1d.json": {
+            "sha1": "2feee25785610ed04166e9fbc62df9870839ad1d"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -15,6 +15,9 @@
         "generoi/relevanssi-premium",
         "generoi/role-based-pricing-for-woocommerce",
         "generoi/wc-paytrail",
+        "generoi/wc-smartship",
+        "generoi/woo-carrier-agents",
+        "generoi/woo-printables",
         "generoi/woocommerce-subscriptions",
         "generoi/wp-all-import-pro",
         "kinsta/kinsta-mu-plugins"
