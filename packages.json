@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$2feee25785610ed04166e9fbc62df9870839ad1d.json": {
-            "sha1": "2feee25785610ed04166e9fbc62df9870839ad1d"
+        "include/all$e3442016d1d30e7c01211d72ff667d5fd96ed042.json": {
+            "sha1": "e3442016d1d30e7c01211d72ff667d5fd96ed042"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -12,6 +12,7 @@
         "generoi/facetwp-i18n",
         "generoi/gravityforms",
         "generoi/polylang-pro",
+        "generoi/polylang-wc",
         "generoi/relevanssi-premium",
         "generoi/role-based-pricing-for-woocommerce",
         "generoi/wc-paytrail",
