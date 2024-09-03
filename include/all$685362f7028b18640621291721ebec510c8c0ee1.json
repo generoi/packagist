@@ -3596,18 +3596,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "19b7bae41f9b3a8e49035a970a00f3c807e4767c"
+                    "reference": "7d9181f496c551fa64edd0db402f78e1fe278a3d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/19b7bae41f9b3a8e49035a970a00f3c807e4767c",
-                    "reference": "19b7bae41f9b3a8e49035a970a00f3c807e4767c",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/7d9181f496c551fa64edd0db402f78e1fe278a3d",
+                    "reference": "7d9181f496c551fa64edd0db402f78e1fe278a3d",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6.0"
                 },
-                "time": "2024-08-30T13:32:42+00:00",
+                "time": "2024-09-03T12:01:30+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "archive": {
@@ -5217,20 +5217,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wc-paytrail.git",
-                    "reference": "8dd0eaf3625ef85620cc215d2c30cf434211d6e6"
+                    "reference": "5ffbc97e6dcaecf1cb4514d5adb81f95e098a1b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wc-paytrail/zipball/8dd0eaf3625ef85620cc215d2c30cf434211d6e6",
-                    "reference": "8dd0eaf3625ef85620cc215d2c30cf434211d6e6",
+                    "url": "https://api.github.com/repos/generoi/wc-paytrail/zipball/5ffbc97e6dcaecf1cb4514d5adb81f95e098a1b8",
+                    "reference": "5ffbc97e6dcaecf1cb4514d5adb81f95e098a1b8",
                     "shasum": ""
                 },
-                "time": "2024-09-02T16:04:27+00:00",
+                "time": "2024-09-03T12:01:02+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/products/woocommerce-paytrail/",
                 "support": {
-                    "source": "https://github.com/generoi/wc-paytrail/tree/2.6.2",
+                    "source": "https://github.com/generoi/wc-paytrail/tree/master",
                     "issues": "https://github.com/generoi/wc-paytrail/issues"
                 }
             }

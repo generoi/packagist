@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wc-paytrail.git",
-                    "reference": "8dd0eaf3625ef85620cc215d2c30cf434211d6e6"
+                    "reference": "5ffbc97e6dcaecf1cb4514d5adb81f95e098a1b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wc-paytrail/zipball/8dd0eaf3625ef85620cc215d2c30cf434211d6e6",
-                    "reference": "8dd0eaf3625ef85620cc215d2c30cf434211d6e6",
+                    "url": "https://api.github.com/repos/generoi/wc-paytrail/zipball/5ffbc97e6dcaecf1cb4514d5adb81f95e098a1b8",
+                    "reference": "5ffbc97e6dcaecf1cb4514d5adb81f95e098a1b8",
                     "shasum": ""
                 },
-                "time": "2024-09-02T16:04:27+00:00",
+                "time": "2024-09-03T12:01:02+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/products/woocommerce-paytrail/",
                 "support": {
-                    "source": "https://github.com/generoi/wc-paytrail/tree/2.6.2",
+                    "source": "https://github.com/generoi/wc-paytrail/tree/master",
                     "issues": "https://github.com/generoi/wc-paytrail/issues"
                 }
             }
