@@ -13,6 +13,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/role-based-pricing-for-woocommerce.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wc-paytrail.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wc-smartship.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-gateway-verifone.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-subscriptions.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woo-carrier-agents.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woo-printables.git" },
