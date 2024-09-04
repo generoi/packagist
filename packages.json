@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$1dff614d94fcd098ed36721e21ca15fc214be8c9.json": {
-            "sha1": "1dff614d94fcd098ed36721e21ca15fc214be8c9"
+        "include/all$82b1fd76ad08fb79192f7c23fbb748c5156672cf.json": {
+            "sha1": "82b1fd76ad08fb79192f7c23fbb748c5156672cf"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -19,6 +19,7 @@
         "generoi/wc-smartship",
         "generoi/woo-carrier-agents",
         "generoi/woo-printables",
+        "generoi/woocommerce-gateway-verifone",
         "generoi/woocommerce-subscriptions",
         "generoi/wp-all-import-pro",
         "kinsta/kinsta-mu-plugins"
