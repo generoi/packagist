@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-subscriptions.git",
-                    "reference": "fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0"
+                    "reference": "c39aecf207a715dc2f507c5987e7975473c4d2d1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0",
-                    "reference": "fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/c39aecf207a715dc2f507c5987e7975473c4d2d1",
+                    "reference": "c39aecf207a715dc2f507c5987e7975473c4d2d1",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0.0"
                 },
-                "time": "2024-08-31T17:55:32+00:00",
+                "time": "2024-09-06T04:11:54+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "archive": {
@@ -43,7 +43,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
-                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/master"
+                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/6.6.2"
                 }
             }
         ]

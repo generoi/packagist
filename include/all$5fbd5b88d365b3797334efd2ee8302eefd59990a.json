@@ -6073,6 +6073,29 @@
                     "issues": "https://github.com/generoi/woocommerce-gateway-verifone/issues"
                 }
             },
+            "dev-fix/deprecated-dynamic-props": {
+                "name": "generoi/woocommerce-gateway-verifone",
+                "version": "dev-fix/deprecated-dynamic-props",
+                "version_normalized": "dev-fix/deprecated-dynamic-props",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/woocommerce-gateway-verifone.git",
+                    "reference": "eac3adc4a2224c11f0a407d242c79457bfe274b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gateway-verifone/zipball/eac3adc4a2224c11f0a407d242c79457bfe274b1",
+                    "reference": "eac3adc4a2224c11f0a407d242c79457bfe274b1",
+                    "shasum": ""
+                },
+                "time": "2024-09-05T09:41:16+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.bluecommerce.fi/kayttoonotto/woocommerce-moduuli/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-gateway-verifone/tree/fix/deprecated-dynamic-props",
+                    "issues": "https://github.com/generoi/woocommerce-gateway-verifone/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/woocommerce-gateway-verifone",
                 "version": "dev-master",
@@ -6188,6 +6211,50 @@
                     "source": "https://github.com/generoi/woocommerce-subscriptions/tree/6.6.1"
                 }
             },
+            "6.6.2": {
+                "name": "generoi/woocommerce-subscriptions",
+                "version": "6.6.2",
+                "version_normalized": "6.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-subscriptions.git",
+                    "reference": "c39aecf207a715dc2f507c5987e7975473c4d2d1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/c39aecf207a715dc2f507c5987e7975473c4d2d1",
+                    "reference": "c39aecf207a715dc2f507c5987e7975473c4d2d1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2024-09-06T04:11:54+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Woo",
+                        "homepage": "https://woocommerce.com/vendor/woocommerce/"
+                    }
+                ],
+                "description": "Woocommerce Subscriptions",
+                "homepage": "https://woocommerce.com/products/woocommerce-subscriptions/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
+                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/6.6.2"
+                }
+            },
             "dev-master": {
                 "name": "generoi/woocommerce-subscriptions",
                 "version": "dev-master",
@@ -6195,18 +6262,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-subscriptions.git",
-                    "reference": "fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0"
+                    "reference": "c39aecf207a715dc2f507c5987e7975473c4d2d1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0",
-                    "reference": "fd1cbb9a60cf96040ed85217cc8e3d7987b51ba0",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/c39aecf207a715dc2f507c5987e7975473c4d2d1",
+                    "reference": "c39aecf207a715dc2f507c5987e7975473c4d2d1",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0.0"
                 },
-                "time": "2024-08-31T17:55:32+00:00",
+                "time": "2024-09-06T04:11:54+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "archive": {
@@ -6230,7 +6297,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
-                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/master"
+                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/6.6.2"
                 }
             }
         },
