@@ -5805,7 +5805,8 @@
                 "support": {
                     "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
                     "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/2.1.1"
-                }
+                },
+                "abandoned": true
             },
             "dev-master": {
                 "name": "generoi/role-based-pricing-for-woocommerce",
@@ -5850,7 +5851,8 @@
                 "support": {
                     "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
                     "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/master"
-                }
+                },
+                "abandoned": true
             }
         },
         "generoi/wc-paytrail": {
