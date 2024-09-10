@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$5815268d43f0ffa55e9da4b4096a9b9abefa3458.json": {
-            "sha1": "5815268d43f0ffa55e9da4b4096a9b9abefa3458"
+        "include/all$42f02d614be0f0a166f563ae11908d08e762d445.json": {
+            "sha1": "42f02d614be0f0a166f563ae11908d08e762d445"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -20,6 +20,9 @@
         "generoi/woo-carrier-agents",
         "generoi/woo-printables",
         "generoi/woocommerce-gateway-verifone",
+        "generoi/woocommerce-gift-cards",
+        "generoi/woocommerce-product-addons",
+        "generoi/woocommerce-request-a-quote",
         "generoi/woocommerce-subscriptions",
         "generoi/wp-all-import-pro",
         "kinsta/kinsta-mu-plugins"

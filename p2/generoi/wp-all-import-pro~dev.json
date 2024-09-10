@@ -8,42 +8,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-import-pro.git",
-                    "reference": "2f283d48ca594dc195bccf382803f0bd726b996f"
+                    "reference": "d0483cc17325afba9d94b1e5eb5908f2e81dc551"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/2f283d48ca594dc195bccf382803f0bd726b996f",
-                    "reference": "2f283d48ca594dc195bccf382803f0bd726b996f",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/d0483cc17325afba9d94b1e5eb5908f2e81dc551",
+                    "reference": "d0483cc17325afba9d94b1e5eb5908f2e81dc551",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2024-08-31T18:31:53+00:00",
+                "time": "2024-09-10T17:22:48+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Oskar Schöldström",
-                        "email": "public@oxy.fi"
-                    }
-                ],
-                "description": "WP All Import Pro",
                 "homepage": "http://www.wpallimport.com",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
-                    "source": "https://github.com/generoi/wp-all-import-pro/tree/master"
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/master",
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             }
         ]

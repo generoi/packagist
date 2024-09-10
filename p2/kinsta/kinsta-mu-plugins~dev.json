@@ -29,19 +29,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/kinsta-mu-plugins.git",
-                    "reference": "444d8eb32541b687ba66f5b37f7e29286735fa17"
+                    "reference": "9169da05090bdd11e5b40a87dcdc7f3f5ef33824"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/444d8eb32541b687ba66f5b37f7e29286735fa17",
-                    "reference": "444d8eb32541b687ba66f5b37f7e29286735fa17",
+                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/9169da05090bdd11e5b40a87dcdc7f3f5ef33824",
+                    "reference": "9169da05090bdd11e5b40a87dcdc7f3f5ef33824",
                     "shasum": ""
                 },
-                "time": "2024-08-31T19:06:30+00:00",
+                "time": "2024-09-10T17:21:34+00:00",
                 "default-branch": true,
                 "type": "wordpress-muplugin",
+                "homepage": "https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/",
                 "support": {
-                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.1.1"
+                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/master"
                 }
             },
             {

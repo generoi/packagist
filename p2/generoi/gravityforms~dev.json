@@ -8,42 +8,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "7d9181f496c551fa64edd0db402f78e1fe278a3d"
+                    "reference": "bfc79437bfb7ddbf59098082a0aeba5ef3165b77"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/7d9181f496c551fa64edd0db402f78e1fe278a3d",
-                    "reference": "7d9181f496c551fa64edd0db402f78e1fe278a3d",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/bfc79437bfb7ddbf59098082a0aeba5ef3165b77",
+                    "reference": "bfc79437bfb7ddbf59098082a0aeba5ef3165b77",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.6.0"
-                },
-                "time": "2024-09-03T12:01:30+00:00",
+                "time": "2024-09-10T17:20:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Oskar Schöldström",
-                        "email": "public@oxy.fi"
-                    }
-                ],
-                "description": "Gravity Forms",
-                "homepage": "http://www.gravityhelp.com",
-                "keywords": [
-                    "wordpress"
-                ],
+                "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "issues": "https://github.com/generoi/gravityforms/issues",
-                    "source": "https://github.com/generoi/gravityforms/tree/master"
+                    "source": "https://github.com/generoi/gravityforms/tree/master",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             }
         ]

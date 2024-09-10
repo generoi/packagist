@@ -8,44 +8,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/role-based-pricing-for-woocommerce.git",
-                    "reference": "129fc5daf861d21eaa219eaca8f604fbce444242"
+                    "reference": "93eceaa7fa61b2f779eff36095f1d2ec829a5014"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/129fc5daf861d21eaa219eaca8f604fbce444242",
-                    "reference": "129fc5daf861d21eaa219eaca8f604fbce444242",
+                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/93eceaa7fa61b2f779eff36095f1d2ec829a5014",
+                    "reference": "93eceaa7fa61b2f779eff36095f1d2ec829a5014",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=7.0.0"
-                },
-                "time": "2024-08-31T17:51:03+00:00",
+                "time": "2024-09-10T17:23:39+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Addify",
-                        "homepage": "https://woocommerce.com/vendor/addify/"
-                    }
-                ],
-                "description": "Role Based Pricing for WooCommerce",
                 "homepage": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
-                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/master"
-                },
-                "abandoned": true
+                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/master",
+                    "issues": "https://github.com/generoi/role-based-pricing-for-woocommerce/issues"
+                }
             }
         ]
     }

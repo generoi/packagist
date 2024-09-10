@@ -8,41 +8,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "dba64add94ef7f55e2f40190b6b4b2b14512f708"
+                    "reference": "f5e47702a484b8ff4c3a174428e0ee29c2125deb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/dba64add94ef7f55e2f40190b6b4b2b14512f708",
-                    "reference": "dba64add94ef7f55e2f40190b6b4b2b14512f708",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/f5e47702a484b8ff4c3a174428e0ee29c2125deb",
+                    "reference": "f5e47702a484b8ff4c3a174428e0ee29c2125deb",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2024-08-31T18:34:48+00:00",
+                "time": "2024-09-10T17:22:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Frédéric Demarle"
-                    }
-                ],
-                "description": "Polylang PRO",
                 "homepage": "https://polylang.pro",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/polylang-pro/issues",
-                    "source": "https://github.com/generoi/polylang-pro/tree/master"
+                    "source": "https://github.com/generoi/polylang-pro/tree/master",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             }
         ]

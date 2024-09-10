@@ -8,41 +8,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp.git",
-                    "reference": "b875cd91948a373567ab2d13d3c1af7afea73963"
+                    "reference": "f75c32d4baf8257b64cc9ec71d2d66c25e70c99f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/b875cd91948a373567ab2d13d3c1af7afea73963",
-                    "reference": "b875cd91948a373567ab2d13d3c1af7afea73963",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/f75c32d4baf8257b64cc9ec71d2d66c25e70c99f",
+                    "reference": "f75c32d4baf8257b64cc9ec71d2d66c25e70c99f",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2024-08-31T18:34:05+00:00",
+                "time": "2024-09-10T17:22:21+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "FacetWP, LLC"
-                    }
-                ],
-                "description": "FacetWP",
                 "homepage": "https://facetwp.com/",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/facetwp/issues",
-                    "source": "https://github.com/generoi/facetwp/tree/master"
+                    "source": "https://github.com/generoi/facetwp/tree/master",
+                    "issues": "https://github.com/generoi/facetwp/issues"
                 }
             }
         ]

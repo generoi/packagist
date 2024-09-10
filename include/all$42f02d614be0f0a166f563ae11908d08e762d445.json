@@ -1627,42 +1627,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
-                    "reference": "bdc621194c3dbeb092fdc8e2bc72fd3073dd8285"
+                    "reference": "49e1ce22dae464e099563e7923ec19adf0a7e4dc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/bdc621194c3dbeb092fdc8e2bc72fd3073dd8285",
-                    "reference": "bdc621194c3dbeb092fdc8e2bc72fd3073dd8285",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/49e1ce22dae464e099563e7923ec19adf0a7e4dc",
+                    "reference": "49e1ce22dae464e099563e7923ec19adf0a7e4dc",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2024-08-31T18:30:48+00:00",
+                "time": "2024-09-10T17:20:47+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Oskar Schöldström",
-                        "email": "public@oxy.fi"
-                    }
-                ],
-                "description": "Advanced Custom Fields Pro",
                 "homepage": "https://www.advancedcustomfields.com/",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues",
-                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.3.6.1"
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/master",
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
                 }
             }
         },
@@ -2289,41 +2268,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp.git",
-                    "reference": "b875cd91948a373567ab2d13d3c1af7afea73963"
+                    "reference": "f75c32d4baf8257b64cc9ec71d2d66c25e70c99f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/b875cd91948a373567ab2d13d3c1af7afea73963",
-                    "reference": "b875cd91948a373567ab2d13d3c1af7afea73963",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/f75c32d4baf8257b64cc9ec71d2d66c25e70c99f",
+                    "reference": "f75c32d4baf8257b64cc9ec71d2d66c25e70c99f",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2024-08-31T18:34:05+00:00",
+                "time": "2024-09-10T17:22:21+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "FacetWP, LLC"
-                    }
-                ],
-                "description": "FacetWP",
                 "homepage": "https://facetwp.com/",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/facetwp/issues",
-                    "source": "https://github.com/generoi/facetwp/tree/master"
+                    "source": "https://github.com/generoi/facetwp/tree/master",
+                    "issues": "https://github.com/generoi/facetwp/issues"
                 }
             }
         },
@@ -2560,42 +2519,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp-i18n.git",
-                    "reference": "38bd4c546c5eb1901f3ad524a354b2de0cae588d"
+                    "reference": "666072ff2f76a6403e393a133b5940e75b0415f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/38bd4c546c5eb1901f3ad524a354b2de0cae588d",
-                    "reference": "38bd4c546c5eb1901f3ad524a354b2de0cae588d",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/666072ff2f76a6403e393a133b5940e75b0415f9",
+                    "reference": "666072ff2f76a6403e393a133b5940e75b0415f9",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2024-08-31T21:25:19+00:00",
+                "time": "2024-09-10T17:21:05+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Oskar Schöldström",
-                        "email": "public@oxy.fi"
-                    }
-                ],
-                "description": "Advanced Filtering Plugin for WordPress",
                 "homepage": "https://facetwp.com/add-ons/multilingual",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/facetwp-i18n/issues",
-                    "source": "https://github.com/generoi/facetwp-i18n/tree/1.0.1"
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/master",
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues"
                 }
             }
         },
@@ -3596,42 +3534,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "7d9181f496c551fa64edd0db402f78e1fe278a3d"
+                    "reference": "bfc79437bfb7ddbf59098082a0aeba5ef3165b77"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/7d9181f496c551fa64edd0db402f78e1fe278a3d",
-                    "reference": "7d9181f496c551fa64edd0db402f78e1fe278a3d",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/bfc79437bfb7ddbf59098082a0aeba5ef3165b77",
+                    "reference": "bfc79437bfb7ddbf59098082a0aeba5ef3165b77",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.6.0"
-                },
-                "time": "2024-09-03T12:01:30+00:00",
+                "time": "2024-09-10T17:20:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Oskar Schöldström",
-                        "email": "public@oxy.fi"
-                    }
-                ],
-                "description": "Gravity Forms",
-                "homepage": "http://www.gravityhelp.com",
-                "keywords": [
-                    "wordpress"
-                ],
+                "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "issues": "https://github.com/generoi/gravityforms/issues",
-                    "source": "https://github.com/generoi/gravityforms/tree/master"
+                    "source": "https://github.com/generoi/gravityforms/tree/master",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             }
         },
@@ -5006,41 +4923,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "dba64add94ef7f55e2f40190b6b4b2b14512f708"
+                    "reference": "f5e47702a484b8ff4c3a174428e0ee29c2125deb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/dba64add94ef7f55e2f40190b6b4b2b14512f708",
-                    "reference": "dba64add94ef7f55e2f40190b6b4b2b14512f708",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/f5e47702a484b8ff4c3a174428e0ee29c2125deb",
+                    "reference": "f5e47702a484b8ff4c3a174428e0ee29c2125deb",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2024-08-31T18:34:48+00:00",
+                "time": "2024-09-10T17:22:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Frédéric Demarle"
-                    }
-                ],
-                "description": "Polylang PRO",
                 "homepage": "https://polylang.pro",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/polylang-pro/issues",
-                    "source": "https://github.com/generoi/polylang-pro/tree/master"
+                    "source": "https://github.com/generoi/polylang-pro/tree/master",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             }
         },
@@ -5716,19 +5613,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-wc.git",
-                    "reference": "f8cb20941b3e63f865b7a3367b459e1c5b84f485"
+                    "reference": "5bf6a8dd87328343aca9b24d853935191e0941fc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-wc/zipball/f8cb20941b3e63f865b7a3367b459e1c5b84f485",
-                    "reference": "f8cb20941b3e63f865b7a3367b459e1c5b84f485",
+                    "url": "https://api.github.com/repos/generoi/polylang-wc/zipball/5bf6a8dd87328343aca9b24d853935191e0941fc",
+                    "reference": "5bf6a8dd87328343aca9b24d853935191e0941fc",
                     "shasum": ""
                 },
-                "time": "2024-09-10T09:42:26+00:00",
+                "time": "2024-09-10T17:17:09+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "description": "Polylang Woocommerce",
-                "homepage": "https://github.com/Mestrona/polylang-wc",
+                "homepage": "https://polylang.pro/downloads/polylang-for-woocommerce/",
                 "support": {
                     "source": "https://github.com/generoi/polylang-wc/tree/master",
                     "issues": "https://github.com/generoi/polylang-wc/issues"
@@ -5767,21 +5663,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/relevanssi-premium.git",
-                    "reference": "03abacb8d7874feeaea74fb09ab35ef4568f883f"
+                    "reference": "34b13aa843136f8a3d4909a657bd18cec5612f19"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/03abacb8d7874feeaea74fb09ab35ef4568f883f",
-                    "reference": "03abacb8d7874feeaea74fb09ab35ef4568f883f",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/34b13aa843136f8a3d4909a657bd18cec5612f19",
+                    "reference": "34b13aa843136f8a3d4909a657bd18cec5612f19",
                     "shasum": ""
                 },
-                "time": "2024-08-31T21:11:16+00:00",
+                "time": "2024-09-10T17:20:27+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "description": "Relevanssi Premium",
                 "homepage": "https://www.relevanssi.com/buy-premium/",
                 "support": {
-                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.26.0",
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/master",
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             }
@@ -5829,8 +5724,7 @@
                 "support": {
                     "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
                     "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/2.1.1"
-                },
-                "abandoned": true
+                }
             },
             "dev-master": {
                 "name": "generoi/role-based-pricing-for-woocommerce",
@@ -5839,44 +5733,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/role-based-pricing-for-woocommerce.git",
-                    "reference": "129fc5daf861d21eaa219eaca8f604fbce444242"
+                    "reference": "93eceaa7fa61b2f779eff36095f1d2ec829a5014"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/129fc5daf861d21eaa219eaca8f604fbce444242",
-                    "reference": "129fc5daf861d21eaa219eaca8f604fbce444242",
+                    "url": "https://api.github.com/repos/generoi/role-based-pricing-for-woocommerce/zipball/93eceaa7fa61b2f779eff36095f1d2ec829a5014",
+                    "reference": "93eceaa7fa61b2f779eff36095f1d2ec829a5014",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=7.0.0"
-                },
-                "time": "2024-08-31T17:51:03+00:00",
+                "time": "2024-09-10T17:23:39+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Addify",
-                        "homepage": "https://woocommerce.com/vendor/addify/"
-                    }
-                ],
-                "description": "Role Based Pricing for WooCommerce",
                 "homepage": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
-                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/master"
-                },
-                "abandoned": true
+                    "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/master",
+                    "issues": "https://github.com/generoi/role-based-pricing-for-woocommerce/issues"
+                }
             }
         },
         "generoi/wc-paytrail": {
@@ -6147,6 +6019,243 @@
                 }
             }
         },
+        "generoi/woocommerce-gift-cards": {
+            "2.0.3": {
+                "name": "generoi/woocommerce-gift-cards",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-gift-cards.git",
+                    "reference": "bc7e20c7822312c4ccc411d538310b03db9f8832"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/bc7e20c7822312c4ccc411d538310b03db9f8832",
+                    "reference": "bc7e20c7822312c4ccc411d538310b03db9f8832",
+                    "shasum": ""
+                },
+                "time": "2024-09-08T12:28:53+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/gift-cards/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.0.3",
+                    "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/woocommerce-gift-cards",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-gift-cards.git",
+                    "reference": "bc7e20c7822312c4ccc411d538310b03db9f8832"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/bc7e20c7822312c4ccc411d538310b03db9f8832",
+                    "reference": "bc7e20c7822312c4ccc411d538310b03db9f8832",
+                    "shasum": ""
+                },
+                "time": "2024-09-08T12:28:53+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/gift-cards/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.0.3",
+                    "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
+                }
+            }
+        },
+        "generoi/woocommerce-product-addons": {
+            "v3.0.33": {
+                "name": "generoi/woocommerce-product-addons",
+                "version": "v3.0.33",
+                "version_normalized": "3.0.33.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-product-addons.git",
+                    "reference": "d5f0b1466920ce6ab11c171cc80d3138bf3347b5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-product-addons/zipball/d5f0b1466920ce6ab11c171cc80d3138bf3347b5",
+                    "reference": "d5f0b1466920ce6ab11c171cc80d3138bf3347b5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2020-06-02T11:22:21+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WooCommerce Product Addons",
+                "homepage": "https://woocommerce.com/products/product-add-ons/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/woocommerce-product-addons/issues",
+                    "source": "https://github.com/generoi/woocommerce-product-addons/tree/v3.0.33"
+                }
+            },
+            "v3.8.0": {
+                "name": "generoi/woocommerce-product-addons",
+                "version": "v3.8.0",
+                "version_normalized": "3.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-product-addons.git",
+                    "reference": "9b681377088138f7d2ae9b57b022d8a9165fa329"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-product-addons/zipball/9b681377088138f7d2ae9b57b022d8a9165fa329",
+                    "reference": "9b681377088138f7d2ae9b57b022d8a9165fa329",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "time": "2021-04-16T13:24:54+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WooCommerce Product Addons",
+                "homepage": "https://woocommerce.com/products/product-add-ons/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/woocommerce-product-addons/issues",
+                    "source": "https://github.com/generoi/woocommerce-product-addons/tree/v3.8.0"
+                }
+            },
+            "7.0.3": {
+                "name": "generoi/woocommerce-product-addons",
+                "version": "7.0.3",
+                "version_normalized": "7.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-product-addons.git",
+                    "reference": "1728f88f60d292e97f21944378176605e6d6f09e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-product-addons/zipball/1728f88f60d292e97f21944378176605e6d6f09e",
+                    "reference": "1728f88f60d292e97f21944378176605e6d6f09e",
+                    "shasum": ""
+                },
+                "time": "2024-09-10T12:19:39+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/product-add-ons/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.0.3",
+                    "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/woocommerce-product-addons",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-product-addons.git",
+                    "reference": "1728f88f60d292e97f21944378176605e6d6f09e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-product-addons/zipball/1728f88f60d292e97f21944378176605e6d6f09e",
+                    "reference": "1728f88f60d292e97f21944378176605e6d6f09e",
+                    "shasum": ""
+                },
+                "time": "2024-09-10T12:19:39+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/product-add-ons/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.0.3",
+                    "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
+                }
+            }
+        },
+        "generoi/woocommerce-request-a-quote": {
+            "2.6.3": {
+                "name": "generoi/woocommerce-request-a-quote",
+                "version": "2.6.3",
+                "version_normalized": "2.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-request-a-quote.git",
+                    "reference": "95c323ee4803c52910535804f3b417c7aa2c039b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-request-a-quote/zipball/95c323ee4803c52910535804f3b417c7aa2c039b",
+                    "reference": "95c323ee4803c52910535804f3b417c7aa2c039b",
+                    "shasum": ""
+                },
+                "time": "2024-09-07T21:45:55+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/request-a-quote-plugin-for-woocommerce/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-request-a-quote/tree/2.6.3",
+                    "issues": "https://github.com/generoi/woocommerce-request-a-quote/issues"
+                },
+                "abandoned": true
+            },
+            "dev-master": {
+                "name": "generoi/woocommerce-request-a-quote",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-request-a-quote.git",
+                    "reference": "95c323ee4803c52910535804f3b417c7aa2c039b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-request-a-quote/zipball/95c323ee4803c52910535804f3b417c7aa2c039b",
+                    "reference": "95c323ee4803c52910535804f3b417c7aa2c039b",
+                    "shasum": ""
+                },
+                "time": "2024-09-07T21:45:55+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/request-a-quote-plugin-for-woocommerce/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-request-a-quote/tree/2.6.3",
+                    "issues": "https://github.com/generoi/woocommerce-request-a-quote/issues"
+                },
+                "abandoned": true
+            }
+        },
         "generoi/woocommerce-subscriptions": {
             "3.0.7": {
                 "name": "generoi/woocommerce-subscriptions",
@@ -6191,7 +6300,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
                     "source": "https://github.com/generoi/woocommerce-subscriptions/tree/3.0.7"
-                }
+                },
+                "abandoned": true
             },
             "6.6.1": {
                 "name": "generoi/woocommerce-subscriptions",
@@ -6235,7 +6345,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
                     "source": "https://github.com/generoi/woocommerce-subscriptions/tree/6.6.1"
-                }
+                },
+                "abandoned": true
             },
             "6.6.2": {
                 "name": "generoi/woocommerce-subscriptions",
@@ -6279,7 +6390,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
                     "source": "https://github.com/generoi/woocommerce-subscriptions/tree/6.6.2"
-                }
+                },
+                "abandoned": true
             },
             "dev-master": {
                 "name": "generoi/woocommerce-subscriptions",
@@ -6288,43 +6400,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-subscriptions.git",
-                    "reference": "a96d7f3d4a7ee7a0c24383f996f98e738b870562"
+                    "reference": "483653e90749c1ac2e1f82cd30ac798d12db0031"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/a96d7f3d4a7ee7a0c24383f996f98e738b870562",
-                    "reference": "a96d7f3d4a7ee7a0c24383f996f98e738b870562",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/483653e90749c1ac2e1f82cd30ac798d12db0031",
+                    "reference": "483653e90749c1ac2e1f82cd30ac798d12db0031",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=7.0.0"
-                },
-                "time": "2024-09-10T12:12:19+00:00",
+                "time": "2024-09-10T17:16:10+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Woo",
-                        "homepage": "https://woocommerce.com/vendor/woocommerce/"
-                    }
-                ],
-                "description": "Woocommerce Subscriptions",
                 "homepage": "https://woocommerce.com/products/woocommerce-subscriptions/",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
-                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/master"
-                }
+                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/master",
+                    "issues": "https://github.com/generoi/woocommerce-subscriptions/issues"
+                },
+                "abandoned": true
             }
         },
         "generoi/wp-all-import-pro": {
@@ -7100,42 +7192,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-import-pro.git",
-                    "reference": "2f283d48ca594dc195bccf382803f0bd726b996f"
+                    "reference": "d0483cc17325afba9d94b1e5eb5908f2e81dc551"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/2f283d48ca594dc195bccf382803f0bd726b996f",
-                    "reference": "2f283d48ca594dc195bccf382803f0bd726b996f",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/d0483cc17325afba9d94b1e5eb5908f2e81dc551",
+                    "reference": "d0483cc17325afba9d94b1e5eb5908f2e81dc551",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2024-08-31T18:31:53+00:00",
+                "time": "2024-09-10T17:22:48+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Oskar Schöldström",
-                        "email": "public@oxy.fi"
-                    }
-                ],
-                "description": "WP All Import Pro",
                 "homepage": "http://www.wpallimport.com",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/wp-all-import-pro/issues",
-                    "source": "https://github.com/generoi/wp-all-import-pro/tree/master"
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/master",
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             }
         },
@@ -7336,19 +7407,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/kinsta-mu-plugins.git",
-                    "reference": "444d8eb32541b687ba66f5b37f7e29286735fa17"
+                    "reference": "9169da05090bdd11e5b40a87dcdc7f3f5ef33824"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/444d8eb32541b687ba66f5b37f7e29286735fa17",
-                    "reference": "444d8eb32541b687ba66f5b37f7e29286735fa17",
+                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/9169da05090bdd11e5b40a87dcdc7f3f5ef33824",
+                    "reference": "9169da05090bdd11e5b40a87dcdc7f3f5ef33824",
                     "shasum": ""
                 },
-                "time": "2024-08-31T19:06:30+00:00",
+                "time": "2024-09-10T17:21:34+00:00",
                 "default-branch": true,
                 "type": "wordpress-muplugin",
+                "homepage": "https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/",
                 "support": {
-                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.1.1"
+                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/master"
                 }
             },
             "dev-php8_warning_fix": {

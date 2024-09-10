@@ -8,43 +8,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-subscriptions.git",
-                    "reference": "a96d7f3d4a7ee7a0c24383f996f98e738b870562"
+                    "reference": "483653e90749c1ac2e1f82cd30ac798d12db0031"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/a96d7f3d4a7ee7a0c24383f996f98e738b870562",
-                    "reference": "a96d7f3d4a7ee7a0c24383f996f98e738b870562",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-subscriptions/zipball/483653e90749c1ac2e1f82cd30ac798d12db0031",
+                    "reference": "483653e90749c1ac2e1f82cd30ac798d12db0031",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=7.0.0"
-                },
-                "time": "2024-09-10T12:12:19+00:00",
+                "time": "2024-09-10T17:16:10+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Woo",
-                        "homepage": "https://woocommerce.com/vendor/woocommerce/"
-                    }
-                ],
-                "description": "Woocommerce Subscriptions",
                 "homepage": "https://woocommerce.com/products/woocommerce-subscriptions/",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
-                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/master"
-                }
+                    "source": "https://github.com/generoi/woocommerce-subscriptions/tree/master",
+                    "issues": "https://github.com/generoi/woocommerce-subscriptions/issues"
+                },
+                "abandoned": true
             }
         ]
     }

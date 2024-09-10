@@ -8,42 +8,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp-i18n.git",
-                    "reference": "38bd4c546c5eb1901f3ad524a354b2de0cae588d"
+                    "reference": "666072ff2f76a6403e393a133b5940e75b0415f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/38bd4c546c5eb1901f3ad524a354b2de0cae588d",
-                    "reference": "38bd4c546c5eb1901f3ad524a354b2de0cae588d",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/666072ff2f76a6403e393a133b5940e75b0415f9",
+                    "reference": "666072ff2f76a6403e393a133b5940e75b0415f9",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2024-08-31T21:25:19+00:00",
+                "time": "2024-09-10T17:21:05+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Oskar Schöldström",
-                        "email": "public@oxy.fi"
-                    }
-                ],
-                "description": "Advanced Filtering Plugin for WordPress",
                 "homepage": "https://facetwp.com/add-ons/multilingual",
-                "keywords": [
-                    "wordpress"
-                ],
                 "support": {
-                    "issues": "https://github.com/generoi/facetwp-i18n/issues",
-                    "source": "https://github.com/generoi/facetwp-i18n/tree/1.0.1"
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/master",
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues"
                 }
             }
         ]

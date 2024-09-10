@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/woocommerce-request-a-quote": [
+            {
+                "name": "generoi/woocommerce-request-a-quote",
+                "version": "2.6.3",
+                "version_normalized": "2.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-request-a-quote.git",
+                    "reference": "95c323ee4803c52910535804f3b417c7aa2c039b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-request-a-quote/zipball/95c323ee4803c52910535804f3b417c7aa2c039b",
+                    "reference": "95c323ee4803c52910535804f3b417c7aa2c039b",
+                    "shasum": ""
+                },
+                "time": "2024-09-07T21:45:55+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/request-a-quote-plugin-for-woocommerce/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-request-a-quote/tree/2.6.3",
+                    "issues": "https://github.com/generoi/woocommerce-request-a-quote/issues"
+                },
+                "abandoned": true
+            }
+        ]
+    }
+}
