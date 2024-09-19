@@ -5656,6 +5656,29 @@
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             },
+            "2.26.1": {
+                "name": "generoi/relevanssi-premium",
+                "version": "2.26.1",
+                "version_normalized": "2.26.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/relevanssi-premium.git",
+                    "reference": "2e3613aa4984e1aae2672d97349aa49792d1a4cc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/2e3613aa4984e1aae2672d97349aa49792d1a4cc",
+                    "reference": "2e3613aa4984e1aae2672d97349aa49792d1a4cc",
+                    "shasum": ""
+                },
+                "time": "2024-09-19T04:11:38+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.relevanssi.com/buy-premium/",
+                "support": {
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.26.1",
+                    "issues": "https://github.com/generoi/relevanssi-premium/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/relevanssi-premium",
                 "version": "dev-master",
@@ -5663,20 +5686,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/relevanssi-premium.git",
-                    "reference": "34b13aa843136f8a3d4909a657bd18cec5612f19"
+                    "reference": "2e3613aa4984e1aae2672d97349aa49792d1a4cc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/34b13aa843136f8a3d4909a657bd18cec5612f19",
-                    "reference": "34b13aa843136f8a3d4909a657bd18cec5612f19",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/2e3613aa4984e1aae2672d97349aa49792d1a4cc",
+                    "reference": "2e3613aa4984e1aae2672d97349aa49792d1a4cc",
                     "shasum": ""
                 },
-                "time": "2024-09-10T17:20:27+00:00",
+                "time": "2024-09-19T04:11:38+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.relevanssi.com/buy-premium/",
                 "support": {
-                    "source": "https://github.com/generoi/relevanssi-premium/tree/master",
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.26.1",
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             }
