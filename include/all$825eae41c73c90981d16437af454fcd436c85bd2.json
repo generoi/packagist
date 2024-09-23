@@ -1645,6 +1645,153 @@
                 }
             }
         },
+        "generoi/cff-extensions": {
+            "1.7.3": {
+                "name": "generoi/cff-extensions",
+                "version": "1.7.3",
+                "version_normalized": "1.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/cff-extensions.git",
+                    "reference": "e6674af99c8cb50e92f02e598fa9885b1f288104"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/cff-extensions/zipball/e6674af99c8cb50e92f02e598fa9885b1f288104",
+                    "reference": "e6674af99c8cb50e92f02e598fa9885b1f288104",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:22:41+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://smashballoon.com/custom-facebook-feed/extensions/",
+                "support": {
+                    "source": "https://github.com/generoi/cff-extensions/tree/1.7.3",
+                    "issues": "https://github.com/generoi/cff-extensions/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/cff-extensions",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/cff-extensions.git",
+                    "reference": "e6674af99c8cb50e92f02e598fa9885b1f288104"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/cff-extensions/zipball/e6674af99c8cb50e92f02e598fa9885b1f288104",
+                    "reference": "e6674af99c8cb50e92f02e598fa9885b1f288104",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:22:41+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "http://smashballoon.com/custom-facebook-feed/extensions/",
+                "support": {
+                    "source": "https://github.com/generoi/cff-extensions/tree/1.7.3",
+                    "issues": "https://github.com/generoi/cff-extensions/issues"
+                }
+            }
+        },
+        "generoi/custom-facebook-feed-pro": {
+            "4.6.5": {
+                "name": "generoi/custom-facebook-feed-pro",
+                "version": "4.6.5",
+                "version_normalized": "4.6.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
+                    "reference": "b44ac613fc6c5898d3781ca56d3e15215a563d3f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/b44ac613fc6c5898d3781ca56d3e15215a563d3f",
+                    "reference": "b44ac613fc6c5898d3781ca56d3e15215a563d3f",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:54:45+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-facebook-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.6.5",
+                    "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/custom-facebook-feed-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
+                    "reference": "b44ac613fc6c5898d3781ca56d3e15215a563d3f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/b44ac613fc6c5898d3781ca56d3e15215a563d3f",
+                    "reference": "b44ac613fc6c5898d3781ca56d3e15215a563d3f",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:54:45+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-facebook-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.6.5",
+                    "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
+                }
+            }
+        },
+        "generoi/custom-twitter-feeds-pro": {
+            "2.4.3": {
+                "name": "generoi/custom-twitter-feeds-pro",
+                "version": "2.4.3",
+                "version_normalized": "2.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-twitter-feeds-pro.git",
+                    "reference": "98999f1566535af2bd74913c7eb96d1b02eea943"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/98999f1566535af2bd74913c7eb96d1b02eea943",
+                    "reference": "98999f1566535af2bd74913c7eb96d1b02eea943",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:14:45+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-twitter-feeds/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.4.3",
+                    "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/custom-twitter-feeds-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-twitter-feeds-pro.git",
+                    "reference": "98999f1566535af2bd74913c7eb96d1b02eea943"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/98999f1566535af2bd74913c7eb96d1b02eea943",
+                    "reference": "98999f1566535af2bd74913c7eb96d1b02eea943",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:14:45+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-twitter-feeds/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.4.3",
+                    "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
+                }
+            }
+        },
         "generoi/facetwp": {
             "v2.7.1": {
                 "name": "generoi/facetwp",
@@ -3549,6 +3696,55 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityforms/tree/master",
                     "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            }
+        },
+        "generoi/instagram-feed-pro": {
+            "6.4.1": {
+                "name": "generoi/instagram-feed-pro",
+                "version": "6.4.1",
+                "version_normalized": "6.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/instagram-feed-pro.git",
+                    "reference": "636e3dfa7d68b26ba0b9ffc5b22914ad1b8d3f70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/636e3dfa7d68b26ba0b9ffc5b22914ad1b8d3f70",
+                    "reference": "636e3dfa7d68b26ba0b9ffc5b22914ad1b8d3f70",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:07:00+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/instagram-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.4.1",
+                    "issues": "https://github.com/generoi/instagram-feed-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/instagram-feed-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/instagram-feed-pro.git",
+                    "reference": "636e3dfa7d68b26ba0b9ffc5b22914ad1b8d3f70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/636e3dfa7d68b26ba0b9ffc5b22914ad1b8d3f70",
+                    "reference": "636e3dfa7d68b26ba0b9ffc5b22914ad1b8d3f70",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:07:00+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/instagram-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.4.1",
+                    "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             }
         },
@@ -5774,6 +5970,55 @@
                 }
             }
         },
+        "generoi/social-wall": {
+            "2.2.2": {
+                "name": "generoi/social-wall",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/social-wall.git",
+                    "reference": "1dad8cbaa86bad123dcb9ecee78054009af4e8cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/social-wall/zipball/1dad8cbaa86bad123dcb9ecee78054009af4e8cf",
+                    "reference": "1dad8cbaa86bad123dcb9ecee78054009af4e8cf",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:19:38+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/social-wall/",
+                "support": {
+                    "source": "https://github.com/generoi/social-wall/tree/2.2.2",
+                    "issues": "https://github.com/generoi/social-wall/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/social-wall",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/social-wall.git",
+                    "reference": "1dad8cbaa86bad123dcb9ecee78054009af4e8cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/social-wall/zipball/1dad8cbaa86bad123dcb9ecee78054009af4e8cf",
+                    "reference": "1dad8cbaa86bad123dcb9ecee78054009af4e8cf",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:19:38+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/social-wall/",
+                "support": {
+                    "source": "https://github.com/generoi/social-wall/tree/2.2.2",
+                    "issues": "https://github.com/generoi/social-wall/issues"
+                }
+            }
+        },
         "generoi/wc-paytrail": {
             "2.6.2": {
                 "name": "generoi/wc-paytrail",
@@ -7253,6 +7498,55 @@
                 "support": {
                     "source": "https://github.com/generoi/wp-all-import-pro/tree/master",
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
+                }
+            }
+        },
+        "generoi/youtube-feed-pro": {
+            "2.3.1": {
+                "name": "generoi/youtube-feed-pro",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/youtube-feed-pro.git",
+                    "reference": "7acf7414f58741629c488bb81b56296d3113fe65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/7acf7414f58741629c488bb81b56296d3113fe65",
+                    "reference": "7acf7414f58741629c488bb81b56296d3113fe65",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:19:34+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/youtube-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.3.1",
+                    "issues": "https://github.com/generoi/youtube-feed-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/youtube-feed-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/youtube-feed-pro.git",
+                    "reference": "7acf7414f58741629c488bb81b56296d3113fe65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/7acf7414f58741629c488bb81b56296d3113fe65",
+                    "reference": "7acf7414f58741629c488bb81b56296d3113fe65",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:19:34+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/youtube-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.3.1",
+                    "issues": "https://github.com/generoi/youtube-feed-pro/issues"
                 }
             }
         },

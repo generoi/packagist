@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/cff-extensions": [
+            {
+                "name": "generoi/cff-extensions",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/cff-extensions.git",
+                    "reference": "e6674af99c8cb50e92f02e598fa9885b1f288104"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/cff-extensions/zipball/e6674af99c8cb50e92f02e598fa9885b1f288104",
+                    "reference": "e6674af99c8cb50e92f02e598fa9885b1f288104",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:22:41+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "http://smashballoon.com/custom-facebook-feed/extensions/",
+                "support": {
+                    "source": "https://github.com/generoi/cff-extensions/tree/1.7.3",
+                    "issues": "https://github.com/generoi/cff-extensions/issues"
+                }
+            }
+        ]
+    }
+}

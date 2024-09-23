@@ -1,20 +1,25 @@
 {
     "packages": [],
     "includes": {
-        "include/all$7c6ddcd7810ff6e08f6f637fed2bec059f627035.json": {
-            "sha1": "7c6ddcd7810ff6e08f6f637fed2bec059f627035"
+        "include/all$825eae41c73c90981d16437af454fcd436c85bd2.json": {
+            "sha1": "825eae41c73c90981d16437af454fcd436c85bd2"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
     "available-packages": [
         "generoi/advanced-custom-fields-pro",
+        "generoi/cff-extensions",
+        "generoi/custom-facebook-feed-pro",
+        "generoi/custom-twitter-feeds-pro",
         "generoi/facetwp",
         "generoi/facetwp-i18n",
         "generoi/gravityforms",
+        "generoi/instagram-feed-pro",
         "generoi/polylang-pro",
         "generoi/polylang-wc",
         "generoi/relevanssi-premium",
         "generoi/role-based-pricing-for-woocommerce",
+        "generoi/social-wall",
         "generoi/wc-paytrail",
         "generoi/wc-smartship",
         "generoi/woo-carrier-agents",
@@ -25,6 +30,7 @@
         "generoi/woocommerce-request-a-quote",
         "generoi/woocommerce-subscriptions",
         "generoi/wp-all-import-pro",
+        "generoi/youtube-feed-pro",
         "kinsta/kinsta-mu-plugins"
     ]
 }

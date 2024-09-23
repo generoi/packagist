@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "generoi/youtube-feed-pro": [
+            {
+                "name": "generoi/youtube-feed-pro",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/youtube-feed-pro.git",
+                    "reference": "7acf7414f58741629c488bb81b56296d3113fe65"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/7acf7414f58741629c488bb81b56296d3113fe65",
+                    "reference": "7acf7414f58741629c488bb81b56296d3113fe65",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:19:34+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/youtube-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.3.1",
+                    "issues": "https://github.com/generoi/youtube-feed-pro/issues"
+                }
+            }
+        ]
+    }
+}

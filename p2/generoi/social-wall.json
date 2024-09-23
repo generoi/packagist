@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "generoi/social-wall": [
+            {
+                "name": "generoi/social-wall",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/social-wall.git",
+                    "reference": "1dad8cbaa86bad123dcb9ecee78054009af4e8cf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/social-wall/zipball/1dad8cbaa86bad123dcb9ecee78054009af4e8cf",
+                    "reference": "1dad8cbaa86bad123dcb9ecee78054009af4e8cf",
+                    "shasum": ""
+                },
+                "time": "2024-09-23T14:19:38+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/social-wall/",
+                "support": {
+                    "source": "https://github.com/generoi/social-wall/tree/2.2.2",
+                    "issues": "https://github.com/generoi/social-wall/issues"
+                }
+            }
+        ]
+    }
+}
