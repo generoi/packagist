@@ -3,14 +3,19 @@
     "homepage": "https://generoi.github.io/packagist",
     "repositories": [
         { "type": "vcs", "url": "https://github.com/generoi/advanced-custom-fields-pro.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/cff-extensions.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/custom-facebook-feed-pro.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/custom-twitter-feeds-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/facetwp.git" },
         { "type": "vcs", "url": "https://github.com/generoi/facetwp-i18n.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityforms.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/instagram-feed-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/kinsta-mu-plugins" },
         { "type": "vcs", "url": "https://github.com/generoi/polylang-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/polylang-wc.git" },
         { "type": "vcs", "url": "https://github.com/generoi/relevanssi-premium.git" },
         { "type": "vcs", "url": "https://github.com/generoi/role-based-pricing-for-woocommerce.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/social-wall.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wc-paytrail.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wc-smartship.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-gateway-verifone.git" },
@@ -20,7 +25,8 @@
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-request-a-quote.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woo-carrier-agents.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woo-printables.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wp-all-import-pro" }
+        { "type": "vcs", "url": "https://github.com/generoi/wp-all-import-pro.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/youtube-feed-pro.git" }
     ],
     "require-all": true
 }
