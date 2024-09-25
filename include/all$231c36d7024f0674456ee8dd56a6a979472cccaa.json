@@ -6311,6 +6311,29 @@
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
             },
+            "2.0.4": {
+                "name": "generoi/woocommerce-gift-cards",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-gift-cards.git",
+                    "reference": "baf322183c7c024aafe7d67ecabaf37610325149"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/baf322183c7c024aafe7d67ecabaf37610325149",
+                    "reference": "baf322183c7c024aafe7d67ecabaf37610325149",
+                    "shasum": ""
+                },
+                "time": "2024-09-25T04:10:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/gift-cards/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.0.4",
+                    "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/woocommerce-gift-cards",
                 "version": "dev-master",
@@ -6318,20 +6341,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-gift-cards.git",
-                    "reference": "bc7e20c7822312c4ccc411d538310b03db9f8832"
+                    "reference": "baf322183c7c024aafe7d67ecabaf37610325149"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/bc7e20c7822312c4ccc411d538310b03db9f8832",
-                    "reference": "bc7e20c7822312c4ccc411d538310b03db9f8832",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/baf322183c7c024aafe7d67ecabaf37610325149",
+                    "reference": "baf322183c7c024aafe7d67ecabaf37610325149",
                     "shasum": ""
                 },
-                "time": "2024-09-08T12:28:53+00:00",
+                "time": "2024-09-25T04:10:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://woocommerce.com/products/gift-cards/",
                 "support": {
-                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.0.3",
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.0.4",
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
             }
@@ -7525,6 +7548,29 @@
                     "issues": "https://github.com/generoi/youtube-feed-pro/issues"
                 }
             },
+            "2.4": {
+                "name": "generoi/youtube-feed-pro",
+                "version": "2.4",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/youtube-feed-pro.git",
+                    "reference": "727cd99adf79abe12c9dc8fc1c9fd3bfc6fe8391"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/727cd99adf79abe12c9dc8fc1c9fd3bfc6fe8391",
+                    "reference": "727cd99adf79abe12c9dc8fc1c9fd3bfc6fe8391",
+                    "shasum": ""
+                },
+                "time": "2024-09-25T04:10:17+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/youtube-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.4",
+                    "issues": "https://github.com/generoi/youtube-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/youtube-feed-pro",
                 "version": "dev-master",
@@ -7532,20 +7578,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/youtube-feed-pro.git",
-                    "reference": "7acf7414f58741629c488bb81b56296d3113fe65"
+                    "reference": "727cd99adf79abe12c9dc8fc1c9fd3bfc6fe8391"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/7acf7414f58741629c488bb81b56296d3113fe65",
-                    "reference": "7acf7414f58741629c488bb81b56296d3113fe65",
+                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/727cd99adf79abe12c9dc8fc1c9fd3bfc6fe8391",
+                    "reference": "727cd99adf79abe12c9dc8fc1c9fd3bfc6fe8391",
                     "shasum": ""
                 },
-                "time": "2024-09-23T14:19:34+00:00",
+                "time": "2024-09-25T04:10:17+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/youtube-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.3.1",
+                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.4",
                     "issues": "https://github.com/generoi/youtube-feed-pro/issues"
                 }
             }
