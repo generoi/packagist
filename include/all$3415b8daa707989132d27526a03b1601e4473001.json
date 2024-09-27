@@ -2684,6 +2684,145 @@
                 }
             }
         },
+        "generoi/facetwp-relevanssi": {
+            "v0.5.1": {
+                "name": "generoi/facetwp-relevanssi",
+                "version": "v0.5.1",
+                "version_normalized": "0.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-relevanssi.git",
+                    "reference": "75ca2876877f7df4af7ae8ae2337d67cf0da5fa2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-relevanssi/zipball/75ca2876877f7df4af7ae8ae2337d67cf0da5fa2",
+                    "reference": "75ca2876877f7df4af7ae8ae2337d67cf0da5fa2",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-05-16T15:07:47+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Relevanssi Integration for FacetWP",
+                "homepage": "https://facetwp.com/add-ons/relevanssi/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-relevanssi/issues",
+                    "source": "https://github.com/generoi/facetwp-relevanssi/tree/v0.5.1"
+                }
+            },
+            "v0.7.1": {
+                "name": "generoi/facetwp-relevanssi",
+                "version": "v0.7.1",
+                "version_normalized": "0.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-relevanssi.git",
+                    "reference": "8fcc60fe439cf700af29ca0551da6ea151452308"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-relevanssi/zipball/8fcc60fe439cf700af29ca0551da6ea151452308",
+                    "reference": "8fcc60fe439cf700af29ca0551da6ea151452308",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-02-27T14:01:17+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Relevanssi Integration for FacetWP",
+                "homepage": "https://facetwp.com/add-ons/relevanssi/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-relevanssi/issues",
+                    "source": "https://github.com/generoi/facetwp-relevanssi/tree/v0.7.1"
+                }
+            },
+            "0.8.2": {
+                "name": "generoi/facetwp-relevanssi",
+                "version": "0.8.2",
+                "version_normalized": "0.8.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-relevanssi.git",
+                    "reference": "73e67b3017692d7b47fe374847d5aa397a813480"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-relevanssi/zipball/73e67b3017692d7b47fe374847d5aa397a813480",
+                    "reference": "73e67b3017692d7b47fe374847d5aa397a813480",
+                    "shasum": ""
+                },
+                "time": "2024-09-27T11:29:43+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/add-ons/relevanssi/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-relevanssi/tree/0.8.2",
+                    "issues": "https://github.com/generoi/facetwp-relevanssi/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/facetwp-relevanssi",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-relevanssi.git",
+                    "reference": "73e67b3017692d7b47fe374847d5aa397a813480"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-relevanssi/zipball/73e67b3017692d7b47fe374847d5aa397a813480",
+                    "reference": "73e67b3017692d7b47fe374847d5aa397a813480",
+                    "shasum": ""
+                },
+                "time": "2024-09-27T11:29:43+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/add-ons/relevanssi/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-relevanssi/tree/0.8.2",
+                    "issues": "https://github.com/generoi/facetwp-relevanssi/issues"
+                }
+            }
+        },
         "generoi/gravityforms": {
             "v2.1.2": {
                 "name": "generoi/gravityforms",
@@ -7521,6 +7660,370 @@
                 "support": {
                     "source": "https://github.com/generoi/wp-all-import-pro/tree/master",
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
+                }
+            }
+        },
+        "generoi/wpai-acf-add-on": {
+            "v3.1.2": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "v3.1.2",
+                "version_normalized": "3.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "e0de2f3c52b330738c2bdafed490bbbf983e8268"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/e0de2f3c52b330738c2bdafed490bbbf983e8268",
+                    "reference": "e0de2f3c52b330738c2bdafed490bbbf983e8268",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-02-07T09:29:04+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import ACF Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/v3.1.2"
+                }
+            },
+            "v3.1.4": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "v3.1.4",
+                "version_normalized": "3.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "319970ed81eb41d2495081f4d8a7ee83b37e8161"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/319970ed81eb41d2495081f4d8a7ee83b37e8161",
+                    "reference": "319970ed81eb41d2495081f4d8a7ee83b37e8161",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-03-09T08:19:11+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import ACF Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/v3.1.4"
+                }
+            },
+            "v3.1.4.1": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "v3.1.4.1",
+                "version_normalized": "3.1.4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "28c6f311b926ebff287c69963c56903ab2fbbb79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/28c6f311b926ebff287c69963c56903ab2fbbb79",
+                    "reference": "28c6f311b926ebff287c69963c56903ab2fbbb79",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-27T12:13:50+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import ACF Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/v3.1.4.1"
+                }
+            },
+            "v3.1.5": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "v3.1.5",
+                "version_normalized": "3.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "38adbab7ac30d59516e1de04c6cb25e61889d127"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/38adbab7ac30d59516e1de04c6cb25e61889d127",
+                    "reference": "38adbab7ac30d59516e1de04c6cb25e61889d127",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-20T15:34:53+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import ACF Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/v3.1.5"
+                }
+            },
+            "v3.1.6": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "v3.1.6",
+                "version_normalized": "3.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "4893037e20eed0bc2c596282e33ec55c9a1bc36e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/4893037e20eed0bc2c596282e33ec55c9a1bc36e",
+                    "reference": "4893037e20eed0bc2c596282e33ec55c9a1bc36e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:28:13+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import ACF Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/v3.1.6"
+                }
+            },
+            "v3.2.0": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "v3.2.0",
+                "version_normalized": "3.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "680d4aacfb880a84617e9917e79ba0808b824720"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/680d4aacfb880a84617e9917e79ba0808b824720",
+                    "reference": "680d4aacfb880a84617e9917e79ba0808b824720",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-03-08T21:15:11+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import ACF Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/v3.2.0"
+                }
+            },
+            "v3.2.5": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "v3.2.5",
+                "version_normalized": "3.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "617af45a922fdcf906efb982ab20f0e3666f7544"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/617af45a922fdcf906efb982ab20f0e3666f7544",
+                    "reference": "617af45a922fdcf906efb982ab20f0e3666f7544",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-02-06T11:21:21+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import ACF Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/v3.2.5"
+                }
+            },
+            "3.3.8": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "3.3.8",
+                "version_normalized": "3.3.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "91912e71306bd640adbd071141e2b4ab0c2ad13c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/91912e71306bd640adbd071141e2b4ab0c2ad13c",
+                    "reference": "91912e71306bd640adbd071141e2b4ab0c2ad13c",
+                    "shasum": ""
+                },
+                "time": "2024-09-27T11:37:32+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/3.3.8",
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "91912e71306bd640adbd071141e2b4ab0c2ad13c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/91912e71306bd640adbd071141e2b4ab0c2ad13c",
+                    "reference": "91912e71306bd640adbd071141e2b4ab0c2ad13c",
+                    "shasum": ""
+                },
+                "time": "2024-09-27T11:37:32+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/3.3.8",
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues"
                 }
             }
         },

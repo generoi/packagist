@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/wpai-acf-add-on": [
+            {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "91912e71306bd640adbd071141e2b4ab0c2ad13c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/91912e71306bd640adbd071141e2b4ab0c2ad13c",
+                    "reference": "91912e71306bd640adbd071141e2b4ab0c2ad13c",
+                    "shasum": ""
+                },
+                "time": "2024-09-27T11:37:32+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/3.3.8",
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues"
+                }
+            }
+        ]
+    }
+}

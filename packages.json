@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$231c36d7024f0674456ee8dd56a6a979472cccaa.json": {
-            "sha1": "231c36d7024f0674456ee8dd56a6a979472cccaa"
+        "include/all$3415b8daa707989132d27526a03b1601e4473001.json": {
+            "sha1": "3415b8daa707989132d27526a03b1601e4473001"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -13,6 +13,7 @@
         "generoi/custom-twitter-feeds-pro",
         "generoi/facetwp",
         "generoi/facetwp-i18n",
+        "generoi/facetwp-relevanssi",
         "generoi/gravityforms",
         "generoi/instagram-feed-pro",
         "generoi/polylang-pro",
@@ -30,6 +31,7 @@
         "generoi/woocommerce-request-a-quote",
         "generoi/woocommerce-subscriptions",
         "generoi/wp-all-import-pro",
+        "generoi/wpai-acf-add-on",
         "generoi/youtube-feed-pro",
         "kinsta/kinsta-mu-plugins"
     ]

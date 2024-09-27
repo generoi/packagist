@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/facetwp-relevanssi": [
+            {
+                "name": "generoi/facetwp-relevanssi",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-relevanssi.git",
+                    "reference": "73e67b3017692d7b47fe374847d5aa397a813480"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-relevanssi/zipball/73e67b3017692d7b47fe374847d5aa397a813480",
+                    "reference": "73e67b3017692d7b47fe374847d5aa397a813480",
+                    "shasum": ""
+                },
+                "time": "2024-09-27T11:29:43+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/add-ons/relevanssi/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-relevanssi/tree/0.8.2",
+                    "issues": "https://github.com/generoi/facetwp-relevanssi/issues"
+                }
+            }
+        ]
+    }
+}
