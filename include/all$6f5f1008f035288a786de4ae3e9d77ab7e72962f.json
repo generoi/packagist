@@ -2823,6 +2823,55 @@
                 }
             }
         },
+        "generoi/filebird-pro": {
+            "v5.0.5": {
+                "name": "generoi/filebird-pro",
+                "version": "v5.0.5",
+                "version_normalized": "5.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/filebird-pro.git",
+                    "reference": "ba0f8707585b54c4ea99621b95c29f0914886e42"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/filebird-pro/zipball/ba0f8707585b54c4ea99621b95c29f0914886e42",
+                    "reference": "ba0f8707585b54c4ea99621b95c29f0914886e42",
+                    "shasum": ""
+                },
+                "time": "2024-09-30T11:11:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://codecanyon.net/item/media-folders-manager-for-wordpress/21715379",
+                "support": {
+                    "source": "https://github.com/generoi/filebird-pro/tree/v5.0.5",
+                    "issues": "https://github.com/generoi/filebird-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/filebird-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/filebird-pro.git",
+                    "reference": "ba0f8707585b54c4ea99621b95c29f0914886e42"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/filebird-pro/zipball/ba0f8707585b54c4ea99621b95c29f0914886e42",
+                    "reference": "ba0f8707585b54c4ea99621b95c29f0914886e42",
+                    "shasum": ""
+                },
+                "time": "2024-09-30T11:11:40+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://codecanyon.net/item/media-folders-manager-for-wordpress/21715379",
+                "support": {
+                    "source": "https://github.com/generoi/filebird-pro/tree/v5.0.5",
+                    "issues": "https://github.com/generoi/filebird-pro/issues"
+                }
+            }
+        },
         "generoi/gravityforms": {
             "v2.1.2": {
                 "name": "generoi/gravityforms",
@@ -6495,6 +6544,55 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.0.4",
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
+                }
+            }
+        },
+        "generoi/woocommerce-measurement-price-calculator": {
+            "3.23.6": {
+                "name": "generoi/woocommerce-measurement-price-calculator",
+                "version": "3.23.6",
+                "version_normalized": "3.23.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-measurement-price-calculator.git",
+                    "reference": "b6fdf80e3a28aaf0af44e7c763fa76c1f5dfacbb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-measurement-price-calculator/zipball/b6fdf80e3a28aaf0af44e7c763fa76c1f5dfacbb",
+                    "reference": "b6fdf80e3a28aaf0af44e7c763fa76c1f5dfacbb",
+                    "shasum": ""
+                },
+                "time": "2024-09-30T11:04:45+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/measurement-price-calculator/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-measurement-price-calculator/tree/3.23.6",
+                    "issues": "https://github.com/generoi/woocommerce-measurement-price-calculator/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/woocommerce-measurement-price-calculator",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-measurement-price-calculator.git",
+                    "reference": "b6fdf80e3a28aaf0af44e7c763fa76c1f5dfacbb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-measurement-price-calculator/zipball/b6fdf80e3a28aaf0af44e7c763fa76c1f5dfacbb",
+                    "reference": "b6fdf80e3a28aaf0af44e7c763fa76c1f5dfacbb",
+                    "shasum": ""
+                },
+                "time": "2024-09-30T11:04:45+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/measurement-price-calculator/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-measurement-price-calculator/tree/3.23.6",
+                    "issues": "https://github.com/generoi/woocommerce-measurement-price-calculator/issues"
                 }
             }
         },

@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$3415b8daa707989132d27526a03b1601e4473001.json": {
-            "sha1": "3415b8daa707989132d27526a03b1601e4473001"
+        "include/all$6f5f1008f035288a786de4ae3e9d77ab7e72962f.json": {
+            "sha1": "6f5f1008f035288a786de4ae3e9d77ab7e72962f"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -14,6 +14,7 @@
         "generoi/facetwp",
         "generoi/facetwp-i18n",
         "generoi/facetwp-relevanssi",
+        "generoi/filebird-pro",
         "generoi/gravityforms",
         "generoi/instagram-feed-pro",
         "generoi/polylang-pro",
@@ -27,6 +28,7 @@
         "generoi/woo-printables",
         "generoi/woocommerce-gateway-verifone",
         "generoi/woocommerce-gift-cards",
+        "generoi/woocommerce-measurement-price-calculator",
         "generoi/woocommerce-product-addons",
         "generoi/woocommerce-request-a-quote",
         "generoi/woocommerce-subscriptions",
