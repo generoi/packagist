@@ -2659,6 +2659,29 @@
                     "source": "https://github.com/generoi/facetwp-i18n/tree/v1.0.1"
                 }
             },
+            "v1.0.1.1": {
+                "name": "generoi/facetwp-i18n",
+                "version": "v1.0.1.1",
+                "version_normalized": "1.0.1.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-i18n.git",
+                    "reference": "666072ff2f76a6403e393a133b5940e75b0415f9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/666072ff2f76a6403e393a133b5940e75b0415f9",
+                    "reference": "666072ff2f76a6403e393a133b5940e75b0415f9",
+                    "shasum": ""
+                },
+                "time": "2024-09-10T17:21:05+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/add-ons/multilingual",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/v1.0.1.1",
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/facetwp-i18n",
                 "version": "dev-master",
@@ -2679,7 +2702,7 @@
                 "type": "wordpress-plugin",
                 "homepage": "https://facetwp.com/add-ons/multilingual",
                 "support": {
-                    "source": "https://github.com/generoi/facetwp-i18n/tree/master",
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/v1.0.1.1",
                     "issues": "https://github.com/generoi/facetwp-i18n/issues"
                 }
             }

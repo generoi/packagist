@@ -21,7 +21,7 @@
                 "type": "wordpress-plugin",
                 "homepage": "https://facetwp.com/add-ons/multilingual",
                 "support": {
-                    "source": "https://github.com/generoi/facetwp-i18n/tree/master",
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/v1.0.1.1",
                     "issues": "https://github.com/generoi/facetwp-i18n/issues"
                 }
             }
