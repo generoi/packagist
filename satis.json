@@ -9,6 +9,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/facetwp.git" },
         { "type": "vcs", "url": "https://github.com/generoi/facetwp-i18n.git" },
         { "type": "vcs", "url": "https://github.com/generoi/facetwp-relevanssi.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/filebird-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityforms.git" },
         { "type": "vcs", "url": "https://github.com/generoi/instagram-feed-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/kinsta-mu-plugins" },
