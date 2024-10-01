@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-product-addons.git",
-                    "reference": "09a5cb37322afce0168dbfcb66e2aaab246bd10a"
+                    "reference": "afb22d7a0d2b79bb17b70fd39171700d1626b7c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-product-addons/zipball/09a5cb37322afce0168dbfcb66e2aaab246bd10a",
-                    "reference": "09a5cb37322afce0168dbfcb66e2aaab246bd10a",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-product-addons/zipball/afb22d7a0d2b79bb17b70fd39171700d1626b7c7",
+                    "reference": "afb22d7a0d2b79bb17b70fd39171700d1626b7c7",
                     "shasum": ""
                 },
-                "time": "2024-09-18T04:10:09+00:00",
+                "time": "2024-10-01T04:10:13+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://woocommerce.com/products/product-add-ons/",
                 "support": {
-                    "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.1.0",
+                    "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.1.1",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
                 }
             }
