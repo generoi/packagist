@@ -6470,6 +6470,29 @@
                     "issues": "https://github.com/generoi/woo-printables/issues"
                 }
             },
+            "1.5.1": {
+                "name": "generoi/woo-printables",
+                "version": "1.5.1",
+                "version_normalized": "1.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woo-printables.git",
+                    "reference": "a7ca6d01b0bc5aa89bf2d66951e007185094c109"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woo-printables/zipball/a7ca6d01b0bc5aa89bf2d66951e007185094c109",
+                    "reference": "a7ca6d01b0bc5aa89bf2d66951e007185094c109",
+                    "shasum": ""
+                },
+                "time": "2024-10-07T04:09:26+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/guide/woocommerce-kuitti-pakkauslista-ohje/",
+                "support": {
+                    "source": "https://github.com/generoi/woo-printables/tree/1.5.1",
+                    "issues": "https://github.com/generoi/woo-printables/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/woo-printables",
                 "version": "dev-master",
@@ -6477,20 +6500,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woo-printables.git",
-                    "reference": "ffc3c5013af6a7b294b04408a1cea55e8c680120"
+                    "reference": "a7ca6d01b0bc5aa89bf2d66951e007185094c109"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woo-printables/zipball/ffc3c5013af6a7b294b04408a1cea55e8c680120",
-                    "reference": "ffc3c5013af6a7b294b04408a1cea55e8c680120",
+                    "url": "https://api.github.com/repos/generoi/woo-printables/zipball/a7ca6d01b0bc5aa89bf2d66951e007185094c109",
+                    "reference": "a7ca6d01b0bc5aa89bf2d66951e007185094c109",
                     "shasum": ""
                 },
-                "time": "2024-10-03T04:10:16+00:00",
+                "time": "2024-10-07T04:09:26+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/guide/woocommerce-kuitti-pakkauslista-ohje/",
                 "support": {
-                    "source": "https://github.com/generoi/woo-printables/tree/1.5.0",
+                    "source": "https://github.com/generoi/woo-printables/tree/1.5.1",
                     "issues": "https://github.com/generoi/woo-printables/issues"
                 }
             }
