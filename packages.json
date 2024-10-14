@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$988d0a229d851da5a2e1a3c106d2f0af04e5247f.json": {
-            "sha1": "988d0a229d851da5a2e1a3c106d2f0af04e5247f"
+        "include/all$53c7956e5d689755260b52abcb6decd778b7f9ac.json": {
+            "sha1": "53c7956e5d689755260b52abcb6decd778b7f9ac"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -12,6 +12,7 @@
         "generoi/custom-facebook-feed-pro",
         "generoi/custom-twitter-feeds-pro",
         "generoi/facetwp",
+        "generoi/facetwp-flyout",
         "generoi/facetwp-i18n",
         "generoi/facetwp-relevanssi",
         "generoi/filebird-pro",
