@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$84eb2ae742bb0a872b9bdafaef0f41ca21b16a70.json": {
-            "sha1": "84eb2ae742bb0a872b9bdafaef0f41ca21b16a70"
+        "include/all$ce363fa168015f349f825d821b1bc69a3a10b65b.json": {
+            "sha1": "ce363fa168015f349f825d821b1bc69a3a10b65b"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -17,6 +17,7 @@
         "generoi/facetwp-relevanssi",
         "generoi/filebird-pro",
         "generoi/gravityforms",
+        "generoi/gravityformsmailchimp",
         "generoi/instagram-feed-pro",
         "generoi/multilingualpress",
         "generoi/polylang-pro",
