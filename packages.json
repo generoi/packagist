@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$ce363fa168015f349f825d821b1bc69a3a10b65b.json": {
-            "sha1": "ce363fa168015f349f825d821b1bc69a3a10b65b"
+        "include/all$f5aad0dc51e2d7657628f30c90ce18e9f952e7ee.json": {
+            "sha1": "f5aad0dc51e2d7657628f30c90ce18e9f952e7ee"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -16,6 +16,7 @@
         "generoi/facetwp-i18n",
         "generoi/facetwp-relevanssi",
         "generoi/filebird-pro",
+        "generoi/gravity-forms-user-verification",
         "generoi/gravityforms",
         "generoi/gravityformsmailchimp",
         "generoi/instagram-feed-pro",
