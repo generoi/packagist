@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/multilingualpress": [
+            {
+                "name": "generoi/multilingualpress",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "02004f3333a576c91499acfbbc5af688f0622284"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/02004f3333a576c91499acfbbc5af688f0622284",
+                    "reference": "02004f3333a576c91499acfbbc5af688f0622284",
+                    "shasum": ""
+                },
+                "time": "2024-10-15T12:00:01+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://www.multilingualpress.org",
+                "support": {
+                    "source": "https://github.com/generoi/multilingualpress/tree/master",
+                    "issues": "https://github.com/generoi/multilingualpress/issues"
+                }
+            }
+        ]
+    }
+}

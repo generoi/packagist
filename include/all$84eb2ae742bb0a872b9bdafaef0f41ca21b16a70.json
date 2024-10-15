@@ -4077,6 +4077,280 @@
                 }
             }
         },
+        "generoi/multilingualpress": {
+            "v3.2.0": {
+                "name": "generoi/multilingualpress",
+                "version": "v3.2.0",
+                "version_normalized": "3.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "d1e4a693ae4ec2dceed7bc40a273e325d1f8e49f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/d1e4a693ae4ec2dceed7bc40a273e325d1f8e49f",
+                    "reference": "d1e4a693ae4ec2dceed7bc40a273e325d1f8e49f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-06-28T10:03:47+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "MultilingualPress",
+                "homepage": "https://www.multilingualpress.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/multilingualpress/issues",
+                    "source": "https://github.com/generoi/multilingualpress/tree/v3.2.0"
+                }
+            },
+            "v3.2.0.1": {
+                "name": "generoi/multilingualpress",
+                "version": "v3.2.0.1",
+                "version_normalized": "3.2.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "d74b4bbc5e9955aaff224de61106488a2fa5dc59"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/d74b4bbc5e9955aaff224de61106488a2fa5dc59",
+                    "reference": "d74b4bbc5e9955aaff224de61106488a2fa5dc59",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-09-26T12:18:58+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "MultilingualPress",
+                "homepage": "https://www.multilingualpress.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/multilingualpress/issues",
+                    "source": "https://github.com/generoi/multilingualpress/tree/v3.2.0.1"
+                }
+            },
+            "v3.3.0": {
+                "name": "generoi/multilingualpress",
+                "version": "v3.3.0",
+                "version_normalized": "3.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "22bc2721b77b7183878e34699aef5bae0235981e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/22bc2721b77b7183878e34699aef5bae0235981e",
+                    "reference": "22bc2721b77b7183878e34699aef5bae0235981e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-09-26T12:51:35+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "MultilingualPress",
+                "homepage": "https://www.multilingualpress.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/multilingualpress/issues",
+                    "source": "https://github.com/generoi/multilingualpress/tree/v3.3.0"
+                }
+            },
+            "v3.3.0.1": {
+                "name": "generoi/multilingualpress",
+                "version": "v3.3.0.1",
+                "version_normalized": "3.3.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "c04501a5ed0254ea59408f0e80e6017f66eb452a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/c04501a5ed0254ea59408f0e80e6017f66eb452a",
+                    "reference": "c04501a5ed0254ea59408f0e80e6017f66eb452a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-10-02T13:37:31+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "MultilingualPress",
+                "homepage": "https://www.multilingualpress.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/multilingualpress/issues",
+                    "source": "https://github.com/generoi/multilingualpress/tree/v3.3.0.1"
+                }
+            },
+            "v3.3.0.2": {
+                "name": "generoi/multilingualpress",
+                "version": "v3.3.0.2",
+                "version_normalized": "3.3.0.2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "3ced1d74c837ba0d53f8f5c89a5b8174470a8323"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/3ced1d74c837ba0d53f8f5c89a5b8174470a8323",
+                    "reference": "3ced1d74c837ba0d53f8f5c89a5b8174470a8323",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-11-17T15:14:45+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "MultilingualPress",
+                "homepage": "https://www.multilingualpress.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/multilingualpress/issues",
+                    "source": "https://github.com/generoi/multilingualpress/tree/v3.3.0.2"
+                }
+            },
+            "4.7.2": {
+                "name": "generoi/multilingualpress",
+                "version": "4.7.2",
+                "version_normalized": "4.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "b4f9f3af8cf08d1c426aec938dadb8c10d212453"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/b4f9f3af8cf08d1c426aec938dadb8c10d212453",
+                    "reference": "b4f9f3af8cf08d1c426aec938dadb8c10d212453",
+                    "shasum": ""
+                },
+                "time": "2024-10-15T11:55:53+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.multilingualpress.org",
+                "support": {
+                    "source": "https://github.com/generoi/multilingualpress/tree/4.7.2",
+                    "issues": "https://github.com/generoi/multilingualpress/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/multilingualpress",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "02004f3333a576c91499acfbbc5af688f0622284"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/02004f3333a576c91499acfbbc5af688f0622284",
+                    "reference": "02004f3333a576c91499acfbbc5af688f0622284",
+                    "shasum": ""
+                },
+                "time": "2024-10-15T12:00:01+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://www.multilingualpress.org",
+                "support": {
+                    "source": "https://github.com/generoi/multilingualpress/tree/master",
+                    "issues": "https://github.com/generoi/multilingualpress/issues"
+                }
+            }
+        },
         "generoi/polylang-pro": {
             "v2.1.2": {
                 "name": "generoi/polylang-pro",
