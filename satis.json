@@ -32,8 +32,12 @@
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-request-a-quote.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woo-carrier-agents.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woo-printables.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/wp-all-export-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wp-all-import-pro.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/wpae-woocommerce-add-on.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wpai-acf-add-on.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/wpai-user-add-on.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/wpai-woocommerce-add-on.git" },
         { "type": "vcs", "url": "https://github.com/generoi/youtube-feed-pro.git" }
     ],
     "require-all": true
