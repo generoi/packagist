@@ -1,0 +1,434 @@
+{
+    "packages": {
+        "generoi/wpai-woocommerce-add-on": [
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "v2.3.4",
+                "version_normalized": "2.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "9bbc466bc8fd4115f8956bcdfe1ac3ec70eca2af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/9bbc466bc8fd4115f8956bcdfe1ac3ec70eca2af",
+                    "reference": "9bbc466bc8fd4115f8956bcdfe1ac3ec70eca2af",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-03-29T13:01:16+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import Woocommerce Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/v2.3.4"
+                }
+            },
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "v2.3.5",
+                "version_normalized": "2.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "201ab2f7aa813e1abcd0c1c9e37c0c1cbcc77197"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/201ab2f7aa813e1abcd0c1c9e37c0c1cbcc77197",
+                    "reference": "201ab2f7aa813e1abcd0c1c9e37c0c1cbcc77197",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-01T14:22:11+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import Woocommerce Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/v2.3.5"
+                }
+            },
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "v2.3.6",
+                "version_normalized": "2.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "24924b08ec3ea10fc3a56f00ed6f586ad062f4aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/24924b08ec3ea10fc3a56f00ed6f586ad062f4aa",
+                    "reference": "24924b08ec3ea10fc3a56f00ed6f586ad062f4aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-26T12:57:11+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import Woocommerce Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/v2.3.6"
+                }
+            },
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "v2.3.7",
+                "version_normalized": "2.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "a47f55617c247ff7ad0f9aa6e9c7e582b01638d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/a47f55617c247ff7ad0f9aa6e9c7e582b01638d6",
+                    "reference": "a47f55617c247ff7ad0f9aa6e9c7e582b01638d6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-20T15:35:48+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import Woocommerce Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/v2.3.7"
+                }
+            },
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "v2.3.8",
+                "version_normalized": "2.3.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "d18d876e1161b74303ab3e86ddf543479ee2cc45"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/d18d876e1161b74303ab3e86ddf543479ee2cc45",
+                    "reference": "d18d876e1161b74303ab3e86ddf543479ee2cc45",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-16T12:46:01+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import Woocommerce Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/v2.3.8"
+                }
+            },
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "v2.3.9",
+                "version_normalized": "2.3.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "4c5766c63b7705c8a7c9357906f891b624903a4d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/4c5766c63b7705c8a7c9357906f891b624903a4d",
+                    "reference": "4c5766c63b7705c8a7c9357906f891b624903a4d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:26:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import Woocommerce Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/v2.3.9"
+                }
+            },
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "v3.1.0",
+                "version_normalized": "3.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "24de93b6fbacd665ebfdd8216fb8f1a7099cdf0e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/24de93b6fbacd665ebfdd8216fb8f1a7099cdf0e",
+                    "reference": "24de93b6fbacd665ebfdd8216fb8f1a7099cdf0e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-01-03T11:08:51+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import Woocommerce Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/v3.1.0"
+                }
+            },
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "v3.2.5",
+                "version_normalized": "3.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "b7ba5e81888b6e56c391729ced7822190d134a6d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/b7ba5e81888b6e56c391729ced7822190d134a6d",
+                    "reference": "b7ba5e81888b6e56c391729ced7822190d134a6d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-02-26T12:43:29+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import Woocommerce Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/v3.2.5"
+                }
+            },
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "3.2.6-Beta-1.6",
+                "version_normalized": "3.2.6.0-beta1.6",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "16c54815fe4b07c8ec5009c15a5e4a904c14b82a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/16c54815fe4b07c8ec5009c15a5e4a904c14b82a",
+                    "reference": "16c54815fe4b07c8ec5009c15a5e4a904c14b82a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-03-11T16:42:25+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Christoffer Björkskog",
+                        "email": "christoffer@genero.fi"
+                    }
+                ],
+                "description": "WP All Import Woocommerce Add On",
+                "homepage": "http://www.wpallimport.com",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/3.2.6-Beta-1.6"
+                }
+            },
+            {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "c61e9b782eaf56aedaaf27af1036ec175f07381c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/c61e9b782eaf56aedaaf27af1036ec175f07381c",
+                    "reference": "c61e9b782eaf56aedaaf27af1036ec175f07381c",
+                    "shasum": ""
+                },
+                "time": "2024-10-21T15:38:08+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.0",
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues"
+                }
+            }
+        ]
+    }
+}

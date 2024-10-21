@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$9fe6d2a2d975b955b3c2579fe8d4520cb02d19dd.json": {
-            "sha1": "9fe6d2a2d975b955b3c2579fe8d4520cb02d19dd"
+        "include/all$88de55d44a11a56639e57e1ac675541d12d9a221.json": {
+            "sha1": "88de55d44a11a56639e57e1ac675541d12d9a221"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -36,8 +36,12 @@
         "generoi/woocommerce-product-addons",
         "generoi/woocommerce-request-a-quote",
         "generoi/woocommerce-subscriptions",
+        "generoi/wp-all-export-pro",
         "generoi/wp-all-import-pro",
+        "generoi/wpae-woocommerce-add-on",
         "generoi/wpai-acf-add-on",
+        "generoi/wpai-user-add-on",
+        "generoi/wpai-woocommerce-add-on",
         "generoi/youtube-feed-pro",
         "kinsta/kinsta-mu-plugins"
     ]
