@@ -1,14 +1,15 @@
 {
     "packages": [],
     "includes": {
-        "include/all$9d84d8fa788fdda290f2e4f3ec09589881b21a70.json": {
-            "sha1": "9d84d8fa788fdda290f2e4f3ec09589881b21a70"
+        "include/all$c5b337ed62524738f1454a45922898a6de0f92c4.json": {
+            "sha1": "c5b337ed62524738f1454a45922898a6de0f92c4"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
     "available-packages": [
         "generoi/advanced-custom-fields-pro",
         "generoi/cff-extensions",
+        "generoi/complianz-gdpr-premium",
         "generoi/custom-facebook-feed-pro",
         "generoi/custom-twitter-feeds-pro",
         "generoi/facetwp",
