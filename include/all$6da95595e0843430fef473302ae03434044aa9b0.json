@@ -9374,6 +9374,29 @@
                     "issues": "https://github.com/generoi/wpai-acf-add-on/issues"
                 }
             },
+            "3.3.9": {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "3.3.9",
+                "version_normalized": "3.3.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "29d178070cafaa12bb0959397cd0efa4819e934f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/29d178070cafaa12bb0959397cd0efa4819e934f",
+                    "reference": "29d178070cafaa12bb0959397cd0efa4819e934f",
+                    "shasum": ""
+                },
+                "time": "2024-10-29T04:10:51+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/3.3.9",
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wpai-acf-add-on",
                 "version": "dev-master",
@@ -9381,20 +9404,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpai-acf-add-on.git",
-                    "reference": "91912e71306bd640adbd071141e2b4ab0c2ad13c"
+                    "reference": "29d178070cafaa12bb0959397cd0efa4819e934f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/91912e71306bd640adbd071141e2b4ab0c2ad13c",
-                    "reference": "91912e71306bd640adbd071141e2b4ab0c2ad13c",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/29d178070cafaa12bb0959397cd0efa4819e934f",
+                    "reference": "29d178070cafaa12bb0959397cd0efa4819e934f",
                     "shasum": ""
                 },
-                "time": "2024-09-27T11:37:32+00:00",
+                "time": "2024-10-29T04:10:51+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/3.3.8",
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/3.3.9",
                     "issues": "https://github.com/generoi/wpai-acf-add-on/issues"
                 }
             }
