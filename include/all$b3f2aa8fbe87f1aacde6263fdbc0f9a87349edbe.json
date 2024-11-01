@@ -7413,6 +7413,29 @@
                     "issues": "https://github.com/generoi/woo-carrier-agents/issues"
                 }
             },
+            "1.8.2": {
+                "name": "generoi/woo-carrier-agents",
+                "version": "1.8.2",
+                "version_normalized": "1.8.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woo-carrier-agents.git",
+                    "reference": "03323de89cecf1c23844f2eb879dfe44e6ff40c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/03323de89cecf1c23844f2eb879dfe44e6ff40c0",
+                    "reference": "03323de89cecf1c23844f2eb879dfe44e6ff40c0",
+                    "shasum": ""
+                },
+                "time": "2024-11-01T04:09:28+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-noutopistehaku/",
+                "support": {
+                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.8.2",
+                    "issues": "https://github.com/generoi/woo-carrier-agents/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/woo-carrier-agents",
                 "version": "dev-master",
@@ -7420,20 +7443,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woo-carrier-agents.git",
-                    "reference": "393d4fd44a99dc32964574d56c5460426e7f63fb"
+                    "reference": "03323de89cecf1c23844f2eb879dfe44e6ff40c0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/393d4fd44a99dc32964574d56c5460426e7f63fb",
-                    "reference": "393d4fd44a99dc32964574d56c5460426e7f63fb",
+                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/03323de89cecf1c23844f2eb879dfe44e6ff40c0",
+                    "reference": "03323de89cecf1c23844f2eb879dfe44e6ff40c0",
                     "shasum": ""
                 },
-                "time": "2024-10-22T04:09:20+00:00",
+                "time": "2024-11-01T04:09:28+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/products/woocommerce-noutopistehaku/",
                 "support": {
-                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.8.1",
+                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.8.2",
                     "issues": "https://github.com/generoi/woo-carrier-agents/issues"
                 }
             }
