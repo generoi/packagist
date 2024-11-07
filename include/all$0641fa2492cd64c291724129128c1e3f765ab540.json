@@ -1810,6 +1810,29 @@
                     "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
                 }
             },
+            "7.3.0": {
+                "name": "generoi/complianz-gdpr-premium",
+                "version": "7.3.0",
+                "version_normalized": "7.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/complianz-gdpr-premium.git",
+                    "reference": "bdae6e3a933baf47e8fb357d2a7fd5ed9c92e53d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/bdae6e3a933baf47e8fb357d2a7fd5ed9c92e53d",
+                    "reference": "bdae6e3a933baf47e8fb357d2a7fd5ed9c92e53d",
+                    "shasum": ""
+                },
+                "time": "2024-11-07T04:12:49+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://complianz.io/",
+                "support": {
+                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.3.0",
+                    "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/complianz-gdpr-premium",
                 "version": "dev-master",
@@ -1817,20 +1840,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/complianz-gdpr-premium.git",
-                    "reference": "148875ec65375e892d3e706656543284726fb364"
+                    "reference": "bdae6e3a933baf47e8fb357d2a7fd5ed9c92e53d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/148875ec65375e892d3e706656543284726fb364",
-                    "reference": "148875ec65375e892d3e706656543284726fb364",
+                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/bdae6e3a933baf47e8fb357d2a7fd5ed9c92e53d",
+                    "reference": "bdae6e3a933baf47e8fb357d2a7fd5ed9c92e53d",
                     "shasum": ""
                 },
-                "time": "2024-10-23T16:57:36+00:00",
+                "time": "2024-11-07T04:12:49+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://complianz.io/",
                 "support": {
-                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.2.1",
+                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.3.0",
                     "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
                 }
             }
@@ -6338,6 +6361,29 @@
                     "source": "https://github.com/generoi/polylang-pro/tree/v3.6.4.1"
                 }
             },
+            "3.6.5": {
+                "name": "generoi/polylang-pro",
+                "version": "3.6.5",
+                "version_normalized": "3.6.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "423ebfa69b6f565a1b44815721ec501c20dd3af1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/423ebfa69b6f565a1b44815721ec501c20dd3af1",
+                    "reference": "423ebfa69b6f565a1b44815721ec501c20dd3af1",
+                    "shasum": ""
+                },
+                "time": "2024-11-07T04:12:35+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.5",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/polylang-pro",
                 "version": "dev-master",
@@ -6345,20 +6391,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "f5e47702a484b8ff4c3a174428e0ee29c2125deb"
+                    "reference": "423ebfa69b6f565a1b44815721ec501c20dd3af1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/f5e47702a484b8ff4c3a174428e0ee29c2125deb",
-                    "reference": "f5e47702a484b8ff4c3a174428e0ee29c2125deb",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/423ebfa69b6f565a1b44815721ec501c20dd3af1",
+                    "reference": "423ebfa69b6f565a1b44815721ec501c20dd3af1",
                     "shasum": ""
                 },
-                "time": "2024-09-10T17:22:03+00:00",
+                "time": "2024-11-07T04:12:35+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-pro/tree/master",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.5",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             }
