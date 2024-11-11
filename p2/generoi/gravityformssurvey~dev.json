@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/gravityformssurvey": [
+            {
+                "name": "generoi/gravityformssurvey",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformssurvey.git",
+                    "reference": "5fcbb58e63be5b79803460c2efb722d03d6405f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformssurvey/zipball/5fcbb58e63be5b79803460c2efb722d03d6405f6",
+                    "reference": "5fcbb58e63be5b79803460c2efb722d03d6405f6",
+                    "shasum": ""
+                },
+                "time": "2024-11-11T16:26:14+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformssurvey/tree/4.1.0",
+                    "issues": "https://github.com/generoi/gravityformssurvey/issues"
+                }
+            }
+        ]
+    }
+}
