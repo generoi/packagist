@@ -69,6 +69,29 @@
                     "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.1.0",
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
+            },
+            {
+                "name": "generoi/woocommerce-gift-cards",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-gift-cards.git",
+                    "reference": "fe9294c62fb93982a7b03aa1b244570366af573b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/fe9294c62fb93982a7b03aa1b244570366af573b",
+                    "reference": "fe9294c62fb93982a7b03aa1b244570366af573b",
+                    "shasum": ""
+                },
+                "time": "2024-11-21T04:10:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/gift-cards/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.1.1",
+                    "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
+                }
             }
         ]
     }

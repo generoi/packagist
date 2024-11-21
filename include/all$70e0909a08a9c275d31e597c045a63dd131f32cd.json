@@ -1905,6 +1905,29 @@
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             },
+            "4.6.6": {
+                "name": "generoi/custom-facebook-feed-pro",
+                "version": "4.6.6",
+                "version_normalized": "4.6.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
+                    "reference": "440d060d1d98d5bad6853dbd984f8eec787fc160"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/440d060d1d98d5bad6853dbd984f8eec787fc160",
+                    "reference": "440d060d1d98d5bad6853dbd984f8eec787fc160",
+                    "shasum": ""
+                },
+                "time": "2024-11-20T04:11:34+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-facebook-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.6.6",
+                    "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/custom-facebook-feed-pro",
                 "version": "dev-master",
@@ -1912,20 +1935,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
-                    "reference": "b44ac613fc6c5898d3781ca56d3e15215a563d3f"
+                    "reference": "440d060d1d98d5bad6853dbd984f8eec787fc160"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/b44ac613fc6c5898d3781ca56d3e15215a563d3f",
-                    "reference": "b44ac613fc6c5898d3781ca56d3e15215a563d3f",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/440d060d1d98d5bad6853dbd984f8eec787fc160",
+                    "reference": "440d060d1d98d5bad6853dbd984f8eec787fc160",
                     "shasum": ""
                 },
-                "time": "2024-09-23T14:54:45+00:00",
+                "time": "2024-11-20T04:11:34+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/custom-facebook-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.6.5",
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.6.6",
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             }
@@ -4307,6 +4330,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.0.1": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.0.1",
+                "version_normalized": "2.9.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "d0c05d36c7de6a299f781e7e0ff61a3cc950c857"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/d0c05d36c7de6a299f781e7e0ff61a3cc950c857",
+                    "reference": "d0c05d36c7de6a299f781e7e0ff61a3cc950c857",
+                    "shasum": ""
+                },
+                "time": "2024-11-20T04:11:54+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.0.1",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityforms",
                 "version": "dev-master",
@@ -4314,20 +4360,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "e93b600d54e208dd6038a57ebc0769a332ec9de9"
+                    "reference": "d0c05d36c7de6a299f781e7e0ff61a3cc950c857"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/e93b600d54e208dd6038a57ebc0769a332ec9de9",
-                    "reference": "e93b600d54e208dd6038a57ebc0769a332ec9de9",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/d0c05d36c7de6a299f781e7e0ff61a3cc950c857",
+                    "reference": "d0c05d36c7de6a299f781e7e0ff61a3cc950c857",
                     "shasum": ""
                 },
-                "time": "2024-10-02T04:11:39+00:00",
+                "time": "2024-11-20T04:11:54+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.8.18",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.0.1",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             }
@@ -7980,6 +8026,29 @@
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
             },
+            "2.1.1": {
+                "name": "generoi/woocommerce-gift-cards",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-gift-cards.git",
+                    "reference": "fe9294c62fb93982a7b03aa1b244570366af573b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/fe9294c62fb93982a7b03aa1b244570366af573b",
+                    "reference": "fe9294c62fb93982a7b03aa1b244570366af573b",
+                    "shasum": ""
+                },
+                "time": "2024-11-21T04:10:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/gift-cards/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.1.1",
+                    "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/woocommerce-gift-cards",
                 "version": "dev-master",
@@ -7987,20 +8056,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-gift-cards.git",
-                    "reference": "ee279ec95af6015a4bd007d443ef4a95e2f23305"
+                    "reference": "fe9294c62fb93982a7b03aa1b244570366af573b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/ee279ec95af6015a4bd007d443ef4a95e2f23305",
-                    "reference": "ee279ec95af6015a4bd007d443ef4a95e2f23305",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/fe9294c62fb93982a7b03aa1b244570366af573b",
+                    "reference": "fe9294c62fb93982a7b03aa1b244570366af573b",
                     "shasum": ""
                 },
-                "time": "2024-10-23T04:10:31+00:00",
+                "time": "2024-11-21T04:10:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://woocommerce.com/products/gift-cards/",
                 "support": {
-                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.1.0",
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.1.1",
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
             }
@@ -8235,6 +8304,29 @@
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
                 }
             },
+            "7.2.0": {
+                "name": "generoi/woocommerce-product-addons",
+                "version": "7.2.0",
+                "version_normalized": "7.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-product-addons.git",
+                    "reference": "c3b48331f7097b7ef6021d757419319f5168c697"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-product-addons/zipball/c3b48331f7097b7ef6021d757419319f5168c697",
+                    "reference": "c3b48331f7097b7ef6021d757419319f5168c697",
+                    "shasum": ""
+                },
+                "time": "2024-11-21T04:10:24+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/product-add-ons/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.2.0",
+                    "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/woocommerce-product-addons",
                 "version": "dev-master",
@@ -8242,20 +8334,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-product-addons.git",
-                    "reference": "ddbea816bce2df475be3ec2480d091c5e39a6ccd"
+                    "reference": "c3b48331f7097b7ef6021d757419319f5168c697"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-product-addons/zipball/ddbea816bce2df475be3ec2480d091c5e39a6ccd",
-                    "reference": "ddbea816bce2df475be3ec2480d091c5e39a6ccd",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-product-addons/zipball/c3b48331f7097b7ef6021d757419319f5168c697",
+                    "reference": "c3b48331f7097b7ef6021d757419319f5168c697",
                     "shasum": ""
                 },
-                "time": "2024-10-23T04:10:10+00:00",
+                "time": "2024-11-21T04:10:24+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://woocommerce.com/products/product-add-ons/",
                 "support": {
-                    "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.1.2",
+                    "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.2.0",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
                 }
             }
