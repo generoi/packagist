@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$70e0909a08a9c275d31e597c045a63dd131f32cd.json": {
-            "sha1": "70e0909a08a9c275d31e597c045a63dd131f32cd"
+        "include/all$31107d0cd7ff9cebbdffcd95b3dc33a1899496dd.json": {
+            "sha1": "31107d0cd7ff9cebbdffcd95b3dc33a1899496dd"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -20,6 +20,7 @@
         "generoi/gravity-forms-user-verification",
         "generoi/gravityforms",
         "generoi/gravityformsactivecampaign",
+        "generoi/gravityformshubspot",
         "generoi/gravityformsmailchimp",
         "generoi/gravityformssurvey",
         "generoi/instagram-feed-pro",

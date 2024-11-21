@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/gravityformshubspot": [
+            {
+                "name": "generoi/gravityformshubspot",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformshubspot.git",
+                    "reference": "0c461319fccb3a87ff3e1284fc7423a2cff7bdc9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/0c461319fccb3a87ff3e1284fc7423a2cff7bdc9",
+                    "reference": "0c461319fccb3a87ff3e1284fc7423a2cff7bdc9",
+                    "shasum": ""
+                },
+                "time": "2024-11-21T15:43:49+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/2.1.0",
+                    "issues": "https://github.com/generoi/gravityformshubspot/issues"
+                }
+            }
+        ]
+    }
+}
