@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$992562899b9e7944f89e65f5d4ecacf0d3e89ec1.json": {
-            "sha1": "992562899b9e7944f89e65f5d4ecacf0d3e89ec1"
+        "include/all$e9aafc2e80b7c98e2412ec6d04eee45f40b6d184.json": {
+            "sha1": "e9aafc2e80b7c98e2412ec6d04eee45f40b6d184"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -25,6 +25,7 @@
         "generoi/gravityformssurvey",
         "generoi/instagram-feed-pro",
         "generoi/multilingualpress",
+        "generoi/pixelyoursite-pro",
         "generoi/polylang-pro",
         "generoi/polylang-wc",
         "generoi/relevanssi-premium",

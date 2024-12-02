@@ -5397,6 +5397,55 @@
                 }
             }
         },
+        "generoi/pixelyoursite-pro": {
+            "v11.1.1": {
+                "name": "generoi/pixelyoursite-pro",
+                "version": "v11.1.1",
+                "version_normalized": "11.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/pixelyoursite-pro.git",
+                    "reference": "900e2641fb087672cab60427bf6675e372912dbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/pixelyoursite-pro/zipball/900e2641fb087672cab60427bf6675e372912dbf",
+                    "reference": "900e2641fb087672cab60427bf6675e372912dbf",
+                    "shasum": ""
+                },
+                "time": "2024-12-02T14:07:15+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.pixelyoursite.com/plugins/pixelyoursite-professional",
+                "support": {
+                    "source": "https://github.com/generoi/pixelyoursite-pro/tree/v11.1.1",
+                    "issues": "https://github.com/generoi/pixelyoursite-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/pixelyoursite-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/pixelyoursite-pro.git",
+                    "reference": "900e2641fb087672cab60427bf6675e372912dbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/pixelyoursite-pro/zipball/900e2641fb087672cab60427bf6675e372912dbf",
+                    "reference": "900e2641fb087672cab60427bf6675e372912dbf",
+                    "shasum": ""
+                },
+                "time": "2024-12-02T14:07:15+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://www.pixelyoursite.com/plugins/pixelyoursite-professional",
+                "support": {
+                    "source": "https://github.com/generoi/pixelyoursite-pro/tree/v11.1.1",
+                    "issues": "https://github.com/generoi/pixelyoursite-pro/issues"
+                }
+            }
+        },
         "generoi/polylang-pro": {
             "v2.1.2": {
                 "name": "generoi/polylang-pro",
