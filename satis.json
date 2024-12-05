@@ -17,6 +17,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/gravityformshubspot.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformsmailchimp.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformssurvey.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/gravityforms-multilingual.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravity-forms-user-verification.git" },
         { "type": "vcs", "url": "https://github.com/generoi/instagram-feed-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/kinsta-mu-plugins" },
