@@ -4978,6 +4978,55 @@
                 }
             }
         },
+        "generoi/gravityformsgoogleanalytics": {
+            "2.3.0": {
+                "name": "generoi/gravityformsgoogleanalytics",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsgoogleanalytics.git",
+                    "reference": "0eca6ea8a5a629888abc288ef19920115922bdc4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/0eca6ea8a5a629888abc288ef19920115922bdc4",
+                    "reference": "0eca6ea8a5a629888abc288ef19920115922bdc4",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T16:02:05+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.0",
+                    "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/gravityformsgoogleanalytics",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsgoogleanalytics.git",
+                    "reference": "0eca6ea8a5a629888abc288ef19920115922bdc4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/0eca6ea8a5a629888abc288ef19920115922bdc4",
+                    "reference": "0eca6ea8a5a629888abc288ef19920115922bdc4",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T16:02:05+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.0",
+                    "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
+                }
+            }
+        },
         "generoi/gravityformshubspot": {
             "2.1.0": {
                 "name": "generoi/gravityformshubspot",
@@ -5366,6 +5415,55 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityformsmailchimp/tree/5.5.0",
                     "issues": "https://github.com/generoi/gravityformsmailchimp/issues"
+                }
+            }
+        },
+        "generoi/gravityformsrecaptcha": {
+            "1.6.0": {
+                "name": "generoi/gravityformsrecaptcha",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsrecaptcha.git",
+                    "reference": "519569b372be505442b6175450f04be751f423e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/519569b372be505442b6175450f04be751f423e9",
+                    "reference": "519569b372be505442b6175450f04be751f423e9",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T16:00:16+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/1.6.0",
+                    "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/gravityformsrecaptcha",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsrecaptcha.git",
+                    "reference": "519569b372be505442b6175450f04be751f423e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/519569b372be505442b6175450f04be751f423e9",
+                    "reference": "519569b372be505442b6175450f04be751f423e9",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T16:00:16+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/1.6.0",
+                    "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
                 }
             }
         },
