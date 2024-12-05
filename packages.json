@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$5899f8447369ba8da36c5d7914568bc690103555.json": {
-            "sha1": "5899f8447369ba8da36c5d7914568bc690103555"
+        "include/all$23a1da1d0aee8956d6e61c978d7fb78acf0acdb7.json": {
+            "sha1": "23a1da1d0aee8956d6e61c978d7fb78acf0acdb7"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -30,6 +30,7 @@
         "generoi/polylang-wc",
         "generoi/relevanssi-premium",
         "generoi/role-based-pricing-for-woocommerce",
+        "generoi/sitepress-multilingual-cms",
         "generoi/social-wall",
         "generoi/wc-paytrail",
         "generoi/wc-smartship",
@@ -47,6 +48,9 @@
         "generoi/wpai-acf-add-on",
         "generoi/wpai-user-add-on",
         "generoi/wpai-woocommerce-add-on",
+        "generoi/wpml-all-import",
+        "generoi/wpml-media-translation",
+        "generoi/wpml-string-translation",
         "generoi/youtube-feed-pro",
         "kinsta/kinsta-mu-plugins"
     ]

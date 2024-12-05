@@ -1,0 +1,682 @@
+{
+    "packages": {
+        "generoi/sitepress-multilingual-cms": [
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.7.0",
+                "version_normalized": "3.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "b22976347115c146aca76edcf0529157d91b1d10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/b22976347115c146aca76edcf0529157d91b1d10",
+                    "reference": "b22976347115c146aca76edcf0529157d91b1d10",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-16T14:07:33+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.7.0"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.7.1",
+                "version_normalized": "3.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "782a7ed2457991e02fcc155de1cd0557e3747869"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/782a7ed2457991e02fcc155de1cd0557e3747869",
+                    "reference": "782a7ed2457991e02fcc155de1cd0557e3747869",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-11T07:08:11+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.7.1"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.8.4",
+                "version_normalized": "3.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "59a3d56203586494c23ccb56b7c62999cb4d65b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/59a3d56203586494c23ccb56b7c62999cb4d65b9",
+                    "reference": "59a3d56203586494c23ccb56b7c62999cb4d65b9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-11-02T12:30:28+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.8.4"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.9.0",
+                "version_normalized": "3.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "7e2471dfa0daa32d3d1958742b97f9c45c0a3d5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/7e2471dfa0daa32d3d1958742b97f9c45c0a3d5d",
+                    "reference": "7e2471dfa0daa32d3d1958742b97f9c45c0a3d5d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-08T12:22:55+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.9.0"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.9.4",
+                "version_normalized": "3.9.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "49566d9ab90afd1acc8b2839649e3dcba2231267"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/49566d9ab90afd1acc8b2839649e3dcba2231267",
+                    "reference": "49566d9ab90afd1acc8b2839649e3dcba2231267",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:14:13+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.9.4"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.0.3",
+                "version_normalized": "4.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "a733202bc1760350c9a1708c046a940b38f8de52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/a733202bc1760350c9a1708c046a940b38f8de52",
+                    "reference": "a733202bc1760350c9a1708c046a940b38f8de52",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-06-25T11:29:51+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.0.3"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.1",
+                "version_normalized": "4.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "064b1c68c18f04b609a92eace73601af980e0207"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/064b1c68c18f04b609a92eace73601af980e0207",
+                    "reference": "064b1c68c18f04b609a92eace73601af980e0207",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T11:45:29+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.1"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.4.1",
+                "version_normalized": "4.2.4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "3286618941f90fa873de91846ed49698b023fa0d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/3286618941f90fa873de91846ed49698b023fa0d",
+                    "reference": "3286618941f90fa873de91846ed49698b023fa0d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-03-19T12:21:54+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.4.1"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.5",
+                "version_normalized": "4.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "2cffd8fe35e7f4dd24f35eff3cc4e73618372675"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/2cffd8fe35e7f4dd24f35eff3cc4e73618372675",
+                    "reference": "2cffd8fe35e7f4dd24f35eff3cc4e73618372675",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-04-17T11:45:22+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.5"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.6",
+                "version_normalized": "4.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "883a6a3d916b5c023e6970e333b057e949fe8f2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/883a6a3d916b5c023e6970e333b057e949fe8f2f",
+                    "reference": "883a6a3d916b5c023e6970e333b057e949fe8f2f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-05-02T14:32:05+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.6"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.7.1",
+                "version_normalized": "4.2.7.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "33c3adf63ab3343531d38e6d1b67ab25467897dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/33c3adf63ab3343531d38e6d1b67ab25467897dd",
+                    "reference": "33c3adf63ab3343531d38e6d1b67ab25467897dd",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-08-08T13:39:20+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.7.1"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.3.15",
+                "version_normalized": "4.3.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "dae27ce5d75b678abd0df892e530cc1f8f267de5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/dae27ce5d75b678abd0df892e530cc1f8f267de5",
+                    "reference": "dae27ce5d75b678abd0df892e530cc1f8f267de5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-06-22T09:49:37+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.3.15"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.3.6",
+                "version_normalized": "4.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "d451c5cf5749d82f62f365419f3b667857c3f3ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/d451c5cf5749d82f62f365419f3b667857c3f3ed",
+                    "reference": "d451c5cf5749d82f62f365419f3b667857c3f3ed",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-02-03T08:14:36+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.3.6"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.4.10",
+                "version_normalized": "4.4.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "0e275f5bc8ff9ff57187bd0a53b2a1f19f178eb7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/0e275f5bc8ff9ff57187bd0a53b2a1f19f178eb7",
+                    "reference": "0e275f5bc8ff9ff57187bd0a53b2a1f19f178eb7",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-04-23T16:06:44+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.4.10"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "4.6.13",
+                "version_normalized": "4.6.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "f555149e325628b6036806ee1b2639ed41ffd664"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/f555149e325628b6036806ee1b2639ed41ffd664",
+                    "reference": "f555149e325628b6036806ee1b2639ed41ffd664",
+                    "shasum": ""
+                },
+                "time": "2024-09-09T17:29:24+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.6.13",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "4.6.14",
+                "version_normalized": "4.6.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "3f9d9064f55c6f1de72a9dad0c9d0165c18bcbdd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/3f9d9064f55c6f1de72a9dad0c9d0165c18bcbdd",
+                    "reference": "3f9d9064f55c6f1de72a9dad0c9d0165c18bcbdd",
+                    "shasum": ""
+                },
+                "time": "2024-11-13T04:09:25+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.6.14",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            }
+        ]
+    }
+}

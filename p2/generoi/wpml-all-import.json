@@ -1,0 +1,209 @@
+{
+    "packages": {
+        "generoi/wpml-all-import": [
+            {
+                "name": "generoi/wpml-all-import",
+                "version": "v2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "bf80d999288eb313024a492296ca7e82ab748a63"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/bf80d999288eb313024a492296ca7e82ab748a63",
+                    "reference": "bf80d999288eb313024a492296ca7e82ab748a63",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-16T14:11:05+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML All Import",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-all-import/issues",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/v2.0.3"
+                }
+            },
+            {
+                "name": "generoi/wpml-all-import",
+                "version": "v2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "50e556e8406bd123c6dab539a5f2cedbc5bb5ec7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/50e556e8406bd123c6dab539a5f2cedbc5bb5ec7",
+                    "reference": "50e556e8406bd123c6dab539a5f2cedbc5bb5ec7",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:29:53+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML All Import",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-all-import/issues",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/v2.0.5"
+                }
+            },
+            {
+                "name": "generoi/wpml-all-import",
+                "version": "v2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "0eb87e2056ffe6b8bd515b573591fabd4be1fd9b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/0eb87e2056ffe6b8bd515b573591fabd4be1fd9b",
+                    "reference": "0eb87e2056ffe6b8bd515b573591fabd4be1fd9b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T11:44:04+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML All Import",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-all-import/issues",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/v2.0.8"
+                }
+            },
+            {
+                "name": "generoi/wpml-all-import",
+                "version": "v2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "a393f1f9a303aa68b34b562cb34010c39d5c2c4c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/a393f1f9a303aa68b34b562cb34010c39d5c2c4c",
+                    "reference": "a393f1f9a303aa68b34b562cb34010c39d5c2c4c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-08-08T13:40:37+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML All Import",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-all-import/issues",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/v2.1.1"
+                }
+            },
+            {
+                "name": "generoi/wpml-all-import",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "c2d1dcf277b6f3383917b5e5bc74667343cc7992"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/c2d1dcf277b6f3383917b5e5bc74667343cc7992",
+                    "reference": "c2d1dcf277b6f3383917b5e5bc74667343cc7992",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T15:09:33+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-all-import/tree/2.3.0",
+                    "issues": "https://github.com/generoi/wpml-all-import/issues"
+                }
+            }
+        ]
+    }
+}

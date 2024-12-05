@@ -7783,6 +7783,708 @@
                 }
             }
         },
+        "generoi/sitepress-multilingual-cms": {
+            "v3.7.0": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.7.0",
+                "version_normalized": "3.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "b22976347115c146aca76edcf0529157d91b1d10"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/b22976347115c146aca76edcf0529157d91b1d10",
+                    "reference": "b22976347115c146aca76edcf0529157d91b1d10",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-16T14:07:33+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.7.0"
+                }
+            },
+            "v3.7.1": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.7.1",
+                "version_normalized": "3.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "782a7ed2457991e02fcc155de1cd0557e3747869"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/782a7ed2457991e02fcc155de1cd0557e3747869",
+                    "reference": "782a7ed2457991e02fcc155de1cd0557e3747869",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-11T07:08:11+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.7.1"
+                }
+            },
+            "v3.8.4": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.8.4",
+                "version_normalized": "3.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "59a3d56203586494c23ccb56b7c62999cb4d65b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/59a3d56203586494c23ccb56b7c62999cb4d65b9",
+                    "reference": "59a3d56203586494c23ccb56b7c62999cb4d65b9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-11-02T12:30:28+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.8.4"
+                }
+            },
+            "v3.9.0": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.9.0",
+                "version_normalized": "3.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "7e2471dfa0daa32d3d1958742b97f9c45c0a3d5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/7e2471dfa0daa32d3d1958742b97f9c45c0a3d5d",
+                    "reference": "7e2471dfa0daa32d3d1958742b97f9c45c0a3d5d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-08T12:22:55+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.9.0"
+                }
+            },
+            "v3.9.4": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v3.9.4",
+                "version_normalized": "3.9.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "49566d9ab90afd1acc8b2839649e3dcba2231267"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/49566d9ab90afd1acc8b2839649e3dcba2231267",
+                    "reference": "49566d9ab90afd1acc8b2839649e3dcba2231267",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:14:13+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v3.9.4"
+                }
+            },
+            "v4.0.3": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.0.3",
+                "version_normalized": "4.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "a733202bc1760350c9a1708c046a940b38f8de52"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/a733202bc1760350c9a1708c046a940b38f8de52",
+                    "reference": "a733202bc1760350c9a1708c046a940b38f8de52",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-06-25T11:29:51+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.0.3"
+                }
+            },
+            "v4.2.1": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.1",
+                "version_normalized": "4.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "064b1c68c18f04b609a92eace73601af980e0207"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/064b1c68c18f04b609a92eace73601af980e0207",
+                    "reference": "064b1c68c18f04b609a92eace73601af980e0207",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T11:45:29+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.1"
+                }
+            },
+            "v4.2.4.1": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.4.1",
+                "version_normalized": "4.2.4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "3286618941f90fa873de91846ed49698b023fa0d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/3286618941f90fa873de91846ed49698b023fa0d",
+                    "reference": "3286618941f90fa873de91846ed49698b023fa0d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-03-19T12:21:54+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.4.1"
+                }
+            },
+            "v4.2.5": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.5",
+                "version_normalized": "4.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "2cffd8fe35e7f4dd24f35eff3cc4e73618372675"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/2cffd8fe35e7f4dd24f35eff3cc4e73618372675",
+                    "reference": "2cffd8fe35e7f4dd24f35eff3cc4e73618372675",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-04-17T11:45:22+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.5"
+                }
+            },
+            "v4.2.6": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.6",
+                "version_normalized": "4.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "883a6a3d916b5c023e6970e333b057e949fe8f2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/883a6a3d916b5c023e6970e333b057e949fe8f2f",
+                    "reference": "883a6a3d916b5c023e6970e333b057e949fe8f2f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-05-02T14:32:05+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.6"
+                }
+            },
+            "v4.2.7.1": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.2.7.1",
+                "version_normalized": "4.2.7.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "33c3adf63ab3343531d38e6d1b67ab25467897dd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/33c3adf63ab3343531d38e6d1b67ab25467897dd",
+                    "reference": "33c3adf63ab3343531d38e6d1b67ab25467897dd",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-08-08T13:39:20+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.2.7.1"
+                }
+            },
+            "v4.3.15": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.3.15",
+                "version_normalized": "4.3.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "dae27ce5d75b678abd0df892e530cc1f8f267de5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/dae27ce5d75b678abd0df892e530cc1f8f267de5",
+                    "reference": "dae27ce5d75b678abd0df892e530cc1f8f267de5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-06-22T09:49:37+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.3.15"
+                }
+            },
+            "v4.3.6": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.3.6",
+                "version_normalized": "4.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "d451c5cf5749d82f62f365419f3b667857c3f3ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/d451c5cf5749d82f62f365419f3b667857c3f3ed",
+                    "reference": "d451c5cf5749d82f62f365419f3b667857c3f3ed",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-02-03T08:14:36+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.3.6"
+                }
+            },
+            "v4.4.10": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.4.10",
+                "version_normalized": "4.4.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "0e275f5bc8ff9ff57187bd0a53b2a1f19f178eb7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/0e275f5bc8ff9ff57187bd0a53b2a1f19f178eb7",
+                    "reference": "0e275f5bc8ff9ff57187bd0a53b2a1f19f178eb7",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-04-23T16:06:44+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Multilingual CMSW",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/v4.4.10"
+                }
+            },
+            "4.6.13": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "4.6.13",
+                "version_normalized": "4.6.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "f555149e325628b6036806ee1b2639ed41ffd664"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/f555149e325628b6036806ee1b2639ed41ffd664",
+                    "reference": "f555149e325628b6036806ee1b2639ed41ffd664",
+                    "shasum": ""
+                },
+                "time": "2024-09-09T17:29:24+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.6.13",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            },
+            "4.6.14": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "4.6.14",
+                "version_normalized": "4.6.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "3f9d9064f55c6f1de72a9dad0c9d0165c18bcbdd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/3f9d9064f55c6f1de72a9dad0c9d0165c18bcbdd",
+                    "reference": "3f9d9064f55c6f1de72a9dad0c9d0165c18bcbdd",
+                    "shasum": ""
+                },
+                "time": "2024-11-13T04:09:25+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.6.14",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "3f9d9064f55c6f1de72a9dad0c9d0165c18bcbdd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/3f9d9064f55c6f1de72a9dad0c9d0165c18bcbdd",
+                    "reference": "3f9d9064f55c6f1de72a9dad0c9d0165c18bcbdd",
+                    "shasum": ""
+                },
+                "time": "2024-11-13T04:09:25+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.6.14",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            }
+        },
         "generoi/social-wall": {
             "2.2.2": {
                 "name": "generoi/social-wall",
@@ -10716,6 +11418,1369 @@
                 "support": {
                     "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.0",
                     "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues"
+                }
+            }
+        },
+        "generoi/wpml-all-import": {
+            "v2.0.3": {
+                "name": "generoi/wpml-all-import",
+                "version": "v2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "bf80d999288eb313024a492296ca7e82ab748a63"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/bf80d999288eb313024a492296ca7e82ab748a63",
+                    "reference": "bf80d999288eb313024a492296ca7e82ab748a63",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-16T14:11:05+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML All Import",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-all-import/issues",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/v2.0.3"
+                }
+            },
+            "v2.0.5": {
+                "name": "generoi/wpml-all-import",
+                "version": "v2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "50e556e8406bd123c6dab539a5f2cedbc5bb5ec7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/50e556e8406bd123c6dab539a5f2cedbc5bb5ec7",
+                    "reference": "50e556e8406bd123c6dab539a5f2cedbc5bb5ec7",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:29:53+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML All Import",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-all-import/issues",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/v2.0.5"
+                }
+            },
+            "v2.0.8": {
+                "name": "generoi/wpml-all-import",
+                "version": "v2.0.8",
+                "version_normalized": "2.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "0eb87e2056ffe6b8bd515b573591fabd4be1fd9b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/0eb87e2056ffe6b8bd515b573591fabd4be1fd9b",
+                    "reference": "0eb87e2056ffe6b8bd515b573591fabd4be1fd9b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T11:44:04+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML All Import",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-all-import/issues",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/v2.0.8"
+                }
+            },
+            "v2.1.1": {
+                "name": "generoi/wpml-all-import",
+                "version": "v2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "a393f1f9a303aa68b34b562cb34010c39d5c2c4c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/a393f1f9a303aa68b34b562cb34010c39d5c2c4c",
+                    "reference": "a393f1f9a303aa68b34b562cb34010c39d5c2c4c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-08-08T13:40:37+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML All Import",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-all-import/issues",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/v2.1.1"
+                }
+            },
+            "2.3.0": {
+                "name": "generoi/wpml-all-import",
+                "version": "2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "c2d1dcf277b6f3383917b5e5bc74667343cc7992"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/c2d1dcf277b6f3383917b5e5bc74667343cc7992",
+                    "reference": "c2d1dcf277b6f3383917b5e5bc74667343cc7992",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T15:09:33+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-all-import/tree/2.3.0",
+                    "issues": "https://github.com/generoi/wpml-all-import/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/wpml-all-import",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "c2d1dcf277b6f3383917b5e5bc74667343cc7992"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/c2d1dcf277b6f3383917b5e5bc74667343cc7992",
+                    "reference": "c2d1dcf277b6f3383917b5e5bc74667343cc7992",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T15:09:33+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-all-import/tree/2.3.0",
+                    "issues": "https://github.com/generoi/wpml-all-import/issues"
+                }
+            }
+        },
+        "generoi/wpml-media-translation": {
+            "v2.2.0": {
+                "name": "generoi/wpml-media-translation",
+                "version": "v2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "dabccff47ffda4c43834dce941aacba54bad4174"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/dabccff47ffda4c43834dce941aacba54bad4174",
+                    "reference": "dabccff47ffda4c43834dce941aacba54bad4174",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-16T14:16:16+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Media Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/v2.2.0"
+                }
+            },
+            "v2.2.1": {
+                "name": "generoi/wpml-media-translation",
+                "version": "v2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "c88204444ae4c853c1e24d0f8b43c1ec44cbf48e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/c88204444ae4c853c1e24d0f8b43c1ec44cbf48e",
+                    "reference": "c88204444ae4c853c1e24d0f8b43c1ec44cbf48e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-11-02T12:39:42+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Media Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/v2.2.1"
+                }
+            },
+            "v2.2.2": {
+                "name": "generoi/wpml-media-translation",
+                "version": "v2.2.2",
+                "version_normalized": "2.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "3980f7fae6797f8ff7ecba937941bfe946a02320"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/3980f7fae6797f8ff7ecba937941bfe946a02320",
+                    "reference": "3980f7fae6797f8ff7ecba937941bfe946a02320",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-08T12:26:52+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Media Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/v2.2.2"
+                }
+            },
+            "v2.2.3": {
+                "name": "generoi/wpml-media-translation",
+                "version": "v2.2.3",
+                "version_normalized": "2.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "8bf2f66837ab56e6716a44c9e613fa1ebf3f51c5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/8bf2f66837ab56e6716a44c9e613fa1ebf3f51c5",
+                    "reference": "8bf2f66837ab56e6716a44c9e613fa1ebf3f51c5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:17:53+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Media Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/v2.2.3"
+                }
+            },
+            "v2.3.3": {
+                "name": "generoi/wpml-media-translation",
+                "version": "v2.3.3",
+                "version_normalized": "2.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "0ef821e8b130c349a8107287724811b232f41e97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/0ef821e8b130c349a8107287724811b232f41e97",
+                    "reference": "0ef821e8b130c349a8107287724811b232f41e97",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-06-25T11:27:08+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Media Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/v2.3.3"
+                }
+            },
+            "v2.5.0": {
+                "name": "generoi/wpml-media-translation",
+                "version": "v2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "b4f3a69f5b963abac3f146040575dd58dd20d55e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/b4f3a69f5b963abac3f146040575dd58dd20d55e",
+                    "reference": "b4f3a69f5b963abac3f146040575dd58dd20d55e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T11:43:19+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Media Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/v2.5.0"
+                }
+            },
+            "v2.5.1": {
+                "name": "generoi/wpml-media-translation",
+                "version": "v2.5.1",
+                "version_normalized": "2.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "8b86b33adc2b91e7f7826598bb1f8a711127b2ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/8b86b33adc2b91e7f7826598bb1f8a711127b2ee",
+                    "reference": "8b86b33adc2b91e7f7826598bb1f8a711127b2ee",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-03-19T12:23:14+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Media Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/v2.5.1"
+                }
+            },
+            "v2.5.2": {
+                "name": "generoi/wpml-media-translation",
+                "version": "v2.5.2",
+                "version_normalized": "2.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "5164295e56fcf51a31e7e0f1fe564f45bd663505"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/5164295e56fcf51a31e7e0f1fe564f45bd663505",
+                    "reference": "5164295e56fcf51a31e7e0f1fe564f45bd663505",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-05-02T14:34:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Media Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/v2.5.2"
+                }
+            },
+            "v2.6.4": {
+                "name": "generoi/wpml-media-translation",
+                "version": "v2.6.4",
+                "version_normalized": "2.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "09a1d853368bea18775f5653ecd3bbc2a1c334b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/09a1d853368bea18775f5653ecd3bbc2a1c334b9",
+                    "reference": "09a1d853368bea18775f5653ecd3bbc2a1c334b9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-04-23T16:09:23+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML Media Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/v2.6.4"
+                }
+            },
+            "2.7.5": {
+                "name": "generoi/wpml-media-translation",
+                "version": "2.7.5",
+                "version_normalized": "2.7.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "60b351b436314540e3c01890a4498fbb37112b8b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/60b351b436314540e3c01890a4498fbb37112b8b",
+                    "reference": "60b351b436314540e3c01890a4498fbb37112b8b",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T15:04:20+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/2.7.5",
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/wpml-media-translation",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "60b351b436314540e3c01890a4498fbb37112b8b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/60b351b436314540e3c01890a4498fbb37112b8b",
+                    "reference": "60b351b436314540e3c01890a4498fbb37112b8b",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T15:04:20+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/2.7.5",
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues"
+                }
+            }
+        },
+        "generoi/wpml-string-translation": {
+            "v2.10.1": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.10.1",
+                "version_normalized": "2.10.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "b39ef3f149397a0b1655a21b7a59361c4272d3e8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/b39ef3f149397a0b1655a21b7a59361c4272d3e8",
+                    "reference": "b39ef3f149397a0b1655a21b7a59361c4272d3e8",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T11:41:08+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.10.1"
+                }
+            },
+            "v2.10.2": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.10.2",
+                "version_normalized": "2.10.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "d7923c41a55cd7a3473518d7b44799ca1ed1ba5f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/d7923c41a55cd7a3473518d7b44799ca1ed1ba5f",
+                    "reference": "d7923c41a55cd7a3473518d7b44799ca1ed1ba5f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-03-19T12:24:28+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.10.2"
+                }
+            },
+            "v2.10.3": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.10.3",
+                "version_normalized": "2.10.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "1422f7cc05526acf1158e18f666d7b5e42c1b90c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/1422f7cc05526acf1158e18f666d7b5e42c1b90c",
+                    "reference": "1422f7cc05526acf1158e18f666d7b5e42c1b90c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-04-17T11:46:39+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.10.3"
+                }
+            },
+            "v2.10.4": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.10.4",
+                "version_normalized": "2.10.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "7d964fcd21e56ce4ef80df77ae7981b4e1ffd4ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/7d964fcd21e56ce4ef80df77ae7981b4e1ffd4ce",
+                    "reference": "7d964fcd21e56ce4ef80df77ae7981b4e1ffd4ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-05-02T14:32:58+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.10.4"
+                }
+            },
+            "v2.10.5.1": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.10.5.1",
+                "version_normalized": "2.10.5.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "6d1d45d374bef0e948faf789236e615f1544da50"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/6d1d45d374bef0e948faf789236e615f1544da50",
+                    "reference": "6d1d45d374bef0e948faf789236e615f1544da50",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-08-08T13:42:35+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.10.5.1"
+                }
+            },
+            "v2.5.3": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.5.3",
+                "version_normalized": "2.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "ca0033161ae16f881ef2523b83442934804b8b98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/ca0033161ae16f881ef2523b83442934804b8b98",
+                    "reference": "ca0033161ae16f881ef2523b83442934804b8b98",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-05-16T14:18:46+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.5.3"
+                }
+            },
+            "v2.5.4": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.5.4",
+                "version_normalized": "2.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "cf9e194d1e678c4305552af9ab49e94afd83908d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/cf9e194d1e678c4305552af9ab49e94afd83908d",
+                    "reference": "cf9e194d1e678c4305552af9ab49e94afd83908d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-07-11T07:11:37+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.5.4"
+                }
+            },
+            "v2.6.3": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.6.3",
+                "version_normalized": "2.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "e4c97afeaaaeede7515fd048a42bd66034db0f84"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/e4c97afeaaaeede7515fd048a42bd66034db0f84",
+                    "reference": "e4c97afeaaaeede7515fd048a42bd66034db0f84",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-11-02T12:33:31+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.6.3"
+                }
+            },
+            "v2.7.0": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.7.0",
+                "version_normalized": "2.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "bfcadd4b306354a416893e2bd01cdd71aa7fb51d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/bfcadd4b306354a416893e2bd01cdd71aa7fb51d",
+                    "reference": "bfcadd4b306354a416893e2bd01cdd71aa7fb51d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-01-08T12:24:26+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.7.0"
+                }
+            },
+            "v2.7.3": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.7.3",
+                "version_normalized": "2.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "3e8c8666bb7b5853b78af8afb383c5bd1db8f0ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/3e8c8666bb7b5853b78af8afb383c5bd1db8f0ce",
+                    "reference": "3e8c8666bb7b5853b78af8afb383c5bd1db8f0ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-04-26T10:19:35+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.7.3"
+                }
+            },
+            "v2.8.3": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v2.8.3",
+                "version_normalized": "2.8.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "c78d8768da46610805ddeeb26e318ec463399afd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/c78d8768da46610805ddeeb26e318ec463399afd",
+                    "reference": "c78d8768da46610805ddeeb26e318ec463399afd",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2018-06-25T11:28:09+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v2.8.3"
+                }
+            },
+            "v3.0.6": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v3.0.6",
+                "version_normalized": "3.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "3984ced127c0397c9c56389ba43f1dbd6398182c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/3984ced127c0397c9c56389ba43f1dbd6398182c",
+                    "reference": "3984ced127c0397c9c56389ba43f1dbd6398182c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2020-02-03T08:37:42+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v3.0.6"
+                }
+            },
+            "v3.1.8": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v3.1.8",
+                "version_normalized": "3.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "a42a2ae520e137d2fa2f134f28c87421e6168dae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/a42a2ae520e137d2fa2f134f28c87421e6168dae",
+                    "reference": "a42a2ae520e137d2fa2f134f28c87421e6168dae",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2021-04-23T16:11:24+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "WPML String Translation",
+                "homepage": "http://wpml.org",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v3.1.8"
+                }
+            },
+            "3.2.14": {
+                "name": "generoi/wpml-string-translation",
+                "version": "3.2.14",
+                "version_normalized": "3.2.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "737cd6b0dbc2076fff5cabc4def007ffa8da2dd8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/737cd6b0dbc2076fff5cabc4def007ffa8da2dd8",
+                    "reference": "737cd6b0dbc2076fff5cabc4def007ffa8da2dd8",
+                    "shasum": ""
+                },
+                "time": "2024-09-09T17:31:05+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/3.2.14",
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues"
+                }
+            },
+            "3.2.15": {
+                "name": "generoi/wpml-string-translation",
+                "version": "3.2.15",
+                "version_normalized": "3.2.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "ace9ca6f67d2cd903e1e6ce020a7744d633723e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/ace9ca6f67d2cd903e1e6ce020a7744d633723e2",
+                    "reference": "ace9ca6f67d2cd903e1e6ce020a7744d633723e2",
+                    "shasum": ""
+                },
+                "time": "2024-11-13T04:12:02+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/3.2.15",
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues"
+                }
+            },
+            "3.2.16": {
+                "name": "generoi/wpml-string-translation",
+                "version": "3.2.16",
+                "version_normalized": "3.2.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "f05d6f6f2533aec1a2df4e42a814b28aad3d4e6a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/f05d6f6f2533aec1a2df4e42a814b28aad3d4e6a",
+                    "reference": "f05d6f6f2533aec1a2df4e42a814b28aad3d4e6a",
+                    "shasum": ""
+                },
+                "time": "2024-12-03T04:11:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/3.2.16",
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/wpml-string-translation",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "f05d6f6f2533aec1a2df4e42a814b28aad3d4e6a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/f05d6f6f2533aec1a2df4e42a814b28aad3d4e6a",
+                    "reference": "f05d6f6f2533aec1a2df4e42a814b28aad3d4e6a",
+                    "shasum": ""
+                },
+                "time": "2024-12-03T04:11:40+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/3.2.16",
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues"
                 }
             }
         },
