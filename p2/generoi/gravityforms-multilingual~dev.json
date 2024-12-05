@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/gravityforms-multilingual": [
+            {
+                "name": "generoi/gravityforms-multilingual",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms-multilingual.git",
+                    "reference": "0d962c33b76c6432efd5775cddf944f2edc097c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-multilingual/zipball/0d962c33b76c6432efd5775cddf944f2edc097c2",
+                    "reference": "0d962c33b76c6432efd5775cddf944f2edc097c2",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T15:13:45+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms-multilingual/tree/1.8.2",
+                    "issues": "https://github.com/generoi/gravityforms-multilingual/issues"
+                }
+            }
+        ]
+    }
+}

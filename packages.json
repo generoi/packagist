@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$23a1da1d0aee8956d6e61c978d7fb78acf0acdb7.json": {
-            "sha1": "23a1da1d0aee8956d6e61c978d7fb78acf0acdb7"
+        "include/all$3026c64428b76bd90904acb7b13ffbc453638133.json": {
+            "sha1": "3026c64428b76bd90904acb7b13ffbc453638133"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -19,6 +19,7 @@
         "generoi/filebird-pro",
         "generoi/gravity-forms-user-verification",
         "generoi/gravityforms",
+        "generoi/gravityforms-multilingual",
         "generoi/gravityformsactivecampaign",
         "generoi/gravityformshubspot",
         "generoi/gravityformsmailchimp",
