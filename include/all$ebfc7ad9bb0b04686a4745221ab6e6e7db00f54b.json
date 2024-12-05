@@ -2784,6 +2784,190 @@
                 }
             }
         },
+        "generoi/facetwp-hierarchy-select": {
+            "v0.1": {
+                "name": "generoi/facetwp-hierarchy-select",
+                "version": "v0.1",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-hierarchy-select.git",
+                    "reference": "0a7c2d6f3f952cb00d324a0521591fd41d7f4426"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/0a7c2d6f3f952cb00d324a0521591fd41d7f4426",
+                    "reference": "0a7c2d6f3f952cb00d324a0521591fd41d7f4426",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-04-19T14:35:19+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Filtering Plugin for WordPress",
+                "homepage": "https://facetwp.com/add-ons/hierarchy-select",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-hierarchy-select/issues",
+                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/v0.1"
+                }
+            },
+            "v0.2.1": {
+                "name": "generoi/facetwp-hierarchy-select",
+                "version": "v0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-hierarchy-select.git",
+                    "reference": "180cdc16cbd78d0aee1cbdbadb84f8d32829ec00"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/180cdc16cbd78d0aee1cbdbadb84f8d32829ec00",
+                    "reference": "180cdc16cbd78d0aee1cbdbadb84f8d32829ec00",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2017-09-20T16:26:10+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Filtering Plugin for WordPress",
+                "homepage": "https://facetwp.com/add-ons/hierarchy-select",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-hierarchy-select/issues",
+                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/v0.2.1"
+                }
+            },
+            "v0.4.1": {
+                "name": "generoi/facetwp-hierarchy-select",
+                "version": "v0.4.1",
+                "version_normalized": "0.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-hierarchy-select.git",
+                    "reference": "1bdb05561332af179aff09a9c52ca6286f7504d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/1bdb05561332af179aff09a9c52ca6286f7504d3",
+                    "reference": "1bdb05561332af179aff09a9c52ca6286f7504d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2019-02-19T11:58:53+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Oskar Schöldström",
+                        "email": "public@oxy.fi"
+                    }
+                ],
+                "description": "Advanced Filtering Plugin for WordPress",
+                "homepage": "https://facetwp.com/add-ons/hierarchy-select",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/facetwp-hierarchy-select/issues",
+                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/v0.4.1"
+                }
+            },
+            "0.5.3": {
+                "name": "generoi/facetwp-hierarchy-select",
+                "version": "0.5.3",
+                "version_normalized": "0.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-hierarchy-select.git",
+                    "reference": "f072a46b714b9f24dba4f29c8896cca96e177955"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/f072a46b714b9f24dba4f29c8896cca96e177955",
+                    "reference": "f072a46b714b9f24dba4f29c8896cca96e177955",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T15:53:12+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/help-center/facets/facet-types/hierarchy-select/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/0.5.3",
+                    "issues": "https://github.com/generoi/facetwp-hierarchy-select/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/facetwp-hierarchy-select",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-hierarchy-select.git",
+                    "reference": "f072a46b714b9f24dba4f29c8896cca96e177955"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/f072a46b714b9f24dba4f29c8896cca96e177955",
+                    "reference": "f072a46b714b9f24dba4f29c8896cca96e177955",
+                    "shasum": ""
+                },
+                "time": "2024-12-05T15:53:12+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/help-center/facets/facet-types/hierarchy-select/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/0.5.3",
+                    "issues": "https://github.com/generoi/facetwp-hierarchy-select/issues"
+                }
+            }
+        },
         "generoi/facetwp-i18n": {
             "v0.2.1": {
                 "name": "generoi/facetwp-i18n",
