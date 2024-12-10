@@ -23,7 +23,8 @@
                 "support": {
                     "source": "https://github.com/generoi/pixelyoursite-pro/tree/v11.1.1",
                     "issues": "https://github.com/generoi/pixelyoursite-pro/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }
