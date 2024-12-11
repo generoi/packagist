@@ -9615,6 +9615,29 @@
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
             },
+            "2.2.0": {
+                "name": "generoi/woocommerce-gift-cards",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-gift-cards.git",
+                    "reference": "785c990f38bd9c8c9f3b61b8e7635c1e1ee82a31"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/785c990f38bd9c8c9f3b61b8e7635c1e1ee82a31",
+                    "reference": "785c990f38bd9c8c9f3b61b8e7635c1e1ee82a31",
+                    "shasum": ""
+                },
+                "time": "2024-12-11T04:10:50+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/gift-cards/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.2.0",
+                    "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/woocommerce-gift-cards",
                 "version": "dev-master",
@@ -9622,20 +9645,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-gift-cards.git",
-                    "reference": "fe9294c62fb93982a7b03aa1b244570366af573b"
+                    "reference": "785c990f38bd9c8c9f3b61b8e7635c1e1ee82a31"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/fe9294c62fb93982a7b03aa1b244570366af573b",
-                    "reference": "fe9294c62fb93982a7b03aa1b244570366af573b",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/785c990f38bd9c8c9f3b61b8e7635c1e1ee82a31",
+                    "reference": "785c990f38bd9c8c9f3b61b8e7635c1e1ee82a31",
                     "shasum": ""
                 },
-                "time": "2024-11-21T04:10:40+00:00",
+                "time": "2024-12-11T04:10:50+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://woocommerce.com/products/gift-cards/",
                 "support": {
-                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.1.1",
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.2.0",
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
             }
@@ -13341,6 +13364,29 @@
                     "issues": "https://github.com/generoi/wpml-string-translation/issues"
                 }
             },
+            "3.2.17": {
+                "name": "generoi/wpml-string-translation",
+                "version": "3.2.17",
+                "version_normalized": "3.2.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "5fde76a83e405ba3261d4d422a72eea7c2d6f2e7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/5fde76a83e405ba3261d4d422a72eea7c2d6f2e7",
+                    "reference": "5fde76a83e405ba3261d4d422a72eea7c2d6f2e7",
+                    "shasum": ""
+                },
+                "time": "2024-12-11T04:11:45+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/3.2.17",
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wpml-string-translation",
                 "version": "dev-master",
@@ -13348,20 +13394,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpml-string-translation.git",
-                    "reference": "f05d6f6f2533aec1a2df4e42a814b28aad3d4e6a"
+                    "reference": "5fde76a83e405ba3261d4d422a72eea7c2d6f2e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/f05d6f6f2533aec1a2df4e42a814b28aad3d4e6a",
-                    "reference": "f05d6f6f2533aec1a2df4e42a814b28aad3d4e6a",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/5fde76a83e405ba3261d4d422a72eea7c2d6f2e7",
+                    "reference": "5fde76a83e405ba3261d4d422a72eea7c2d6f2e7",
                     "shasum": ""
                 },
-                "time": "2024-12-03T04:11:40+00:00",
+                "time": "2024-12-11T04:11:45+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/wpml-string-translation/tree/3.2.16",
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/3.2.17",
                     "issues": "https://github.com/generoi/wpml-string-translation/issues"
                 }
             }
