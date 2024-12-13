@@ -23,7 +23,8 @@
                 "support": {
                     "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/master",
                     "issues": "https://github.com/generoi/role-based-pricing-for-woocommerce/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }
