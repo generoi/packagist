@@ -316,6 +316,29 @@
                     "source": "https://github.com/generoi/gravityformsmailchimp/tree/5.5.0",
                     "issues": "https://github.com/generoi/gravityformsmailchimp/issues"
                 }
+            },
+            {
+                "name": "generoi/gravityformsmailchimp",
+                "version": "5.6.0",
+                "version_normalized": "5.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsmailchimp.git",
+                    "reference": "1a9f1313df597046e259c4543d46ed716f8faeb6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsmailchimp/zipball/1a9f1313df597046e259c4543d46ed716f8faeb6",
+                    "reference": "1a9f1313df597046e259c4543d46ed716f8faeb6",
+                    "shasum": ""
+                },
+                "time": "2024-12-13T04:12:23+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsmailchimp/tree/5.6.0",
+                    "issues": "https://github.com/generoi/gravityformsmailchimp/issues"
+                }
             }
         ]
     }
