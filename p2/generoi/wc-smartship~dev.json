@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wc-smartship.git",
-                    "reference": "f110e9ddf47d3cceac5b807cf9da840086e68345"
+                    "reference": "35d29efe8f0a96268c0c0e9a22bc530fe42cae32"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wc-smartship/zipball/f110e9ddf47d3cceac5b807cf9da840086e68345",
-                    "reference": "f110e9ddf47d3cceac5b807cf9da840086e68345",
+                    "url": "https://api.github.com/repos/generoi/wc-smartship/zipball/35d29efe8f0a96268c0c0e9a22bc530fe42cae32",
+                    "reference": "35d29efe8f0a96268c0c0e9a22bc530fe42cae32",
                     "shasum": ""
                 },
-                "time": "2024-11-16T04:13:29+00:00",
+                "time": "2024-12-14T04:11:52+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/products/woocommerce-smartship-prinetti/",
                 "support": {
-                    "source": "https://github.com/generoi/wc-smartship/tree/2.0.3",
+                    "source": "https://github.com/generoi/wc-smartship/tree/2.0.4",
                     "issues": "https://github.com/generoi/wc-smartship/issues"
                 }
             }
