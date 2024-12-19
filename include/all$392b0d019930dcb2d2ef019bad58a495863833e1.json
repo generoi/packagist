@@ -4744,6 +4744,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.1.1": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.1.1",
+                "version_normalized": "2.9.1.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "164abc860ac854025c7744092b69457196cc1852"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/164abc860ac854025c7744092b69457196cc1852",
+                    "reference": "164abc860ac854025c7744092b69457196cc1852",
+                    "shasum": ""
+                },
+                "time": "2024-12-19T04:11:41+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.1.1",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityforms",
                 "version": "dev-master",
@@ -4751,20 +4774,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "eb60bfd53826b7d92e8530cfbc9d9635b8c76d7f"
+                    "reference": "164abc860ac854025c7744092b69457196cc1852"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/eb60bfd53826b7d92e8530cfbc9d9635b8c76d7f",
-                    "reference": "eb60bfd53826b7d92e8530cfbc9d9635b8c76d7f",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/164abc860ac854025c7744092b69457196cc1852",
+                    "reference": "164abc860ac854025c7744092b69457196cc1852",
                     "shasum": ""
                 },
-                "time": "2024-12-13T04:11:53+00:00",
+                "time": "2024-12-19T04:11:41+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.1",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.1.1",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             }
@@ -8339,6 +8362,29 @@
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             },
+            "2.27.4.1": {
+                "name": "generoi/relevanssi-premium",
+                "version": "2.27.4.1",
+                "version_normalized": "2.27.4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/relevanssi-premium.git",
+                    "reference": "6253b1453921d375a3cf5fd5013b7bac66b5e973"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/6253b1453921d375a3cf5fd5013b7bac66b5e973",
+                    "reference": "6253b1453921d375a3cf5fd5013b7bac66b5e973",
+                    "shasum": ""
+                },
+                "time": "2024-12-19T04:12:16+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.relevanssi.com/buy-premium/",
+                "support": {
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.27.4.1",
+                    "issues": "https://github.com/generoi/relevanssi-premium/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/relevanssi-premium",
                 "version": "dev-master",
@@ -8346,20 +8392,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/relevanssi-premium.git",
-                    "reference": "b751fee55028ddcb9b83af714f90bb81cb70b093"
+                    "reference": "6253b1453921d375a3cf5fd5013b7bac66b5e973"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/b751fee55028ddcb9b83af714f90bb81cb70b093",
-                    "reference": "b751fee55028ddcb9b83af714f90bb81cb70b093",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/6253b1453921d375a3cf5fd5013b7bac66b5e973",
+                    "reference": "6253b1453921d375a3cf5fd5013b7bac66b5e973",
                     "shasum": ""
                 },
-                "time": "2024-12-06T04:12:00+00:00",
+                "time": "2024-12-19T04:12:16+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.relevanssi.com/buy-premium/",
                 "support": {
-                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.27.3",
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.27.4.1",
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             }
