@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$392b0d019930dcb2d2ef019bad58a495863833e1.json": {
-            "sha1": "392b0d019930dcb2d2ef019bad58a495863833e1"
+        "include/all$dbf002eb0929c50f1412443725102ddd8775252c.json": {
+            "sha1": "dbf002eb0929c50f1412443725102ddd8775252c"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -27,6 +27,7 @@
         "generoi/gravityformsmailchimp",
         "generoi/gravityformsrecaptcha",
         "generoi/gravityformssurvey",
+        "generoi/gravityformswebhooks",
         "generoi/instagram-feed-pro",
         "generoi/multilingualpress",
         "generoi/pixelyoursite-pro",
