@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woo-carrier-agents.git",
-                    "reference": "0a014dc0f2dcf052360786527d3cf4deb3c1f17b"
+                    "reference": "51e46a11114da76805f104db516bc76852b11e05"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/0a014dc0f2dcf052360786527d3cf4deb3c1f17b",
-                    "reference": "0a014dc0f2dcf052360786527d3cf4deb3c1f17b",
+                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/51e46a11114da76805f104db516bc76852b11e05",
+                    "reference": "51e46a11114da76805f104db516bc76852b11e05",
                     "shasum": ""
                 },
-                "time": "2024-12-13T04:09:35+00:00",
+                "time": "2025-01-08T04:09:20+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/products/woocommerce-noutopistehaku/",
                 "support": {
-                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.10.0",
+                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.11.0",
                     "issues": "https://github.com/generoi/woo-carrier-agents/issues"
                 }
             }

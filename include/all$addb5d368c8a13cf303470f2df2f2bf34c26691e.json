@@ -9542,6 +9542,29 @@
                     "issues": "https://github.com/generoi/woo-carrier-agents/issues"
                 }
             },
+            "1.11.0": {
+                "name": "generoi/woo-carrier-agents",
+                "version": "1.11.0",
+                "version_normalized": "1.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woo-carrier-agents.git",
+                    "reference": "51e46a11114da76805f104db516bc76852b11e05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/51e46a11114da76805f104db516bc76852b11e05",
+                    "reference": "51e46a11114da76805f104db516bc76852b11e05",
+                    "shasum": ""
+                },
+                "time": "2025-01-08T04:09:20+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-noutopistehaku/",
+                "support": {
+                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.11.0",
+                    "issues": "https://github.com/generoi/woo-carrier-agents/issues"
+                }
+            },
             "1.8.0": {
                 "name": "generoi/woo-carrier-agents",
                 "version": "1.8.0",
@@ -9641,20 +9664,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woo-carrier-agents.git",
-                    "reference": "0a014dc0f2dcf052360786527d3cf4deb3c1f17b"
+                    "reference": "51e46a11114da76805f104db516bc76852b11e05"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/0a014dc0f2dcf052360786527d3cf4deb3c1f17b",
-                    "reference": "0a014dc0f2dcf052360786527d3cf4deb3c1f17b",
+                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/51e46a11114da76805f104db516bc76852b11e05",
+                    "reference": "51e46a11114da76805f104db516bc76852b11e05",
                     "shasum": ""
                 },
-                "time": "2024-12-13T04:09:35+00:00",
+                "time": "2025-01-08T04:09:20+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/products/woocommerce-noutopistehaku/",
                 "support": {
-                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.10.0",
+                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.11.0",
                     "issues": "https://github.com/generoi/woo-carrier-agents/issues"
                 }
             }
@@ -10552,6 +10575,29 @@
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
             },
+            "1.9.3": {
+                "name": "generoi/wp-all-export-pro",
+                "version": "1.9.3",
+                "version_normalized": "1.9.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-export-pro.git",
+                    "reference": "7e4770ac3be4d8befcaebda8fb16bd8db9bd12ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/7e4770ac3be4d8befcaebda8fb16bd8db9bd12ed",
+                    "reference": "7e4770ac3be4d8befcaebda8fb16bd8db9bd12ed",
+                    "shasum": ""
+                },
+                "time": "2025-01-08T04:09:37+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.3",
+                    "issues": "https://github.com/generoi/wp-all-export-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wp-all-export-pro",
                 "version": "dev-master",
@@ -10559,20 +10605,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-export-pro.git",
-                    "reference": "21e255bf69cd9a10875a9b54ed6002a39c6b0da7"
+                    "reference": "7e4770ac3be4d8befcaebda8fb16bd8db9bd12ed"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/21e255bf69cd9a10875a9b54ed6002a39c6b0da7",
-                    "reference": "21e255bf69cd9a10875a9b54ed6002a39c6b0da7",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/7e4770ac3be4d8befcaebda8fb16bd8db9bd12ed",
+                    "reference": "7e4770ac3be4d8befcaebda8fb16bd8db9bd12ed",
                     "shasum": ""
                 },
-                "time": "2025-01-02T04:09:29+00:00",
+                "time": "2025-01-08T04:09:37+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.2",
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.3",
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
             }
