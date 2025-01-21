@@ -4836,6 +4836,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.2.2": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.2.2",
+                "version_normalized": "2.9.2.2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "5b5a9f236b46b85872cc3a541dbb13a9fd31a660"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/5b5a9f236b46b85872cc3a541dbb13a9fd31a660",
+                    "reference": "5b5a9f236b46b85872cc3a541dbb13a9fd31a660",
+                    "shasum": ""
+                },
+                "time": "2025-01-21T04:11:30+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.2.2",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityforms",
                 "version": "dev-master",
@@ -4843,20 +4866,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "2df49a2dcbebffcabadc12dbe6d4f9a07fd4ddf9"
+                    "reference": "5b5a9f236b46b85872cc3a541dbb13a9fd31a660"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/2df49a2dcbebffcabadc12dbe6d4f9a07fd4ddf9",
-                    "reference": "2df49a2dcbebffcabadc12dbe6d4f9a07fd4ddf9",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/5b5a9f236b46b85872cc3a541dbb13a9fd31a660",
+                    "reference": "5b5a9f236b46b85872cc3a541dbb13a9fd31a660",
                     "shasum": ""
                 },
-                "time": "2025-01-17T04:11:51+00:00",
+                "time": "2025-01-21T04:11:30+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.2",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.2.2",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             }
