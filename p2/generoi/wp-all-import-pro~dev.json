@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-import-pro.git",
-                    "reference": "5686d17057d2d236197a86453131e9f99ff6bd09"
+                    "reference": "e7ab02bba54c36c3f99493854298b49401aab79a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/5686d17057d2d236197a86453131e9f99ff6bd09",
-                    "reference": "5686d17057d2d236197a86453131e9f99ff6bd09",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/e7ab02bba54c36c3f99493854298b49401aab79a",
+                    "reference": "e7ab02bba54c36c3f99493854298b49401aab79a",
                     "shasum": ""
                 },
-                "time": "2025-01-17T04:09:10+00:00",
+                "time": "2025-01-23T04:09:06+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.9.7",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.9.8",
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             }
