@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/social-wall.git",
-                    "reference": "1dad8cbaa86bad123dcb9ecee78054009af4e8cf"
+                    "reference": "473b1501c9985d124e741414629c32a6792980a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/social-wall/zipball/1dad8cbaa86bad123dcb9ecee78054009af4e8cf",
-                    "reference": "1dad8cbaa86bad123dcb9ecee78054009af4e8cf",
+                    "url": "https://api.github.com/repos/generoi/social-wall/zipball/473b1501c9985d124e741414629c32a6792980a9",
+                    "reference": "473b1501c9985d124e741414629c32a6792980a9",
                     "shasum": ""
                 },
-                "time": "2024-09-23T14:19:38+00:00",
+                "time": "2025-01-30T04:11:51+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/social-wall/",
                 "support": {
-                    "source": "https://github.com/generoi/social-wall/tree/2.2.2",
+                    "source": "https://github.com/generoi/social-wall/tree/2.3",
                     "issues": "https://github.com/generoi/social-wall/issues"
                 }
             }
