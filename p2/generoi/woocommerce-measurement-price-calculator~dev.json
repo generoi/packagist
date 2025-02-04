@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-measurement-price-calculator.git",
-                    "reference": "b6fdf80e3a28aaf0af44e7c763fa76c1f5dfacbb"
+                    "reference": "41c90e30091f5e9b5b59b87ba63cac02c90758fb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-measurement-price-calculator/zipball/b6fdf80e3a28aaf0af44e7c763fa76c1f5dfacbb",
-                    "reference": "b6fdf80e3a28aaf0af44e7c763fa76c1f5dfacbb",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-measurement-price-calculator/zipball/41c90e30091f5e9b5b59b87ba63cac02c90758fb",
+                    "reference": "41c90e30091f5e9b5b59b87ba63cac02c90758fb",
                     "shasum": ""
                 },
-                "time": "2024-09-30T11:04:45+00:00",
+                "time": "2025-02-04T04:09:22+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://woocommerce.com/products/measurement-price-calculator/",
                 "support": {
-                    "source": "https://github.com/generoi/woocommerce-measurement-price-calculator/tree/3.23.6",
+                    "source": "https://github.com/generoi/woocommerce-measurement-price-calculator/tree/3.23.7",
                     "issues": "https://github.com/generoi/woocommerce-measurement-price-calculator/issues"
                 }
             }
