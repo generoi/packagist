@@ -115,6 +115,29 @@
                     "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.4.0",
                     "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
                 }
+            },
+            {
+                "name": "generoi/complianz-gdpr-premium",
+                "version": "7.4.1",
+                "version_normalized": "7.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/complianz-gdpr-premium.git",
+                    "reference": "54a186da8582c5eb4f6fde39193562070ef4449b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/54a186da8582c5eb4f6fde39193562070ef4449b",
+                    "reference": "54a186da8582c5eb4f6fde39193562070ef4449b",
+                    "shasum": ""
+                },
+                "time": "2025-02-12T04:12:46+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://complianz.io/",
+                "support": {
+                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.4.1",
+                    "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
+                }
             }
         ]
     }
