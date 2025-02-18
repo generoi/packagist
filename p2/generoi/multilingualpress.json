@@ -294,6 +294,29 @@
                     "source": "https://github.com/generoi/multilingualpress/tree/4.8.0",
                     "issues": "https://github.com/generoi/multilingualpress/issues"
                 }
+            },
+            {
+                "name": "generoi/multilingualpress",
+                "version": "4.8.1",
+                "version_normalized": "4.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "8cc86ddae544c24ef365a385676d51393d309491"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/8cc86ddae544c24ef365a385676d51393d309491",
+                    "reference": "8cc86ddae544c24ef365a385676d51393d309491",
+                    "shasum": ""
+                },
+                "time": "2025-02-18T04:12:48+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.multilingualpress.org",
+                "support": {
+                    "source": "https://github.com/generoi/multilingualpress/tree/4.8.1",
+                    "issues": "https://github.com/generoi/multilingualpress/issues"
+                }
             }
         ]
     }

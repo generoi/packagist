@@ -6346,6 +6346,29 @@
                     "issues": "https://github.com/generoi/multilingualpress/issues"
                 }
             },
+            "4.8.1": {
+                "name": "generoi/multilingualpress",
+                "version": "4.8.1",
+                "version_normalized": "4.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "8cc86ddae544c24ef365a385676d51393d309491"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/8cc86ddae544c24ef365a385676d51393d309491",
+                    "reference": "8cc86ddae544c24ef365a385676d51393d309491",
+                    "shasum": ""
+                },
+                "time": "2025-02-18T04:12:48+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.multilingualpress.org",
+                "support": {
+                    "source": "https://github.com/generoi/multilingualpress/tree/4.8.1",
+                    "issues": "https://github.com/generoi/multilingualpress/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/multilingualpress",
                 "version": "dev-master",
@@ -6353,20 +6376,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/multilingualpress.git",
-                    "reference": "0ee8b83beb05e3cd0b638246f2158c18c5f5f5f1"
+                    "reference": "8cc86ddae544c24ef365a385676d51393d309491"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/0ee8b83beb05e3cd0b638246f2158c18c5f5f5f1",
-                    "reference": "0ee8b83beb05e3cd0b638246f2158c18c5f5f5f1",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/8cc86ddae544c24ef365a385676d51393d309491",
+                    "reference": "8cc86ddae544c24ef365a385676d51393d309491",
                     "shasum": ""
                 },
-                "time": "2024-12-21T04:13:17+00:00",
+                "time": "2025-02-18T04:12:48+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.multilingualpress.org",
                 "support": {
-                    "source": "https://github.com/generoi/multilingualpress/tree/4.8.0",
+                    "source": "https://github.com/generoi/multilingualpress/tree/4.8.1",
                     "issues": "https://github.com/generoi/multilingualpress/issues"
                 }
             }
