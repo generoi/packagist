@@ -69,6 +69,29 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.4.5",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 }
+            },
+            {
+                "name": "generoi/custom-twitter-feeds-pro",
+                "version": "2.4.6",
+                "version_normalized": "2.4.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-twitter-feeds-pro.git",
+                    "reference": "23b8e063a8669f5e78c80444d9026cd20ddda06c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/23b8e063a8669f5e78c80444d9026cd20ddda06c",
+                    "reference": "23b8e063a8669f5e78c80444d9026cd20ddda06c",
+                    "shasum": ""
+                },
+                "time": "2025-02-19T04:10:35+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-twitter-feeds/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.4.6",
+                    "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
+                }
             }
         ]
     }
