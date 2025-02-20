@@ -6049,6 +6049,29 @@
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             },
+            "6.6.0": {
+                "name": "generoi/instagram-feed-pro",
+                "version": "6.6.0",
+                "version_normalized": "6.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/instagram-feed-pro.git",
+                    "reference": "5c3d0f3c7c15e2332756b8806684cdbfa87f7448"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/5c3d0f3c7c15e2332756b8806684cdbfa87f7448",
+                    "reference": "5c3d0f3c7c15e2332756b8806684cdbfa87f7448",
+                    "shasum": ""
+                },
+                "time": "2025-02-20T04:09:07+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/instagram-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.6.0",
+                    "issues": "https://github.com/generoi/instagram-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/instagram-feed-pro",
                 "version": "dev-master",
@@ -6056,20 +6079,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/instagram-feed-pro.git",
-                    "reference": "616f2afc1d78e34fae066ad76edee6201aecd167"
+                    "reference": "5c3d0f3c7c15e2332756b8806684cdbfa87f7448"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/616f2afc1d78e34fae066ad76edee6201aecd167",
-                    "reference": "616f2afc1d78e34fae066ad76edee6201aecd167",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/5c3d0f3c7c15e2332756b8806684cdbfa87f7448",
+                    "reference": "5c3d0f3c7c15e2332756b8806684cdbfa87f7448",
                     "shasum": ""
                 },
-                "time": "2024-11-20T04:09:48+00:00",
+                "time": "2025-02-20T04:09:07+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/instagram-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.5.1",
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.6.0",
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             }
@@ -9599,6 +9622,29 @@
                     "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
                 }
             },
+            "4.7.1": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "4.7.1",
+                "version_normalized": "4.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "0395c968f573858fb47e1761bca47e9d34e157ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/0395c968f573858fb47e1761bca47e9d34e157ca",
+                    "reference": "0395c968f573858fb47e1761bca47e9d34e157ca",
+                    "shasum": ""
+                },
+                "time": "2025-02-20T04:09:10+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.7.1",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/sitepress-multilingual-cms",
                 "version": "dev-master",
@@ -9606,20 +9652,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
-                    "reference": "9fc7921c62cc6c333aa62a8d52d823abe4b3ee15"
+                    "reference": "0395c968f573858fb47e1761bca47e9d34e157ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/9fc7921c62cc6c333aa62a8d52d823abe4b3ee15",
-                    "reference": "9fc7921c62cc6c333aa62a8d52d823abe4b3ee15",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/0395c968f573858fb47e1761bca47e9d34e157ca",
+                    "reference": "0395c968f573858fb47e1761bca47e9d34e157ca",
                     "shasum": ""
                 },
-                "time": "2024-12-17T04:09:57+00:00",
+                "time": "2025-02-20T04:09:10+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.6.15",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.7.1",
                     "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
                 }
             }
