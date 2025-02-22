@@ -6095,6 +6095,29 @@
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             },
+            "6.6.1": {
+                "name": "generoi/instagram-feed-pro",
+                "version": "6.6.1",
+                "version_normalized": "6.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/instagram-feed-pro.git",
+                    "reference": "f26ba93cf66ec61207783cf67b4e0908f8e41132"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/f26ba93cf66ec61207783cf67b4e0908f8e41132",
+                    "reference": "f26ba93cf66ec61207783cf67b4e0908f8e41132",
+                    "shasum": ""
+                },
+                "time": "2025-02-22T04:09:05+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/instagram-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.6.1",
+                    "issues": "https://github.com/generoi/instagram-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/instagram-feed-pro",
                 "version": "dev-master",
@@ -6102,20 +6125,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/instagram-feed-pro.git",
-                    "reference": "5c3d0f3c7c15e2332756b8806684cdbfa87f7448"
+                    "reference": "f26ba93cf66ec61207783cf67b4e0908f8e41132"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/5c3d0f3c7c15e2332756b8806684cdbfa87f7448",
-                    "reference": "5c3d0f3c7c15e2332756b8806684cdbfa87f7448",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/f26ba93cf66ec61207783cf67b4e0908f8e41132",
+                    "reference": "f26ba93cf66ec61207783cf67b4e0908f8e41132",
                     "shasum": ""
                 },
-                "time": "2025-02-20T04:09:07+00:00",
+                "time": "2025-02-22T04:09:05+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/instagram-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.6.0",
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.6.1",
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             }
@@ -10002,6 +10025,29 @@
                     "issues": "https://github.com/generoi/woo-carrier-agents/issues"
                 }
             },
+            "1.12.2": {
+                "name": "generoi/woo-carrier-agents",
+                "version": "1.12.2",
+                "version_normalized": "1.12.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woo-carrier-agents.git",
+                    "reference": "9bf46b0a4e60573c1029b918f0bd055e637c2b3f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/9bf46b0a4e60573c1029b918f0bd055e637c2b3f",
+                    "reference": "9bf46b0a4e60573c1029b918f0bd055e637c2b3f",
+                    "shasum": ""
+                },
+                "time": "2025-02-22T04:08:39+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-noutopistehaku/",
+                "support": {
+                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.12.2",
+                    "issues": "https://github.com/generoi/woo-carrier-agents/issues"
+                }
+            },
             "1.8.0": {
                 "name": "generoi/woo-carrier-agents",
                 "version": "1.8.0",
@@ -10101,20 +10147,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woo-carrier-agents.git",
-                    "reference": "10899b87a4e2cd28e820899a710317d0f139606d"
+                    "reference": "9bf46b0a4e60573c1029b918f0bd055e637c2b3f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/10899b87a4e2cd28e820899a710317d0f139606d",
-                    "reference": "10899b87a4e2cd28e820899a710317d0f139606d",
+                    "url": "https://api.github.com/repos/generoi/woo-carrier-agents/zipball/9bf46b0a4e60573c1029b918f0bd055e637c2b3f",
+                    "reference": "9bf46b0a4e60573c1029b918f0bd055e637c2b3f",
                     "shasum": ""
                 },
-                "time": "2025-01-14T04:08:49+00:00",
+                "time": "2025-02-22T04:08:39+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/products/woocommerce-noutopistehaku/",
                 "support": {
-                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.12.1",
+                    "source": "https://github.com/generoi/woo-carrier-agents/tree/1.12.2",
                     "issues": "https://github.com/generoi/woo-carrier-agents/issues"
                 }
             }
