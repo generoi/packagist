@@ -31,20 +31,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/woocommerce-gateway-verifone.git",
-                    "reference": "3b5a24c9900626cb119e67b835f3f975f35f5929"
+                    "reference": "68b3c964089888f7920b5f325ee6254df60a5f74"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-gateway-verifone/zipball/3b5a24c9900626cb119e67b835f3f975f35f5929",
-                    "reference": "3b5a24c9900626cb119e67b835f3f975f35f5929",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gateway-verifone/zipball/68b3c964089888f7920b5f325ee6254df60a5f74",
+                    "reference": "68b3c964089888f7920b5f325ee6254df60a5f74",
                     "shasum": ""
                 },
-                "time": "2024-09-04T22:44:20+00:00",
+                "time": "2025-02-26T13:38:30+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.bluecommerce.fi/kayttoonotto/woocommerce-moduuli/",
                 "support": {
-                    "source": "https://github.com/generoi/woocommerce-gateway-verifone/tree/1.4.0",
+                    "source": "https://github.com/generoi/woocommerce-gateway-verifone/tree/1.5.0",
                     "issues": "https://github.com/generoi/woocommerce-gateway-verifone/issues"
                 }
             }
