@@ -13,6 +13,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/facetwp-hierarchy-select.git" },
         { "type": "vcs", "url": "https://github.com/generoi/facetwp-relevanssi.git" },
         { "type": "vcs", "url": "https://github.com/generoi/filebird-pro.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/gf-pardot-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityforms.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformsactivecampaign.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformsgoogleanalytics.git" },
