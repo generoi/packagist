@@ -6259,6 +6259,29 @@
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             },
+            "6.7.0": {
+                "name": "generoi/instagram-feed-pro",
+                "version": "6.7.0",
+                "version_normalized": "6.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/instagram-feed-pro.git",
+                    "reference": "d736312956ccff807509016d2f13699d9468403d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/d736312956ccff807509016d2f13699d9468403d",
+                    "reference": "d736312956ccff807509016d2f13699d9468403d",
+                    "shasum": ""
+                },
+                "time": "2025-03-12T04:09:43+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/instagram-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.7.0",
+                    "issues": "https://github.com/generoi/instagram-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/instagram-feed-pro",
                 "version": "dev-master",
@@ -6266,20 +6289,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/instagram-feed-pro.git",
-                    "reference": "f26ba93cf66ec61207783cf67b4e0908f8e41132"
+                    "reference": "d736312956ccff807509016d2f13699d9468403d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/f26ba93cf66ec61207783cf67b4e0908f8e41132",
-                    "reference": "f26ba93cf66ec61207783cf67b4e0908f8e41132",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/d736312956ccff807509016d2f13699d9468403d",
+                    "reference": "d736312956ccff807509016d2f13699d9468403d",
                     "shasum": ""
                 },
-                "time": "2025-02-22T04:09:05+00:00",
+                "time": "2025-03-12T04:09:43+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/instagram-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.6.1",
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.7.0",
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             }
@@ -8088,6 +8111,29 @@
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             },
+            "3.6.7": {
+                "name": "generoi/polylang-pro",
+                "version": "3.6.7",
+                "version_normalized": "3.6.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "42576c5e67cde10a09b67ef5f299a957d80ae1ef"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/42576c5e67cde10a09b67ef5f299a957d80ae1ef",
+                    "reference": "42576c5e67cde10a09b67ef5f299a957d80ae1ef",
+                    "shasum": ""
+                },
+                "time": "2025-03-12T04:11:20+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.7",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/polylang-pro",
                 "version": "dev-master",
@@ -8095,20 +8141,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "1cc423dd7b55135bf2e2b94945b1220d28b667f7"
+                    "reference": "42576c5e67cde10a09b67ef5f299a957d80ae1ef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/1cc423dd7b55135bf2e2b94945b1220d28b667f7",
-                    "reference": "1cc423dd7b55135bf2e2b94945b1220d28b667f7",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/42576c5e67cde10a09b67ef5f299a957d80ae1ef",
+                    "reference": "42576c5e67cde10a09b67ef5f299a957d80ae1ef",
                     "shasum": ""
                 },
-                "time": "2025-01-14T04:11:05+00:00",
+                "time": "2025-03-12T04:11:20+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.6",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.7",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             }
@@ -10704,6 +10750,29 @@
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
             },
+            "2.4.0": {
+                "name": "generoi/woocommerce-gift-cards",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-gift-cards.git",
+                    "reference": "7d9ebe2a9b65f8270d1e911304d5b588388bb864"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/7d9ebe2a9b65f8270d1e911304d5b588388bb864",
+                    "reference": "7d9ebe2a9b65f8270d1e911304d5b588388bb864",
+                    "shasum": ""
+                },
+                "time": "2025-03-12T04:10:30+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/gift-cards/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.4.0",
+                    "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/woocommerce-gift-cards",
                 "version": "dev-master",
@@ -10711,20 +10780,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-gift-cards.git",
-                    "reference": "e17f7f7773c36f14de3222cc1677c4525d3c77f2"
+                    "reference": "7d9ebe2a9b65f8270d1e911304d5b588388bb864"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/e17f7f7773c36f14de3222cc1677c4525d3c77f2",
-                    "reference": "e17f7f7773c36f14de3222cc1677c4525d3c77f2",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/7d9ebe2a9b65f8270d1e911304d5b588388bb864",
+                    "reference": "7d9ebe2a9b65f8270d1e911304d5b588388bb864",
                     "shasum": ""
                 },
-                "time": "2025-02-12T04:10:28+00:00",
+                "time": "2025-03-12T04:10:30+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://woocommerce.com/products/gift-cards/",
                 "support": {
-                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.3.0",
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.4.0",
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
             }

@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "1cc423dd7b55135bf2e2b94945b1220d28b667f7"
+                    "reference": "42576c5e67cde10a09b67ef5f299a957d80ae1ef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/1cc423dd7b55135bf2e2b94945b1220d28b667f7",
-                    "reference": "1cc423dd7b55135bf2e2b94945b1220d28b667f7",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/42576c5e67cde10a09b67ef5f299a957d80ae1ef",
+                    "reference": "42576c5e67cde10a09b67ef5f299a957d80ae1ef",
                     "shasum": ""
                 },
-                "time": "2025-01-14T04:11:05+00:00",
+                "time": "2025-03-12T04:11:20+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.6",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.7",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             }
