@@ -46,6 +46,29 @@
                     "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.6.6",
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
+            },
+            {
+                "name": "generoi/custom-facebook-feed-pro",
+                "version": "4.7.0",
+                "version_normalized": "4.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
+                    "reference": "3f00d0db60fd67f153b9d0018e06b7e1fe963f31"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/3f00d0db60fd67f153b9d0018e06b7e1fe963f31",
+                    "reference": "3f00d0db60fd67f153b9d0018e06b7e1fe963f31",
+                    "shasum": ""
+                },
+                "time": "2025-03-13T04:11:27+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-facebook-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.0",
+                    "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
+                }
             }
         ]
     }
