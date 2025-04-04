@@ -10016,6 +10016,29 @@
                     "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
                 }
             },
+            "4.7.3": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "4.7.3",
+                "version_normalized": "4.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "ad7cf932800c499489cb014ca40bedbad767e57d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/ad7cf932800c499489cb014ca40bedbad767e57d",
+                    "reference": "ad7cf932800c499489cb014ca40bedbad767e57d",
+                    "shasum": ""
+                },
+                "time": "2025-04-04T04:09:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.7.3",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/sitepress-multilingual-cms",
                 "version": "dev-master",
@@ -10023,20 +10046,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
-                    "reference": "bbeb516ede46e1a2cb2c8bad1797172fda50a1d8"
+                    "reference": "ad7cf932800c499489cb014ca40bedbad767e57d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/bbeb516ede46e1a2cb2c8bad1797172fda50a1d8",
-                    "reference": "bbeb516ede46e1a2cb2c8bad1797172fda50a1d8",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/ad7cf932800c499489cb014ca40bedbad767e57d",
+                    "reference": "ad7cf932800c499489cb014ca40bedbad767e57d",
                     "shasum": ""
                 },
-                "time": "2025-03-19T04:09:36+00:00",
+                "time": "2025-04-04T04:09:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.7.2",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.7.3",
                     "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
                 }
             }
@@ -11774,6 +11797,29 @@
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
             },
+            "1.9.8": {
+                "name": "generoi/wp-all-export-pro",
+                "version": "1.9.8",
+                "version_normalized": "1.9.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-export-pro.git",
+                    "reference": "1bc745a16209d9e6551dcf4c0013834396c63915"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/1bc745a16209d9e6551dcf4c0013834396c63915",
+                    "reference": "1bc745a16209d9e6551dcf4c0013834396c63915",
+                    "shasum": ""
+                },
+                "time": "2025-04-04T04:09:54+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.8",
+                    "issues": "https://github.com/generoi/wp-all-export-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wp-all-export-pro",
                 "version": "dev-master",
@@ -11781,20 +11827,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-export-pro.git",
-                    "reference": "3534606e5ca4727ac4b0cadbfcb08d3a7af3c255"
+                    "reference": "1bc745a16209d9e6551dcf4c0013834396c63915"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/3534606e5ca4727ac4b0cadbfcb08d3a7af3c255",
-                    "reference": "3534606e5ca4727ac4b0cadbfcb08d3a7af3c255",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/1bc745a16209d9e6551dcf4c0013834396c63915",
+                    "reference": "1bc745a16209d9e6551dcf4c0013834396c63915",
                     "shasum": ""
                 },
-                "time": "2025-03-16T04:08:55+00:00",
+                "time": "2025-04-04T04:09:54+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.7",
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.8",
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
             }
