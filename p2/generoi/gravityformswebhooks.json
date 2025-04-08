@@ -23,6 +23,29 @@
                     "source": "https://github.com/generoi/gravityformswebhooks/tree/1.5",
                     "issues": "https://github.com/generoi/gravityformswebhooks/issues"
                 }
+            },
+            {
+                "name": "generoi/gravityformswebhooks",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformswebhooks.git",
+                    "reference": "33e30d4dec61714205ca3849bb5b0ede0ae08246"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformswebhooks/zipball/33e30d4dec61714205ca3849bb5b0ede0ae08246",
+                    "reference": "33e30d4dec61714205ca3849bb5b0ede0ae08246",
+                    "shasum": ""
+                },
+                "time": "2025-04-08T04:10:14+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformswebhooks/tree/1.6.0",
+                    "issues": "https://github.com/generoi/gravityformswebhooks/issues"
+                }
             }
         ]
     }
