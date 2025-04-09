@@ -1781,6 +1781,29 @@
                     "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
                 }
             },
+            "6.4.0.1": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "6.4.0.1",
+                "version_normalized": "6.4.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "2de0b0b201ce332221cfdb0d1bd83b5df10e4080"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/2de0b0b201ce332221cfdb0d1bd83b5df10e4080",
+                    "reference": "2de0b0b201ce332221cfdb0d1bd83b5df10e4080",
+                    "shasum": ""
+                },
+                "time": "2025-04-09T04:13:17+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "support": {
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.4.0.1",
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/advanced-custom-fields-pro",
                 "version": "dev-master",
@@ -1788,20 +1811,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
-                    "reference": "89fce51d6fe1f3b005e1445cfad9b80eee1cf8d3"
+                    "reference": "2de0b0b201ce332221cfdb0d1bd83b5df10e4080"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/89fce51d6fe1f3b005e1445cfad9b80eee1cf8d3",
-                    "reference": "89fce51d6fe1f3b005e1445cfad9b80eee1cf8d3",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/2de0b0b201ce332221cfdb0d1bd83b5df10e4080",
+                    "reference": "2de0b0b201ce332221cfdb0d1bd83b5df10e4080",
                     "shasum": ""
                 },
-                "time": "2025-04-08T04:13:24+00:00",
+                "time": "2025-04-09T04:13:17+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.advancedcustomfields.com/",
                 "support": {
-                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.4.0",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.4.0.1",
                     "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
                 }
             }
@@ -5345,6 +5368,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.6": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.6",
+                "version_normalized": "2.9.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "88618c13f13ddb0706e8b3224e40764712a4ed4a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/88618c13f13ddb0706e8b3224e40764712a4ed4a",
+                    "reference": "88618c13f13ddb0706e8b3224e40764712a4ed4a",
+                    "shasum": ""
+                },
+                "time": "2025-04-09T04:11:49+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.6",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityforms",
                 "version": "dev-master",
@@ -5352,20 +5398,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "3c53995f3943c17b1157e46f92e0c88afb80b69a"
+                    "reference": "88618c13f13ddb0706e8b3224e40764712a4ed4a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/3c53995f3943c17b1157e46f92e0c88afb80b69a",
-                    "reference": "3c53995f3943c17b1157e46f92e0c88afb80b69a",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/88618c13f13ddb0706e8b3224e40764712a4ed4a",
+                    "reference": "88618c13f13ddb0706e8b3224e40764712a4ed4a",
                     "shasum": ""
                 },
-                "time": "2025-03-27T04:11:36+00:00",
+                "time": "2025-04-09T04:11:49+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.5.2",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.6",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             }
