@@ -5437,6 +5437,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.7": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.7",
+                "version_normalized": "2.9.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "a54d6dc5bdec5d772fd6427c1055afb8c7294322"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/a54d6dc5bdec5d772fd6427c1055afb8c7294322",
+                    "reference": "a54d6dc5bdec5d772fd6427c1055afb8c7294322",
+                    "shasum": ""
+                },
+                "time": "2025-04-23T04:11:46+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.7",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityforms",
                 "version": "dev-master",
@@ -5444,20 +5467,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "839f9d4388830acf26cdfd38cd2d64b9f8764bd8"
+                    "reference": "a54d6dc5bdec5d772fd6427c1055afb8c7294322"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/839f9d4388830acf26cdfd38cd2d64b9f8764bd8",
-                    "reference": "839f9d4388830acf26cdfd38cd2d64b9f8764bd8",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/a54d6dc5bdec5d772fd6427c1055afb8c7294322",
+                    "reference": "a54d6dc5bdec5d772fd6427c1055afb8c7294322",
                     "shasum": ""
                 },
-                "time": "2025-04-10T04:12:13+00:00",
+                "time": "2025-04-23T04:11:46+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.6.1",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.7",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             }
@@ -8433,6 +8456,29 @@
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             },
+            "3.7": {
+                "name": "generoi/polylang-pro",
+                "version": "3.7",
+                "version_normalized": "3.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "ccf9f5c8e83fad3b904b12ae19cf1d482ab3c391"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/ccf9f5c8e83fad3b904b12ae19cf1d482ab3c391",
+                    "reference": "ccf9f5c8e83fad3b904b12ae19cf1d482ab3c391",
+                    "shasum": ""
+                },
+                "time": "2025-04-23T04:11:34+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.7",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/polylang-pro",
                 "version": "dev-master",
@@ -8440,20 +8486,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "42576c5e67cde10a09b67ef5f299a957d80ae1ef"
+                    "reference": "ccf9f5c8e83fad3b904b12ae19cf1d482ab3c391"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/42576c5e67cde10a09b67ef5f299a957d80ae1ef",
-                    "reference": "42576c5e67cde10a09b67ef5f299a957d80ae1ef",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/ccf9f5c8e83fad3b904b12ae19cf1d482ab3c391",
+                    "reference": "ccf9f5c8e83fad3b904b12ae19cf1d482ab3c391",
                     "shasum": ""
                 },
-                "time": "2025-03-12T04:11:20+00:00",
+                "time": "2025-04-23T04:11:34+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-pro/tree/3.6.7",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.7",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             }
