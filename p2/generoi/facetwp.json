@@ -684,6 +684,29 @@
                     "source": "https://github.com/generoi/facetwp/tree/4.3.6",
                     "issues": "https://github.com/generoi/facetwp/issues"
                 }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "4.4",
+                "version_normalized": "4.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "37e0bc3b9be34419fae1ecda15bd2c410b11f8a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/37e0bc3b9be34419fae1ecda15bd2c410b11f8a9",
+                    "reference": "37e0bc3b9be34419fae1ecda15bd2c410b11f8a9",
+                    "shasum": ""
+                },
+                "time": "2025-04-24T04:12:25+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp/tree/4.4",
+                    "issues": "https://github.com/generoi/facetwp/issues"
+                }
             }
         ]
     }
