@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/relevanssi-premium.git",
-                    "reference": "f8ec8a3924ba21edf8b4c8a609479fd7460025ab"
+                    "reference": "d76c094e8da8a9b154126a6207b122865bc39846"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/f8ec8a3924ba21edf8b4c8a609479fd7460025ab",
-                    "reference": "f8ec8a3924ba21edf8b4c8a609479fd7460025ab",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/d76c094e8da8a9b154126a6207b122865bc39846",
+                    "reference": "d76c094e8da8a9b154126a6207b122865bc39846",
                     "shasum": ""
                 },
-                "time": "2025-04-30T04:11:54+00:00",
+                "time": "2025-05-08T04:12:18+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.relevanssi.com/buy-premium/",
                 "support": {
-                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.27.5",
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.27.6",
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             }
