@@ -1804,6 +1804,29 @@
                     "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
                 }
             },
+            "6.4.1": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "6.4.1",
+                "version_normalized": "6.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "5a38da62d81a130d0ba681d1575f2fb7eb0c8ff2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/5a38da62d81a130d0ba681d1575f2fb7eb0c8ff2",
+                    "reference": "5a38da62d81a130d0ba681d1575f2fb7eb0c8ff2",
+                    "shasum": ""
+                },
+                "time": "2025-05-09T04:13:39+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "support": {
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.4.1",
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/advanced-custom-fields-pro",
                 "version": "dev-master",
@@ -1811,20 +1834,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
-                    "reference": "2de0b0b201ce332221cfdb0d1bd83b5df10e4080"
+                    "reference": "5a38da62d81a130d0ba681d1575f2fb7eb0c8ff2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/2de0b0b201ce332221cfdb0d1bd83b5df10e4080",
-                    "reference": "2de0b0b201ce332221cfdb0d1bd83b5df10e4080",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/5a38da62d81a130d0ba681d1575f2fb7eb0c8ff2",
+                    "reference": "5a38da62d81a130d0ba681d1575f2fb7eb0c8ff2",
                     "shasum": ""
                 },
-                "time": "2025-04-09T04:13:17+00:00",
+                "time": "2025-05-09T04:13:39+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.advancedcustomfields.com/",
                 "support": {
-                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.4.0.1",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.4.1",
                     "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
                 }
             }
@@ -3939,6 +3962,29 @@
                     "issues": "https://github.com/generoi/gravity-forms-user-verification/issues"
                 }
             },
+            "2.6.1": {
+                "name": "generoi/gravity-forms-user-verification",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravity-forms-user-verification.git",
+                    "reference": "3465cfcf81bbeab0c24785f1f03c1c12377374a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravity-forms-user-verification/zipball/3465cfcf81bbeab0c24785f1f03c1c12377374a9",
+                    "reference": "3465cfcf81bbeab0c24785f1f03c1c12377374a9",
+                    "shasum": ""
+                },
+                "time": "2025-05-09T04:13:42+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://albertbrueckmann.de/produkte/addon-double-opt-in-for-gravity-forms-en/",
+                "support": {
+                    "source": "https://github.com/generoi/gravity-forms-user-verification/tree/2.6.1",
+                    "issues": "https://github.com/generoi/gravity-forms-user-verification/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravity-forms-user-verification",
                 "version": "dev-master",
@@ -3946,20 +3992,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravity-forms-user-verification.git",
-                    "reference": "138238ffe931843731fec813c254584ba50c0853"
+                    "reference": "3465cfcf81bbeab0c24785f1f03c1c12377374a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravity-forms-user-verification/zipball/138238ffe931843731fec813c254584ba50c0853",
-                    "reference": "138238ffe931843731fec813c254584ba50c0853",
+                    "url": "https://api.github.com/repos/generoi/gravity-forms-user-verification/zipball/3465cfcf81bbeab0c24785f1f03c1c12377374a9",
+                    "reference": "3465cfcf81bbeab0c24785f1f03c1c12377374a9",
                     "shasum": ""
                 },
-                "time": "2024-10-15T12:55:38+00:00",
+                "time": "2025-05-09T04:13:42+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://albertbrueckmann.de/produkte/addon-double-opt-in-for-gravity-forms-en/",
                 "support": {
-                    "source": "https://github.com/generoi/gravity-forms-user-verification/tree/2.6",
+                    "source": "https://github.com/generoi/gravity-forms-user-verification/tree/2.6.1",
                     "issues": "https://github.com/generoi/gravity-forms-user-verification/issues"
                 }
             }
