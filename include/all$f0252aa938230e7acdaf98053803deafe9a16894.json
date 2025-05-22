@@ -2273,6 +2273,29 @@
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             },
+            "4.7.1": {
+                "name": "generoi/custom-facebook-feed-pro",
+                "version": "4.7.1",
+                "version_normalized": "4.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
+                    "reference": "2c17f2f57da6e8f5b842a0f64e38288167d6e1ae"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/2c17f2f57da6e8f5b842a0f64e38288167d6e1ae",
+                    "reference": "2c17f2f57da6e8f5b842a0f64e38288167d6e1ae",
+                    "shasum": ""
+                },
+                "time": "2025-05-22T04:12:57+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-facebook-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.1",
+                    "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/custom-facebook-feed-pro",
                 "version": "dev-master",
@@ -2280,20 +2303,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
-                    "reference": "3f00d0db60fd67f153b9d0018e06b7e1fe963f31"
+                    "reference": "2c17f2f57da6e8f5b842a0f64e38288167d6e1ae"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/3f00d0db60fd67f153b9d0018e06b7e1fe963f31",
-                    "reference": "3f00d0db60fd67f153b9d0018e06b7e1fe963f31",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/2c17f2f57da6e8f5b842a0f64e38288167d6e1ae",
+                    "reference": "2c17f2f57da6e8f5b842a0f64e38288167d6e1ae",
                     "shasum": ""
                 },
-                "time": "2025-03-13T04:11:27+00:00",
+                "time": "2025-05-22T04:12:57+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/custom-facebook-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.0",
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.1",
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             }
@@ -9725,6 +9748,29 @@
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             },
+            "2.27.7": {
+                "name": "generoi/relevanssi-premium",
+                "version": "2.27.7",
+                "version_normalized": "2.27.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/relevanssi-premium.git",
+                    "reference": "b842bfb351505e27306e96ffc0c921ae6a023979"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/b842bfb351505e27306e96ffc0c921ae6a023979",
+                    "reference": "b842bfb351505e27306e96ffc0c921ae6a023979",
+                    "shasum": ""
+                },
+                "time": "2025-05-22T04:12:41+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.relevanssi.com/buy-premium/",
+                "support": {
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.27.7",
+                    "issues": "https://github.com/generoi/relevanssi-premium/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/relevanssi-premium",
                 "version": "dev-master",
@@ -9732,20 +9778,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/relevanssi-premium.git",
-                    "reference": "d76c094e8da8a9b154126a6207b122865bc39846"
+                    "reference": "b842bfb351505e27306e96ffc0c921ae6a023979"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/d76c094e8da8a9b154126a6207b122865bc39846",
-                    "reference": "d76c094e8da8a9b154126a6207b122865bc39846",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/b842bfb351505e27306e96ffc0c921ae6a023979",
+                    "reference": "b842bfb351505e27306e96ffc0c921ae6a023979",
                     "shasum": ""
                 },
-                "time": "2025-05-08T04:12:18+00:00",
+                "time": "2025-05-22T04:12:41+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.relevanssi.com/buy-premium/",
                 "support": {
-                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.27.6",
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.27.7",
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             }
