@@ -8778,6 +8778,29 @@
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             },
+            "3.7.2": {
+                "name": "generoi/polylang-pro",
+                "version": "3.7.2",
+                "version_normalized": "3.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "e0eaf2ef736d58667065d295fa60a7cf7e56740a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/e0eaf2ef736d58667065d295fa60a7cf7e56740a",
+                    "reference": "e0eaf2ef736d58667065d295fa60a7cf7e56740a",
+                    "shasum": ""
+                },
+                "time": "2025-05-28T04:12:43+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.7.2",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/polylang-pro",
                 "version": "dev-master",
@@ -8785,20 +8808,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "876fc58c90e79586f6a0037bab7aa797f24cf687"
+                    "reference": "e0eaf2ef736d58667065d295fa60a7cf7e56740a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/876fc58c90e79586f6a0037bab7aa797f24cf687",
-                    "reference": "876fc58c90e79586f6a0037bab7aa797f24cf687",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/e0eaf2ef736d58667065d295fa60a7cf7e56740a",
+                    "reference": "e0eaf2ef736d58667065d295fa60a7cf7e56740a",
                     "shasum": ""
                 },
-                "time": "2025-05-06T04:11:27+00:00",
+                "time": "2025-05-28T04:12:43+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-pro/tree/3.7.1",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.7.2",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             }
