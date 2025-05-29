@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformsgoogleanalytics.git",
-                    "reference": "0eca6ea8a5a629888abc288ef19920115922bdc4"
+                    "reference": "cfce1e815103aeed2f1698bc1bc8c892d9f96ae4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/0eca6ea8a5a629888abc288ef19920115922bdc4",
-                    "reference": "0eca6ea8a5a629888abc288ef19920115922bdc4",
+                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/cfce1e815103aeed2f1698bc1bc8c892d9f96ae4",
+                    "reference": "cfce1e815103aeed2f1698bc1bc8c892d9f96ae4",
                     "shasum": ""
                 },
-                "time": "2024-12-05T16:02:05+00:00",
+                "time": "2025-05-29T04:13:33+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.0",
+                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.1",
                     "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
                 }
             }

@@ -6017,6 +6017,29 @@
                     "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
                 }
             },
+            "2.3.1": {
+                "name": "generoi/gravityformsgoogleanalytics",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsgoogleanalytics.git",
+                    "reference": "cfce1e815103aeed2f1698bc1bc8c892d9f96ae4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/cfce1e815103aeed2f1698bc1bc8c892d9f96ae4",
+                    "reference": "cfce1e815103aeed2f1698bc1bc8c892d9f96ae4",
+                    "shasum": ""
+                },
+                "time": "2025-05-29T04:13:33+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.1",
+                    "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformsgoogleanalytics",
                 "version": "dev-master",
@@ -6024,20 +6047,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformsgoogleanalytics.git",
-                    "reference": "0eca6ea8a5a629888abc288ef19920115922bdc4"
+                    "reference": "cfce1e815103aeed2f1698bc1bc8c892d9f96ae4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/0eca6ea8a5a629888abc288ef19920115922bdc4",
-                    "reference": "0eca6ea8a5a629888abc288ef19920115922bdc4",
+                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/cfce1e815103aeed2f1698bc1bc8c892d9f96ae4",
+                    "reference": "cfce1e815103aeed2f1698bc1bc8c892d9f96ae4",
                     "shasum": ""
                 },
-                "time": "2024-12-05T16:02:05+00:00",
+                "time": "2025-05-29T04:13:33+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.0",
+                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.1",
                     "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
                 }
             }
@@ -10706,6 +10729,29 @@
                     "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
                 }
             },
+            "4.7.6": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "4.7.6",
+                "version_normalized": "4.7.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "3c586d202d6886ba9a1349ec072fda0a6ae891cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/3c586d202d6886ba9a1349ec072fda0a6ae891cd",
+                    "reference": "3c586d202d6886ba9a1349ec072fda0a6ae891cd",
+                    "shasum": ""
+                },
+                "time": "2025-05-29T04:13:21+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.7.6",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/sitepress-multilingual-cms",
                 "version": "dev-master",
@@ -10713,20 +10759,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
-                    "reference": "352c0b67c0d9beeed79785c6b90987547af59808"
+                    "reference": "3c586d202d6886ba9a1349ec072fda0a6ae891cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/352c0b67c0d9beeed79785c6b90987547af59808",
-                    "reference": "352c0b67c0d9beeed79785c6b90987547af59808",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/3c586d202d6886ba9a1349ec072fda0a6ae891cd",
+                    "reference": "3c586d202d6886ba9a1349ec072fda0a6ae891cd",
                     "shasum": ""
                 },
-                "time": "2025-05-27T04:14:22+00:00",
+                "time": "2025-05-29T04:13:21+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.7.5",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.7.6",
                     "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
                 }
             }
