@@ -2296,6 +2296,29 @@
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             },
+            "4.7.2": {
+                "name": "generoi/custom-facebook-feed-pro",
+                "version": "4.7.2",
+                "version_normalized": "4.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
+                    "reference": "968f1305db7cdcce4dabce01e4309a72eb08ece3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/968f1305db7cdcce4dabce01e4309a72eb08ece3",
+                    "reference": "968f1305db7cdcce4dabce01e4309a72eb08ece3",
+                    "shasum": ""
+                },
+                "time": "2025-06-03T04:14:34+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-facebook-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.2",
+                    "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/custom-facebook-feed-pro",
                 "version": "dev-master",
@@ -2303,20 +2326,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
-                    "reference": "2c17f2f57da6e8f5b842a0f64e38288167d6e1ae"
+                    "reference": "968f1305db7cdcce4dabce01e4309a72eb08ece3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/2c17f2f57da6e8f5b842a0f64e38288167d6e1ae",
-                    "reference": "2c17f2f57da6e8f5b842a0f64e38288167d6e1ae",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/968f1305db7cdcce4dabce01e4309a72eb08ece3",
+                    "reference": "968f1305db7cdcce4dabce01e4309a72eb08ece3",
                     "shasum": ""
                 },
-                "time": "2025-05-22T04:12:57+00:00",
+                "time": "2025-06-03T04:14:34+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/custom-facebook-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.1",
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.2",
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             }
@@ -6500,6 +6523,29 @@
                     "issues": "https://github.com/generoi/gravityformsmailchimp/issues"
                 }
             },
+            "5.7.0": {
+                "name": "generoi/gravityformsmailchimp",
+                "version": "5.7.0",
+                "version_normalized": "5.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsmailchimp.git",
+                    "reference": "091ca3e1e6498d78e49d891e0ec20eb20a895fc6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsmailchimp/zipball/091ca3e1e6498d78e49d891e0ec20eb20a895fc6",
+                    "reference": "091ca3e1e6498d78e49d891e0ec20eb20a895fc6",
+                    "shasum": ""
+                },
+                "time": "2025-06-03T04:14:41+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsmailchimp/tree/5.7.0",
+                    "issues": "https://github.com/generoi/gravityformsmailchimp/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformsmailchimp",
                 "version": "dev-master",
@@ -6507,20 +6553,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformsmailchimp.git",
-                    "reference": "1a9f1313df597046e259c4543d46ed716f8faeb6"
+                    "reference": "091ca3e1e6498d78e49d891e0ec20eb20a895fc6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformsmailchimp/zipball/1a9f1313df597046e259c4543d46ed716f8faeb6",
-                    "reference": "1a9f1313df597046e259c4543d46ed716f8faeb6",
+                    "url": "https://api.github.com/repos/generoi/gravityformsmailchimp/zipball/091ca3e1e6498d78e49d891e0ec20eb20a895fc6",
+                    "reference": "091ca3e1e6498d78e49d891e0ec20eb20a895fc6",
                     "shasum": ""
                 },
-                "time": "2024-12-13T04:12:23+00:00",
+                "time": "2025-06-03T04:14:41+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformsmailchimp/tree/5.6.0",
+                    "source": "https://github.com/generoi/gravityformsmailchimp/tree/5.7.0",
                     "issues": "https://github.com/generoi/gravityformsmailchimp/issues"
                 }
             }
@@ -6903,6 +6949,29 @@
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             },
+            "6.8.1": {
+                "name": "generoi/instagram-feed-pro",
+                "version": "6.8.1",
+                "version_normalized": "6.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/instagram-feed-pro.git",
+                    "reference": "c7ee8c8fefae1deab6c475c147ae364f8b66cf5b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/c7ee8c8fefae1deab6c475c147ae364f8b66cf5b",
+                    "reference": "c7ee8c8fefae1deab6c475c147ae364f8b66cf5b",
+                    "shasum": ""
+                },
+                "time": "2025-06-03T04:13:37+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/instagram-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.8.1",
+                    "issues": "https://github.com/generoi/instagram-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/instagram-feed-pro",
                 "version": "dev-master",
@@ -6910,20 +6979,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/instagram-feed-pro.git",
-                    "reference": "e7d5076c4d027aea0ebf946dedae58553e70ae59"
+                    "reference": "c7ee8c8fefae1deab6c475c147ae364f8b66cf5b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/e7d5076c4d027aea0ebf946dedae58553e70ae59",
-                    "reference": "e7d5076c4d027aea0ebf946dedae58553e70ae59",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/c7ee8c8fefae1deab6c475c147ae364f8b66cf5b",
+                    "reference": "c7ee8c8fefae1deab6c475c147ae364f8b66cf5b",
                     "shasum": ""
                 },
-                "time": "2025-05-08T04:11:19+00:00",
+                "time": "2025-06-03T04:13:37+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/instagram-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.8.0",
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.8.1",
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             }
@@ -12719,6 +12788,29 @@
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             },
+            "4.11.2": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.11.2",
+                "version_normalized": "4.11.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "3e8c9b88fb2a5072e559a898c6c796ee5fde6098"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/3e8c9b88fb2a5072e559a898c6c796ee5fde6098",
+                    "reference": "3e8c9b88fb2a5072e559a898c6c796ee5fde6098",
+                    "shasum": ""
+                },
+                "time": "2025-06-03T04:13:32+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.11.2",
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues"
+                }
+            },
             "v4.4.0": {
                 "name": "generoi/wp-all-import-pro",
                 "version": "v4.4.0",
@@ -13653,20 +13745,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-import-pro.git",
-                    "reference": "92af71140b0679009ab6ccc032137847838a46a9"
+                    "reference": "3e8c9b88fb2a5072e559a898c6c796ee5fde6098"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/92af71140b0679009ab6ccc032137847838a46a9",
-                    "reference": "92af71140b0679009ab6ccc032137847838a46a9",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/3e8c9b88fb2a5072e559a898c6c796ee5fde6098",
+                    "reference": "3e8c9b88fb2a5072e559a898c6c796ee5fde6098",
                     "shasum": ""
                 },
-                "time": "2025-04-15T04:10:11+00:00",
+                "time": "2025-06-03T04:13:32+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.11.1",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.11.2",
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             }
