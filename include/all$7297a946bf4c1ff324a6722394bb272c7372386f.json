@@ -2319,6 +2319,29 @@
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             },
+            "4.7.3": {
+                "name": "generoi/custom-facebook-feed-pro",
+                "version": "4.7.3",
+                "version_normalized": "4.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
+                    "reference": "eed4ea2a7ba5320c4c12d37fb703a5317983a911"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/eed4ea2a7ba5320c4c12d37fb703a5317983a911",
+                    "reference": "eed4ea2a7ba5320c4c12d37fb703a5317983a911",
+                    "shasum": ""
+                },
+                "time": "2025-06-04T04:14:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-facebook-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.3",
+                    "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/custom-facebook-feed-pro",
                 "version": "dev-master",
@@ -2326,20 +2349,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
-                    "reference": "968f1305db7cdcce4dabce01e4309a72eb08ece3"
+                    "reference": "eed4ea2a7ba5320c4c12d37fb703a5317983a911"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/968f1305db7cdcce4dabce01e4309a72eb08ece3",
-                    "reference": "968f1305db7cdcce4dabce01e4309a72eb08ece3",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/eed4ea2a7ba5320c4c12d37fb703a5317983a911",
+                    "reference": "eed4ea2a7ba5320c4c12d37fb703a5317983a911",
                     "shasum": ""
                 },
-                "time": "2025-06-03T04:14:34+00:00",
+                "time": "2025-06-04T04:14:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/custom-facebook-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.2",
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.3",
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             }
@@ -14677,6 +14700,29 @@
                     "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues"
                 }
             },
+            "4.0.1": {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "4.0.1",
+                "version_normalized": "4.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "b7b9530be5272c63b2edbfaef0d3b5fcbca5d574"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/b7b9530be5272c63b2edbfaef0d3b5fcbca5d574",
+                    "reference": "b7b9530be5272c63b2edbfaef0d3b5fcbca5d574",
+                    "shasum": ""
+                },
+                "time": "2025-06-04T04:14:38+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.1",
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wpai-woocommerce-add-on",
                 "version": "dev-master",
@@ -14684,20 +14730,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
-                    "reference": "c61e9b782eaf56aedaaf27af1036ec175f07381c"
+                    "reference": "b7b9530be5272c63b2edbfaef0d3b5fcbca5d574"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/c61e9b782eaf56aedaaf27af1036ec175f07381c",
-                    "reference": "c61e9b782eaf56aedaaf27af1036ec175f07381c",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/b7b9530be5272c63b2edbfaef0d3b5fcbca5d574",
+                    "reference": "b7b9530be5272c63b2edbfaef0d3b5fcbca5d574",
                     "shasum": ""
                 },
-                "time": "2024-10-21T15:38:08+00:00",
+                "time": "2025-06-04T04:14:38+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.0",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.1",
                     "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues"
                 }
             }

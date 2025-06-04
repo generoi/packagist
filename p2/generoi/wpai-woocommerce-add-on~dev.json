@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
-                    "reference": "c61e9b782eaf56aedaaf27af1036ec175f07381c"
+                    "reference": "b7b9530be5272c63b2edbfaef0d3b5fcbca5d574"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/c61e9b782eaf56aedaaf27af1036ec175f07381c",
-                    "reference": "c61e9b782eaf56aedaaf27af1036ec175f07381c",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/b7b9530be5272c63b2edbfaef0d3b5fcbca5d574",
+                    "reference": "b7b9530be5272c63b2edbfaef0d3b5fcbca5d574",
                     "shasum": ""
                 },
-                "time": "2024-10-21T15:38:08+00:00",
+                "time": "2025-06-04T04:14:38+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.0",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.1",
                     "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues"
                 }
             }
