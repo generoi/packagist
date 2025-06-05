@@ -5759,6 +5759,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.9.1": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.9.1",
+                "version_normalized": "2.9.9.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "8489d185bf1afa760f43e3c05ae2efed9df40d8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/8489d185bf1afa760f43e3c05ae2efed9df40d8f",
+                    "reference": "8489d185bf1afa760f43e3c05ae2efed9df40d8f",
+                    "shasum": ""
+                },
+                "time": "2025-06-05T04:15:24+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.9.1",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityforms",
                 "version": "dev-master",
@@ -5766,20 +5789,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "873db5ce6526a04d14eea4daf6b073e558776fd5"
+                    "reference": "8489d185bf1afa760f43e3c05ae2efed9df40d8f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/873db5ce6526a04d14eea4daf6b073e558776fd5",
-                    "reference": "873db5ce6526a04d14eea4daf6b073e558776fd5",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/8489d185bf1afa760f43e3c05ae2efed9df40d8f",
+                    "reference": "8489d185bf1afa760f43e3c05ae2efed9df40d8f",
                     "shasum": ""
                 },
-                "time": "2025-05-30T04:12:26+00:00",
+                "time": "2025-06-05T04:15:24+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.9",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.9.1",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             }
@@ -6618,6 +6641,29 @@
                     "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
                 }
             },
+            "1.7.0": {
+                "name": "generoi/gravityformsrecaptcha",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsrecaptcha.git",
+                    "reference": "d19df6b402ef57b6a393ddba1e112f7c8d65db8e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/d19df6b402ef57b6a393ddba1e112f7c8d65db8e",
+                    "reference": "d19df6b402ef57b6a393ddba1e112f7c8d65db8e",
+                    "shasum": ""
+                },
+                "time": "2025-06-05T04:15:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/1.7.0",
+                    "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformsrecaptcha",
                 "version": "dev-master",
@@ -6625,20 +6671,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformsrecaptcha.git",
-                    "reference": "519569b372be505442b6175450f04be751f423e9"
+                    "reference": "d19df6b402ef57b6a393ddba1e112f7c8d65db8e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/519569b372be505442b6175450f04be751f423e9",
-                    "reference": "519569b372be505442b6175450f04be751f423e9",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/d19df6b402ef57b6a393ddba1e112f7c8d65db8e",
+                    "reference": "d19df6b402ef57b6a393ddba1e112f7c8d65db8e",
                     "shasum": ""
                 },
-                "time": "2024-12-05T16:00:16+00:00",
+                "time": "2025-06-05T04:15:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/1.6.0",
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/1.7.0",
                     "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
                 }
             }
@@ -7361,6 +7407,29 @@
                     "issues": "https://github.com/generoi/multilingualpress/issues"
                 }
             },
+            "5.0.0": {
+                "name": "generoi/multilingualpress",
+                "version": "5.0.0",
+                "version_normalized": "5.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "cb02495feddb04f8695b880150eab99e70bb681d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/cb02495feddb04f8695b880150eab99e70bb681d",
+                    "reference": "cb02495feddb04f8695b880150eab99e70bb681d",
+                    "shasum": ""
+                },
+                "time": "2025-06-05T04:16:00+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.multilingualpress.org",
+                "support": {
+                    "source": "https://github.com/generoi/multilingualpress/tree/5.0.0",
+                    "issues": "https://github.com/generoi/multilingualpress/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/multilingualpress",
                 "version": "dev-master",
@@ -7368,20 +7437,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/multilingualpress.git",
-                    "reference": "eb36dcfa6c44a359d255e4de197c5b06a13cfc0b"
+                    "reference": "cb02495feddb04f8695b880150eab99e70bb681d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/eb36dcfa6c44a359d255e4de197c5b06a13cfc0b",
-                    "reference": "eb36dcfa6c44a359d255e4de197c5b06a13cfc0b",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/cb02495feddb04f8695b880150eab99e70bb681d",
+                    "reference": "cb02495feddb04f8695b880150eab99e70bb681d",
                     "shasum": ""
                 },
-                "time": "2025-05-16T04:14:03+00:00",
+                "time": "2025-06-05T04:16:00+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.multilingualpress.org",
                 "support": {
-                    "source": "https://github.com/generoi/multilingualpress/tree/4.9.0",
+                    "source": "https://github.com/generoi/multilingualpress/tree/5.0.0",
                     "issues": "https://github.com/generoi/multilingualpress/issues"
                 }
             }
@@ -12510,6 +12579,29 @@
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
             },
+            "1.9.10": {
+                "name": "generoi/wp-all-export-pro",
+                "version": "1.9.10",
+                "version_normalized": "1.9.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-export-pro.git",
+                    "reference": "c375aa2cf510b99c02bf443708baa5a4ebddd896"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/c375aa2cf510b99c02bf443708baa5a4ebddd896",
+                    "reference": "c375aa2cf510b99c02bf443708baa5a4ebddd896",
+                    "shasum": ""
+                },
+                "time": "2025-06-05T04:14:28+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.10",
+                    "issues": "https://github.com/generoi/wp-all-export-pro/issues"
+                }
+            },
             "1.9.2": {
                 "name": "generoi/wp-all-export-pro",
                 "version": "1.9.2",
@@ -12655,20 +12747,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-export-pro.git",
-                    "reference": "1bc745a16209d9e6551dcf4c0013834396c63915"
+                    "reference": "c375aa2cf510b99c02bf443708baa5a4ebddd896"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/1bc745a16209d9e6551dcf4c0013834396c63915",
-                    "reference": "1bc745a16209d9e6551dcf4c0013834396c63915",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/c375aa2cf510b99c02bf443708baa5a4ebddd896",
+                    "reference": "c375aa2cf510b99c02bf443708baa5a4ebddd896",
                     "shasum": ""
                 },
-                "time": "2025-04-04T04:09:54+00:00",
+                "time": "2025-06-05T04:14:28+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.8",
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.10",
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
             }
@@ -12831,6 +12923,29 @@
                 "homepage": "http://www.wpallimport.com",
                 "support": {
                     "source": "https://github.com/generoi/wp-all-import-pro/tree/4.11.2",
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues"
+                }
+            },
+            "4.11.3": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "4.11.3",
+                "version_normalized": "4.11.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "e47781f8fe8e5fdc266dc2a54891691ba509735a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/e47781f8fe8e5fdc266dc2a54891691ba509735a",
+                    "reference": "e47781f8fe8e5fdc266dc2a54891691ba509735a",
+                    "shasum": ""
+                },
+                "time": "2025-06-05T04:14:25+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.11.3",
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             },
@@ -13768,20 +13883,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-import-pro.git",
-                    "reference": "3e8c9b88fb2a5072e559a898c6c796ee5fde6098"
+                    "reference": "e47781f8fe8e5fdc266dc2a54891691ba509735a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/3e8c9b88fb2a5072e559a898c6c796ee5fde6098",
-                    "reference": "3e8c9b88fb2a5072e559a898c6c796ee5fde6098",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/e47781f8fe8e5fdc266dc2a54891691ba509735a",
+                    "reference": "e47781f8fe8e5fdc266dc2a54891691ba509735a",
                     "shasum": ""
                 },
-                "time": "2025-06-03T04:13:32+00:00",
+                "time": "2025-06-05T04:14:25+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.11.2",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/4.11.3",
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             }
@@ -14723,6 +14838,29 @@
                     "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues"
                 }
             },
+            "4.0.2": {
+                "name": "generoi/wpai-woocommerce-add-on",
+                "version": "4.0.2",
+                "version_normalized": "4.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
+                    "reference": "98c56346cb9f4bf9864313063c107366b161ee5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/98c56346cb9f4bf9864313063c107366b161ee5e",
+                    "reference": "98c56346cb9f4bf9864313063c107366b161ee5e",
+                    "shasum": ""
+                },
+                "time": "2025-06-05T04:15:18+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.2",
+                    "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wpai-woocommerce-add-on",
                 "version": "dev-master",
@@ -14730,20 +14868,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpai-woocommerce-add-on.git",
-                    "reference": "b7b9530be5272c63b2edbfaef0d3b5fcbca5d574"
+                    "reference": "98c56346cb9f4bf9864313063c107366b161ee5e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/b7b9530be5272c63b2edbfaef0d3b5fcbca5d574",
-                    "reference": "b7b9530be5272c63b2edbfaef0d3b5fcbca5d574",
+                    "url": "https://api.github.com/repos/generoi/wpai-woocommerce-add-on/zipball/98c56346cb9f4bf9864313063c107366b161ee5e",
+                    "reference": "98c56346cb9f4bf9864313063c107366b161ee5e",
                     "shasum": ""
                 },
-                "time": "2025-06-04T04:14:38+00:00",
+                "time": "2025-06-05T04:15:18+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.1",
+                    "source": "https://github.com/generoi/wpai-woocommerce-add-on/tree/4.0.2",
                     "issues": "https://github.com/generoi/wpai-woocommerce-add-on/issues"
                 }
             }
