@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformssurvey.git",
-                    "reference": "b535135be05ae758ba694d65d481a76f3266ce98"
+                    "reference": "5473c59c4e17fc2e8da056c5e8f62c5127e7ce79"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformssurvey/zipball/b535135be05ae758ba694d65d481a76f3266ce98",
-                    "reference": "b535135be05ae758ba694d65d481a76f3266ce98",
+                    "url": "https://api.github.com/repos/generoi/gravityformssurvey/zipball/5473c59c4e17fc2e8da056c5e8f62c5127e7ce79",
+                    "reference": "5473c59c4e17fc2e8da056c5e8f62c5127e7ce79",
                     "shasum": ""
                 },
-                "time": "2025-06-11T04:15:32+00:00",
+                "time": "2025-06-13T04:14:42+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformssurvey/tree/4.2.0",
+                    "source": "https://github.com/generoi/gravityformssurvey/tree/4.2.1",
                     "issues": "https://github.com/generoi/gravityformssurvey/issues"
                 }
             }

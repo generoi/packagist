@@ -69,6 +69,29 @@
                     "source": "https://github.com/generoi/gravityformssurvey/tree/4.2.0",
                     "issues": "https://github.com/generoi/gravityformssurvey/issues"
                 }
+            },
+            {
+                "name": "generoi/gravityformssurvey",
+                "version": "4.2.1",
+                "version_normalized": "4.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformssurvey.git",
+                    "reference": "5473c59c4e17fc2e8da056c5e8f62c5127e7ce79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformssurvey/zipball/5473c59c4e17fc2e8da056c5e8f62c5127e7ce79",
+                    "reference": "5473c59c4e17fc2e8da056c5e8f62c5127e7ce79",
+                    "shasum": ""
+                },
+                "time": "2025-06-13T04:14:42+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformssurvey/tree/4.2.1",
+                    "issues": "https://github.com/generoi/gravityformssurvey/issues"
+                }
             }
         ]
     }
