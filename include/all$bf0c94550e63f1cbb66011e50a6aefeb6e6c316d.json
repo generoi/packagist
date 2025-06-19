@@ -2506,6 +2506,29 @@
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 }
             },
+            "2.5.0": {
+                "name": "generoi/custom-twitter-feeds-pro",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-twitter-feeds-pro.git",
+                    "reference": "ab1c41c997e0c64d468046a7696a19c2b654e3ee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/ab1c41c997e0c64d468046a7696a19c2b654e3ee",
+                    "reference": "ab1c41c997e0c64d468046a7696a19c2b654e3ee",
+                    "shasum": ""
+                },
+                "time": "2025-06-19T04:15:23+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-twitter-feeds/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.0",
+                    "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/custom-twitter-feeds-pro",
                 "version": "dev-master",
@@ -2513,20 +2536,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/custom-twitter-feeds-pro.git",
-                    "reference": "23b8e063a8669f5e78c80444d9026cd20ddda06c"
+                    "reference": "ab1c41c997e0c64d468046a7696a19c2b654e3ee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/23b8e063a8669f5e78c80444d9026cd20ddda06c",
-                    "reference": "23b8e063a8669f5e78c80444d9026cd20ddda06c",
+                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/ab1c41c997e0c64d468046a7696a19c2b654e3ee",
+                    "reference": "ab1c41c997e0c64d468046a7696a19c2b654e3ee",
                     "shasum": ""
                 },
-                "time": "2025-02-19T04:10:35+00:00",
+                "time": "2025-06-19T04:15:23+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/custom-twitter-feeds/",
                 "support": {
-                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.4.6",
+                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.0",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 }
             }
@@ -6224,6 +6247,29 @@
                     "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
                 }
             },
+            "2.4.0": {
+                "name": "generoi/gravityformsgoogleanalytics",
+                "version": "2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsgoogleanalytics.git",
+                    "reference": "72bb676def38d96482727502125b19578be3e423"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/72bb676def38d96482727502125b19578be3e423",
+                    "reference": "72bb676def38d96482727502125b19578be3e423",
+                    "shasum": ""
+                },
+                "time": "2025-06-19T04:16:03+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.4.0",
+                    "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformsgoogleanalytics",
                 "version": "dev-master",
@@ -6231,20 +6277,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformsgoogleanalytics.git",
-                    "reference": "cfce1e815103aeed2f1698bc1bc8c892d9f96ae4"
+                    "reference": "72bb676def38d96482727502125b19578be3e423"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/cfce1e815103aeed2f1698bc1bc8c892d9f96ae4",
-                    "reference": "cfce1e815103aeed2f1698bc1bc8c892d9f96ae4",
+                    "url": "https://api.github.com/repos/generoi/gravityformsgoogleanalytics/zipball/72bb676def38d96482727502125b19578be3e423",
+                    "reference": "72bb676def38d96482727502125b19578be3e423",
                     "shasum": ""
                 },
-                "time": "2025-05-29T04:13:33+00:00",
+                "time": "2025-06-19T04:16:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.1",
+                    "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.4.0",
                     "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
                 }
             }
