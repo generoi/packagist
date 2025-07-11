@@ -2552,6 +2552,29 @@
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 }
             },
+            "2.5.1": {
+                "name": "generoi/custom-twitter-feeds-pro",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-twitter-feeds-pro.git",
+                    "reference": "693f6ec298198b0ea5e3de2a1fa816a27886793c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/693f6ec298198b0ea5e3de2a1fa816a27886793c",
+                    "reference": "693f6ec298198b0ea5e3de2a1fa816a27886793c",
+                    "shasum": ""
+                },
+                "time": "2025-07-11T04:21:24+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-twitter-feeds/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.1",
+                    "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/custom-twitter-feeds-pro",
                 "version": "dev-master",
@@ -2559,20 +2582,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/custom-twitter-feeds-pro.git",
-                    "reference": "ab1c41c997e0c64d468046a7696a19c2b654e3ee"
+                    "reference": "693f6ec298198b0ea5e3de2a1fa816a27886793c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/ab1c41c997e0c64d468046a7696a19c2b654e3ee",
-                    "reference": "ab1c41c997e0c64d468046a7696a19c2b654e3ee",
+                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/693f6ec298198b0ea5e3de2a1fa816a27886793c",
+                    "reference": "693f6ec298198b0ea5e3de2a1fa816a27886793c",
                     "shasum": ""
                 },
-                "time": "2025-06-19T04:15:23+00:00",
+                "time": "2025-07-11T04:21:24+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/custom-twitter-feeds/",
                 "support": {
-                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.0",
+                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.1",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 }
             }
@@ -5506,6 +5529,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.12": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.12",
+                "version_normalized": "2.9.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "9f658159714d66453901eae4746c40b643ba4f7a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/9f658159714d66453901eae4746c40b643ba4f7a",
+                    "reference": "9f658159714d66453901eae4746c40b643ba4f7a",
+                    "shasum": ""
+                },
+                "time": "2025-07-11T04:21:36+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.12",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "2.9.2": {
                 "name": "generoi/gravityforms",
                 "version": "2.9.2",
@@ -5973,20 +6019,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "579651efa8604e9127f73a7bd3d7a667a23924ee"
+                    "reference": "9f658159714d66453901eae4746c40b643ba4f7a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/579651efa8604e9127f73a7bd3d7a667a23924ee",
-                    "reference": "579651efa8604e9127f73a7bd3d7a667a23924ee",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/9f658159714d66453901eae4746c40b643ba4f7a",
+                    "reference": "9f658159714d66453901eae4746c40b643ba4f7a",
                     "shasum": ""
                 },
-                "time": "2025-07-09T04:19:10+00:00",
+                "time": "2025-07-11T04:21:36+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.11.1",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.12",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             }
