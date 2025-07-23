@@ -21,7 +21,7 @@
                 "type": "wordpress-plugin",
                 "homepage": "https://wpmailsmtp.com/",
                 "support": {
-                    "source": "https://github.com/generoi/wp-mail-smtp-pro/tree/master",
+                    "source": "https://github.com/generoi/wp-mail-smtp-pro/tree/v4.1.1",
                     "issues": "https://github.com/generoi/wp-mail-smtp-pro/issues"
                 }
             }
