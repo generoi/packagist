@@ -3,6 +3,29 @@
         "generoi/polylang-wc": [
             {
                 "name": "generoi/polylang-wc",
+                "version": "dev-1.7.0-muurla",
+                "version_normalized": "dev-1.7.0-muurla",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-wc.git",
+                    "reference": "0410187b9845d39ad3b9b22337aa6c6235434acf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-wc/zipball/0410187b9845d39ad3b9b22337aa6c6235434acf",
+                    "reference": "0410187b9845d39ad3b9b22337aa6c6235434acf",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:52:28+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro/downloads/polylang-for-woocommerce/",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-wc/tree/v1.7.0",
+                    "issues": "https://github.com/generoi/polylang-wc/issues"
+                }
+            },
+            {
+                "name": "generoi/polylang-wc",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
