@@ -11067,6 +11067,55 @@
                 "abandoned": true
             }
         },
+        "generoi/seoai-client": {
+            "2.20.1": {
+                "name": "generoi/seoai-client",
+                "version": "2.20.1",
+                "version_normalized": "2.20.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "948f777f99218b155ab13d78d85f37847b971875"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/948f777f99218b155ab13d78d85f37847b971875",
+                    "reference": "948f777f99218b155ab13d78d85f37847b971875",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T17:39:43+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.20.1",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/seoai-client",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "948f777f99218b155ab13d78d85f37847b971875"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/948f777f99218b155ab13d78d85f37847b971875",
+                    "reference": "948f777f99218b155ab13d78d85f37847b971875",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T17:39:43+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.20.1",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
+            }
+        },
         "generoi/sitepress-multilingual-cms": {
             "v3.7.0": {
                 "name": "generoi/sitepress-multilingual-cms",

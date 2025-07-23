@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$34dcdd7db000d11b1acb8bc4166087777ddbd4d6.json": {
-            "sha1": "34dcdd7db000d11b1acb8bc4166087777ddbd4d6"
+        "include/all$cdd9cd9808b9fc00a3adb4820c100223cd14a235.json": {
+            "sha1": "cdd9cd9808b9fc00a3adb4820c100223cd14a235"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -37,6 +37,7 @@
         "generoi/polylang-wc",
         "generoi/relevanssi-premium",
         "generoi/role-based-pricing-for-woocommerce",
+        "generoi/seoai-client",
         "generoi/sitepress-multilingual-cms",
         "generoi/social-wall",
         "generoi/wb-paytrail-maksutavat",
