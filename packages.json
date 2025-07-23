@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$7502725146893c520e3582b12b260704916e44eb.json": {
-            "sha1": "7502725146893c520e3582b12b260704916e44eb"
+        "include/all$34dcdd7db000d11b1acb8bc4166087777ddbd4d6.json": {
+            "sha1": "34dcdd7db000d11b1acb8bc4166087777ddbd4d6"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -23,6 +23,7 @@
         "generoi/gravityforms",
         "generoi/gravityforms-multilingual",
         "generoi/gravityformsactivecampaign",
+        "generoi/gravityformsakismet",
         "generoi/gravityformsgoogleanalytics",
         "generoi/gravityformshubspot",
         "generoi/gravityformsmailchimp",

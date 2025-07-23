@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/gravityformsakismet": [
+            {
+                "name": "generoi/gravityformsakismet",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsakismet.git",
+                    "reference": "8734fc153bbbaa0e0c4b828bd2fc5725d0681114"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsakismet/zipball/8734fc153bbbaa0e0c4b828bd2fc5725d0681114",
+                    "reference": "8734fc153bbbaa0e0c4b828bd2fc5725d0681114",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T17:28:50+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsakismet/tree/1.0.2",
+                    "issues": "https://github.com/generoi/gravityformsakismet/issues"
+                }
+            }
+        ]
+    }
+}
