@@ -575,6 +575,29 @@
             },
             {
                 "name": "generoi/facetwp",
+                "version": "v4.2.4",
+                "version_normalized": "4.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "4a8ef31e54e8152e271a3b0a5d8ec9b78869698b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/4a8ef31e54e8152e271a3b0a5d8ec9b78869698b",
+                    "reference": "4a8ef31e54e8152e271a3b0a5d8ec9b78869698b",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:19:35+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp/tree/v4.2.4",
+                    "issues": "https://github.com/generoi/facetwp/issues"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
                 "version": "4.3.3",
                 "version_normalized": "4.3.3.0",
                 "source": {

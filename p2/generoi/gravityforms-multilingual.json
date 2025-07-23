@@ -183,6 +183,29 @@
             },
             {
                 "name": "generoi/gravityforms-multilingual",
+                "version": "v1.7.2",
+                "version_normalized": "1.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms-multilingual.git",
+                    "reference": "8614594b600720ef9b27daf966fdd9f492072427"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-multilingual/zipball/8614594b600720ef9b27daf966fdd9f492072427",
+                    "reference": "8614594b600720ef9b27daf966fdd9f492072427",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:17:31+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms-multilingual/tree/v1.7.2",
+                    "issues": "https://github.com/generoi/gravityforms-multilingual/issues"
+                }
+            },
+            {
+                "name": "generoi/gravityforms-multilingual",
                 "version": "1.8.2",
                 "version_normalized": "1.8.2.0",
                 "source": {

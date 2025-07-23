@@ -24,6 +24,29 @@
                     "source": "https://github.com/generoi/gravityforms/tree/2.9.13.1",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
+            },
+            {
+                "name": "generoi/gravityforms",
+                "version": "dev-v2.7.11-nooga",
+                "version_normalized": "dev-v2.7.11-nooga",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "65771fcf5e1e8a098adfde2250a159492e6eff6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/65771fcf5e1e8a098adfde2250a159492e6eff6f",
+                    "reference": "65771fcf5e1e8a098adfde2250a159492e6eff6f",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:21:22+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/v2.7.11",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
             }
         ]
     }

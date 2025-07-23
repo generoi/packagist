@@ -1531,6 +1531,52 @@
                     "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v5.9.5"
                 }
             },
+            "v6.1.8": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v6.1.8",
+                "version_normalized": "6.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "fb453718c30e19083bb0591cb7ef0c04e14c3323"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/fb453718c30e19083bb0591cb7ef0c04e14c3323",
+                    "reference": "fb453718c30e19083bb0591cb7ef0c04e14c3323",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:05:53+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "support": {
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v6.1.8",
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
+                }
+            },
+            "v6.1.x-dev": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "v6.1.x-dev",
+                "version_normalized": "6.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "fb453718c30e19083bb0591cb7ef0c04e14c3323"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/fb453718c30e19083bb0591cb7ef0c04e14c3323",
+                    "reference": "fb453718c30e19083bb0591cb7ef0c04e14c3323",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:05:53+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "support": {
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/v6.1.8",
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
+                }
+            },
             "6.3.10": {
                 "name": "generoi/advanced-custom-fields-pro",
                 "version": "6.3.10",
@@ -3219,6 +3265,29 @@
                     "source": "https://github.com/generoi/facetwp/tree/v3.8.2"
                 }
             },
+            "v4.2.4": {
+                "name": "generoi/facetwp",
+                "version": "v4.2.4",
+                "version_normalized": "4.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "4a8ef31e54e8152e271a3b0a5d8ec9b78869698b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/4a8ef31e54e8152e271a3b0a5d8ec9b78869698b",
+                    "reference": "4a8ef31e54e8152e271a3b0a5d8ec9b78869698b",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:19:35+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp/tree/v4.2.4",
+                    "issues": "https://github.com/generoi/facetwp/issues"
+                }
+            },
             "4.3.3": {
                 "name": "generoi/facetwp",
                 "version": "4.3.3",
@@ -3398,6 +3467,29 @@
                 "homepage": "https://facetwp.com/",
                 "support": {
                     "source": "https://github.com/generoi/facetwp/tree/4.4.1",
+                    "issues": "https://github.com/generoi/facetwp/issues"
+                }
+            },
+            "dev-v4.2.4-nooga": {
+                "name": "generoi/facetwp",
+                "version": "dev-v4.2.4-nooga",
+                "version_normalized": "dev-v4.2.4-nooga",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "4a8ef31e54e8152e271a3b0a5d8ec9b78869698b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/4a8ef31e54e8152e271a3b0a5d8ec9b78869698b",
+                    "reference": "4a8ef31e54e8152e271a3b0a5d8ec9b78869698b",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:19:35+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp/tree/v4.2.4",
                     "issues": "https://github.com/generoi/facetwp/issues"
                 }
             }
@@ -5232,6 +5324,29 @@
                     "source": "https://github.com/generoi/gravityforms/tree/v2.5-beta-3.1"
                 }
             },
+            "v2.7.11": {
+                "name": "generoi/gravityforms",
+                "version": "v2.7.11",
+                "version_normalized": "2.7.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "65771fcf5e1e8a098adfde2250a159492e6eff6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/65771fcf5e1e8a098adfde2250a159492e6eff6f",
+                    "reference": "65771fcf5e1e8a098adfde2250a159492e6eff6f",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:21:22+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/v2.7.11",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "2.8.17": {
                 "name": "generoi/gravityforms",
                 "version": "2.8.17",
@@ -6127,6 +6242,29 @@
                     "source": "https://github.com/generoi/gravityforms/tree/2.9.13.1",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
+            },
+            "dev-v2.7.11-nooga": {
+                "name": "generoi/gravityforms",
+                "version": "dev-v2.7.11-nooga",
+                "version_normalized": "dev-v2.7.11-nooga",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "65771fcf5e1e8a098adfde2250a159492e6eff6f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/65771fcf5e1e8a098adfde2250a159492e6eff6f",
+                    "reference": "65771fcf5e1e8a098adfde2250a159492e6eff6f",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:21:22+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/v2.7.11",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
             }
         },
         "generoi/gravityforms-multilingual": {
@@ -6310,6 +6448,29 @@
                     "source": "https://github.com/generoi/gravityforms-multilingual/tree/v1.5.0"
                 }
             },
+            "v1.7.2": {
+                "name": "generoi/gravityforms-multilingual",
+                "version": "v1.7.2",
+                "version_normalized": "1.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms-multilingual.git",
+                    "reference": "8614594b600720ef9b27daf966fdd9f492072427"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-multilingual/zipball/8614594b600720ef9b27daf966fdd9f492072427",
+                    "reference": "8614594b600720ef9b27daf966fdd9f492072427",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:17:31+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms-multilingual/tree/v1.7.2",
+                    "issues": "https://github.com/generoi/gravityforms-multilingual/issues"
+                }
+            },
             "1.8.2": {
                 "name": "generoi/gravityforms-multilingual",
                 "version": "1.8.2",
@@ -6354,6 +6515,29 @@
                 "homepage": "https://wpml.org/",
                 "support": {
                     "source": "https://github.com/generoi/gravityforms-multilingual/tree/1.8.2",
+                    "issues": "https://github.com/generoi/gravityforms-multilingual/issues"
+                }
+            },
+            "dev-v1.7.2-nooga": {
+                "name": "generoi/gravityforms-multilingual",
+                "version": "dev-v1.7.2-nooga",
+                "version_normalized": "dev-v1.7.2-nooga",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms-multilingual.git",
+                    "reference": "8614594b600720ef9b27daf966fdd9f492072427"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-multilingual/zipball/8614594b600720ef9b27daf966fdd9f492072427",
+                    "reference": "8614594b600720ef9b27daf966fdd9f492072427",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:17:31+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms-multilingual/tree/v1.7.2",
                     "issues": "https://github.com/generoi/gravityforms-multilingual/issues"
                 }
             }
@@ -11393,6 +11577,52 @@
                 "homepage": "https://wpml.org/",
                 "support": {
                     "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.6.15",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            },
+            "4.6.4": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "4.6.4",
+                "version_normalized": "4.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "5ff7b594ef2eaef309b3a329ae3695dbbdada2dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/5ff7b594ef2eaef309b3a329ae3695dbbdada2dc",
+                    "reference": "5ff7b594ef2eaef309b3a329ae3695dbbdada2dc",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:11:25+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.6.4",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
+            },
+            "v4.6.4.x-dev": {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "v4.6.4.x-dev",
+                "version_normalized": "4.6.4.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "5ff7b594ef2eaef309b3a329ae3695dbbdada2dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/5ff7b594ef2eaef309b3a329ae3695dbbdada2dc",
+                    "reference": "5ff7b594ef2eaef309b3a329ae3695dbbdada2dc",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:11:25+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.6.4",
                     "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
                 }
             },
@@ -17127,6 +17357,29 @@
                     "issues": "https://github.com/generoi/wpml-string-translation/issues"
                 }
             },
+            "v3.2.6": {
+                "name": "generoi/wpml-string-translation",
+                "version": "v3.2.6",
+                "version_normalized": "3.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "58f7fc83bcba5f44574a1d02741c0a0d0d20a5fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/58f7fc83bcba5f44574a1d02741c0a0d0d20a5fa",
+                    "reference": "58f7fc83bcba5f44574a1d02741c0a0d0d20a5fa",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:14:46+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v3.2.6",
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues"
+                }
+            },
             "3.3.0": {
                 "name": "generoi/wpml-string-translation",
                 "version": "3.3.0",
@@ -17240,6 +17493,29 @@
                 "homepage": "https://wpml.org/",
                 "support": {
                     "source": "https://github.com/generoi/wpml-string-translation/tree/3.3.3",
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues"
+                }
+            },
+            "dev-v3.2.6-nooga": {
+                "name": "generoi/wpml-string-translation",
+                "version": "dev-v3.2.6-nooga",
+                "version_normalized": "dev-v3.2.6-nooga",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "58f7fc83bcba5f44574a1d02741c0a0d0d20a5fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/58f7fc83bcba5f44574a1d02741c0a0d0d20a5fa",
+                    "reference": "58f7fc83bcba5f44574a1d02741c0a0d0d20a5fa",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T16:14:46+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/v3.2.6",
                     "issues": "https://github.com/generoi/wpml-string-translation/issues"
                 }
             }
