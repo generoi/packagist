@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$39c8d4956e9214294ecfd543ead8dcced93ced17.json": {
-            "sha1": "39c8d4956e9214294ecfd543ead8dcced93ced17"
+        "include/all$13017ad14419b43af9cca58a4ba88ee37d2904de.json": {
+            "sha1": "13017ad14419b43af9cca58a4ba88ee37d2904de"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -51,6 +51,7 @@
         "generoi/woocommerce-subscriptions",
         "generoi/wp-all-export-pro",
         "generoi/wp-all-import-pro",
+        "generoi/wp-mail-smtp-pro",
         "generoi/wpae-woocommerce-add-on",
         "generoi/wpai-acf-add-on",
         "generoi/wpai-user-add-on",

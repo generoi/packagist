@@ -14548,6 +14548,32 @@
                 }
             }
         },
+        "generoi/wp-mail-smtp-pro": {
+            "dev-master": {
+                "name": "generoi/wp-mail-smtp-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-mail-smtp-pro.git",
+                    "reference": "ce944e9a94e99f5d28bbf71fe9679b5d587e8c91"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-mail-smtp-pro/zipball/ce944e9a94e99f5d28bbf71fe9679b5d587e8c91",
+                    "reference": "ce944e9a94e99f5d28bbf71fe9679b5d587e8c91",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T14:44:49+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://wpmailsmtp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/wp-mail-smtp-pro/tree/master",
+                    "issues": "https://github.com/generoi/wp-mail-smtp-pro/issues"
+                }
+            }
+        },
         "generoi/wpae-woocommerce-add-on": {
             "1.0.9": {
                 "name": "generoi/wpae-woocommerce-add-on",
