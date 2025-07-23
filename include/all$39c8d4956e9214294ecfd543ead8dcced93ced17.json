@@ -11631,6 +11631,55 @@
                 }
             }
         },
+        "generoi/wb-paytrail-maksutavat": {
+            "5.4.16": {
+                "name": "generoi/wb-paytrail-maksutavat",
+                "version": "5.4.16",
+                "version_normalized": "5.4.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wb-paytrail-maksutavat.git",
+                    "reference": "ee40b3324e4216941e980fb768e7c6bf0c3fb852"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/ee40b3324e4216941e980fb768e7c6bf0c3fb852",
+                    "reference": "ee40b3324e4216941e980fb768e7c6bf0c3fb852",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T14:39:05+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.webbisivut.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.4.16",
+                    "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/wb-paytrail-maksutavat",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wb-paytrail-maksutavat.git",
+                    "reference": "ee40b3324e4216941e980fb768e7c6bf0c3fb852"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/ee40b3324e4216941e980fb768e7c6bf0c3fb852",
+                    "reference": "ee40b3324e4216941e980fb768e7c6bf0c3fb852",
+                    "shasum": ""
+                },
+                "time": "2025-07-23T14:39:05+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://www.webbisivut.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.4.16",
+                    "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
+                }
+            }
+        },
         "generoi/wc-paytrail": {
             "2.6.2": {
                 "name": "generoi/wc-paytrail",

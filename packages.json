@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$32a2894b39f12bb97527605536fa1463ffc0eac1.json": {
-            "sha1": "32a2894b39f12bb97527605536fa1463ffc0eac1"
+        "include/all$39c8d4956e9214294ecfd543ead8dcced93ced17.json": {
+            "sha1": "39c8d4956e9214294ecfd543ead8dcced93ced17"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -38,6 +38,7 @@
         "generoi/role-based-pricing-for-woocommerce",
         "generoi/sitepress-multilingual-cms",
         "generoi/social-wall",
+        "generoi/wb-paytrail-maksutavat",
         "generoi/wc-paytrail",
         "generoi/wc-smartship",
         "generoi/woo-carrier-agents",
