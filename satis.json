@@ -44,6 +44,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-gateway-verifone.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-gift-cards.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-measurement-price-calculator.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-multilingual.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-product-addons.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-subscriptions.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-request-a-quote.git" },
