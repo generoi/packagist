@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "generoi/wpml-wpforms": [
+            {
+                "name": "generoi/wpml-wpforms",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-wpforms.git",
+                    "reference": "0ff7cfdbd3e31c096c000aaf8cca27b97270560f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-wpforms/zipball/0ff7cfdbd3e31c096c000aaf8cca27b97270560f",
+                    "reference": "0ff7cfdbd3e31c096c000aaf8cca27b97270560f",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T11:09:20+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-wpforms/tree/0.4.1",
+                    "issues": "https://github.com/generoi/wpml-wpforms/issues"
+                }
+            }
+        ]
+    }
+}

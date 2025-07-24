@@ -12733,6 +12733,57 @@
                 }
             }
         },
+        "generoi/woocommerce-cost-of-goods": {
+            "v2.13.0": {
+                "name": "generoi/woocommerce-cost-of-goods",
+                "version": "v2.13.0",
+                "version_normalized": "2.13.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-cost-of-goods.git",
+                    "reference": "a5570583189008974aa9cb38ec1f382b6c58d2b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-cost-of-goods/zipball/a5570583189008974aa9cb38ec1f382b6c58d2b1",
+                    "reference": "a5570583189008974aa9cb38ec1f382b6c58d2b1",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T11:12:45+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/woocommerce-cost-of-goods/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-cost-of-goods/tree/v2.13.0",
+                    "issues": "https://github.com/generoi/woocommerce-cost-of-goods/issues"
+                },
+                "abandoned": true
+            },
+            "dev-master": {
+                "name": "generoi/woocommerce-cost-of-goods",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-cost-of-goods.git",
+                    "reference": "a5570583189008974aa9cb38ec1f382b6c58d2b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-cost-of-goods/zipball/a5570583189008974aa9cb38ec1f382b6c58d2b1",
+                    "reference": "a5570583189008974aa9cb38ec1f382b6c58d2b1",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T11:12:45+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/woocommerce-cost-of-goods/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-cost-of-goods/tree/v2.13.0",
+                    "issues": "https://github.com/generoi/woocommerce-cost-of-goods/issues"
+                },
+                "abandoned": true
+            }
+        },
         "generoi/woocommerce-gateway-verifone": {
             "1.4.0": {
                 "name": "generoi/woocommerce-gateway-verifone",
@@ -17946,6 +17997,55 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-string-translation/tree/v3.2.6",
                     "issues": "https://github.com/generoi/wpml-string-translation/issues"
+                }
+            }
+        },
+        "generoi/wpml-wpforms": {
+            "0.4.1": {
+                "name": "generoi/wpml-wpforms",
+                "version": "0.4.1",
+                "version_normalized": "0.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-wpforms.git",
+                    "reference": "0ff7cfdbd3e31c096c000aaf8cca27b97270560f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-wpforms/zipball/0ff7cfdbd3e31c096c000aaf8cca27b97270560f",
+                    "reference": "0ff7cfdbd3e31c096c000aaf8cca27b97270560f",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T11:09:20+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-wpforms/tree/0.4.1",
+                    "issues": "https://github.com/generoi/wpml-wpforms/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/wpml-wpforms",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-wpforms.git",
+                    "reference": "0ff7cfdbd3e31c096c000aaf8cca27b97270560f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-wpforms/zipball/0ff7cfdbd3e31c096c000aaf8cca27b97270560f",
+                    "reference": "0ff7cfdbd3e31c096c000aaf8cca27b97270560f",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T11:09:20+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-wpforms/tree/0.4.1",
+                    "issues": "https://github.com/generoi/wpml-wpforms/issues"
                 }
             }
         },

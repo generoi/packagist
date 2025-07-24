@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$c708f0a4e18c3eae53b4a7a209bf0e20029f28d5.json": {
-            "sha1": "c708f0a4e18c3eae53b4a7a209bf0e20029f28d5"
+        "include/all$710aa9146696ed7070c25ba098d06fe26f24dd95.json": {
+            "sha1": "710aa9146696ed7070c25ba098d06fe26f24dd95"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -45,6 +45,7 @@
         "generoi/wc-smartship",
         "generoi/woo-carrier-agents",
         "generoi/woo-printables",
+        "generoi/woocommerce-cost-of-goods",
         "generoi/woocommerce-gateway-verifone",
         "generoi/woocommerce-gift-cards",
         "generoi/woocommerce-measurement-price-calculator",
@@ -61,6 +62,7 @@
         "generoi/wpml-all-import",
         "generoi/wpml-media-translation",
         "generoi/wpml-string-translation",
+        "generoi/wpml-wpforms",
         "generoi/youtube-feed-pro",
         "kinsta/kinsta-mu-plugins"
     ]
