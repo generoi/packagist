@@ -39,6 +39,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/wb-paytrail-maksutavat.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wc-paytrail.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wc-smartship.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-cost-of-goods.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-gateway-verifone.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-gift-cards.git" },
         { "type": "vcs", "url": "https://github.com/generoi/woocommerce-measurement-price-calculator.git" },
@@ -57,6 +58,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/wpml-all-import.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wpml-string-translation.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wpml-media-translation.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/wpml-wpforms.git" },
         { "type": "vcs", "url": "https://github.com/generoi/youtube-feed-pro.git" }
     ],
     "require-all": true
