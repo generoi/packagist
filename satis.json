@@ -31,6 +31,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/pixelyoursite-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/polylang-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/polylang-wc.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/qliro-one-for-woocommerce.git" },
         { "type": "vcs", "url": "https://github.com/generoi/relevanssi-premium.git" },
         { "type": "vcs", "url": "https://github.com/generoi/role-based-pricing-for-woocommerce.git" },
         { "type": "vcs", "url": "https://github.com/generoi/seoai-client.git" },
