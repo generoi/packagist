@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$710aa9146696ed7070c25ba098d06fe26f24dd95.json": {
-            "sha1": "710aa9146696ed7070c25ba098d06fe26f24dd95"
+        "include/all$9aabd5062dcba669ab4c96f2be9204a979b06fb6.json": {
+            "sha1": "9aabd5062dcba669ab4c96f2be9204a979b06fb6"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -35,6 +35,7 @@
         "generoi/pixelyoursite-pro",
         "generoi/polylang-pro",
         "generoi/polylang-wc",
+        "generoi/qliro-one-for-woocommerce",
         "generoi/relevanssi-premium",
         "generoi/role-based-pricing-for-woocommerce",
         "generoi/seoai-client",

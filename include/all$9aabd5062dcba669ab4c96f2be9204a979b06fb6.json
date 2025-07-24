@@ -10761,6 +10761,55 @@
                 }
             }
         },
+        "generoi/qliro-one-for-woocommerce": {
+            "1.12.0": {
+                "name": "generoi/qliro-one-for-woocommerce",
+                "version": "1.12.0",
+                "version_normalized": "1.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/qliro-one-for-woocommerce.git",
+                    "reference": "7939c55eabfea01e4f616af0b87a45783e812667"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/qliro-one-for-woocommerce/zipball/7939c55eabfea01e4f616af0b87a45783e812667",
+                    "reference": "7939c55eabfea01e4f616af0b87a45783e812667",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T11:33:51+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://krokedil.com/partners/qliro/",
+                "support": {
+                    "source": "https://github.com/generoi/qliro-one-for-woocommerce/tree/1.12.0",
+                    "issues": "https://github.com/generoi/qliro-one-for-woocommerce/issues"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/qliro-one-for-woocommerce",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/qliro-one-for-woocommerce.git",
+                    "reference": "7939c55eabfea01e4f616af0b87a45783e812667"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/qliro-one-for-woocommerce/zipball/7939c55eabfea01e4f616af0b87a45783e812667",
+                    "reference": "7939c55eabfea01e4f616af0b87a45783e812667",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T11:33:51+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://krokedil.com/partners/qliro/",
+                "support": {
+                    "source": "https://github.com/generoi/qliro-one-for-woocommerce/tree/1.12.0",
+                    "issues": "https://github.com/generoi/qliro-one-for-woocommerce/issues"
+                }
+            }
+        },
         "generoi/relevanssi-premium": {
             "2.26.0": {
                 "name": "generoi/relevanssi-premium",
@@ -12174,20 +12223,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wb-paytrail-maksutavat.git",
-                    "reference": "ee40b3324e4216941e980fb768e7c6bf0c3fb852"
+                    "reference": "0fc695d76c98cfa50ec3d6ca8580903d79b31456"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/ee40b3324e4216941e980fb768e7c6bf0c3fb852",
-                    "reference": "ee40b3324e4216941e980fb768e7c6bf0c3fb852",
+                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/0fc695d76c98cfa50ec3d6ca8580903d79b31456",
+                    "reference": "0fc695d76c98cfa50ec3d6ca8580903d79b31456",
                     "shasum": ""
                 },
-                "time": "2025-07-23T14:39:05+00:00",
+                "time": "2025-07-24T11:30:59+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.webbisivut.org/",
                 "support": {
-                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.4.16",
+                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/master",
                     "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
                 }
             }
