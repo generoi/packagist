@@ -23,8 +23,30 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-cost-of-goods/tree/v2.13.0",
                     "issues": "https://github.com/generoi/woocommerce-cost-of-goods/issues"
+                }
+            },
+            {
+                "name": "generoi/woocommerce-cost-of-goods",
+                "version": "dev-patch-translation-too-early",
+                "version_normalized": "dev-patch-translation-too-early",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-cost-of-goods.git",
+                    "reference": "5a93acfced92528378db10fe8fe8b99b0c8b0b85"
                 },
-                "abandoned": true
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-cost-of-goods/zipball/5a93acfced92528378db10fe8fe8b99b0c8b0b85",
+                    "reference": "5a93acfced92528378db10fe8fe8b99b0c8b0b85",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T12:26:44+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/woocommerce-cost-of-goods/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-cost-of-goods/tree/patch-translation-too-early",
+                    "issues": "https://github.com/generoi/woocommerce-cost-of-goods/issues"
+                }
             }
         ]
     }

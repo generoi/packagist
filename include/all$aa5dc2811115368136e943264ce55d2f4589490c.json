@@ -5805,6 +5805,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.14.1": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.14.1",
+                "version_normalized": "2.9.14.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "e10f38902f0e5f693ebae36a76cbc303f51253ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/e10f38902f0e5f693ebae36a76cbc303f51253ca",
+                    "reference": "e10f38902f0e5f693ebae36a76cbc303f51253ca",
+                    "shasum": ""
+                },
+                "time": "2025-07-25T04:23:20+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.14.1",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "2.9.2": {
                 "name": "generoi/gravityforms",
                 "version": "2.9.2",
@@ -6272,20 +6295,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "fad383cf5c2a5ef7aa286cfbd89e249d77fbd5c5"
+                    "reference": "e10f38902f0e5f693ebae36a76cbc303f51253ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/fad383cf5c2a5ef7aa286cfbd89e249d77fbd5c5",
-                    "reference": "fad383cf5c2a5ef7aa286cfbd89e249d77fbd5c5",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/e10f38902f0e5f693ebae36a76cbc303f51253ca",
+                    "reference": "e10f38902f0e5f693ebae36a76cbc303f51253ca",
                     "shasum": ""
                 },
-                "time": "2025-07-15T04:23:22+00:00",
+                "time": "2025-07-25T04:23:20+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.13.1",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.14.1",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
@@ -6874,6 +6897,29 @@
                     "issues": "https://github.com/generoi/gravityformshubspot/issues"
                 }
             },
+            "2.3.1": {
+                "name": "generoi/gravityformshubspot",
+                "version": "2.3.1",
+                "version_normalized": "2.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformshubspot.git",
+                    "reference": "b0fea2740ff28e25b351d8c5aa611f48354755d6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/b0fea2740ff28e25b351d8c5aa611f48354755d6",
+                    "reference": "b0fea2740ff28e25b351d8c5aa611f48354755d6",
+                    "shasum": ""
+                },
+                "time": "2025-07-25T04:22:29+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/2.3.1",
+                    "issues": "https://github.com/generoi/gravityformshubspot/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformshubspot",
                 "version": "dev-master",
@@ -6881,20 +6927,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformshubspot.git",
-                    "reference": "c405a21c611becedc13146c81d2f6b506d7b7023"
+                    "reference": "b0fea2740ff28e25b351d8c5aa611f48354755d6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/c405a21c611becedc13146c81d2f6b506d7b7023",
-                    "reference": "c405a21c611becedc13146c81d2f6b506d7b7023",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/b0fea2740ff28e25b351d8c5aa611f48354755d6",
+                    "reference": "b0fea2740ff28e25b351d8c5aa611f48354755d6",
                     "shasum": ""
                 },
-                "time": "2025-06-17T04:15:06+00:00",
+                "time": "2025-07-25T04:22:29+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformshubspot/tree/2.3.0",
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/2.3.1",
                     "issues": "https://github.com/generoi/gravityformshubspot/issues"
                 }
             }
@@ -7472,6 +7518,29 @@
                     "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
                 }
             },
+            "1.9.1": {
+                "name": "generoi/gravityformsrecaptcha",
+                "version": "1.9.1",
+                "version_normalized": "1.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsrecaptcha.git",
+                    "reference": "59f0555042c20971cc51cf0bda035a3673f41570"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/59f0555042c20971cc51cf0bda035a3673f41570",
+                    "reference": "59f0555042c20971cc51cf0bda035a3673f41570",
+                    "shasum": ""
+                },
+                "time": "2025-07-25T04:23:43+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/1.9.1",
+                    "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformsrecaptcha",
                 "version": "dev-master",
@@ -7479,20 +7548,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformsrecaptcha.git",
-                    "reference": "3eb11af87bbbca4c671ebafc4f1f3f64c31caf85"
+                    "reference": "59f0555042c20971cc51cf0bda035a3673f41570"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/3eb11af87bbbca4c671ebafc4f1f3f64c31caf85",
-                    "reference": "3eb11af87bbbca4c671ebafc4f1f3f64c31caf85",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/59f0555042c20971cc51cf0bda035a3673f41570",
+                    "reference": "59f0555042c20971cc51cf0bda035a3673f41570",
                     "shasum": ""
                 },
-                "time": "2025-07-22T04:23:38+00:00",
+                "time": "2025-07-25T04:23:43+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/1.9.0",
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/1.9.1",
                     "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
                 }
             }
@@ -11140,6 +11209,29 @@
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             },
+            "2.20.2": {
+                "name": "generoi/seoai-client",
+                "version": "2.20.2",
+                "version_normalized": "2.20.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "c87046d975f31959a8ad923b68126a41670b8815"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/c87046d975f31959a8ad923b68126a41670b8815",
+                    "reference": "c87046d975f31959a8ad923b68126a41670b8815",
+                    "shasum": ""
+                },
+                "time": "2025-07-25T04:24:31+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.20.2",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/seoai-client",
                 "version": "dev-master",
@@ -11147,20 +11239,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoai-client.git",
-                    "reference": "948f777f99218b155ab13d78d85f37847b971875"
+                    "reference": "c87046d975f31959a8ad923b68126a41670b8815"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/948f777f99218b155ab13d78d85f37847b971875",
-                    "reference": "948f777f99218b155ab13d78d85f37847b971875",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/c87046d975f31959a8ad923b68126a41670b8815",
+                    "reference": "c87046d975f31959a8ad923b68126a41670b8815",
                     "shasum": ""
                 },
-                "time": "2025-07-23T17:39:43+00:00",
+                "time": "2025-07-25T04:24:31+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoai-client/tree/2.20.1",
+                    "source": "https://github.com/generoi/seoai-client/tree/2.20.2",
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             }
@@ -12804,8 +12896,7 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-cost-of-goods/tree/v2.13.0",
                     "issues": "https://github.com/generoi/woocommerce-cost-of-goods/issues"
-                },
-                "abandoned": true
+                }
             },
             "dev-master": {
                 "name": "generoi/woocommerce-cost-of-goods",
@@ -12829,8 +12920,30 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-cost-of-goods/tree/v2.13.0",
                     "issues": "https://github.com/generoi/woocommerce-cost-of-goods/issues"
+                }
+            },
+            "dev-patch-translation-too-early": {
+                "name": "generoi/woocommerce-cost-of-goods",
+                "version": "dev-patch-translation-too-early",
+                "version_normalized": "dev-patch-translation-too-early",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-cost-of-goods.git",
+                    "reference": "5a93acfced92528378db10fe8fe8b99b0c8b0b85"
                 },
-                "abandoned": true
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-cost-of-goods/zipball/5a93acfced92528378db10fe8fe8b99b0c8b0b85",
+                    "reference": "5a93acfced92528378db10fe8fe8b99b0c8b0b85",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T12:26:44+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/woocommerce-cost-of-goods/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-cost-of-goods/tree/patch-translation-too-early",
+                    "issues": "https://github.com/generoi/woocommerce-cost-of-goods/issues"
+                }
             }
         },
         "generoi/woocommerce-gateway-verifone": {
@@ -13180,6 +13293,29 @@
                 "homepage": "https://woocommerce.com/products/gift-cards/",
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.4.1",
+                    "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
+                }
+            },
+            "dev-patch-wp_is_block_theme": {
+                "name": "generoi/woocommerce-gift-cards",
+                "version": "dev-patch-wp_is_block_theme",
+                "version_normalized": "dev-patch-wp_is_block_theme",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-gift-cards.git",
+                    "reference": "47bcf1ed73a2dec5c5cc28a7b818ecb045aa92a2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-gift-cards/zipball/47bcf1ed73a2dec5c5cc28a7b818ecb045aa92a2",
+                    "reference": "47bcf1ed73a2dec5c5cc28a7b818ecb045aa92a2",
+                    "shasum": ""
+                },
+                "time": "2025-07-24T12:18:58+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://woocommerce.com/products/gift-cards/",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-gift-cards/tree/patch-wp_is_block_theme",
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
                 }
             }
