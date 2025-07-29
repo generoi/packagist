@@ -23,6 +23,29 @@
                     "source": "https://github.com/generoi/gravityformsakismet/tree/1.0.2",
                     "issues": "https://github.com/generoi/gravityformsakismet/issues"
                 }
+            },
+            {
+                "name": "generoi/gravityformsakismet",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsakismet.git",
+                    "reference": "9b4a9a0643a4a350217b57bff2bf96419075b745"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsakismet/zipball/9b4a9a0643a4a350217b57bff2bf96419075b745",
+                    "reference": "9b4a9a0643a4a350217b57bff2bf96419075b745",
+                    "shasum": ""
+                },
+                "time": "2025-07-29T04:28:21+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsakismet/tree/1.1.0",
+                    "issues": "https://github.com/generoi/gravityformsakismet/issues"
+                }
             }
         ]
     }
