@@ -49,6 +49,29 @@
             },
             {
                 "name": "generoi/wp-all-export-pro",
+                "version": "1.9.11",
+                "version_normalized": "1.9.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-export-pro.git",
+                    "reference": "793ea5decbf993181408c99483fe67cb60dcdace"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/793ea5decbf993181408c99483fe67cb60dcdace",
+                    "reference": "793ea5decbf993181408c99483fe67cb60dcdace",
+                    "shasum": ""
+                },
+                "time": "2025-08-05T04:27:35+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.11",
+                    "issues": "https://github.com/generoi/wp-all-export-pro/issues"
+                }
+            },
+            {
+                "name": "generoi/wp-all-export-pro",
                 "version": "1.9.2",
                 "version_normalized": "1.9.2.0",
                 "source": {

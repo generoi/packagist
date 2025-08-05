@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpai-user-add-on.git",
-                    "reference": "070988bc4d266bb0471bd7d9abb41a92876bb821"
+                    "reference": "1d366bc6ec89323895e0dd9598533909c9c13750"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpai-user-add-on/zipball/070988bc4d266bb0471bd7d9abb41a92876bb821",
-                    "reference": "070988bc4d266bb0471bd7d9abb41a92876bb821",
+                    "url": "https://api.github.com/repos/generoi/wpai-user-add-on/zipball/1d366bc6ec89323895e0dd9598533909c9c13750",
+                    "reference": "1d366bc6ec89323895e0dd9598533909c9c13750",
                     "shasum": ""
                 },
-                "time": "2024-10-21T15:49:55+00:00",
+                "time": "2025-08-05T04:27:58+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wpai-user-add-on/tree/1.1.8",
+                    "source": "https://github.com/generoi/wpai-user-add-on/tree/1.1.9",
                     "issues": "https://github.com/generoi/wpai-user-add-on/issues"
                 }
             }
