@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpml-all-import.git",
-                    "reference": "49bc4f5a9b83fadf954014e47567b7a6da7b6df3"
+                    "reference": "64f283a0392c0a3cdb64bdf694e8375070b397c0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/49bc4f5a9b83fadf954014e47567b7a6da7b6df3",
-                    "reference": "49bc4f5a9b83fadf954014e47567b7a6da7b6df3",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/64f283a0392c0a3cdb64bdf694e8375070b397c0",
+                    "reference": "64f283a0392c0a3cdb64bdf694e8375070b397c0",
                     "shasum": ""
                 },
-                "time": "2025-05-01T04:12:35+00:00",
+                "time": "2025-08-12T04:14:57+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/wpml-all-import/tree/2.3.1",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/2.3.2",
                     "issues": "https://github.com/generoi/wpml-all-import/issues"
                 }
             }
