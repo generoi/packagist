@@ -46,6 +46,29 @@
                     "source": "https://github.com/generoi/qliro-one-for-woocommerce/tree/1.13.0",
                     "issues": "https://github.com/generoi/qliro-one-for-woocommerce/issues"
                 }
+            },
+            {
+                "name": "generoi/qliro-one-for-woocommerce",
+                "version": "1.14.0",
+                "version_normalized": "1.14.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/qliro-one-for-woocommerce.git",
+                    "reference": "327a1ddc118e92ddc7d507ac4ba67d6709d86900"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/qliro-one-for-woocommerce/zipball/327a1ddc118e92ddc7d507ac4ba67d6709d86900",
+                    "reference": "327a1ddc118e92ddc7d507ac4ba67d6709d86900",
+                    "shasum": ""
+                },
+                "time": "2025-09-02T04:12:01+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://krokedil.com/partners/qliro/",
+                "support": {
+                    "source": "https://github.com/generoi/qliro-one-for-woocommerce/tree/1.14.0",
+                    "issues": "https://github.com/generoi/qliro-one-for-woocommerce/issues"
+                }
             }
         ]
     }

@@ -31,20 +31,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
-                    "reference": "cb520dc9f4ed0085f10d716333e0a57b99c8e0a5"
+                    "reference": "dc4e3c35733de37b954ccb7e29046bfb476bef4f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/cb520dc9f4ed0085f10d716333e0a57b99c8e0a5",
-                    "reference": "cb520dc9f4ed0085f10d716333e0a57b99c8e0a5",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/dc4e3c35733de37b954ccb7e29046bfb476bef4f",
+                    "reference": "dc4e3c35733de37b954ccb7e29046bfb476bef4f",
                     "shasum": ""
                 },
-                "time": "2025-08-27T04:10:52+00:00",
+                "time": "2025-09-03T04:11:23+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.8.0",
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.8.1",
                     "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
                 }
             }
