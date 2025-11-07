@@ -114,6 +114,52 @@
                     "source": "https://github.com/generoi/gravity-forms-user-verification/tree/2.6.1",
                     "issues": "https://github.com/generoi/gravity-forms-user-verification/issues"
                 }
+            },
+            {
+                "name": "generoi/gravity-forms-user-verification",
+                "version": "2.7.0",
+                "version_normalized": "2.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravity-forms-user-verification.git",
+                    "reference": "19ef4eae995cb4901e6ccdf1e9fcd18c6c4f050e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravity-forms-user-verification/zipball/19ef4eae995cb4901e6ccdf1e9fcd18c6c4f050e",
+                    "reference": "19ef4eae995cb4901e6ccdf1e9fcd18c6c4f050e",
+                    "shasum": ""
+                },
+                "time": "2025-09-25T04:13:29+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://albertbrueckmann.de/produkte/addon-double-opt-in-for-gravity-forms-en/",
+                "support": {
+                    "source": "https://github.com/generoi/gravity-forms-user-verification/tree/2.7.0",
+                    "issues": "https://github.com/generoi/gravity-forms-user-verification/issues"
+                }
+            },
+            {
+                "name": "generoi/gravity-forms-user-verification",
+                "version": "2.7.1",
+                "version_normalized": "2.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravity-forms-user-verification.git",
+                    "reference": "8067fffe50e06d831f856bada96eb2d54dd706ba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravity-forms-user-verification/zipball/8067fffe50e06d831f856bada96eb2d54dd706ba",
+                    "reference": "8067fffe50e06d831f856bada96eb2d54dd706ba",
+                    "shasum": ""
+                },
+                "time": "2025-10-31T04:13:52+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://albertbrueckmann.de/produkte/addon-double-opt-in-for-gravity-forms-en/",
+                "support": {
+                    "source": "https://github.com/generoi/gravity-forms-user-verification/tree/2.7.1",
+                    "issues": "https://github.com/generoi/gravity-forms-user-verification/issues"
+                }
             }
         ]
     }

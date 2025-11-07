@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/multilingualpress.git",
-                    "reference": "cb02495feddb04f8695b880150eab99e70bb681d"
+                    "reference": "fe7aabb64e38cc85cf270eed9bbb553f9ea615aa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/cb02495feddb04f8695b880150eab99e70bb681d",
-                    "reference": "cb02495feddb04f8695b880150eab99e70bb681d",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/fe7aabb64e38cc85cf270eed9bbb553f9ea615aa",
+                    "reference": "fe7aabb64e38cc85cf270eed9bbb553f9ea615aa",
                     "shasum": ""
                 },
-                "time": "2025-06-05T04:16:00+00:00",
+                "time": "2025-09-10T04:14:31+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.multilingualpress.org",
                 "support": {
-                    "source": "https://github.com/generoi/multilingualpress/tree/5.0.0",
+                    "source": "https://github.com/generoi/multilingualpress/tree/5.0.1",
                     "issues": "https://github.com/generoi/multilingualpress/issues"
                 }
             }
