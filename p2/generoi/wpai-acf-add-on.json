@@ -384,6 +384,29 @@
                     "source": "https://github.com/generoi/wpai-acf-add-on/tree/3.4.0",
                     "issues": "https://github.com/generoi/wpai-acf-add-on/issues"
                 }
+            },
+            {
+                "name": "generoi/wpai-acf-add-on",
+                "version": "4.0.1",
+                "version_normalized": "4.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-acf-add-on.git",
+                    "reference": "4b86b8445023db8b8eb1fb0a28a15b7dfb59f593"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/4b86b8445023db8b8eb1fb0a28a15b7dfb59f593",
+                    "reference": "4b86b8445023db8b8eb1fb0a28a15b7dfb59f593",
+                    "shasum": ""
+                },
+                "time": "2025-11-12T04:11:55+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/4.0.1",
+                    "issues": "https://github.com/generoi/wpai-acf-add-on/issues"
+                }
             }
         ]
     }
