@@ -2,6 +2,7 @@
     "name": "genero/packagist",
     "homepage": "https://generoi.github.io/packagist",
     "repositories": [
+        { "type": "vcs", "url": "https://github.com/generoi/gds-block-animations.git" },
         { "type": "vcs", "url": "https://github.com/generoi/advanced-custom-fields-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/cff-extensions.git" },
         { "type": "vcs", "url": "https://github.com/generoi/complianz-gdpr-premium.git" },
