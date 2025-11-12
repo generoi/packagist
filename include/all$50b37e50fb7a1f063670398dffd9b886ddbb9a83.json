@@ -4488,6 +4488,99 @@
                 }
             }
         },
+        "generoi/gds-block-animations": {
+            "v0.1.0": {
+                "name": "generoi/gds-block-animations",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-block-animations.git",
+                    "reference": "1be687b66411e4c1404edf80d8a3882211577255"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/1be687b66411e4c1404edf80d8a3882211577255",
+                    "reference": "1be687b66411e4c1404edf80d8a3882211577255",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2025-11-12T13:47:38+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonatan Storlund",
+                        "email": "storlundjonatan@gmail.com"
+                    }
+                ],
+                "description": "Animate WordPress blocks on scroll with customizable settings.",
+                "homepage": "https://github.com/generoi/gds-block-animations",
+                "keywords": [
+                    "gutenberg",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/gds-block-animations/issues",
+                    "source": "https://github.com/generoi/gds-block-animations/tree/v0.1.0"
+                }
+            },
+            "dev-master": {
+                "name": "generoi/gds-block-animations",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-block-animations.git",
+                    "reference": "1be687b66411e4c1404edf80d8a3882211577255"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/1be687b66411e4c1404edf80d8a3882211577255",
+                    "reference": "1be687b66411e4c1404edf80d8a3882211577255",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2025-11-12T13:47:38+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonatan Storlund",
+                        "email": "storlundjonatan@gmail.com"
+                    }
+                ],
+                "description": "Animate WordPress blocks on scroll with customizable settings.",
+                "homepage": "https://github.com/generoi/gds-block-animations",
+                "keywords": [
+                    "gutenberg",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/gds-block-animations/issues",
+                    "source": "https://github.com/generoi/gds-block-animations/tree/v0.1.0"
+                }
+            }
+        },
         "generoi/gf-pardot-pro": {
             "v3.6.0": {
                 "name": "generoi/gf-pardot-pro",
