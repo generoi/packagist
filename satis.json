@@ -2,7 +2,6 @@
     "name": "genero/packagist",
     "homepage": "https://generoi.github.io/packagist",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/generoi/gds-block-animations.git" },
         { "type": "vcs", "url": "https://github.com/generoi/advanced-custom-fields-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/cff-extensions.git" },
         { "type": "vcs", "url": "https://github.com/generoi/complianz-gdpr-premium.git" },
@@ -14,6 +13,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/facetwp-hierarchy-select.git" },
         { "type": "vcs", "url": "https://github.com/generoi/facetwp-relevanssi.git" },
         { "type": "vcs", "url": "https://github.com/generoi/filebird-pro.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/gds-block-animations.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gf-pardot-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityforms.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformsactivecampaign.git" },
