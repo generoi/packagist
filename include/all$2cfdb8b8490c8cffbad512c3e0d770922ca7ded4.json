@@ -6772,6 +6772,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.22": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.22",
+                "version_normalized": "2.9.22.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "bc7fda1dc9200a277f43eee4b66cb67ef5dd3b42"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/bc7fda1dc9200a277f43eee4b66cb67ef5dd3b42",
+                    "reference": "bc7fda1dc9200a277f43eee4b66cb67ef5dd3b42",
+                    "shasum": ""
+                },
+                "time": "2025-11-14T04:12:21+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.22",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "2.9.3": {
                 "name": "generoi/gravityforms",
                 "version": "2.9.3",
@@ -7170,20 +7193,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "72efb2220b48f66493e668195f40de4589c4024c"
+                    "reference": "bc7fda1dc9200a277f43eee4b66cb67ef5dd3b42"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/72efb2220b48f66493e668195f40de4589c4024c",
-                    "reference": "72efb2220b48f66493e668195f40de4589c4024c",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/bc7fda1dc9200a277f43eee4b66cb67ef5dd3b42",
+                    "reference": "bc7fda1dc9200a277f43eee4b66cb67ef5dd3b42",
                     "shasum": ""
                 },
-                "time": "2025-11-05T04:12:11+00:00",
+                "time": "2025-11-14T04:12:21+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.21.1",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.22",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
@@ -7841,6 +7864,29 @@
                     "issues": "https://github.com/generoi/gravityformshubspot/issues"
                 }
             },
+            "2.3.2": {
+                "name": "generoi/gravityformshubspot",
+                "version": "2.3.2",
+                "version_normalized": "2.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformshubspot.git",
+                    "reference": "9b4a2ba688c287270e83d124e92cc27703d942de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/9b4a2ba688c287270e83d124e92cc27703d942de",
+                    "reference": "9b4a2ba688c287270e83d124e92cc27703d942de",
+                    "shasum": ""
+                },
+                "time": "2025-11-13T04:13:29+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/2.3.2",
+                    "issues": "https://github.com/generoi/gravityformshubspot/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformshubspot",
                 "version": "dev-master",
@@ -7848,20 +7894,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformshubspot.git",
-                    "reference": "b0fea2740ff28e25b351d8c5aa611f48354755d6"
+                    "reference": "9b4a2ba688c287270e83d124e92cc27703d942de"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/b0fea2740ff28e25b351d8c5aa611f48354755d6",
-                    "reference": "b0fea2740ff28e25b351d8c5aa611f48354755d6",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/9b4a2ba688c287270e83d124e92cc27703d942de",
+                    "reference": "9b4a2ba688c287270e83d124e92cc27703d942de",
                     "shasum": ""
                 },
-                "time": "2025-07-25T04:22:29+00:00",
+                "time": "2025-11-13T04:13:29+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformshubspot/tree/2.3.1",
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/2.3.2",
                     "issues": "https://github.com/generoi/gravityformshubspot/issues"
                 }
             }
@@ -8692,6 +8738,29 @@
                     "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
                 }
             },
+            "2.1.0": {
+                "name": "generoi/gravityformsrecaptcha",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsrecaptcha.git",
+                    "reference": "f76e7983fd08fd59250dd0ba18be1359bb114b62"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/f76e7983fd08fd59250dd0ba18be1359bb114b62",
+                    "reference": "f76e7983fd08fd59250dd0ba18be1359bb114b62",
+                    "shasum": ""
+                },
+                "time": "2025-11-14T04:13:03+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/2.1.0",
+                    "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformsrecaptcha",
                 "version": "dev-master",
@@ -8699,20 +8768,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformsrecaptcha.git",
-                    "reference": "e0322302cbc8922cea0a178b2464c2b361d96cbf"
+                    "reference": "f76e7983fd08fd59250dd0ba18be1359bb114b62"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/e0322302cbc8922cea0a178b2464c2b361d96cbf",
-                    "reference": "e0322302cbc8922cea0a178b2464c2b361d96cbf",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/f76e7983fd08fd59250dd0ba18be1359bb114b62",
+                    "reference": "f76e7983fd08fd59250dd0ba18be1359bb114b62",
                     "shasum": ""
                 },
-                "time": "2025-11-01T04:12:30+00:00",
+                "time": "2025-11-14T04:13:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/2.0.3",
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/2.1.0",
                     "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
                 }
             }
@@ -9138,6 +9207,29 @@
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             },
+            "6.9.0": {
+                "name": "generoi/instagram-feed-pro",
+                "version": "6.9.0",
+                "version_normalized": "6.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/instagram-feed-pro.git",
+                    "reference": "d33f3cc14c281d544fa572052824b27a6d78267f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/d33f3cc14c281d544fa572052824b27a6d78267f",
+                    "reference": "d33f3cc14c281d544fa572052824b27a6d78267f",
+                    "shasum": ""
+                },
+                "time": "2025-11-13T04:13:29+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/instagram-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.9.0",
+                    "issues": "https://github.com/generoi/instagram-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/instagram-feed-pro",
                 "version": "dev-master",
@@ -9145,20 +9237,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/instagram-feed-pro.git",
-                    "reference": "c7ee8c8fefae1deab6c475c147ae364f8b66cf5b"
+                    "reference": "d33f3cc14c281d544fa572052824b27a6d78267f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/c7ee8c8fefae1deab6c475c147ae364f8b66cf5b",
-                    "reference": "c7ee8c8fefae1deab6c475c147ae364f8b66cf5b",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/d33f3cc14c281d544fa572052824b27a6d78267f",
+                    "reference": "d33f3cc14c281d544fa572052824b27a6d78267f",
                     "shasum": ""
                 },
-                "time": "2025-06-03T04:13:37+00:00",
+                "time": "2025-11-13T04:13:29+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/instagram-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.8.1",
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.9.0",
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             }
@@ -13073,6 +13165,29 @@
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             },
+            "2.21.13": {
+                "name": "generoi/seoai-client",
+                "version": "2.21.13",
+                "version_normalized": "2.21.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "f58af49afc561bef053d65719c40ac796ab8e407"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/f58af49afc561bef053d65719c40ac796ab8e407",
+                    "reference": "f58af49afc561bef053d65719c40ac796ab8e407",
+                    "shasum": ""
+                },
+                "time": "2025-11-14T04:13:24+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.21.13",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
+            },
             "2.21.2": {
                 "name": "generoi/seoai-client",
                 "version": "2.21.2",
@@ -13264,20 +13379,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoai-client.git",
-                    "reference": "6c7bc9be07b3155d8075c617d63eaa66c3384a5b"
+                    "reference": "f58af49afc561bef053d65719c40ac796ab8e407"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/6c7bc9be07b3155d8075c617d63eaa66c3384a5b",
-                    "reference": "6c7bc9be07b3155d8075c617d63eaa66c3384a5b",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/f58af49afc561bef053d65719c40ac796ab8e407",
+                    "reference": "f58af49afc561bef053d65719c40ac796ab8e407",
                     "shasum": ""
                 },
-                "time": "2025-11-08T04:12:59+00:00",
+                "time": "2025-11-14T04:13:24+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoai-client/tree/2.21.12",
+                    "source": "https://github.com/generoi/seoai-client/tree/2.21.13",
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             }

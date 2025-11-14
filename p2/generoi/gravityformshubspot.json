@@ -92,6 +92,29 @@
                     "source": "https://github.com/generoi/gravityformshubspot/tree/2.3.1",
                     "issues": "https://github.com/generoi/gravityformshubspot/issues"
                 }
+            },
+            {
+                "name": "generoi/gravityformshubspot",
+                "version": "2.3.2",
+                "version_normalized": "2.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformshubspot.git",
+                    "reference": "9b4a2ba688c287270e83d124e92cc27703d942de"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/9b4a2ba688c287270e83d124e92cc27703d942de",
+                    "reference": "9b4a2ba688c287270e83d124e92cc27703d942de",
+                    "shasum": ""
+                },
+                "time": "2025-11-13T04:13:29+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/2.3.2",
+                    "issues": "https://github.com/generoi/gravityformshubspot/issues"
+                }
             }
         ]
     }
