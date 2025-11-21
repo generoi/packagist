@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-block-animations.git",
-                    "reference": "1be687b66411e4c1404edf80d8a3882211577255"
+                    "reference": "a18836818100dd4cfbaa741c48c9b22847d60d92"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/1be687b66411e4c1404edf80d8a3882211577255",
-                    "reference": "1be687b66411e4c1404edf80d8a3882211577255",
+                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/a18836818100dd4cfbaa741c48c9b22847d60d92",
+                    "reference": "a18836818100dd4cfbaa741c48c9b22847d60d92",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0.0"
                 },
-                "time": "2025-11-12T13:47:38+00:00",
+                "time": "2025-11-21T07:53:50+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "archive": {
@@ -44,7 +44,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/generoi/gds-block-animations/issues",
-                    "source": "https://github.com/generoi/gds-block-animations/tree/v0.1.0"
+                    "source": "https://github.com/generoi/gds-block-animations/tree/v0.1.1"
                 }
             }
         ]
