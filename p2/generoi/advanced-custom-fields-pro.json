@@ -2056,6 +2056,29 @@
                     "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.6.2",
                     "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
                 }
+            },
+            {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "6.7.0",
+                "version_normalized": "6.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "a472b02a200dfc1141281b0acba3e9c3e3586157"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/a472b02a200dfc1141281b0acba3e9c3e3586157",
+                    "reference": "a472b02a200dfc1141281b0acba3e9c3e3586157",
+                    "shasum": ""
+                },
+                "time": "2025-12-04T04:17:32+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "support": {
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.7.0",
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
+                }
             }
         ]
     }
