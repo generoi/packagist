@@ -2126,6 +2126,29 @@
                     "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
                 }
             },
+            "6.7.0.2": {
+                "name": "generoi/advanced-custom-fields-pro",
+                "version": "6.7.0.2",
+                "version_normalized": "6.7.0.2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
+                    "reference": "15a5fe45217772dc642de743dbadfdc1e3149939"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/15a5fe45217772dc642de743dbadfdc1e3149939",
+                    "reference": "15a5fe45217772dc642de743dbadfdc1e3149939",
+                    "shasum": ""
+                },
+                "time": "2025-12-12T04:19:46+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.advancedcustomfields.com/",
+                "support": {
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.7.0.2",
+                    "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/advanced-custom-fields-pro",
                 "version": "dev-master",
@@ -2133,20 +2156,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
-                    "reference": "1a8d6f6140df996266baecf19eac0f57e715110a"
+                    "reference": "15a5fe45217772dc642de743dbadfdc1e3149939"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/1a8d6f6140df996266baecf19eac0f57e715110a",
-                    "reference": "1a8d6f6140df996266baecf19eac0f57e715110a",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/15a5fe45217772dc642de743dbadfdc1e3149939",
+                    "reference": "15a5fe45217772dc642de743dbadfdc1e3149939",
                     "shasum": ""
                 },
-                "time": "2025-12-11T04:20:39+00:00",
+                "time": "2025-12-12T04:19:46+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.advancedcustomfields.com/",
                 "support": {
-                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.7.0.1",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.7.0.2",
                     "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
                 }
             },
@@ -17441,6 +17464,29 @@
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
             },
+            "1.9.15": {
+                "name": "generoi/wp-all-export-pro",
+                "version": "1.9.15",
+                "version_normalized": "1.9.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-export-pro.git",
+                    "reference": "9b59b662e00b717531aedc1c5f8b067a4f41b35e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/9b59b662e00b717531aedc1c5f8b067a4f41b35e",
+                    "reference": "9b59b662e00b717531aedc1c5f8b067a4f41b35e",
+                    "shasum": ""
+                },
+                "time": "2025-12-12T04:18:36+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.15",
+                    "issues": "https://github.com/generoi/wp-all-export-pro/issues"
+                }
+            },
             "1.9.2": {
                 "name": "generoi/wp-all-export-pro",
                 "version": "1.9.2",
@@ -17586,20 +17632,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-export-pro.git",
-                    "reference": "844ba109450fa46eab6e30eec0354d9ac9daa537"
+                    "reference": "9b59b662e00b717531aedc1c5f8b067a4f41b35e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/844ba109450fa46eab6e30eec0354d9ac9daa537",
-                    "reference": "844ba109450fa46eab6e30eec0354d9ac9daa537",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/9b59b662e00b717531aedc1c5f8b067a4f41b35e",
+                    "reference": "9b59b662e00b717531aedc1c5f8b067a4f41b35e",
                     "shasum": ""
                 },
-                "time": "2025-10-29T04:13:41+00:00",
+                "time": "2025-12-12T04:18:36+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.13",
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/1.9.15",
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
             }
@@ -18954,6 +19000,29 @@
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             },
+            "5.0.3": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "5.0.3",
+                "version_normalized": "5.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "25bbe2402de893985500f4c36948089cdecc1c21"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/25bbe2402de893985500f4c36948089cdecc1c21",
+                    "reference": "25bbe2402de893985500f4c36948089cdecc1c21",
+                    "shasum": ""
+                },
+                "time": "2025-12-12T04:18:34+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/5.0.3",
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wp-all-import-pro",
                 "version": "dev-master",
@@ -18961,20 +19030,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-import-pro.git",
-                    "reference": "34fd5b224c78d439024b1ff993dbfeaca38ae3d0"
+                    "reference": "25bbe2402de893985500f4c36948089cdecc1c21"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/34fd5b224c78d439024b1ff993dbfeaca38ae3d0",
-                    "reference": "34fd5b224c78d439024b1ff993dbfeaca38ae3d0",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/25bbe2402de893985500f4c36948089cdecc1c21",
+                    "reference": "25bbe2402de893985500f4c36948089cdecc1c21",
                     "shasum": ""
                 },
-                "time": "2025-12-11T04:19:21+00:00",
+                "time": "2025-12-12T04:18:34+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-import-pro/tree/5.0.2",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/5.0.3",
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             },

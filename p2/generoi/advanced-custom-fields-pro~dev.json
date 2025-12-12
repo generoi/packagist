@@ -31,20 +31,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/advanced-custom-fields-pro.git",
-                    "reference": "1a8d6f6140df996266baecf19eac0f57e715110a"
+                    "reference": "15a5fe45217772dc642de743dbadfdc1e3149939"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/1a8d6f6140df996266baecf19eac0f57e715110a",
-                    "reference": "1a8d6f6140df996266baecf19eac0f57e715110a",
+                    "url": "https://api.github.com/repos/generoi/advanced-custom-fields-pro/zipball/15a5fe45217772dc642de743dbadfdc1e3149939",
+                    "reference": "15a5fe45217772dc642de743dbadfdc1e3149939",
                     "shasum": ""
                 },
-                "time": "2025-12-11T04:20:39+00:00",
+                "time": "2025-12-12T04:19:46+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.advancedcustomfields.com/",
                 "support": {
-                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.7.0.1",
+                    "source": "https://github.com/generoi/advanced-custom-fields-pro/tree/6.7.0.2",
                     "issues": "https://github.com/generoi/advanced-custom-fields-pro/issues"
                 }
             },
