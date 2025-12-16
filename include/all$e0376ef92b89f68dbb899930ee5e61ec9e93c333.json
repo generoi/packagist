@@ -8162,6 +8162,29 @@
                     "issues": "https://github.com/generoi/gravityformshubspot/issues"
                 }
             },
+            "3.0.0": {
+                "name": "generoi/gravityformshubspot",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformshubspot.git",
+                    "reference": "586f3d9707b3ffc5bc933bd31d411942746a0c89"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/586f3d9707b3ffc5bc933bd31d411942746a0c89",
+                    "reference": "586f3d9707b3ffc5bc933bd31d411942746a0c89",
+                    "shasum": ""
+                },
+                "time": "2025-12-16T04:20:00+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/3.0.0",
+                    "issues": "https://github.com/generoi/gravityformshubspot/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformshubspot",
                 "version": "dev-master",
@@ -8169,20 +8192,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformshubspot.git",
-                    "reference": "03fed4fccd308068cd4c45feb4ecca19a6606633"
+                    "reference": "586f3d9707b3ffc5bc933bd31d411942746a0c89"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/03fed4fccd308068cd4c45feb4ecca19a6606633",
-                    "reference": "03fed4fccd308068cd4c45feb4ecca19a6606633",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/586f3d9707b3ffc5bc933bd31d411942746a0c89",
+                    "reference": "586f3d9707b3ffc5bc933bd31d411942746a0c89",
                     "shasum": ""
                 },
-                "time": "2025-12-06T04:10:14+00:00",
+                "time": "2025-12-16T04:20:00+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformshubspot/tree/2.3.3",
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/3.0.0",
                     "issues": "https://github.com/generoi/gravityformshubspot/issues"
                 }
             }
@@ -8573,6 +8596,29 @@
                     "issues": "https://github.com/generoi/gravityformsmailchimp/issues"
                 }
             },
+            "5.7.2": {
+                "name": "generoi/gravityformsmailchimp",
+                "version": "5.7.2",
+                "version_normalized": "5.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsmailchimp.git",
+                    "reference": "b96ef75643ace00477586d070d65030361989c85"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsmailchimp/zipball/b96ef75643ace00477586d070d65030361989c85",
+                    "reference": "b96ef75643ace00477586d070d65030361989c85",
+                    "shasum": ""
+                },
+                "time": "2025-12-16T04:20:16+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsmailchimp/tree/5.7.2",
+                    "issues": "https://github.com/generoi/gravityformsmailchimp/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformsmailchimp",
                 "version": "dev-master",
@@ -8580,20 +8626,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformsmailchimp.git",
-                    "reference": "51e5d632b818cc0d93209fe020a4ec8ff054d9ec"
+                    "reference": "b96ef75643ace00477586d070d65030361989c85"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformsmailchimp/zipball/51e5d632b818cc0d93209fe020a4ec8ff054d9ec",
-                    "reference": "51e5d632b818cc0d93209fe020a4ec8ff054d9ec",
+                    "url": "https://api.github.com/repos/generoi/gravityformsmailchimp/zipball/b96ef75643ace00477586d070d65030361989c85",
+                    "reference": "b96ef75643ace00477586d070d65030361989c85",
                     "shasum": ""
                 },
-                "time": "2025-08-02T04:20:08+00:00",
+                "time": "2025-12-16T04:20:16+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformsmailchimp/tree/5.7.1",
+                    "source": "https://github.com/generoi/gravityformsmailchimp/tree/5.7.2",
                     "issues": "https://github.com/generoi/gravityformsmailchimp/issues"
                 }
             }
@@ -12694,6 +12740,29 @@
                     "issues": "https://github.com/generoi/qliro-one-for-woocommerce/issues"
                 }
             },
+            "1.18.0": {
+                "name": "generoi/qliro-one-for-woocommerce",
+                "version": "1.18.0",
+                "version_normalized": "1.18.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/qliro-one-for-woocommerce.git",
+                    "reference": "86c2a74f983e2c762008d3a245cbf33c7adcc038"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/qliro-one-for-woocommerce/zipball/86c2a74f983e2c762008d3a245cbf33c7adcc038",
+                    "reference": "86c2a74f983e2c762008d3a245cbf33c7adcc038",
+                    "shasum": ""
+                },
+                "time": "2025-12-16T04:20:21+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://krokedil.com/partners/qliro/",
+                "support": {
+                    "source": "https://github.com/generoi/qliro-one-for-woocommerce/tree/1.18.0",
+                    "issues": "https://github.com/generoi/qliro-one-for-woocommerce/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/qliro-one-for-woocommerce",
                 "version": "dev-master",
@@ -12701,20 +12770,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/qliro-one-for-woocommerce.git",
-                    "reference": "b8d02e92394b86fea548362f2dcdd9c066fb4fb3"
+                    "reference": "86c2a74f983e2c762008d3a245cbf33c7adcc038"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/qliro-one-for-woocommerce/zipball/b8d02e92394b86fea548362f2dcdd9c066fb4fb3",
-                    "reference": "b8d02e92394b86fea548362f2dcdd9c066fb4fb3",
+                    "url": "https://api.github.com/repos/generoi/qliro-one-for-woocommerce/zipball/86c2a74f983e2c762008d3a245cbf33c7adcc038",
+                    "reference": "86c2a74f983e2c762008d3a245cbf33c7adcc038",
                     "shasum": ""
                 },
-                "time": "2025-11-25T04:14:06+00:00",
+                "time": "2025-12-16T04:20:21+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://krokedil.com/partners/qliro/",
                 "support": {
-                    "source": "https://github.com/generoi/qliro-one-for-woocommerce/tree/1.17.2",
+                    "source": "https://github.com/generoi/qliro-one-for-woocommerce/tree/1.18.0",
                     "issues": "https://github.com/generoi/qliro-one-for-woocommerce/issues"
                 }
             }
