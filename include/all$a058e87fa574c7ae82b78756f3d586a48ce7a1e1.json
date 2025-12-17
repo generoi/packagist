@@ -8185,6 +8185,29 @@
                     "issues": "https://github.com/generoi/gravityformshubspot/issues"
                 }
             },
+            "3.0.0.1": {
+                "name": "generoi/gravityformshubspot",
+                "version": "3.0.0.1",
+                "version_normalized": "3.0.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformshubspot.git",
+                    "reference": "d021ef5d1e3d3c21b5c4a3db5e2c9b247099ea24"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/d021ef5d1e3d3c21b5c4a3db5e2c9b247099ea24",
+                    "reference": "d021ef5d1e3d3c21b5c4a3db5e2c9b247099ea24",
+                    "shasum": ""
+                },
+                "time": "2025-12-17T04:17:59+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/3.0.0.1",
+                    "issues": "https://github.com/generoi/gravityformshubspot/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/gravityformshubspot",
                 "version": "dev-master",
@@ -8192,20 +8215,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformshubspot.git",
-                    "reference": "586f3d9707b3ffc5bc933bd31d411942746a0c89"
+                    "reference": "d021ef5d1e3d3c21b5c4a3db5e2c9b247099ea24"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/586f3d9707b3ffc5bc933bd31d411942746a0c89",
-                    "reference": "586f3d9707b3ffc5bc933bd31d411942746a0c89",
+                    "url": "https://api.github.com/repos/generoi/gravityformshubspot/zipball/d021ef5d1e3d3c21b5c4a3db5e2c9b247099ea24",
+                    "reference": "d021ef5d1e3d3c21b5c4a3db5e2c9b247099ea24",
                     "shasum": ""
                 },
-                "time": "2025-12-16T04:20:00+00:00",
+                "time": "2025-12-17T04:17:59+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformshubspot/tree/3.0.0",
+                    "source": "https://github.com/generoi/gravityformshubspot/tree/3.0.0.1",
                     "issues": "https://github.com/generoi/gravityformshubspot/issues"
                 }
             }
@@ -13020,6 +13043,29 @@
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             },
+            "2.29.0": {
+                "name": "generoi/relevanssi-premium",
+                "version": "2.29.0",
+                "version_normalized": "2.29.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/relevanssi-premium.git",
+                    "reference": "dafa0d88a8ee42682d9f637935835bb3410e856f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/dafa0d88a8ee42682d9f637935835bb3410e856f",
+                    "reference": "dafa0d88a8ee42682d9f637935835bb3410e856f",
+                    "shasum": ""
+                },
+                "time": "2025-12-17T04:18:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.relevanssi.com/buy-premium/",
+                "support": {
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.29.0",
+                    "issues": "https://github.com/generoi/relevanssi-premium/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/relevanssi-premium",
                 "version": "dev-master",
@@ -13027,20 +13073,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/relevanssi-premium.git",
-                    "reference": "16eee600896691bd53a9d9d9ae444d0aa7e6be78"
+                    "reference": "dafa0d88a8ee42682d9f637935835bb3410e856f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/16eee600896691bd53a9d9d9ae444d0aa7e6be78",
-                    "reference": "16eee600896691bd53a9d9d9ae444d0aa7e6be78",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/dafa0d88a8ee42682d9f637935835bb3410e856f",
+                    "reference": "dafa0d88a8ee42682d9f637935835bb3410e856f",
                     "shasum": ""
                 },
-                "time": "2025-08-27T04:12:50+00:00",
+                "time": "2025-12-17T04:18:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.relevanssi.com/buy-premium/",
                 "support": {
-                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.28.0",
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.29.0",
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             }
@@ -13670,6 +13716,29 @@
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             },
+            "2.21.19": {
+                "name": "generoi/seoai-client",
+                "version": "2.21.19",
+                "version_normalized": "2.21.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "81f3fbb42f455d3f15cd377552e5266e4bc2d860"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/81f3fbb42f455d3f15cd377552e5266e4bc2d860",
+                    "reference": "81f3fbb42f455d3f15cd377552e5266e4bc2d860",
+                    "shasum": ""
+                },
+                "time": "2025-12-17T04:19:14+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.21.19",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
+            },
             "2.21.2": {
                 "name": "generoi/seoai-client",
                 "version": "2.21.2",
@@ -13861,20 +13930,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoai-client.git",
-                    "reference": "6b806a0a6c24b0eca4e860a3513e0df36cd327da"
+                    "reference": "81f3fbb42f455d3f15cd377552e5266e4bc2d860"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/6b806a0a6c24b0eca4e860a3513e0df36cd327da",
-                    "reference": "6b806a0a6c24b0eca4e860a3513e0df36cd327da",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/81f3fbb42f455d3f15cd377552e5266e4bc2d860",
+                    "reference": "81f3fbb42f455d3f15cd377552e5266e4bc2d860",
                     "shasum": ""
                 },
-                "time": "2025-12-10T04:18:51+00:00",
+                "time": "2025-12-17T04:19:14+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoai-client/tree/2.21.18",
+                    "source": "https://github.com/generoi/seoai-client/tree/2.21.19",
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             }
