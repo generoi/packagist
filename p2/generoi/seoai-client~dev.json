@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoai-client.git",
-                    "reference": "c6505454750932b009cc7e8520bcee9fca76c09b"
+                    "reference": "62151b438a91c1c86acfed641280a7fc5583e365"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/c6505454750932b009cc7e8520bcee9fca76c09b",
-                    "reference": "c6505454750932b009cc7e8520bcee9fca76c09b",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/62151b438a91c1c86acfed641280a7fc5583e365",
+                    "reference": "62151b438a91c1c86acfed641280a7fc5583e365",
                     "shasum": ""
                 },
-                "time": "2025-12-20T04:14:15+00:00",
+                "time": "2025-12-25T04:22:57+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoai-client/tree/2.21.21",
+                    "source": "https://github.com/generoi/seoai-client/tree/2.21.22",
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             }
