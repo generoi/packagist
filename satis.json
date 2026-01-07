@@ -38,6 +38,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/seoai-client.git" },
         { "type": "vcs", "url": "https://github.com/generoi/sitepress-multilingual-cms.git" },
         { "type": "vcs", "url": "https://github.com/generoi/social-wall.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/wc-matkahuolto.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wb-paytrail-maksutavat.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wc-paytrail.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wc-smartship.git" },
