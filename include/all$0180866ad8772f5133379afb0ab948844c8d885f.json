@@ -15392,6 +15392,32 @@
                 }
             }
         },
+        "generoi/wc-matkahuolto": {
+            "dev-master": {
+                "name": "generoi/wc-matkahuolto",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wc-matkahuolto.git",
+                    "reference": "3dcd90a32f2ee6c5635dcb4c459cc927883f8854"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wc-matkahuolto/zipball/3dcd90a32f2ee6c5635dcb4c459cc927883f8854",
+                    "reference": "3dcd90a32f2ee6c5635dcb4c459cc927883f8854",
+                    "shasum": ""
+                },
+                "time": "2026-01-07T11:03:59+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-matkahuolto",
+                "support": {
+                    "source": "https://github.com/generoi/wc-matkahuolto/tree/master",
+                    "issues": "https://github.com/generoi/wc-matkahuolto/issues"
+                }
+            }
+        },
         "generoi/wc-paytrail": {
             "2.6.2": {
                 "name": "generoi/wc-paytrail",

@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$c481d7c4373441c021721dbb1a49f63f2739b63d.json": {
-            "sha1": "c481d7c4373441c021721dbb1a49f63f2739b63d"
+        "include/all$0180866ad8772f5133379afb0ab948844c8d885f.json": {
+            "sha1": "0180866ad8772f5133379afb0ab948844c8d885f"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -43,6 +43,7 @@
         "generoi/sitepress-multilingual-cms",
         "generoi/social-wall",
         "generoi/wb-paytrail-maksutavat",
+        "generoi/wc-matkahuolto",
         "generoi/wc-paytrail",
         "generoi/wc-smartship",
         "generoi/woo-carrier-agents",
