@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wc-matkahuolto.git",
-                    "reference": "3dcd90a32f2ee6c5635dcb4c459cc927883f8854"
+                    "reference": "cabdfe2d483879a40156234c3cf3dd4552c44864"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wc-matkahuolto/zipball/3dcd90a32f2ee6c5635dcb4c459cc927883f8854",
-                    "reference": "3dcd90a32f2ee6c5635dcb4c459cc927883f8854",
+                    "url": "https://api.github.com/repos/generoi/wc-matkahuolto/zipball/cabdfe2d483879a40156234c3cf3dd4552c44864",
+                    "reference": "cabdfe2d483879a40156234c3cf3dd4552c44864",
                     "shasum": ""
                 },
-                "time": "2026-01-07T11:03:59+00:00",
+                "time": "2026-01-07T11:14:06+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/products/woocommerce-matkahuolto",
                 "support": {
-                    "source": "https://github.com/generoi/wc-matkahuolto/tree/master",
+                    "source": "https://github.com/generoi/wc-matkahuolto/tree/2.1.1",
                     "issues": "https://github.com/generoi/wc-matkahuolto/issues"
                 }
             }
