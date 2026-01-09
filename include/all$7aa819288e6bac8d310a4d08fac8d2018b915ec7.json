@@ -7093,6 +7093,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.25": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.25",
+                "version_normalized": "2.9.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "83dfd394d666ee4692f125ffed6af24b8288fa8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/83dfd394d666ee4692f125ffed6af24b8288fa8f",
+                    "reference": "83dfd394d666ee4692f125ffed6af24b8288fa8f",
+                    "shasum": ""
+                },
+                "time": "2026-01-09T04:24:51+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.25",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "2.9.3": {
                 "name": "generoi/gravityforms",
                 "version": "2.9.3",
@@ -7491,20 +7514,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "b88ba016426b4b164d752dea05889555a40820b7"
+                    "reference": "83dfd394d666ee4692f125ffed6af24b8288fa8f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/b88ba016426b4b164d752dea05889555a40820b7",
-                    "reference": "b88ba016426b4b164d752dea05889555a40820b7",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/83dfd394d666ee4692f125ffed6af24b8288fa8f",
+                    "reference": "83dfd394d666ee4692f125ffed6af24b8288fa8f",
                     "shasum": ""
                 },
-                "time": "2025-12-30T04:23:26+00:00",
+                "time": "2026-01-09T04:24:51+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.24.2",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.25",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
@@ -13900,6 +13923,29 @@
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             },
+            "2.21.23": {
+                "name": "generoi/seoai-client",
+                "version": "2.21.23",
+                "version_normalized": "2.21.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "26b63531944745cdb8ef7555c0a3299485865a97"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/26b63531944745cdb8ef7555c0a3299485865a97",
+                    "reference": "26b63531944745cdb8ef7555c0a3299485865a97",
+                    "shasum": ""
+                },
+                "time": "2026-01-09T04:25:22+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.21.23",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
+            },
             "2.21.3": {
                 "name": "generoi/seoai-client",
                 "version": "2.21.3",
@@ -14068,20 +14114,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoai-client.git",
-                    "reference": "62151b438a91c1c86acfed641280a7fc5583e365"
+                    "reference": "26b63531944745cdb8ef7555c0a3299485865a97"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/62151b438a91c1c86acfed641280a7fc5583e365",
-                    "reference": "62151b438a91c1c86acfed641280a7fc5583e365",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/26b63531944745cdb8ef7555c0a3299485865a97",
+                    "reference": "26b63531944745cdb8ef7555c0a3299485865a97",
                     "shasum": ""
                 },
-                "time": "2025-12-25T04:22:57+00:00",
+                "time": "2026-01-09T04:25:22+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoai-client/tree/2.21.22",
+                    "source": "https://github.com/generoi/seoai-client/tree/2.21.23",
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             }
