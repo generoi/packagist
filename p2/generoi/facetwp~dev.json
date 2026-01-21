@@ -3,6 +3,29 @@
         "generoi/facetwp": [
             {
                 "name": "generoi/facetwp",
+                "version": "dev-feature/csp",
+                "version_normalized": "dev-feature/csp",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "0e81d6b63efe575e59b4b31d991dfe887884c415"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/0e81d6b63efe575e59b4b31d991dfe887884c415",
+                    "reference": "0e81d6b63efe575e59b4b31d991dfe887884c415",
+                    "shasum": ""
+                },
+                "time": "2026-01-20T12:15:00+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp/tree/feature/csp",
+                    "issues": "https://github.com/generoi/facetwp/issues"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
@@ -22,6 +45,29 @@
                 "homepage": "https://facetwp.com/",
                 "support": {
                     "source": "https://github.com/generoi/facetwp/tree/4.4.1",
+                    "issues": "https://github.com/generoi/facetwp/issues"
+                }
+            },
+            {
+                "name": "generoi/facetwp",
+                "version": "dev-patch-csp",
+                "version_normalized": "dev-patch-csp",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "a84acdc470e9d73ee78d78d6aa4125c6771cc054"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/a84acdc470e9d73ee78d78d6aa4125c6771cc054",
+                    "reference": "a84acdc470e9d73ee78d78d6aa4125c6771cc054",
+                    "shasum": ""
+                },
+                "time": "2026-01-20T10:45:34+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp/tree/patch-csp",
                     "issues": "https://github.com/generoi/facetwp/issues"
                 }
             },

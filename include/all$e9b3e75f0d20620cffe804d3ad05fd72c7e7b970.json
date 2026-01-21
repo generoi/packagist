@@ -3837,6 +3837,29 @@
                     "issues": "https://github.com/generoi/facetwp/issues"
                 }
             },
+            "dev-feature/csp": {
+                "name": "generoi/facetwp",
+                "version": "dev-feature/csp",
+                "version_normalized": "dev-feature/csp",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "0e81d6b63efe575e59b4b31d991dfe887884c415"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/0e81d6b63efe575e59b4b31d991dfe887884c415",
+                    "reference": "0e81d6b63efe575e59b4b31d991dfe887884c415",
+                    "shasum": ""
+                },
+                "time": "2026-01-20T12:15:00+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp/tree/feature/csp",
+                    "issues": "https://github.com/generoi/facetwp/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/facetwp",
                 "version": "dev-master",
@@ -3858,6 +3881,29 @@
                 "homepage": "https://facetwp.com/",
                 "support": {
                     "source": "https://github.com/generoi/facetwp/tree/4.4.1",
+                    "issues": "https://github.com/generoi/facetwp/issues"
+                }
+            },
+            "dev-patch-csp": {
+                "name": "generoi/facetwp",
+                "version": "dev-patch-csp",
+                "version_normalized": "dev-patch-csp",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "a84acdc470e9d73ee78d78d6aa4125c6771cc054"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/a84acdc470e9d73ee78d78d6aa4125c6771cc054",
+                    "reference": "a84acdc470e9d73ee78d78d6aa4125c6771cc054",
+                    "shasum": ""
+                },
+                "time": "2026-01-20T10:45:34+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp/tree/patch-csp",
                     "issues": "https://github.com/generoi/facetwp/issues"
                 }
             },
@@ -14038,6 +14084,29 @@
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             },
+            "2.21.25": {
+                "name": "generoi/seoai-client",
+                "version": "2.21.25",
+                "version_normalized": "2.21.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "d024106a7febc4082572f07b02361d8db45c254a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/d024106a7febc4082572f07b02361d8db45c254a",
+                    "reference": "d024106a7febc4082572f07b02361d8db45c254a",
+                    "shasum": ""
+                },
+                "time": "2026-01-21T04:27:56+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.21.25",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
+            },
             "2.21.3": {
                 "name": "generoi/seoai-client",
                 "version": "2.21.3",
@@ -14206,20 +14275,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoai-client.git",
-                    "reference": "c3e3f4bb4d2a1ada071236ca12868784be1fda76"
+                    "reference": "d024106a7febc4082572f07b02361d8db45c254a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/c3e3f4bb4d2a1ada071236ca12868784be1fda76",
-                    "reference": "c3e3f4bb4d2a1ada071236ca12868784be1fda76",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/d024106a7febc4082572f07b02361d8db45c254a",
+                    "reference": "d024106a7febc4082572f07b02361d8db45c254a",
                     "shasum": ""
                 },
-                "time": "2026-01-10T04:19:15+00:00",
+                "time": "2026-01-21T04:27:56+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoai-client/tree/2.21.24",
+                    "source": "https://github.com/generoi/seoai-client/tree/2.21.25",
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             }
@@ -15626,6 +15695,29 @@
                     "issues": "https://github.com/generoi/wc-paytrail/issues"
                 }
             },
+            "2.7.1": {
+                "name": "generoi/wc-paytrail",
+                "version": "2.7.1",
+                "version_normalized": "2.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/wc-paytrail.git",
+                    "reference": "b45d3a2578a80532e1a0e0071fbc87baa95968bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wc-paytrail/zipball/b45d3a2578a80532e1a0e0071fbc87baa95968bb",
+                    "reference": "b45d3a2578a80532e1a0e0071fbc87baa95968bb",
+                    "shasum": ""
+                },
+                "time": "2026-01-21T04:27:38+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-paytrail/",
+                "support": {
+                    "source": "https://github.com/generoi/wc-paytrail/tree/2.7.1",
+                    "issues": "https://github.com/generoi/wc-paytrail/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wc-paytrail",
                 "version": "dev-master",
@@ -15633,20 +15725,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/wc-paytrail.git",
-                    "reference": "3a5b034372d027bc7dfee65022b3c4460b5ab9be"
+                    "reference": "b45d3a2578a80532e1a0e0071fbc87baa95968bb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wc-paytrail/zipball/3a5b034372d027bc7dfee65022b3c4460b5ab9be",
-                    "reference": "3a5b034372d027bc7dfee65022b3c4460b5ab9be",
+                    "url": "https://api.github.com/repos/generoi/wc-paytrail/zipball/b45d3a2578a80532e1a0e0071fbc87baa95968bb",
+                    "reference": "b45d3a2578a80532e1a0e0071fbc87baa95968bb",
                     "shasum": ""
                 },
-                "time": "2026-01-07T11:17:01+00:00",
+                "time": "2026-01-21T04:27:38+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://markup.fi/products/woocommerce-paytrail/",
                 "support": {
-                    "source": "https://github.com/generoi/wc-paytrail/tree/2.7.0",
+                    "source": "https://github.com/generoi/wc-paytrail/tree/2.7.1",
                     "issues": "https://github.com/generoi/wc-paytrail/issues"
                 }
             }
