@@ -3,6 +3,29 @@
         "generoi/complianz-gdpr-premium": [
             {
                 "name": "generoi/complianz-gdpr-premium",
+                "version": "dev-feature/csp",
+                "version_normalized": "dev-feature/csp",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/complianz-gdpr-premium.git",
+                    "reference": "34fb3049bd56136221f437d15ec0ed5f2eee7508"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/34fb3049bd56136221f437d15ec0ed5f2eee7508",
+                    "reference": "34fb3049bd56136221f437d15ec0ed5f2eee7508",
+                    "shasum": ""
+                },
+                "time": "2026-01-27T15:25:16+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://complianz.io/",
+                "support": {
+                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/feature/csp",
+                    "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
+                }
+            },
+            {
+                "name": "generoi/complianz-gdpr-premium",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
