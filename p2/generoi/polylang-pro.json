@@ -1593,6 +1593,29 @@
                     "source": "https://github.com/generoi/polylang-pro/tree/3.7.5",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
+            },
+            {
+                "name": "generoi/polylang-pro",
+                "version": "3.7.7",
+                "version_normalized": "3.7.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "982262b0219910aa69888e39c0ec15c8a263a104"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/982262b0219910aa69888e39c0ec15c8a263a104",
+                    "reference": "982262b0219910aa69888e39c0ec15c8a263a104",
+                    "shasum": ""
+                },
+                "time": "2026-01-29T10:38:26+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.7.7",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
+                }
             }
         ]
     }
