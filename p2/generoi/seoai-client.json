@@ -966,6 +966,29 @@
                     "source": "https://github.com/generoi/seoai-client/tree/2.22.1",
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
+            },
+            {
+                "name": "generoi/seoai-client",
+                "version": "2.22.2",
+                "version_normalized": "2.22.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "8e785b984775761e3b36861f9e7433a11db49a33"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/8e785b984775761e3b36861f9e7433a11db49a33",
+                    "reference": "8e785b984775761e3b36861f9e7433a11db49a33",
+                    "shasum": ""
+                },
+                "time": "2026-01-30T04:40:39+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.22.2",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
             }
         ]
     }

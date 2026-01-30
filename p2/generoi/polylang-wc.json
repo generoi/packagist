@@ -779,6 +779,29 @@
                     "source": "https://github.com/generoi/polylang-wc/tree/2.1.5",
                     "issues": "https://github.com/generoi/polylang-wc/issues"
                 }
+            },
+            {
+                "name": "generoi/polylang-wc",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-wc.git",
+                    "reference": "28728a57ff623ed9d7284348c9ad22001d4fe22b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-wc/zipball/28728a57ff623ed9d7284348c9ad22001d4fe22b",
+                    "reference": "28728a57ff623ed9d7284348c9ad22001d4fe22b",
+                    "shasum": ""
+                },
+                "time": "2026-01-30T04:40:58+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro/downloads/polylang-for-woocommerce/",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-wc/tree/2.2.1",
+                    "issues": "https://github.com/generoi/polylang-wc/issues"
+                }
             }
         ]
     }
