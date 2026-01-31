@@ -14475,6 +14475,29 @@
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             },
+            "2.22.3": {
+                "name": "generoi/seoai-client",
+                "version": "2.22.3",
+                "version_normalized": "2.22.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "0d605e517af76067de04a3d305b35d17f2ef3b38"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/0d605e517af76067de04a3d305b35d17f2ef3b38",
+                    "reference": "0d605e517af76067de04a3d305b35d17f2ef3b38",
+                    "shasum": ""
+                },
+                "time": "2026-01-31T04:39:23+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.22.3",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/seoai-client",
                 "version": "dev-master",
@@ -14482,20 +14505,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoai-client.git",
-                    "reference": "8e785b984775761e3b36861f9e7433a11db49a33"
+                    "reference": "0d605e517af76067de04a3d305b35d17f2ef3b38"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/8e785b984775761e3b36861f9e7433a11db49a33",
-                    "reference": "8e785b984775761e3b36861f9e7433a11db49a33",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/0d605e517af76067de04a3d305b35d17f2ef3b38",
+                    "reference": "0d605e517af76067de04a3d305b35d17f2ef3b38",
                     "shasum": ""
                 },
-                "time": "2026-01-30T04:40:39+00:00",
+                "time": "2026-01-31T04:39:23+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoai-client/tree/2.22.2",
+                    "source": "https://github.com/generoi/seoai-client/tree/2.22.3",
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             }
