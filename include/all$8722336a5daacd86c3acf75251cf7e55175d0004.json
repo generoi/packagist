@@ -2871,6 +2871,29 @@
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             },
+            "4.7.5": {
+                "name": "generoi/custom-facebook-feed-pro",
+                "version": "4.7.5",
+                "version_normalized": "4.7.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
+                    "reference": "7749add271a63343ce5fdfe016def6b39e678a69"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/7749add271a63343ce5fdfe016def6b39e678a69",
+                    "reference": "7749add271a63343ce5fdfe016def6b39e678a69",
+                    "shasum": ""
+                },
+                "time": "2026-02-11T04:52:17+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-facebook-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.5",
+                    "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/custom-facebook-feed-pro",
                 "version": "dev-master",
@@ -2878,20 +2901,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
-                    "reference": "d701f1dfa08fe8edb89b4275b51aa223b57f088f"
+                    "reference": "7749add271a63343ce5fdfe016def6b39e678a69"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/d701f1dfa08fe8edb89b4275b51aa223b57f088f",
-                    "reference": "d701f1dfa08fe8edb89b4275b51aa223b57f088f",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/7749add271a63343ce5fdfe016def6b39e678a69",
+                    "reference": "7749add271a63343ce5fdfe016def6b39e678a69",
                     "shasum": ""
                 },
-                "time": "2025-10-31T04:12:03+00:00",
+                "time": "2026-02-11T04:52:17+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/custom-facebook-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.4",
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.7.5",
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             }
@@ -14567,6 +14590,29 @@
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             },
+            "2.22.5": {
+                "name": "generoi/seoai-client",
+                "version": "2.22.5",
+                "version_normalized": "2.22.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoai-client.git",
+                    "reference": "dec6a1f790726953a93d0cc83af179ff315ee8aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/dec6a1f790726953a93d0cc83af179ff315ee8aa",
+                    "reference": "dec6a1f790726953a93d0cc83af179ff315ee8aa",
+                    "shasum": ""
+                },
+                "time": "2026-02-14T04:40:36+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoai-client/tree/2.22.5",
+                    "issues": "https://github.com/generoi/seoai-client/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/seoai-client",
                 "version": "dev-master",
@@ -14574,20 +14620,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoai-client.git",
-                    "reference": "2453423743a9c84d22a539078a960dcf514f668a"
+                    "reference": "dec6a1f790726953a93d0cc83af179ff315ee8aa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/2453423743a9c84d22a539078a960dcf514f668a",
-                    "reference": "2453423743a9c84d22a539078a960dcf514f668a",
+                    "url": "https://api.github.com/repos/generoi/seoai-client/zipball/dec6a1f790726953a93d0cc83af179ff315ee8aa",
+                    "reference": "dec6a1f790726953a93d0cc83af179ff315ee8aa",
                     "shasum": ""
                 },
-                "time": "2026-02-10T04:53:27+00:00",
+                "time": "2026-02-14T04:40:36+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoai-client/tree/2.22.4",
+                    "source": "https://github.com/generoi/seoai-client/tree/2.22.5",
                     "issues": "https://github.com/generoi/seoai-client/issues"
                 }
             }
