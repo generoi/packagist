@@ -2661,6 +2661,29 @@
                     "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
                 }
             },
+            "7.5.6.2": {
+                "name": "generoi/complianz-gdpr-premium",
+                "version": "7.5.6.2",
+                "version_normalized": "7.5.6.2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/complianz-gdpr-premium.git",
+                    "reference": "3c57712ad903492cbcb97e27106ecd36070ca5b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/3c57712ad903492cbcb97e27106ecd36070ca5b1",
+                    "reference": "3c57712ad903492cbcb97e27106ecd36070ca5b1",
+                    "shasum": ""
+                },
+                "time": "2026-02-24T04:44:11+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://complianz.io/",
+                "support": {
+                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.5.6.2",
+                    "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
+                }
+            },
             "dev-feature/csp": {
                 "name": "generoi/complianz-gdpr-premium",
                 "version": "dev-feature/csp",
@@ -2691,20 +2714,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/complianz-gdpr-premium.git",
-                    "reference": "b5fd4b863ffc4b06f173127bc30789a053c2915a"
+                    "reference": "3c57712ad903492cbcb97e27106ecd36070ca5b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/b5fd4b863ffc4b06f173127bc30789a053c2915a",
-                    "reference": "b5fd4b863ffc4b06f173127bc30789a053c2915a",
+                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/3c57712ad903492cbcb97e27106ecd36070ca5b1",
+                    "reference": "3c57712ad903492cbcb97e27106ecd36070ca5b1",
                     "shasum": ""
                 },
-                "time": "2025-11-01T04:13:02+00:00",
+                "time": "2026-02-24T04:44:11+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://complianz.io/",
                 "support": {
-                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.5.6.1",
+                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.5.6.2",
                     "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
                 }
             }
@@ -12047,6 +12070,29 @@
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             },
+            "3.7.8": {
+                "name": "generoi/polylang-pro",
+                "version": "3.7.8",
+                "version_normalized": "3.7.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "3714a543a6e14ee6bbaa98f9a455362a9186f07f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/3714a543a6e14ee6bbaa98f9a455362a9186f07f",
+                    "reference": "3714a543a6e14ee6bbaa98f9a455362a9186f07f",
+                    "shasum": ""
+                },
+                "time": "2026-02-24T04:43:32+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.7.8",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/polylang-pro",
                 "version": "dev-master",
@@ -12054,20 +12100,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "982262b0219910aa69888e39c0ec15c8a263a104"
+                    "reference": "3714a543a6e14ee6bbaa98f9a455362a9186f07f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/982262b0219910aa69888e39c0ec15c8a263a104",
-                    "reference": "982262b0219910aa69888e39c0ec15c8a263a104",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/3714a543a6e14ee6bbaa98f9a455362a9186f07f",
+                    "reference": "3714a543a6e14ee6bbaa98f9a455362a9186f07f",
                     "shasum": ""
                 },
-                "time": "2026-01-29T10:38:26+00:00",
+                "time": "2026-02-24T04:43:32+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-pro/tree/3.7.7",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.7.8",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             },
@@ -12898,6 +12944,29 @@
                     "issues": "https://github.com/generoi/polylang-wc/issues"
                 }
             },
+            "2.2.2": {
+                "name": "generoi/polylang-wc",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-wc.git",
+                    "reference": "89ec4c4a49e9573c540a478697ccdb5c599cdd2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-wc/zipball/89ec4c4a49e9573c540a478697ccdb5c599cdd2f",
+                    "reference": "89ec4c4a49e9573c540a478697ccdb5c599cdd2f",
+                    "shasum": ""
+                },
+                "time": "2026-02-24T04:44:01+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro/downloads/polylang-for-woocommerce/",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-wc/tree/2.2.2",
+                    "issues": "https://github.com/generoi/polylang-wc/issues"
+                }
+            },
             "dev-1.7.0-muurla": {
                 "name": "generoi/polylang-wc",
                 "version": "dev-1.7.0-muurla",
@@ -12928,20 +12997,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-wc.git",
-                    "reference": "28728a57ff623ed9d7284348c9ad22001d4fe22b"
+                    "reference": "89ec4c4a49e9573c540a478697ccdb5c599cdd2f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-wc/zipball/28728a57ff623ed9d7284348c9ad22001d4fe22b",
-                    "reference": "28728a57ff623ed9d7284348c9ad22001d4fe22b",
+                    "url": "https://api.github.com/repos/generoi/polylang-wc/zipball/89ec4c4a49e9573c540a478697ccdb5c599cdd2f",
+                    "reference": "89ec4c4a49e9573c540a478697ccdb5c599cdd2f",
                     "shasum": ""
                 },
-                "time": "2026-01-30T04:40:58+00:00",
+                "time": "2026-02-24T04:44:01+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro/downloads/polylang-for-woocommerce/",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-wc/tree/2.2.1",
+                    "source": "https://github.com/generoi/polylang-wc/tree/2.2.2",
                     "issues": "https://github.com/generoi/polylang-wc/issues"
                 }
             }
