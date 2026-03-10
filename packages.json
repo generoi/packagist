@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$d063e745f7f67a49f54438bfa7a745ead4bbfa32.json": {
-            "sha1": "d063e745f7f67a49f54438bfa7a745ead4bbfa32"
+        "include/all$370f65566f1dbab3d93c4842c2d98ce5330da87d.json": {
+            "sha1": "370f65566f1dbab3d93c4842c2d98ce5330da87d"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
