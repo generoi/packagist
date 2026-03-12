@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$046261502020229bd3a8974029e2723c0aa45f51.json": {
-            "sha1": "046261502020229bd3a8974029e2723c0aa45f51"
+        "include/all$476318451b27b985e63a6a44dca6650250b3a1d4.json": {
+            "sha1": "476318451b27b985e63a6a44dca6650250b3a1d4"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -20,6 +20,7 @@
         "generoi/filebird-pro",
         "generoi/gds-block-animations",
         "generoi/gf-pardot-pro",
+        "generoi/gravity-forms-to-pipe-drive-crm",
         "generoi/gravity-forms-user-verification",
         "generoi/gravityforms",
         "generoi/gravityforms-multilingual",
