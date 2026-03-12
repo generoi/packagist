@@ -63,7 +63,8 @@
         { "type": "vcs", "url": "https://github.com/generoi/wpml-string-translation.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wpml-media-translation.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wpml-wpforms.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/youtube-feed-pro.git" }
+        { "type": "vcs", "url": "https://github.com/generoi/youtube-feed-pro.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/gravity-forms-to-pipe-drive-crm" }
     ],
     "require-all": true
 }
