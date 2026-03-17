@@ -13894,6 +13894,29 @@
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             },
+            "2.29.1": {
+                "name": "generoi/relevanssi-premium",
+                "version": "2.29.1",
+                "version_normalized": "2.29.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/relevanssi-premium.git",
+                    "reference": "68b7458b7af8de114eb19ea97de886ff4e811eab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/68b7458b7af8de114eb19ea97de886ff4e811eab",
+                    "reference": "68b7458b7af8de114eb19ea97de886ff4e811eab",
+                    "shasum": ""
+                },
+                "time": "2026-03-17T04:43:17+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.relevanssi.com/buy-premium/",
+                "support": {
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.29.1",
+                    "issues": "https://github.com/generoi/relevanssi-premium/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/relevanssi-premium",
                 "version": "dev-master",
@@ -13901,20 +13924,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/relevanssi-premium.git",
-                    "reference": "dafa0d88a8ee42682d9f637935835bb3410e856f"
+                    "reference": "68b7458b7af8de114eb19ea97de886ff4e811eab"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/dafa0d88a8ee42682d9f637935835bb3410e856f",
-                    "reference": "dafa0d88a8ee42682d9f637935835bb3410e856f",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/68b7458b7af8de114eb19ea97de886ff4e811eab",
+                    "reference": "68b7458b7af8de114eb19ea97de886ff4e811eab",
                     "shasum": ""
                 },
-                "time": "2025-12-17T04:18:40+00:00",
+                "time": "2026-03-17T04:43:17+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.relevanssi.com/buy-premium/",
                 "support": {
-                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.29.0",
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.29.1",
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
             }
@@ -16586,6 +16609,29 @@
                     "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
                 }
             },
+            "5.6.2": {
+                "name": "generoi/wb-paytrail-maksutavat",
+                "version": "5.6.2",
+                "version_normalized": "5.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wb-paytrail-maksutavat.git",
+                    "reference": "8b91b483b60994a5a270c40ebe7b14dbd43d0c26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/8b91b483b60994a5a270c40ebe7b14dbd43d0c26",
+                    "reference": "8b91b483b60994a5a270c40ebe7b14dbd43d0c26",
+                    "shasum": ""
+                },
+                "time": "2026-03-17T04:43:35+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.webbisivut.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.6.2",
+                    "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wb-paytrail-maksutavat",
                 "version": "dev-master",
@@ -16593,20 +16639,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wb-paytrail-maksutavat.git",
-                    "reference": "f7e4c119258d9e5f21ec5e4279581f738649f769"
+                    "reference": "8b91b483b60994a5a270c40ebe7b14dbd43d0c26"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/f7e4c119258d9e5f21ec5e4279581f738649f769",
-                    "reference": "f7e4c119258d9e5f21ec5e4279581f738649f769",
+                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/8b91b483b60994a5a270c40ebe7b14dbd43d0c26",
+                    "reference": "8b91b483b60994a5a270c40ebe7b14dbd43d0c26",
                     "shasum": ""
                 },
-                "time": "2026-03-02T04:42:38+00:00",
+                "time": "2026-03-17T04:43:35+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.webbisivut.org/",
                 "support": {
-                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.6.1",
+                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.6.2",
                     "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
                 }
             }
