@@ -7645,6 +7645,29 @@
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
+            "2.9.30": {
+                "name": "generoi/gravityforms",
+                "version": "2.9.30",
+                "version_normalized": "2.9.30.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "276d60ceb868095ee100769f404f8c8eb852c358"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/276d60ceb868095ee100769f404f8c8eb852c358",
+                    "reference": "276d60ceb868095ee100769f404f8c8eb852c358",
+                    "shasum": ""
+                },
+                "time": "2026-03-20T04:41:19+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.30",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                }
+            },
             "2.9.4": {
                 "name": "generoi/gravityforms",
                 "version": "2.9.4",
@@ -7997,20 +8020,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "390b2f0d80bf6153bb0951672ded32ff4b2bfa4b"
+                    "reference": "276d60ceb868095ee100769f404f8c8eb852c358"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/390b2f0d80bf6153bb0951672ded32ff4b2bfa4b",
-                    "reference": "390b2f0d80bf6153bb0951672ded32ff4b2bfa4b",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/276d60ceb868095ee100769f404f8c8eb852c358",
+                    "reference": "276d60ceb868095ee100769f404f8c8eb852c358",
                     "shasum": ""
                 },
-                "time": "2026-03-11T04:40:43+00:00",
+                "time": "2026-03-20T04:41:19+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.29",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.30",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
@@ -12415,6 +12438,29 @@
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             },
+            "3.8.1": {
+                "name": "generoi/polylang-pro",
+                "version": "3.8.1",
+                "version_normalized": "3.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "428275e978157a7db079aec97bc40edc12cc9bfa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/428275e978157a7db079aec97bc40edc12cc9bfa",
+                    "reference": "428275e978157a7db079aec97bc40edc12cc9bfa",
+                    "shasum": ""
+                },
+                "time": "2026-03-20T04:41:07+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.8.1",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/polylang-pro",
                 "version": "dev-master",
@@ -12422,20 +12468,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "48b3f7c20137d62a299b69e363a8af33b37bbcac"
+                    "reference": "428275e978157a7db079aec97bc40edc12cc9bfa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/48b3f7c20137d62a299b69e363a8af33b37bbcac",
-                    "reference": "48b3f7c20137d62a299b69e363a8af33b37bbcac",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/428275e978157a7db079aec97bc40edc12cc9bfa",
+                    "reference": "428275e978157a7db079aec97bc40edc12cc9bfa",
                     "shasum": ""
                 },
-                "time": "2026-03-18T04:47:34+00:00",
+                "time": "2026-03-20T04:41:07+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-pro/tree/3.8",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.8.1",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             },
@@ -24189,6 +24235,29 @@
                     "issues": "https://github.com/generoi/youtube-feed-pro/issues"
                 }
             },
+            "2.6.4": {
+                "name": "generoi/youtube-feed-pro",
+                "version": "2.6.4",
+                "version_normalized": "2.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/youtube-feed-pro.git",
+                    "reference": "cf45ac7aab37e0f3754c6d21b508d65b509057b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/cf45ac7aab37e0f3754c6d21b508d65b509057b9",
+                    "reference": "cf45ac7aab37e0f3754c6d21b508d65b509057b9",
+                    "shasum": ""
+                },
+                "time": "2026-03-20T04:40:52+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/youtube-feed/",
+                "support": {
+                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.6.4",
+                    "issues": "https://github.com/generoi/youtube-feed-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/youtube-feed-pro",
                 "version": "dev-master",
@@ -24196,20 +24265,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/youtube-feed-pro.git",
-                    "reference": "f5a18b880c1924e180a4151c4710fc0a9fbcb4bf"
+                    "reference": "cf45ac7aab37e0f3754c6d21b508d65b509057b9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/f5a18b880c1924e180a4151c4710fc0a9fbcb4bf",
-                    "reference": "f5a18b880c1924e180a4151c4710fc0a9fbcb4bf",
+                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/cf45ac7aab37e0f3754c6d21b508d65b509057b9",
+                    "reference": "cf45ac7aab37e0f3754c6d21b508d65b509057b9",
                     "shasum": ""
                 },
-                "time": "2026-03-12T04:41:31+00:00",
+                "time": "2026-03-20T04:40:52+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/youtube-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.6.3",
+                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.6.4",
                     "issues": "https://github.com/generoi/youtube-feed-pro/issues"
                 }
             }
