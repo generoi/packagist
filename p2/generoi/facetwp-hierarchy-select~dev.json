@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp-hierarchy-select.git",
-                    "reference": "f072a46b714b9f24dba4f29c8896cca96e177955"
+                    "reference": "c0d7236a7738278a8509472b8918fca43f44da5b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/f072a46b714b9f24dba4f29c8896cca96e177955",
-                    "reference": "f072a46b714b9f24dba4f29c8896cca96e177955",
+                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/c0d7236a7738278a8509472b8918fca43f44da5b",
+                    "reference": "c0d7236a7738278a8509472b8918fca43f44da5b",
                     "shasum": ""
                 },
-                "time": "2024-12-05T15:53:12+00:00",
+                "time": "2026-03-24T04:44:26+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://facetwp.com/help-center/facets/facet-types/hierarchy-select/",
                 "support": {
-                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/0.5.3",
+                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/0.5.4",
                     "issues": "https://github.com/generoi/facetwp-hierarchy-select/issues"
                 }
             }

@@ -4021,6 +4021,29 @@
                     "issues": "https://github.com/generoi/facetwp/issues"
                 }
             },
+            "4.5": {
+                "name": "generoi/facetwp",
+                "version": "4.5",
+                "version_normalized": "4.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp.git",
+                    "reference": "b8a5ef5600146a187855c9e9bd6eabb036da83be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/b8a5ef5600146a187855c9e9bd6eabb036da83be",
+                    "reference": "b8a5ef5600146a187855c9e9bd6eabb036da83be",
+                    "shasum": ""
+                },
+                "time": "2026-03-24T04:44:24+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp/tree/4.5",
+                    "issues": "https://github.com/generoi/facetwp/issues"
+                }
+            },
             "dev-feature/csp": {
                 "name": "generoi/facetwp",
                 "version": "dev-feature/csp",
@@ -4051,20 +4074,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp.git",
-                    "reference": "51477fbc391c5ea063c7b5a7b65ed19f5c287536"
+                    "reference": "b8a5ef5600146a187855c9e9bd6eabb036da83be"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/51477fbc391c5ea063c7b5a7b65ed19f5c287536",
-                    "reference": "51477fbc391c5ea063c7b5a7b65ed19f5c287536",
+                    "url": "https://api.github.com/repos/generoi/facetwp/zipball/b8a5ef5600146a187855c9e9bd6eabb036da83be",
+                    "reference": "b8a5ef5600146a187855c9e9bd6eabb036da83be",
                     "shasum": ""
                 },
-                "time": "2025-05-01T04:14:26+00:00",
+                "time": "2026-03-24T04:44:24+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://facetwp.com/",
                 "support": {
-                    "source": "https://github.com/generoi/facetwp/tree/4.4.1",
+                    "source": "https://github.com/generoi/facetwp/tree/4.5",
                     "issues": "https://github.com/generoi/facetwp/issues"
                 }
             },
@@ -4139,6 +4162,29 @@
                     "issues": "https://github.com/generoi/facetwp-flyout/issues"
                 }
             },
+            "0.8.4": {
+                "name": "generoi/facetwp-flyout",
+                "version": "0.8.4",
+                "version_normalized": "0.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-flyout.git",
+                    "reference": "dcd8694faddb859fc798ba0e81b83fa6b3131083"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-flyout/zipball/dcd8694faddb859fc798ba0e81b83fa6b3131083",
+                    "reference": "dcd8694faddb859fc798ba0e81b83fa6b3131083",
+                    "shasum": ""
+                },
+                "time": "2026-03-24T04:44:17+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/help-center/add-on-features-and-extras/mobile-flyout/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-flyout/tree/0.8.4",
+                    "issues": "https://github.com/generoi/facetwp-flyout/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/facetwp-flyout",
                 "version": "dev-master",
@@ -4146,20 +4192,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp-flyout.git",
-                    "reference": "0079777a2302fb6103eb403098f41a0f918dff14"
+                    "reference": "dcd8694faddb859fc798ba0e81b83fa6b3131083"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp-flyout/zipball/0079777a2302fb6103eb403098f41a0f918dff14",
-                    "reference": "0079777a2302fb6103eb403098f41a0f918dff14",
+                    "url": "https://api.github.com/repos/generoi/facetwp-flyout/zipball/dcd8694faddb859fc798ba0e81b83fa6b3131083",
+                    "reference": "dcd8694faddb859fc798ba0e81b83fa6b3131083",
                     "shasum": ""
                 },
-                "time": "2024-10-14T13:23:38+00:00",
+                "time": "2026-03-24T04:44:17+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://facetwp.com/help-center/add-on-features-and-extras/mobile-flyout/",
                 "support": {
-                    "source": "https://github.com/generoi/facetwp-flyout/tree/0.8.3",
+                    "source": "https://github.com/generoi/facetwp-flyout/tree/0.8.4",
                     "issues": "https://github.com/generoi/facetwp-flyout/issues"
                 }
             }
@@ -4323,6 +4369,29 @@
                     "issues": "https://github.com/generoi/facetwp-hierarchy-select/issues"
                 }
             },
+            "0.5.4": {
+                "name": "generoi/facetwp-hierarchy-select",
+                "version": "0.5.4",
+                "version_normalized": "0.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-hierarchy-select.git",
+                    "reference": "c0d7236a7738278a8509472b8918fca43f44da5b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/c0d7236a7738278a8509472b8918fca43f44da5b",
+                    "reference": "c0d7236a7738278a8509472b8918fca43f44da5b",
+                    "shasum": ""
+                },
+                "time": "2026-03-24T04:44:26+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/help-center/facets/facet-types/hierarchy-select/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/0.5.4",
+                    "issues": "https://github.com/generoi/facetwp-hierarchy-select/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/facetwp-hierarchy-select",
                 "version": "dev-master",
@@ -4330,20 +4399,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp-hierarchy-select.git",
-                    "reference": "f072a46b714b9f24dba4f29c8896cca96e177955"
+                    "reference": "c0d7236a7738278a8509472b8918fca43f44da5b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/f072a46b714b9f24dba4f29c8896cca96e177955",
-                    "reference": "f072a46b714b9f24dba4f29c8896cca96e177955",
+                    "url": "https://api.github.com/repos/generoi/facetwp-hierarchy-select/zipball/c0d7236a7738278a8509472b8918fca43f44da5b",
+                    "reference": "c0d7236a7738278a8509472b8918fca43f44da5b",
                     "shasum": ""
                 },
-                "time": "2024-12-05T15:53:12+00:00",
+                "time": "2026-03-24T04:44:26+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://facetwp.com/help-center/facets/facet-types/hierarchy-select/",
                 "support": {
-                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/0.5.3",
+                    "source": "https://github.com/generoi/facetwp-hierarchy-select/tree/0.5.4",
                     "issues": "https://github.com/generoi/facetwp-hierarchy-select/issues"
                 }
             }
@@ -4597,6 +4666,29 @@
                     "issues": "https://github.com/generoi/facetwp-i18n/issues"
                 }
             },
+            "1.0.2": {
+                "name": "generoi/facetwp-i18n",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-i18n.git",
+                    "reference": "7e661aa2f878a1ecf26a50bac7b741b34314b614"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/7e661aa2f878a1ecf26a50bac7b741b34314b614",
+                    "reference": "7e661aa2f878a1ecf26a50bac7b741b34314b614",
+                    "shasum": ""
+                },
+                "time": "2026-03-24T04:44:22+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/add-ons/multilingual",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/1.0.2",
+                    "issues": "https://github.com/generoi/facetwp-i18n/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/facetwp-i18n",
                 "version": "dev-master",
@@ -4604,20 +4696,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp-i18n.git",
-                    "reference": "666072ff2f76a6403e393a133b5940e75b0415f9"
+                    "reference": "7e661aa2f878a1ecf26a50bac7b741b34314b614"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/666072ff2f76a6403e393a133b5940e75b0415f9",
-                    "reference": "666072ff2f76a6403e393a133b5940e75b0415f9",
+                    "url": "https://api.github.com/repos/generoi/facetwp-i18n/zipball/7e661aa2f878a1ecf26a50bac7b741b34314b614",
+                    "reference": "7e661aa2f878a1ecf26a50bac7b741b34314b614",
                     "shasum": ""
                 },
-                "time": "2024-09-10T17:21:05+00:00",
+                "time": "2026-03-24T04:44:22+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://facetwp.com/add-ons/multilingual",
                 "support": {
-                    "source": "https://github.com/generoi/facetwp-i18n/tree/v1.0.1.1",
+                    "source": "https://github.com/generoi/facetwp-i18n/tree/1.0.2",
                     "issues": "https://github.com/generoi/facetwp-i18n/issues"
                 }
             }

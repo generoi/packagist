@@ -23,6 +23,29 @@
                     "source": "https://github.com/generoi/facetwp-flyout/tree/0.8.3",
                     "issues": "https://github.com/generoi/facetwp-flyout/issues"
                 }
+            },
+            {
+                "name": "generoi/facetwp-flyout",
+                "version": "0.8.4",
+                "version_normalized": "0.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-flyout.git",
+                    "reference": "dcd8694faddb859fc798ba0e81b83fa6b3131083"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-flyout/zipball/dcd8694faddb859fc798ba0e81b83fa6b3131083",
+                    "reference": "dcd8694faddb859fc798ba0e81b83fa6b3131083",
+                    "shasum": ""
+                },
+                "time": "2026-03-24T04:44:17+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/help-center/add-on-features-and-extras/mobile-flyout/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-flyout/tree/0.8.4",
+                    "issues": "https://github.com/generoi/facetwp-flyout/issues"
+                }
             }
         ]
     }
