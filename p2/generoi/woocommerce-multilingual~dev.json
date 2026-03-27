@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/woocommerce-multilingual.git",
-                    "reference": "aebdb67c4ae53d4d26817398dc3c3c9af135f3a9"
+                    "reference": "85bc896241cdba486746491a1c1ca0e1419bbe8a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/woocommerce-multilingual/zipball/aebdb67c4ae53d4d26817398dc3c3c9af135f3a9",
-                    "reference": "aebdb67c4ae53d4d26817398dc3c3c9af135f3a9",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-multilingual/zipball/85bc896241cdba486746491a1c1ca0e1419bbe8a",
+                    "reference": "85bc896241cdba486746491a1c1ca0e1419bbe8a",
                     "shasum": ""
                 },
-                "time": "2026-02-05T04:42:10+00:00",
+                "time": "2026-03-25T04:46:02+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://wpml.org",
                 "support": {
-                    "source": "https://github.com/generoi/woocommerce-multilingual/tree/5.5.4",
+                    "source": "https://github.com/generoi/woocommerce-multilingual/tree/5.5.5",
                     "issues": "https://github.com/generoi/woocommerce-multilingual/issues"
                 }
             }
