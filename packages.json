@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$795914a1677ffd10eb013d499c5f999a04fe0c1d.json": {
-            "sha1": "795914a1677ffd10eb013d499c5f999a04fe0c1d"
+        "include/all$a38d6a3fadbab8800132c21f2da5c1c7c89c4628.json": {
+            "sha1": "a38d6a3fadbab8800132c21f2da5c1c7c89c4628"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -43,6 +43,7 @@
         "generoi/seoai-client",
         "generoi/sitepress-multilingual-cms",
         "generoi/social-wall",
+        "generoi/tableberg-pro",
         "generoi/wb-paytrail-maksutavat",
         "generoi/wc-matkahuolto",
         "generoi/wc-paytrail",
