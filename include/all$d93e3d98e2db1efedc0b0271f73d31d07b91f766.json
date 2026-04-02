@@ -21121,6 +21121,29 @@
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             },
+            "5.0.5": {
+                "name": "generoi/wp-all-import-pro",
+                "version": "5.0.5",
+                "version_normalized": "5.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-import-pro.git",
+                    "reference": "ed41385d60484b9cc199674fc10d99670588f46c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/ed41385d60484b9cc199674fc10d99670588f46c",
+                    "reference": "ed41385d60484b9cc199674fc10d99670588f46c",
+                    "shasum": ""
+                },
+                "time": "2026-04-02T04:51:59+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/5.0.5",
+                    "issues": "https://github.com/generoi/wp-all-import-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wp-all-import-pro",
                 "version": "dev-master",
@@ -21128,20 +21151,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-all-import-pro.git",
-                    "reference": "f298f6768a2fd26a0f6170453b91d109dd3df686"
+                    "reference": "ed41385d60484b9cc199674fc10d99670588f46c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/f298f6768a2fd26a0f6170453b91d109dd3df686",
-                    "reference": "f298f6768a2fd26a0f6170453b91d109dd3df686",
+                    "url": "https://api.github.com/repos/generoi/wp-all-import-pro/zipball/ed41385d60484b9cc199674fc10d99670588f46c",
+                    "reference": "ed41385d60484b9cc199674fc10d99670588f46c",
                     "shasum": ""
                 },
-                "time": "2026-03-07T04:36:59+00:00",
+                "time": "2026-04-02T04:51:59+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-import-pro/tree/5.0.4",
+                    "source": "https://github.com/generoi/wp-all-import-pro/tree/5.0.5",
                     "issues": "https://github.com/generoi/wp-all-import-pro/issues"
                 }
             },
