@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms.git",
-                    "reference": "276d60ceb868095ee100769f404f8c8eb852c358"
+                    "reference": "9c4fec093f0139f2e5571230d70662a30207c462"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/276d60ceb868095ee100769f404f8c8eb852c358",
-                    "reference": "276d60ceb868095ee100769f404f8c8eb852c358",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/9c4fec093f0139f2e5571230d70662a30207c462",
+                    "reference": "9c4fec093f0139f2e5571230d70662a30207c462",
                     "shasum": ""
                 },
-                "time": "2026-03-20T04:41:19+00:00",
+                "time": "2026-04-03T04:53:35+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.gravityforms.com/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms/tree/2.9.30",
+                    "source": "https://github.com/generoi/gravityforms/tree/2.9.31",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 }
             },
