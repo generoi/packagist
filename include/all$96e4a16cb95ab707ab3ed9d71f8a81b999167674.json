@@ -2822,6 +2822,29 @@
                     "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
                 }
             },
+            "7.5.7.2": {
+                "name": "generoi/complianz-gdpr-premium",
+                "version": "7.5.7.2",
+                "version_normalized": "7.5.7.2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/complianz-gdpr-premium.git",
+                    "reference": "3bb0fb238207eb6b38faf1a63b42d9afe4d90134"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/3bb0fb238207eb6b38faf1a63b42d9afe4d90134",
+                    "reference": "3bb0fb238207eb6b38faf1a63b42d9afe4d90134",
+                    "shasum": ""
+                },
+                "time": "2026-04-09T04:56:16+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://complianz.io/",
+                "support": {
+                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.5.7.2",
+                    "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
+                }
+            },
             "dev-feature/csp": {
                 "name": "generoi/complianz-gdpr-premium",
                 "version": "dev-feature/csp",
@@ -2852,20 +2875,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/complianz-gdpr-premium.git",
-                    "reference": "4fd0e5713034501f6628215a1a9a736a6c57888a"
+                    "reference": "3bb0fb238207eb6b38faf1a63b42d9afe4d90134"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/4fd0e5713034501f6628215a1a9a736a6c57888a",
-                    "reference": "4fd0e5713034501f6628215a1a9a736a6c57888a",
+                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/3bb0fb238207eb6b38faf1a63b42d9afe4d90134",
+                    "reference": "3bb0fb238207eb6b38faf1a63b42d9afe4d90134",
                     "shasum": ""
                 },
-                "time": "2026-03-12T04:42:41+00:00",
+                "time": "2026-04-09T04:56:16+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://complianz.io/",
                 "support": {
-                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.5.7.1",
+                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.5.7.2",
                     "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
                 }
             }
@@ -10928,6 +10951,29 @@
                     "issues": "https://github.com/generoi/multilingualpress/issues"
                 }
             },
+            "5.1.1": {
+                "name": "generoi/multilingualpress",
+                "version": "5.1.1",
+                "version_normalized": "5.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/multilingualpress.git",
+                    "reference": "b7bbbde60d0df370e82b5db46aa4577883536c2b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/b7bbbde60d0df370e82b5db46aa4577883536c2b",
+                    "reference": "b7bbbde60d0df370e82b5db46aa4577883536c2b",
+                    "shasum": ""
+                },
+                "time": "2026-04-09T04:56:21+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.multilingualpress.org",
+                "support": {
+                    "source": "https://github.com/generoi/multilingualpress/tree/5.1.1",
+                    "issues": "https://github.com/generoi/multilingualpress/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/multilingualpress",
                 "version": "dev-master",
@@ -10935,20 +10981,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/multilingualpress.git",
-                    "reference": "4d3e4d9c98e9e87fe0451a9f6a326e332a05060d"
+                    "reference": "b7bbbde60d0df370e82b5db46aa4577883536c2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/4d3e4d9c98e9e87fe0451a9f6a326e332a05060d",
-                    "reference": "4d3e4d9c98e9e87fe0451a9f6a326e332a05060d",
+                    "url": "https://api.github.com/repos/generoi/multilingualpress/zipball/b7bbbde60d0df370e82b5db46aa4577883536c2b",
+                    "reference": "b7bbbde60d0df370e82b5db46aa4577883536c2b",
                     "shasum": ""
                 },
-                "time": "2026-02-19T04:44:38+00:00",
+                "time": "2026-04-09T04:56:21+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.multilingualpress.org",
                 "support": {
-                    "source": "https://github.com/generoi/multilingualpress/tree/5.1.0",
+                    "source": "https://github.com/generoi/multilingualpress/tree/5.1.1",
                     "issues": "https://github.com/generoi/multilingualpress/issues"
                 }
             }
@@ -12690,6 +12736,29 @@
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             },
+            "3.8.2": {
+                "name": "generoi/polylang-pro",
+                "version": "3.8.2",
+                "version_normalized": "3.8.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/polylang-pro.git",
+                    "reference": "509dc47180374b400407a9783dc3d86e9a5a633e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/509dc47180374b400407a9783dc3d86e9a5a633e",
+                    "reference": "509dc47180374b400407a9783dc3d86e9a5a633e",
+                    "shasum": ""
+                },
+                "time": "2026-04-09T04:55:53+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://polylang.pro",
+                "support": {
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.8.2",
+                    "issues": "https://github.com/generoi/polylang-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/polylang-pro",
                 "version": "dev-master",
@@ -12697,20 +12766,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-pro.git",
-                    "reference": "428275e978157a7db079aec97bc40edc12cc9bfa"
+                    "reference": "509dc47180374b400407a9783dc3d86e9a5a633e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/428275e978157a7db079aec97bc40edc12cc9bfa",
-                    "reference": "428275e978157a7db079aec97bc40edc12cc9bfa",
+                    "url": "https://api.github.com/repos/generoi/polylang-pro/zipball/509dc47180374b400407a9783dc3d86e9a5a633e",
+                    "reference": "509dc47180374b400407a9783dc3d86e9a5a633e",
                     "shasum": ""
                 },
-                "time": "2026-03-20T04:41:07+00:00",
+                "time": "2026-04-09T04:55:53+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-pro/tree/3.8.1",
+                    "source": "https://github.com/generoi/polylang-pro/tree/3.8.2",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
                 }
             },
@@ -17002,6 +17071,29 @@
                     "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
                 }
             },
+            "5.6.3": {
+                "name": "generoi/wb-paytrail-maksutavat",
+                "version": "5.6.3",
+                "version_normalized": "5.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wb-paytrail-maksutavat.git",
+                    "reference": "0fd0d0dbc3c3c08fd0078cc6f57d35ece9fdeb87"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/0fd0d0dbc3c3c08fd0078cc6f57d35ece9fdeb87",
+                    "reference": "0fd0d0dbc3c3c08fd0078cc6f57d35ece9fdeb87",
+                    "shasum": ""
+                },
+                "time": "2026-04-08T04:58:00+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.webbisivut.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.6.3",
+                    "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
+                }
+            },
             "dev-master": {
                 "name": "generoi/wb-paytrail-maksutavat",
                 "version": "dev-master",
@@ -17009,20 +17101,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wb-paytrail-maksutavat.git",
-                    "reference": "8b91b483b60994a5a270c40ebe7b14dbd43d0c26"
+                    "reference": "0fd0d0dbc3c3c08fd0078cc6f57d35ece9fdeb87"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/8b91b483b60994a5a270c40ebe7b14dbd43d0c26",
-                    "reference": "8b91b483b60994a5a270c40ebe7b14dbd43d0c26",
+                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/0fd0d0dbc3c3c08fd0078cc6f57d35ece9fdeb87",
+                    "reference": "0fd0d0dbc3c3c08fd0078cc6f57d35ece9fdeb87",
                     "shasum": ""
                 },
-                "time": "2026-03-17T04:43:35+00:00",
+                "time": "2026-04-08T04:58:00+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.webbisivut.org/",
                 "support": {
-                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.6.2",
+                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.6.3",
                     "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
                 }
             }

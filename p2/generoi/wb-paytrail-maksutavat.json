@@ -207,6 +207,29 @@
                     "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.6.2",
                     "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
                 }
+            },
+            {
+                "name": "generoi/wb-paytrail-maksutavat",
+                "version": "5.6.3",
+                "version_normalized": "5.6.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wb-paytrail-maksutavat.git",
+                    "reference": "0fd0d0dbc3c3c08fd0078cc6f57d35ece9fdeb87"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wb-paytrail-maksutavat/zipball/0fd0d0dbc3c3c08fd0078cc6f57d35ece9fdeb87",
+                    "reference": "0fd0d0dbc3c3c08fd0078cc6f57d35ece9fdeb87",
+                    "shasum": ""
+                },
+                "time": "2026-04-08T04:58:00+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.webbisivut.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/5.6.3",
+                    "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
+                }
             }
         ]
     }
