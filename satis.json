@@ -15,6 +15,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/filebird-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gds-block-animations.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gf-pardot-pro.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/gf-pipedrive-crm-perks-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityforms.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformsactivecampaign.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformsakismet.git" },
@@ -64,8 +65,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/wpml-string-translation.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wpml-media-translation.git" },
         { "type": "vcs", "url": "https://github.com/generoi/wpml-wpforms.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/youtube-feed-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravity-forms-to-pipe-drive-crm" }
+        { "type": "vcs", "url": "https://github.com/generoi/youtube-feed-pro.git" }
     ],
     "require-all": true
 }
