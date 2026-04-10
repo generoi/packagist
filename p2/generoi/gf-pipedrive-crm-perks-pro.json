@@ -1,5 +1,29 @@
 {
     "packages": {
-        "generoi/gf-pipedrive-crm-perks-pro": []
+        "generoi/gf-pipedrive-crm-perks-pro": [
+            {
+                "name": "generoi/gf-pipedrive-crm-perks-pro",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gf-pipedrive-crm-perks-pro.git",
+                    "reference": "90f4b43518c8ed804140ba0019729eb363ea199e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gf-pipedrive-crm-perks-pro/zipball/90f4b43518c8ed804140ba0019729eb363ea199e",
+                    "reference": "90f4b43518c8ed804140ba0019729eb363ea199e",
+                    "shasum": ""
+                },
+                "time": "2026-04-10T11:48:04+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.crmperks.com/plugins/gravity-forms-plugins/gravity-forms-pipedrive-plugin/",
+                "support": {
+                    "source": "https://github.com/generoi/gf-pipedrive-crm-perks-pro/tree/1.1.4",
+                    "issues": "https://github.com/generoi/gf-pipedrive-crm-perks-pro/issues"
+                }
+            }
+        ]
     }
 }
