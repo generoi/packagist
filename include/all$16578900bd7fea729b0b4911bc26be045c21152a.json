@@ -5226,95 +5226,29 @@
                 }
             }
         },
-        "generoi/gravity-forms-to-pipe-drive-crm": {
-            "v2.7": {
-                "name": "generoi/gravity-forms-to-pipe-drive-crm",
-                "version": "v2.7",
-                "version_normalized": "2.7.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:generoi/gravity-forms-to-pipe-drive-crm.git",
-                    "reference": "2827d4dd83e8af227c95713bfbe7ace0aee40c04"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravity-forms-to-pipe-drive-crm/zipball/2827d4dd83e8af227c95713bfbe7ace0aee40c04",
-                    "reference": "2827d4dd83e8af227c95713bfbe7ace0aee40c04",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "~1.0",
-                    "php": ">=5.4.0"
-                },
-                "time": "2017-07-31T12:50:39+00:00",
-                "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Oskar Schöldström",
-                        "email": "public@oxy.fi"
-                    }
-                ],
-                "description": "Gravity Froms to Pipe Drive CRM",
-                "homepage": "https://helpforwp.com/downloads/gravity-forms-to-pipe-drive-crm/",
-                "keywords": [
-                    "wordpress"
-                ],
-                "support": {
-                    "issues": "https://github.com/generoi/gravity-forms-to-pipe-drive-crm/issues",
-                    "source": "https://github.com/generoi/gravity-forms-to-pipe-drive-crm/tree/v2.7"
-                }
-            },
+        "generoi/gf-pipedrive-crm-perks-pro": {
             "dev-master": {
-                "name": "generoi/gravity-forms-to-pipe-drive-crm",
+                "name": "generoi/gf-pipedrive-crm-perks-pro",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:generoi/gravity-forms-to-pipe-drive-crm.git",
-                    "reference": "5f12e0f9ca0fca94497a1ee24e535ca1b681782f"
+                    "url": "git@github.com:generoi/gf-pipedrive-crm-perks-pro.git",
+                    "reference": "d36df165594d1009e01a9a16212d2496a2042be9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravity-forms-to-pipe-drive-crm/zipball/5f12e0f9ca0fca94497a1ee24e535ca1b681782f",
-                    "reference": "5f12e0f9ca0fca94497a1ee24e535ca1b681782f",
+                    "url": "https://api.github.com/repos/generoi/gf-pipedrive-crm-perks-pro/zipball/d36df165594d1009e01a9a16212d2496a2042be9",
+                    "reference": "d36df165594d1009e01a9a16212d2496a2042be9",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=5.4.0"
-                },
-                "time": "2023-07-19T17:15:25+00:00",
+                "time": "2026-04-10T11:30:58+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
-                "archive": {
-                    "exclude": [
-                        ".gitignore"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Oskar Schöldström",
-                        "email": "public@oxy.fi"
-                    }
-                ],
-                "description": "Gravity Froms to Pipe Drive CRM",
-                "homepage": "https://helpforwp.com/downloads/gravity-forms-to-pipe-drive-crm/",
-                "keywords": [
-                    "wordpress"
-                ],
+                "homepage": "https://www.crmperks.com/plugins/gravity-forms-plugins/gravity-forms-pipedrive-plugin/",
                 "support": {
-                    "issues": "https://github.com/generoi/gravity-forms-to-pipe-drive-crm/issues",
-                    "source": "https://github.com/generoi/gravity-forms-to-pipe-drive-crm/tree/master"
+                    "source": "https://github.com/generoi/gf-pipedrive-crm-perks-pro/tree/master",
+                    "issues": "https://github.com/generoi/gf-pipedrive-crm-perks-pro/issues"
                 }
             }
         },
