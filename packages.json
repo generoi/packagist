@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$447046c62d64f15728c97f55912bea67633f7153.json": {
-            "sha1": "447046c62d64f15728c97f55912bea67633f7153"
+        "include/all$17d2e49d7cae162438b38ccfd0ccff147df53dd3.json": {
+            "sha1": "17d2e49d7cae162438b38ccfd0ccff147df53dd3"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -18,7 +18,9 @@
         "generoi/facetwp-i18n",
         "generoi/facetwp-relevanssi",
         "generoi/filebird-pro",
+        "generoi/gds-assistant",
         "generoi/gds-block-animations",
+        "generoi/gds-mcp",
         "generoi/gf-pardot-pro",
         "generoi/gf-pipedrive-crm-perks-pro",
         "generoi/gravity-forms-user-verification",
