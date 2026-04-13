@@ -51,6 +51,9 @@ jobs:
             --volume "${COMPOSER_HOME}:/composer" \
             composer/satis -vvv build /build/satis.json /build/${{ env.BUILD_DIR }} --no-interaction
 
+      - name: Rewrite dist URLs for release-based packages
+        run: node rewrite-dist-urls.js ${{ env.BUILD_DIR }}
+
       - name: Publish to GitHub pages
         run: |
           rm composer.json

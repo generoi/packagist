@@ -1,0 +1,4 @@
+{
+    "generoi/gds-assistant": "https://github.com/generoi/gds-assistant/releases/download/{tag}/gds-assistant.zip",
+    "generoi/gds-mcp": "https://github.com/generoi/gds-mcp/releases/download/{tag}/gds-mcp.zip"
+}
