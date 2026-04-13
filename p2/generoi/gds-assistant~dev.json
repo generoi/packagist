@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-assistant.git",
-                    "reference": "9acbee79f0f6ee44812ca4e3c265694cee4f2a3e"
+                    "reference": "613f9b7c5174de5d9b24b76ec0128aa8cab5fcdb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/9acbee79f0f6ee44812ca4e3c265694cee4f2a3e",
-                    "reference": "9acbee79f0f6ee44812ca4e3c265694cee4f2a3e",
+                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/613f9b7c5174de5d9b24b76ec0128aa8cab5fcdb",
+                    "reference": "613f9b7c5174de5d9b24b76ec0128aa8cab5fcdb",
                     "shasum": ""
                 },
                 "require": {
@@ -25,7 +25,7 @@
                     "wp-phpunit/wp-phpunit": "^6.6",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-04-13T15:21:32+00:00",
+                "time": "2026-04-13T17:29:46+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -135,17 +135,17 @@
             },
             {
                 "name": "generoi/gds-assistant",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "dev-fix/logging-and-forms",
+                "version_normalized": "dev-fix/logging-and-forms",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-assistant.git",
-                    "reference": "c00bd2354068708d5ad80e2e9e56d0d9fbc54bf4"
+                    "reference": "07a4caaed64672628160eb602c247c1cf57374ee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/c00bd2354068708d5ad80e2e9e56d0d9fbc54bf4",
-                    "reference": "c00bd2354068708d5ad80e2e9e56d0d9fbc54bf4",
+                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/07a4caaed64672628160eb602c247c1cf57374ee",
+                    "reference": "07a4caaed64672628160eb602c247c1cf57374ee",
                     "shasum": ""
                 },
                 "require": {
@@ -157,7 +157,139 @@
                     "wp-phpunit/wp-phpunit": "^6.6",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-04-13T15:30:06+00:00",
+                "time": "2026-04-13T16:10:00+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\Assistant\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\Assistant\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-assistant vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "AI-powered admin assistant with WordPress tool access",
+                "homepage": "https://github.com/generoi/gds-assistant",
+                "support": {
+                    "source": "https://github.com/generoi/gds-assistant/tree/fix/logging-and-forms",
+                    "issues": "https://github.com/generoi/gds-assistant/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-assistant",
+                "version": "dev-fix/provider-compat",
+                "version_normalized": "dev-fix/provider-compat",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-assistant.git",
+                    "reference": "83a837d537072dd247c6b225d4147bdd58e5ac09"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/83a837d537072dd247c6b225d4147bdd58e5ac09",
+                    "reference": "83a837d537072dd247c6b225d4147bdd58e5ac09",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.29",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^6.6",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-04-13T17:38:09+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\Assistant\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\Assistant\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-assistant vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "AI-powered admin assistant with WordPress tool access",
+                "homepage": "https://github.com/generoi/gds-assistant",
+                "support": {
+                    "source": "https://github.com/generoi/gds-assistant/tree/fix/provider-compat",
+                    "issues": "https://github.com/generoi/gds-assistant/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-assistant",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-assistant.git",
+                    "reference": "888bb7c90f8816302a6a3aba97b0c1cf3f8efeda"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/888bb7c90f8816302a6a3aba97b0c1cf3f8efeda",
+                    "reference": "888bb7c90f8816302a6a3aba97b0c1cf3f8efeda",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.29",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^6.6",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-04-13T17:40:23+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -196,7 +328,7 @@
                 "description": "AI-powered admin assistant with WordPress tool access",
                 "homepage": "https://github.com/generoi/gds-assistant",
                 "support": {
-                    "source": "https://github.com/generoi/gds-assistant/tree/v0.1.1",
+                    "source": "https://github.com/generoi/gds-assistant/tree/v0.1.2",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 }
             }
