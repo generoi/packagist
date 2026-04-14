@@ -3,17 +3,17 @@
         "generoi/gds-assistant": [
             {
                 "name": "generoi/gds-assistant",
-                "version": "dev-feature/context-compression",
-                "version_normalized": "dev-feature/context-compression",
+                "version": "dev-feature/8-features",
+                "version_normalized": "dev-feature/8-features",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-assistant.git",
-                    "reference": "ec3ebf4a068e22418218d11301db3f6d974fb68e"
+                    "reference": "7424df98fe2b30be0798bd7852affc60a4e76239"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/ec3ebf4a068e22418218d11301db3f6d974fb68e",
-                    "reference": "ec3ebf4a068e22418218d11301db3f6d974fb68e",
+                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/7424df98fe2b30be0798bd7852affc60a4e76239",
+                    "reference": "7424df98fe2b30be0798bd7852affc60a4e76239",
                     "shasum": ""
                 },
                 "require": {
@@ -25,7 +25,73 @@
                     "wp-phpunit/wp-phpunit": "^6.6",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-04-13T22:39:41+00:00",
+                "time": "2026-04-14T02:54:21+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\Assistant\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\Assistant\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-assistant vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "AI-powered admin assistant with WordPress tool access",
+                "homepage": "https://github.com/generoi/gds-assistant",
+                "support": {
+                    "source": "https://github.com/generoi/gds-assistant/tree/feature/8-features",
+                    "issues": "https://github.com/generoi/gds-assistant/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-assistant",
+                "version": "dev-feature/context-compression",
+                "version_normalized": "dev-feature/context-compression",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-assistant.git",
+                    "reference": "fd8c01c11a94cb6ddb053919351021642ed18edc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/fd8c01c11a94cb6ddb053919351021642ed18edc",
+                    "reference": "fd8c01c11a94cb6ddb053919351021642ed18edc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.29",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^6.6",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-04-14T00:15:02+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -338,12 +404,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-assistant.git",
-                    "reference": "5036b730d146f2f3b91a081e3530ab464cdb05b3"
+                    "reference": "e08e85781623e0a902732827384f23ed0c739a5d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/5036b730d146f2f3b91a081e3530ab464cdb05b3",
-                    "reference": "5036b730d146f2f3b91a081e3530ab464cdb05b3",
+                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/e08e85781623e0a902732827384f23ed0c739a5d",
+                    "reference": "e08e85781623e0a902732827384f23ed0c739a5d",
                     "shasum": ""
                 },
                 "require": {
@@ -355,7 +421,7 @@
                     "wp-phpunit/wp-phpunit": "^6.6",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-04-13T22:31:39+00:00",
+                "time": "2026-04-13T22:52:59+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
