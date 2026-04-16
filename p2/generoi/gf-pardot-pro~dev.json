@@ -3,6 +3,29 @@
         "generoi/gf-pardot-pro": [
             {
                 "name": "generoi/gf-pardot-pro",
+                "version": "v3.8.0.x-dev",
+                "version_normalized": "3.8.0.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gf-pardot-pro.git",
+                    "reference": "9b37b22598cd2a2f5cc27a905ccc3329a8522390"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gf-pardot-pro/zipball/9b37b22598cd2a2f5cc27a905ccc3329a8522390",
+                    "reference": "9b37b22598cd2a2f5cc27a905ccc3329a8522390",
+                    "shasum": ""
+                },
+                "time": "2026-04-15T21:40:53+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://codecanyon.net/item/gravity-forms-pardot-integration/22240088",
+                "support": {
+                    "source": "https://github.com/generoi/gf-pardot-pro/tree/v3.8.0",
+                    "issues": "https://github.com/generoi/gf-pardot-pro/issues"
+                }
+            },
+            {
+                "name": "generoi/gf-pardot-pro",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
