@@ -422,12 +422,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-mcp.git",
-                    "reference": "cfcdbe4e5edb40bc2be648eaa3d71f5ab9982c4a"
+                    "reference": "425c05e6508537b4ca713a4f16976c61820880df"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/cfcdbe4e5edb40bc2be648eaa3d71f5ab9982c4a",
-                    "reference": "cfcdbe4e5edb40bc2be648eaa3d71f5ab9982c4a",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/425c05e6508537b4ca713a4f16976c61820880df",
+                    "reference": "425c05e6508537b4ca713a4f16976c61820880df",
                     "shasum": ""
                 },
                 "require": {
@@ -439,7 +439,7 @@
                     "wp-phpunit/wp-phpunit": "^6.6",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-04-17T11:25:01+00:00",
+                "time": "2026-04-17T12:56:42+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
