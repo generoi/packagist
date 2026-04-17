@@ -141,6 +141,144 @@
             },
             {
                 "name": "generoi/gds-mcp",
+                "version": "dev-feat/mail-send",
+                "version_normalized": "dev-feat/mail-send",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-mcp.git",
+                    "reference": "bcbe1fc218c18961ed25c3d3e31b0347aea2433f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/bcbe1fc218c18961ed25c3d3e31b0347aea2433f",
+                    "reference": "bcbe1fc218c18961ed25c3d3e31b0347aea2433f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^6.6",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-04-17T14:31:40+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-mcp vendor/bin/phpunit"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "WordPress MCP abilities for content management, translations, and forms",
+                "homepage": "https://github.com/generoi/gds-mcp",
+                "support": {
+                    "source": "https://github.com/generoi/gds-mcp/tree/feat/mail-send",
+                    "issues": "https://github.com/generoi/gds-mcp/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-mcp",
+                "version": "dev-feat/mail-send-min-tier",
+                "version_normalized": "dev-feat/mail-send-min-tier",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-mcp.git",
+                    "reference": "ff3640ddd09dbf4858e1fa717969b380c705f01b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/ff3640ddd09dbf4858e1fa717969b380c705f01b",
+                    "reference": "ff3640ddd09dbf4858e1fa717969b380c705f01b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^6.6",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-04-17T14:48:23+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-mcp vendor/bin/phpunit"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "WordPress MCP abilities for content management, translations, and forms",
+                "homepage": "https://github.com/generoi/gds-mcp",
+                "support": {
+                    "source": "https://github.com/generoi/gds-mcp/tree/feat/mail-send-min-tier",
+                    "issues": "https://github.com/generoi/gds-mcp/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-mcp",
                 "version": "dev-feat/media-upload",
                 "version_normalized": "dev-feat/media-upload",
                 "source": {
@@ -422,12 +560,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-mcp.git",
-                    "reference": "425c05e6508537b4ca713a4f16976c61820880df"
+                    "reference": "a706d4137416f89ab398bd4679b4e08ea3208501"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/425c05e6508537b4ca713a4f16976c61820880df",
-                    "reference": "425c05e6508537b4ca713a4f16976c61820880df",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/a706d4137416f89ab398bd4679b4e08ea3208501",
+                    "reference": "a706d4137416f89ab398bd4679b4e08ea3208501",
                     "shasum": ""
                 },
                 "require": {
@@ -439,7 +577,7 @@
                     "wp-phpunit/wp-phpunit": "^6.6",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-04-17T12:56:42+00:00",
+                "time": "2026-04-17T16:51:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
