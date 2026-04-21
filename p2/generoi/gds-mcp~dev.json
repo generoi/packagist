@@ -141,6 +141,75 @@
             },
             {
                 "name": "generoi/gds-mcp",
+                "version": "dev-feat/gravity-forms-update",
+                "version_normalized": "dev-feat/gravity-forms-update",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-mcp.git",
+                    "reference": "7a323910ad589ff817d1752b6fa54009c6b60bf7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/7a323910ad589ff817d1752b6fa54009c6b60bf7",
+                    "reference": "7a323910ad589ff817d1752b6fa54009c6b60bf7",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^6.6",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-04-21T13:15:19+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-mcp vendor/bin/phpunit"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "WordPress MCP abilities for content management, translations, and forms",
+                "homepage": "https://github.com/generoi/gds-mcp",
+                "support": {
+                    "source": "https://github.com/generoi/gds-mcp/tree/feat/gravity-forms-update",
+                    "issues": "https://github.com/generoi/gds-mcp/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-mcp",
                 "version": "dev-feat/mail-send",
                 "version_normalized": "dev-feat/mail-send",
                 "source": {
@@ -560,12 +629,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-mcp.git",
-                    "reference": "a706d4137416f89ab398bd4679b4e08ea3208501"
+                    "reference": "c56a9188b4de1a90df44cc5a2f0da74894f92d77"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/a706d4137416f89ab398bd4679b4e08ea3208501",
-                    "reference": "a706d4137416f89ab398bd4679b4e08ea3208501",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/c56a9188b4de1a90df44cc5a2f0da74894f92d77",
+                    "reference": "c56a9188b4de1a90df44cc5a2f0da74894f92d77",
                     "shasum": ""
                 },
                 "require": {
@@ -577,7 +646,7 @@
                     "wp-phpunit/wp-phpunit": "^6.6",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-04-17T16:51:03+00:00",
+                "time": "2026-04-21T13:19:11+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
