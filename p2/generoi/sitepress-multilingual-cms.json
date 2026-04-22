@@ -1090,6 +1090,29 @@
                     "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.9.2",
                     "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
                 }
+            },
+            {
+                "name": "generoi/sitepress-multilingual-cms",
+                "version": "4.9.2.1",
+                "version_normalized": "4.9.2.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/sitepress-multilingual-cms.git",
+                    "reference": "2b4053f91e67a477ad59b58c0247c743bcb13b5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/sitepress-multilingual-cms/zipball/2b4053f91e67a477ad59b58c0247c743bcb13b5d",
+                    "reference": "2b4053f91e67a477ad59b58c0247c743bcb13b5d",
+                    "shasum": ""
+                },
+                "time": "2026-04-22T05:06:00+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/sitepress-multilingual-cms/tree/4.9.2.1",
+                    "issues": "https://github.com/generoi/sitepress-multilingual-cms/issues"
+                }
             }
         ]
     }
