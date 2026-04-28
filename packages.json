@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$506de4851737f9978effeb558947055895f8c8ad.json": {
-            "sha1": "506de4851737f9978effeb558947055895f8c8ad"
+        "include/all$9598e39ea9d09b4975363d7f115be3635f28579e.json": {
+            "sha1": "9598e39ea9d09b4975363d7f115be3635f28579e"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -43,6 +43,7 @@
         "generoi/relevanssi-premium",
         "generoi/role-based-pricing-for-woocommerce",
         "generoi/seoai-client",
+        "generoi/seoaiwp",
         "generoi/sitepress-multilingual-cms",
         "generoi/social-wall",
         "generoi/tableberg-pro",
