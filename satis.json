@@ -38,6 +38,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/qliro-one-for-woocommerce.git" },
         { "type": "vcs", "url": "https://github.com/generoi/relevanssi-premium.git" },
         { "type": "vcs", "url": "https://github.com/generoi/role-based-pricing-for-woocommerce.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/seoaiwp.git" },
         { "type": "vcs", "url": "https://github.com/generoi/seoai-client.git" },
         { "type": "vcs", "url": "https://github.com/generoi/sitepress-multilingual-cms.git" },
         { "type": "vcs", "url": "https://github.com/generoi/social-wall.git" },
