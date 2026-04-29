@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoaiwp.git",
-                    "reference": "d4546f515614f1e11ea9cad29b9c83866665ec6f"
+                    "reference": "15dde99bdcf2de4d7859abc226e2e1a57e02b2de"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoaiwp/zipball/d4546f515614f1e11ea9cad29b9c83866665ec6f",
-                    "reference": "d4546f515614f1e11ea9cad29b9c83866665ec6f",
+                    "url": "https://api.github.com/repos/generoi/seoaiwp/zipball/15dde99bdcf2de4d7859abc226e2e1a57e02b2de",
+                    "reference": "15dde99bdcf2de4d7859abc226e2e1a57e02b2de",
                     "shasum": ""
                 },
-                "time": "2026-04-28T11:28:02+00:00",
+                "time": "2026-04-29T05:15:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoaiwp/tree/3.15.0",
+                    "source": "https://github.com/generoi/seoaiwp/tree/3.16.0",
                     "issues": "https://github.com/generoi/seoaiwp/issues"
                 }
             }

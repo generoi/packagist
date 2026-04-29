@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/instagram-feed-pro.git",
-                    "reference": "ec43e73ddc023b0f7468e80686d00e377771e6e2"
+                    "reference": "077b46bd4eb5dafad195ce6c53107d16ae86de95"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/ec43e73ddc023b0f7468e80686d00e377771e6e2",
-                    "reference": "ec43e73ddc023b0f7468e80686d00e377771e6e2",
+                    "url": "https://api.github.com/repos/generoi/instagram-feed-pro/zipball/077b46bd4eb5dafad195ce6c53107d16ae86de95",
+                    "reference": "077b46bd4eb5dafad195ce6c53107d16ae86de95",
                     "shasum": ""
                 },
-                "time": "2026-03-12T04:41:34+00:00",
+                "time": "2026-04-29T05:13:46+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/instagram-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.10.1",
+                    "source": "https://github.com/generoi/instagram-feed-pro/tree/6.10.2",
                     "issues": "https://github.com/generoi/instagram-feed-pro/issues"
                 }
             }
