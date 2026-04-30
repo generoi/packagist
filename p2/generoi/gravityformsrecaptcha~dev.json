@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityformsrecaptcha.git",
-                    "reference": "3a14a07a607ff40fdef3f03a8625140620f40c3d"
+                    "reference": "e7861e7e636ac6cc16e3d32c6e17b241acccd833"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/3a14a07a607ff40fdef3f03a8625140620f40c3d",
-                    "reference": "3a14a07a607ff40fdef3f03a8625140620f40c3d",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/e7861e7e636ac6cc16e3d32c6e17b241acccd833",
+                    "reference": "e7861e7e636ac6cc16e3d32c6e17b241acccd833",
                     "shasum": ""
                 },
-                "time": "2026-04-29T05:14:17+00:00",
+                "time": "2026-04-30T05:16:11+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.gravityhelp.com",
                 "support": {
-                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/2.2.1",
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/2.2.1.1",
                     "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
                 }
             }
