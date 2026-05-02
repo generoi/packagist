@@ -48,6 +48,51 @@
             },
             {
                 "name": "generoi/gds-block-animations",
+                "version": "dev-feat/should-animate-filter-and-onreveal-helper",
+                "version_normalized": "dev-feat/should-animate-filter-and-onreveal-helper",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-block-animations.git",
+                    "reference": "28f033900fc9dc7ef0e3389aee13225db9d5670f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/28f033900fc9dc7ef0e3389aee13225db9d5670f",
+                    "reference": "28f033900fc9dc7ef0e3389aee13225db9d5670f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2026-05-01T15:54:13+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonatan Storlund",
+                        "email": "storlundjonatan@gmail.com"
+                    }
+                ],
+                "description": "Animate WordPress blocks on scroll with customizable settings.",
+                "homepage": "https://github.com/generoi/gds-block-animations",
+                "keywords": [
+                    "gutenberg",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/gds-block-animations/issues",
+                    "source": "https://github.com/generoi/gds-block-animations/tree/feat/should-animate-filter-and-onreveal-helper"
+                }
+            },
+            {
+                "name": "generoi/gds-block-animations",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
