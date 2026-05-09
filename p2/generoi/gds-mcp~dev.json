@@ -555,6 +555,75 @@
             },
             {
                 "name": "generoi/gds-mcp",
+                "version": "dev-feat/woocommerce-integration",
+                "version_normalized": "dev-feat/woocommerce-integration",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-mcp.git",
+                    "reference": "64bed5bd813c01cd777729a77ee1b34a6acb5b2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/64bed5bd813c01cd777729a77ee1b34a6acb5b2f",
+                    "reference": "64bed5bd813c01cd777729a77ee1b34a6acb5b2f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^6.6",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-05-08T10:52:14+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-mcp vendor/bin/phpunit"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "WordPress MCP abilities for content management, translations, and forms",
+                "homepage": "https://github.com/generoi/gds-mcp",
+                "support": {
+                    "source": "https://github.com/generoi/gds-mcp/tree/feat/woocommerce-integration",
+                    "issues": "https://github.com/generoi/gds-mcp/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-mcp",
                 "version": "dev-feature/generic-crud",
                 "version_normalized": "dev-feature/generic-crud",
                 "source": {
@@ -836,12 +905,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-mcp.git",
-                    "reference": "31fda351aa87f55b55a39211d7b0ba77b68d1da5"
+                    "reference": "38010545a842dce0f068c1c8160beb96f0e0652a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/31fda351aa87f55b55a39211d7b0ba77b68d1da5",
-                    "reference": "31fda351aa87f55b55a39211d7b0ba77b68d1da5",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/38010545a842dce0f068c1c8160beb96f0e0652a",
+                    "reference": "38010545a842dce0f068c1c8160beb96f0e0652a",
                     "shasum": ""
                 },
                 "require": {
@@ -853,7 +922,7 @@
                     "wp-phpunit/wp-phpunit": "^6.6",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-04-29T12:25:15+00:00",
+                "time": "2026-05-08T10:55:30+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
