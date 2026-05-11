@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/tableberg-pro.git",
-                    "reference": "89e4c36fac4d8666ef5be6b141f33a102d7c8f4d"
+                    "reference": "52477758bec7b5eb8636cda89b524a4208e92eaf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/tableberg-pro/zipball/89e4c36fac4d8666ef5be6b141f33a102d7c8f4d",
-                    "reference": "89e4c36fac4d8666ef5be6b141f33a102d7c8f4d",
+                    "url": "https://api.github.com/repos/generoi/tableberg-pro/zipball/52477758bec7b5eb8636cda89b524a4208e92eaf",
+                    "reference": "52477758bec7b5eb8636cda89b524a4208e92eaf",
                     "shasum": ""
                 },
-                "time": "2026-05-05T05:13:21+00:00",
+                "time": "2026-05-11T05:29:47+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://github.com/DotCamp/tableberg",
                 "support": {
-                    "source": "https://github.com/generoi/tableberg-pro/tree/1.0.0",
+                    "source": "https://github.com/generoi/tableberg-pro/tree/1.0.1",
                     "issues": "https://github.com/generoi/tableberg-pro/issues"
                 }
             }
