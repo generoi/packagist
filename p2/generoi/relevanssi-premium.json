@@ -277,6 +277,29 @@
                     "source": "https://github.com/generoi/relevanssi-premium/tree/2.29.1",
                     "issues": "https://github.com/generoi/relevanssi-premium/issues"
                 }
+            },
+            {
+                "name": "generoi/relevanssi-premium",
+                "version": "2.30.0",
+                "version_normalized": "2.30.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/relevanssi-premium.git",
+                    "reference": "9d3d3e5bc4d5a58c2c297c5eaa1b96638b37e4fd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/relevanssi-premium/zipball/9d3d3e5bc4d5a58c2c297c5eaa1b96638b37e4fd",
+                    "reference": "9d3d3e5bc4d5a58c2c297c5eaa1b96638b37e4fd",
+                    "shasum": ""
+                },
+                "time": "2026-05-13T05:26:31+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.relevanssi.com/buy-premium/",
+                "support": {
+                    "source": "https://github.com/generoi/relevanssi-premium/tree/2.30.0",
+                    "issues": "https://github.com/generoi/relevanssi-premium/issues"
+                }
             }
         ]
     }
