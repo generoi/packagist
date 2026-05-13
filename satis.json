@@ -19,6 +19,7 @@
         { "type": "vcs", "url": "https://github.com/generoi/gf-pardot-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gf-pipedrive-crm-perks-pro.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityforms.git" },
+        { "type": "vcs", "url": "https://github.com/generoi/gravityforms-elisadesk.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformsactivecampaign.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformsakismet.git" },
         { "type": "vcs", "url": "https://github.com/generoi/gravityformsgoogleanalytics.git" },
