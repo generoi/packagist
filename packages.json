@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$76c18a65ce59e94274e9cf6794d29074143b434f.json": {
-            "sha1": "76c18a65ce59e94274e9cf6794d29074143b434f"
+        "include/all$79c461148519eff92a5003fdc2bdea56186cc052.json": {
+            "sha1": "79c461148519eff92a5003fdc2bdea56186cc052"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -25,6 +25,7 @@
         "generoi/gf-pipedrive-crm-perks-pro",
         "generoi/gravity-forms-user-verification",
         "generoi/gravityforms",
+        "generoi/gravityforms-elisadesk",
         "generoi/gravityforms-multilingual",
         "generoi/gravityformsactivecampaign",
         "generoi/gravityformsakismet",
