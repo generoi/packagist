@@ -67,6 +67,73 @@
                     "issues": "https://github.com/generoi/gravityforms-elisadesk/issues",
                     "source": "https://github.com/generoi/gravityforms-elisadesk/tree/v1.0.0"
                 }
+            },
+            {
+                "name": "generoi/gravityforms-elisadesk",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gravityforms-elisadesk.git",
+                    "reference": "c4df744367e899957960cfd358a00127568f192e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-elisadesk/zipball/c4df744367e899957960cfd358a00127568f192e",
+                    "reference": "c4df744367e899957960cfd358a00127568f192e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.6 || ^10.0"
+                },
+                "time": "2026-05-15T13:26:02+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Genero\\ElisaDesk\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Genero\\ElisaDesk\\Tests\\": "test/unit/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "developers@genero.fi",
+                        "homepage": "https://genero.fi"
+                    }
+                ],
+                "description": "Gravity Forms feed addon that posts entries to Elisa Desk's generic form API.",
+                "homepage": "https://github.com/generoi/gravityforms-elisadesk",
+                "keywords": [
+                    "elisa-desk",
+                    "gravityforms",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/gravityforms-elisadesk/issues",
+                    "source": "https://github.com/generoi/gravityforms-elisadesk/tree/v1.0.1"
+                }
             }
         ]
     }

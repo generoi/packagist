@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gravityforms-elisadesk.git",
-                    "reference": "b0eb9799dad08424b5cc21336aa3df8d9d7ae14f"
+                    "reference": "c4df744367e899957960cfd358a00127568f192e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms-elisadesk/zipball/b0eb9799dad08424b5cc21336aa3df8d9d7ae14f",
-                    "reference": "b0eb9799dad08424b5cc21336aa3df8d9d7ae14f",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-elisadesk/zipball/c4df744367e899957960cfd358a00127568f192e",
+                    "reference": "c4df744367e899957960cfd358a00127568f192e",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "laravel/pint": "^1.17",
                     "phpunit/phpunit": "^9.6 || ^10.0"
                 },
-                "time": "2026-05-13T21:35:15+00:00",
+                "time": "2026-05-15T13:26:02+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -66,7 +66,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/generoi/gravityforms-elisadesk/issues",
-                    "source": "https://github.com/generoi/gravityforms-elisadesk/tree/v1.0.0"
+                    "source": "https://github.com/generoi/gravityforms-elisadesk/tree/v1.0.1"
                 }
             }
         ]
