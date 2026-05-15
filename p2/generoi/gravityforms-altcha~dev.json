@@ -1,0 +1,69 @@
+{
+    "packages": {
+        "generoi/gravityforms-altcha": [
+            {
+                "name": "generoi/gravityforms-altcha",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gravityforms-altcha.git",
+                    "reference": "7932f8eb6f7ec717d660fda1eecdfa73167000d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-altcha/zipball/7932f8eb6f7ec717d660fda1eecdfa73167000d3",
+                    "reference": "7932f8eb6f7ec717d660fda1eecdfa73167000d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "altcha-org/altcha": "^2.0",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^10.0"
+                },
+                "time": "2026-05-15T16:08:53+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Genero\\GravityFormsAltcha\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Genero\\GravityFormsAltcha\\Tests\\": "test/unit/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "Invisible ALTCHA spam protection for Gravity Forms",
+                "homepage": "https://github.com/generoi/gravityforms-altcha",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms-altcha/tree/main",
+                    "issues": "https://github.com/generoi/gravityforms-altcha/issues"
+                }
+            }
+        ]
+    }
+}
