@@ -7,6 +7,11 @@ on:
   push:
     branches:
       - master
+  schedule:
+    # Daily 04:30 UTC — picks up new upstream releases for packages declared
+    # in `release-packages.json` (GitHub-released proprietary plugins that
+    # don't have a Genero-owned fork driving satis via the VCS pattern).
+    - cron: '30 4 * * *'
 env:
   BUILD_DIR: build
 
@@ -38,6 +43,14 @@ jobs:
           key: ${{ runner.os }}-php-${{ steps.get-date.outputs.date }}
           restore-keys: ${{ runner.os }}-php-
 
+      - name: Synthesise GitHub-release package entries
+        env:
+          # GitHub-released closed-source plugins live under public repos —
+          # GITHUB_TOKEN is enough; falls back to anonymous (60/h rate limit)
+          # if absent, which is fine since we run at most once a day.
+          GITHUB_TOKEN: ${{ secrets.GENEROI_DEPLOY_PAT || secrets.GITHUB_TOKEN }}
+        run: node generate-release-packages.js satis.json satis.merged.json
+
       - name: Docker pull
         run: docker pull composer/satis
 
@@ -49,14 +62,14 @@ jobs:
             --user $(id -u):$(id -g) \
             --volume $(pwd):/build \
             --volume "${COMPOSER_HOME}:/composer" \
-            composer/satis -vvv build /build/satis.json /build/${{ env.BUILD_DIR }} --no-interaction
+            composer/satis -vvv build /build/satis.merged.json /build/${{ env.BUILD_DIR }} --no-interaction
 
       - name: Rewrite dist URLs for release-based packages
         run: node rewrite-dist-urls.js ${{ env.BUILD_DIR }}
 
       - name: Publish to GitHub pages
         run: |
-          rm composer.json
+          rm composer.json satis.merged.json
           git checkout gh-pages
           rm -rf include/*
           cp -R ${{ env.BUILD_DIR }}/* .
