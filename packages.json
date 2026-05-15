@@ -1,13 +1,12 @@
 {
     "packages": [],
     "includes": {
-        "include/all$73528ed62f83f95c218329832d83c87bdf10d69a.json": {
-            "sha1": "73528ed62f83f95c218329832d83c87bdf10d69a"
+        "include/all$7792699d11945d59174e2219c418d3c44768b108.json": {
+            "sha1": "7792699d11945d59174e2219c418d3c44768b108"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
     "available-packages": [
-        "altcha-org/altcha",
         "generoi/advanced-custom-fields-pro",
         "generoi/cff-extensions",
         "generoi/complianz-gdpr-premium",
