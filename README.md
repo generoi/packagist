@@ -1,6 +1,28 @@
 # generoi.github.io/packagist
 
-### Add a plugin
+This satis exposes Composer packages for plugins we use across Genero
+projects. There are two distinct mechanisms depending on how upstream
+distributes the plugin:
+
+- **Genero-owned fork (default)** — a `generoi/<slug>` repo holds a
+  curated `composer.json` declaring `type: wordpress-plugin` plus a CI
+  workflow that polls upstream, commits new versions, tags, and triggers
+  a satis rebuild. Listed under `repositories` in [`satis.json`](./satis.json)
+  as `type: vcs`. The release zip URL is rewritten post-build by
+  [`rewrite-dist-urls.js`](./rewrite-dist-urls.js) when entries are present
+  in [`release-dist.json`](./release-dist.json).
+
+- **Direct GitHub-release mirror** — for plugins that already publish
+  signed, prebuilt release zips and don't need a Genero fork (typically
+  open-distribution but closed-source). Listed in
+  [`release-packages.json`](./release-packages.json);
+  [`generate-release-packages.js`](./generate-release-packages.js) runs
+  before satis build, queries the GitHub API for the source repo's
+  releases, and synthesises a `package`-type entry per stable release
+  with `dist.url` pointing at the asset on GitHub. The Satis Build
+  workflow runs daily so new upstream releases get picked up automatically.
+
+### Add a plugin (Genero-owned fork)
 
 1. Create repository with a basic `composer.json`
 
@@ -47,6 +69,42 @@
 6. Trigger an initial build which will download the latest plugin version, commit it, tag it, push it, release it and if successful trigger a rebuild in this repository.
 
 7. Whenever a new version is found using the cron schedule, the plugin will be updated, released and finally a rebuild of this repository will be once again triggered.
+
+### Add a plugin (direct GitHub-release mirror)
+
+Use this when upstream already publishes a versioned release zip on
+GitHub and we don't need a Genero-owned fork (no license key to inject,
+no proprietary metadata, no custom `composer.json`).
+
+1. Verify the upstream repo publishes a stable asset filename on every
+   release (e.g. `altcha.zip` for `altcha-org/altcha-wordpress-next`).
+   Inspect a recent release page to confirm.
+
+2. Add an entry to [`release-packages.json`](./release-packages.json):
+
+    ```json
+    {
+        "altcha-org/altcha": {
+            "source": "altcha-org/altcha-wordpress-next",
+            "asset":  "altcha.zip",
+            "type":   "wordpress-plugin"
+        }
+    }
+    ```
+
+    Optional fields: `homepage`, `require` (applied uniformly to every
+    synthesised version — only useful if upstream's dependency set is
+    stable). `type` defaults to `wordpress-plugin`.
+
+3. Trigger a Satis Build (manually via the Actions tab or just wait for
+   the daily cron at 04:30 UTC). The script enumerates the upstream's
+   releases, synthesises one `package` entry per stable release, and
+   exposes them through this satis under the chosen package name.
+
+4. In the consumer project (Bedrock site, etc.) add the satis as a
+   `composer` repository (already done in agency projects) and
+   `composer require <name>:^<version>` — Composer-installers will route
+   it into `web/app/plugins/<slug>/` via Bedrock's `installer-paths`.
 
 ### Prerequisites
 
