@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/youtube-feed-pro.git",
-                    "reference": "65084fc26c9978efe725b6d3680067f8f781b937"
+                    "reference": "8a21da84dfdc129896a857cb205992c2e9bef0e4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/65084fc26c9978efe725b6d3680067f8f781b937",
-                    "reference": "65084fc26c9978efe725b6d3680067f8f781b937",
+                    "url": "https://api.github.com/repos/generoi/youtube-feed-pro/zipball/8a21da84dfdc129896a857cb205992c2e9bef0e4",
+                    "reference": "8a21da84dfdc129896a857cb205992c2e9bef0e4",
                     "shasum": ""
                 },
-                "time": "2026-04-23T05:09:22+00:00",
+                "time": "2026-05-15T05:27:46+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/youtube-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.6.5",
+                    "source": "https://github.com/generoi/youtube-feed-pro/tree/2.6.6",
                     "issues": "https://github.com/generoi/youtube-feed-pro/issues"
                 }
             }
