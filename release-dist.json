@@ -1,3 +1,4 @@
 {
-    "generoi/gds-assistant": "https://github.com/generoi/gds-assistant/releases/download/{tag}/gds-assistant.zip"
+    "generoi/gds-assistant": "https://github.com/generoi/gds-assistant/releases/download/{tag}/gds-assistant.zip",
+    "generoi/gravityforms-altcha": "https://github.com/generoi/gravityforms-altcha/releases/download/{tag}/gravityforms-altcha.zip"
 }
