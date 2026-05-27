@@ -905,12 +905,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-mcp.git",
-                    "reference": "b5e1d6710c40b9a1ca677e977277ac85881899b9"
+                    "reference": "d02ff10d73ed9d94c662299e95264555fd3ee79d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/b5e1d6710c40b9a1ca677e977277ac85881899b9",
-                    "reference": "b5e1d6710c40b9a1ca677e977277ac85881899b9",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/d02ff10d73ed9d94c662299e95264555fd3ee79d",
+                    "reference": "d02ff10d73ed9d94c662299e95264555fd3ee79d",
                     "shasum": ""
                 },
                 "require": {
@@ -922,7 +922,7 @@
                     "wp-phpunit/wp-phpunit": "^7.0",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-05-26T15:19:20+00:00",
+                "time": "2026-05-27T17:14:15+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -1034,75 +1034,6 @@
                 "homepage": "https://github.com/generoi/gds-mcp",
                 "support": {
                     "source": "https://github.com/generoi/gds-mcp/tree/nav-menu-items-ability",
-                    "issues": "https://github.com/generoi/gds-mcp/issues"
-                }
-            },
-            {
-                "name": "generoi/gds-mcp",
-                "version": "dev-undo-restore",
-                "version_normalized": "dev-undo-restore",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/generoi/gds-mcp.git",
-                    "reference": "bad6ca3bea101110823d05f62c71a38bc5a3e37b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/bad6ca3bea101110823d05f62c71a38bc5a3e37b",
-                    "reference": "bad6ca3bea101110823d05f62c71a38bc5a3e37b",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=8.0.0"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.17",
-                    "phpunit/phpunit": "^9.0",
-                    "wp-phpunit/wp-phpunit": "^7.0",
-                    "yoast/phpunit-polyfills": "^2.0"
-                },
-                "time": "2026-05-26T16:19:22+00:00",
-                "type": "wordpress-plugin",
-                "autoload": {
-                    "psr-4": {
-                        "GeneroWP\\MCP\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "GeneroWP\\MCP\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "lint": [
-                        "pint --test"
-                    ],
-                    "lint:fix": [
-                        "pint"
-                    ],
-                    "test": [
-                        "phpunit"
-                    ],
-                    "test:wp-env": [
-                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-mcp vendor/bin/phpunit"
-                    ],
-                    "build:production": [
-                        "@composer install --optimize-autoloader --no-dev"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Genero",
-                        "email": "info@genero.fi"
-                    }
-                ],
-                "description": "WordPress MCP abilities for content management, translations, and forms",
-                "homepage": "https://github.com/generoi/gds-mcp",
-                "support": {
-                    "source": "https://github.com/generoi/gds-mcp/tree/undo-restore",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 }
             },
