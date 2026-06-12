@@ -299,6 +299,29 @@
                     "source": "https://github.com/generoi/seoaiwp/tree/3.30.0",
                     "issues": "https://github.com/generoi/seoaiwp/issues"
                 }
+            },
+            {
+                "name": "generoi/seoaiwp",
+                "version": "3.31.0",
+                "version_normalized": "3.31.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoaiwp.git",
+                    "reference": "34f018729efec666bef99f9bfb952a366f626e8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoaiwp/zipball/34f018729efec666bef99f9bfb952a366f626e8c",
+                    "reference": "34f018729efec666bef99f9bfb952a366f626e8c",
+                    "shasum": ""
+                },
+                "time": "2026-06-12T05:46:24+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoaiwp/tree/3.31.0",
+                    "issues": "https://github.com/generoi/seoaiwp/issues"
+                }
             }
         ]
     }
