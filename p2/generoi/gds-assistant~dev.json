@@ -1660,7 +1660,7 @@
                 "description": "AI-powered admin assistant with WordPress tool access",
                 "homepage": "https://github.com/generoi/gds-assistant",
                 "support": {
-                    "source": "https://github.com/generoi/gds-assistant/tree/main",
+                    "source": "https://github.com/generoi/gds-assistant/tree/v0.5.0",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 }
             },
