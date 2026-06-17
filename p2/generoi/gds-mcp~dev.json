@@ -210,6 +210,81 @@
             },
             {
                 "name": "generoi/gds-mcp",
+                "version": "dev-feat/content-replace-ability",
+                "version_normalized": "dev-feat/content-replace-ability",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-mcp.git",
+                    "reference": "19c12a0cf70d9b920dec730dfb1ddb54939c6cb9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/19c12a0cf70d9b920dec730dfb1ddb54939c6cb9",
+                    "reference": "19c12a0cf70d9b920dec730dfb1ddb54939c6cb9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "php-stubs/wp-cli-stubs": "^2.12",
+                    "phpstan/phpstan": "^2.2",
+                    "phpunit/phpunit": "^9.0",
+                    "szepeviktor/phpstan-wordpress": "^2.0",
+                    "wp-phpunit/wp-phpunit": "^7.0",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-06-16T17:59:52+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-mcp vendor/bin/phpunit"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ],
+                    "stan": [
+                        "./vendor/bin/phpstan analyse --memory-limit=1G"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "WordPress MCP abilities for content management, translations, and forms",
+                "homepage": "https://github.com/generoi/gds-mcp",
+                "support": {
+                    "source": "https://github.com/generoi/gds-mcp/tree/feat/content-replace-ability",
+                    "issues": "https://github.com/generoi/gds-mcp/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-mcp",
                 "version": "dev-feat/gravity-forms-feeds-ability",
                 "version_normalized": "dev-feat/gravity-forms-feeds-ability",
                 "source": {
@@ -1124,12 +1199,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-mcp.git",
-                    "reference": "dc585f52f4053b98ded01624e75b840137d79850"
+                    "reference": "e9b27061fe1f2467c8e122f36abed40d7b869909"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/dc585f52f4053b98ded01624e75b840137d79850",
-                    "reference": "dc585f52f4053b98ded01624e75b840137d79850",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/e9b27061fe1f2467c8e122f36abed40d7b869909",
+                    "reference": "e9b27061fe1f2467c8e122f36abed40d7b869909",
                     "shasum": ""
                 },
                 "require": {
@@ -1144,7 +1219,7 @@
                     "wp-phpunit/wp-phpunit": "^7.0",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-06-15T11:03:50+00:00",
+                "time": "2026-06-16T18:03:17+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -1189,7 +1264,7 @@
                 "description": "WordPress MCP abilities for content management, translations, and forms",
                 "homepage": "https://github.com/generoi/gds-mcp",
                 "support": {
-                    "source": "https://github.com/generoi/gds-mcp/tree/v0.5.2",
+                    "source": "https://github.com/generoi/gds-mcp/tree/v0.6.0",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 }
             },
