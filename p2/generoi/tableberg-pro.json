@@ -115,6 +115,29 @@
                     "source": "https://github.com/generoi/tableberg-pro/tree/1.0.3",
                     "issues": "https://github.com/generoi/tableberg-pro/issues"
                 }
+            },
+            {
+                "name": "generoi/tableberg-pro",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/tableberg-pro.git",
+                    "reference": "a79ff5fc37d38a011eb5a262ce8467b598ce1d19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/tableberg-pro/zipball/a79ff5fc37d38a011eb5a262ce8467b598ce1d19",
+                    "reference": "a79ff5fc37d38a011eb5a262ce8467b598ce1d19",
+                    "shasum": ""
+                },
+                "time": "2026-06-19T05:55:18+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://github.com/DotCamp/tableberg",
+                "support": {
+                    "source": "https://github.com/generoi/tableberg-pro/tree/1.0.4",
+                    "issues": "https://github.com/generoi/tableberg-pro/issues"
+                }
             }
         ]
     }
