@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$68f280ff65c0cc8899e16f98d6a95c545d117791.json": {
-            "sha1": "68f280ff65c0cc8899e16f98d6a95c545d117791"
+        "include/all$92a04ac462a4c8e41d6757beee81b6c74e0447b3.json": {
+            "sha1": "92a04ac462a4c8e41d6757beee81b6c74e0447b3"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -21,6 +21,7 @@
         "generoi/filebird-pro",
         "generoi/gds-assistant",
         "generoi/gds-block-animations",
+        "generoi/gds-content-translation",
         "generoi/gds-mcp",
         "generoi/gf-pardot-pro",
         "generoi/gf-pipedrive-crm-perks-pro",
