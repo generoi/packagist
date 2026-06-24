@@ -2,77 +2,294 @@
     "name": "genero/packagist",
     "homepage": "https://generoi.github.io/packagist",
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/generoi/advanced-custom-fields-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/b2b-roles.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/cff-extensions.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/complianz-gdpr-premium.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/custom-facebook-feed-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/custom-twitter-feeds-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/facetwp.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/facetwp-flyout.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/facetwp-i18n.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/facetwp-hierarchy-select.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/facetwp-relevanssi.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/filebird-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gds-assistant.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gds-block-animations.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gds-mcp.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gf-pardot-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gf-pipedrive-crm-perks-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityforms.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityforms-altcha.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityforms-elisadesk.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityformsactivecampaign.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityformsakismet.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityformsgoogleanalytics.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityformshubspot.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityformsmailchimp.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityformsrecaptcha.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityformssurvey.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityformswebhooks.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravityforms-multilingual.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/gravity-forms-user-verification.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/instagram-feed-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/kinsta-mu-plugins" },
-        { "type": "vcs", "url": "https://github.com/generoi/multilingualpress" },
-        { "type": "vcs", "url": "https://github.com/generoi/pixelyoursite-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/polylang-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/polylang-wc.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/qliro-one-for-woocommerce.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/relevanssi-premium.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/role-based-pricing-for-woocommerce.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/seoaiwp.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/seoai-client.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/sitepress-multilingual-cms.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/social-wall.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/tableberg-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wc-matkahuolto.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wb-paytrail-maksutavat.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wc-paytrail.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wc-smartship.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-cost-of-goods.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-gateway-verifone.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-gift-cards.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-measurement-price-calculator.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-multilingual.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-product-addons.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-subscriptions.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woocommerce-request-a-quote.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woo-carrier-agents.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/woo-printables.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wp-all-export-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wp-all-import-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wp-mail-smtp-pro.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wp-media-folder.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wpae-woocommerce-add-on.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wpai-acf-add-on.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wpai-user-add-on.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wpai-woocommerce-add-on.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wpml-all-import.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wpml-string-translation.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wpml-media-translation.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/wpml-wpforms.git" },
-        { "type": "vcs", "url": "https://github.com/generoi/youtube-feed-pro.git" }
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/advanced-custom-fields-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/b2b-roles.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/cff-extensions.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/complianz-gdpr-premium.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/custom-facebook-feed-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/custom-twitter-feeds-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/facetwp.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/facetwp-flyout.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/facetwp-i18n.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/facetwp-hierarchy-select.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/facetwp-relevanssi.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/filebird-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gds-assistant.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gds-block-animations.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gds-mcp.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gds-content-translation.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gf-pardot-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gf-pipedrive-crm-perks-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityforms.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityforms-altcha.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityforms-elisadesk.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityformsactivecampaign.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityformsakismet.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityformsgoogleanalytics.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityformshubspot.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityformsmailchimp.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityformsrecaptcha.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityformssurvey.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityformswebhooks.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravityforms-multilingual.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/gravity-forms-user-verification.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/instagram-feed-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/kinsta-mu-plugins"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/multilingualpress"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/pixelyoursite-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/polylang-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/polylang-wc.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/qliro-one-for-woocommerce.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/relevanssi-premium.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/role-based-pricing-for-woocommerce.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/seoaiwp.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/seoai-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/sitepress-multilingual-cms.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/social-wall.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/tableberg-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wc-matkahuolto.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wb-paytrail-maksutavat.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wc-paytrail.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wc-smartship.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woocommerce-cost-of-goods.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woocommerce-gateway-verifone.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woocommerce-gift-cards.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woocommerce-measurement-price-calculator.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woocommerce-multilingual.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woocommerce-product-addons.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woocommerce-subscriptions.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woocommerce-request-a-quote.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woo-carrier-agents.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/woo-printables.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wp-all-export-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wp-all-import-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wp-mail-smtp-pro.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wp-media-folder.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wpae-woocommerce-add-on.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wpai-acf-add-on.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wpai-user-add-on.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wpai-woocommerce-add-on.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wpml-all-import.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wpml-string-translation.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wpml-media-translation.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/wpml-wpforms.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/generoi/youtube-feed-pro.git"
+        }
     ],
     "require-all": true
 }
