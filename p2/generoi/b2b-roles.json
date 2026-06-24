@@ -52,6 +52,58 @@
                     "source": "https://github.com/generoi/b2b-roles/tree/v0.1.0",
                     "issues": "https://github.com/generoi/b2b-roles/issues"
                 }
+            },
+            {
+                "name": "generoi/b2b-roles",
+                "version": "v0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/b2b-roles.git",
+                    "reference": "b17abceb6e9eb7cf8df2a9336080bbe874054d91"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/b2b-roles/zipball/b17abceb6e9eb7cf8df2a9336080bbe874054d91",
+                    "reference": "b17abceb6e9eb7cf8df2a9336080bbe874054d91",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.29"
+                },
+                "time": "2026-06-24T10:57:41+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\B2bRoles\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "Registers B2B user roles and capabilities.",
+                "homepage": "https://github.com/generoi/b2b-roles",
+                "support": {
+                    "source": "https://github.com/generoi/b2b-roles/tree/v0.1.1",
+                    "issues": "https://github.com/generoi/b2b-roles/issues"
+                }
             }
         ]
     }

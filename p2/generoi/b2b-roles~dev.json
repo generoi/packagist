@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/b2b-roles.git",
-                    "reference": "cd3cebe594269125b77e332b047262bd0cc10c14"
+                    "reference": "b17abceb6e9eb7cf8df2a9336080bbe874054d91"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/b2b-roles/zipball/cd3cebe594269125b77e332b047262bd0cc10c14",
-                    "reference": "cd3cebe594269125b77e332b047262bd0cc10c14",
+                    "url": "https://api.github.com/repos/generoi/b2b-roles/zipball/b17abceb6e9eb7cf8df2a9336080bbe874054d91",
+                    "reference": "b17abceb6e9eb7cf8df2a9336080bbe874054d91",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                 "require-dev": {
                     "laravel/pint": "^1.29"
                 },
-                "time": "2026-06-23T07:59:11+00:00",
+                "time": "2026-06-24T10:57:41+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -50,7 +50,7 @@
                 "description": "Registers B2B user roles and capabilities.",
                 "homepage": "https://github.com/generoi/b2b-roles",
                 "support": {
-                    "source": "https://github.com/generoi/b2b-roles/tree/v0.1.0",
+                    "source": "https://github.com/generoi/b2b-roles/tree/v0.1.1",
                     "issues": "https://github.com/generoi/b2b-roles/issues"
                 }
             }
