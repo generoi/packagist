@@ -55,6 +55,116 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/v1.0.0",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 }
+            },
+            {
+                "name": "generoi/gds-content-translation",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-content-translation.git",
+                    "reference": "5a596df6a37c56bf38c83bdc1dd3787fbf9dd4e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/5a596df6a37c56bf38c83bdc1dd3787fbf9dd4e0",
+                    "reference": "5a596df6a37c56bf38c83bdc1dd3787fbf9dd4e0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17"
+                },
+                "time": "2026-06-24T10:12:57+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\ContentTranslation\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "Polylang Pro helpers for block translation rules, link remapping, and editorial translation status",
+                "homepage": "https://github.com/generoi/gds-content-translation",
+                "support": {
+                    "source": "https://github.com/generoi/gds-content-translation/tree/v1.0.1",
+                    "issues": "https://github.com/generoi/gds-content-translation/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-content-translation",
+                "version": "v1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-content-translation.git",
+                    "reference": "268d58d49e063e7ce3d3efb2d7b7439ed2fa3f21"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/268d58d49e063e7ce3d3efb2d7b7439ed2fa3f21",
+                    "reference": "268d58d49e063e7ce3d3efb2d7b7439ed2fa3f21",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17"
+                },
+                "time": "2026-06-24T10:14:07+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\ContentTranslation\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "Polylang Pro helpers for block translation rules, link remapping, and editorial translation status",
+                "homepage": "https://github.com/generoi/gds-content-translation",
+                "support": {
+                    "source": "https://github.com/generoi/gds-content-translation/tree/v1.0.2",
+                    "issues": "https://github.com/generoi/gds-content-translation/issues"
+                }
             }
         ]
     }
