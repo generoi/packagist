@@ -190,6 +190,28 @@
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.6.0"
                 }
+            },
+            {
+                "name": "kinsta/kinsta-mu-plugins",
+                "version": "3.6.1",
+                "version_normalized": "3.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/kinsta-mu-plugins.git",
+                    "reference": "71bf69d55c78c40563769fef03e5beba972dec01"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/71bf69d55c78c40563769fef03e5beba972dec01",
+                    "reference": "71bf69d55c78c40563769fef03e5beba972dec01",
+                    "shasum": ""
+                },
+                "time": "2026-06-26T05:37:22+00:00",
+                "type": "wordpress-muplugin",
+                "homepage": "https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/",
+                "support": {
+                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.6.1"
+                }
             }
         ]
     }
