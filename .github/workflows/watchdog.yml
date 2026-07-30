@@ -20,12 +20,23 @@
 #   5. Repos missing the PACKAGIST_UPDATE_PAT grant. Since #10 a missing grant
 #      warns and exits green by design, so nothing else would ever report it.
 #
-# REQUIRED SECRET — SATIS_WATCHDOG_PAT, a fine-grained PAT with resource owner
-# `generoi`, access to all repositories, and read-only:
-#   Metadata, Contents (read mirrors' build.yml), Actions (read workflow states),
-#   Secrets (read org-secret grants).
-# GITHUB_TOKEN cannot be used: it is scoped to this repo only, and every check
-# here is cross-repo.
+# AUTH — every check here is cross-repo, so GITHUB_TOKEN is no use: it is scoped
+# to this repo alone. Authenticates as the `genero-watchdog-bot` GitHub App,
+# installed org-wide, via WATCHDOG_BOT_APP_ID / WATCHDOG_BOT_PRIVATE_KEY.
+#
+# That app is deliberately READ-ONLY across the board — Metadata, Contents,
+# Actions, Secrets (names only, never values), Variables and Pull requests, all
+# `read`. It is a general-purpose identity for unattended monitoring, so any
+# future watchdog can reuse it. Keep it read-only: an identity that cannot change
+# anything is trivial to approve and safe to install everywhere. If something
+# ever needs to write, give it its own app rather than widening this one — the
+# same reason this is not folded into `genero-vuln-bot`, which holds
+# `contents:write` org-wide for opening PRs.
+#
+# A PAT was the first plan and is a bad fit: it expires within a year and dies
+# with the account that created it, which is a poor property for a job whose
+# entire purpose is noticing things that silently stopped working. App tokens are
+# minted per run, last an hour, and never need rotating.
 
 name: Watchdog
 
@@ -65,15 +76,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # `owner` rather than the default (this repo) so the minted token carries
+      # the installation's full org-wide repository access, not just packagist.
+      - name: Mint a watchdog token
+        id: app-token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ secrets.WATCHDOG_BOT_APP_ID }}
+          private-key: ${{ secrets.WATCHDOG_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
       - name: Audit the mirror pipeline
         id: audit
         env:
-          GH_TOKEN: ${{ secrets.SATIS_WATCHDOG_PAT }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           set -uo pipefail
 
           if [ -z "${GH_TOKEN:-}" ]; then
-            echo "::error title=Missing secret::SATIS_WATCHDOG_PAT is not set. See the header of this workflow file for the exact scopes required."
+            echo "::error title=No token::Could not mint a genero-watchdog-bot token. Check WATCHDOG_BOT_APP_ID / WATCHDOG_BOT_PRIVATE_KEY are granted to this repo, and that the app is installed org-wide. See the header of this workflow file."
             exit 1
           fi
 
