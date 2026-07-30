@@ -91,6 +91,12 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
+          # GitHub invokes this as `bash -e {0}`, i.e. errexit is already on and
+          # `set -u` would not clear it. Turn it off explicitly: this script polls
+          # ~72 repos and is written to tolerate individual API failures, checking
+          # each status itself (see the `grant` tri-state below). With -e left on,
+          # the first repo that 404s kills the whole audit and reports nothing.
+          set +e
           set -uo pipefail
 
           if [ -z "${GH_TOKEN:-}" ]; then
@@ -117,14 +123,14 @@ jobs:
           while read -r repo; do
             [ -z "$repo" ] && continue
 
-            meta=$(gh api "repos/$repo" --jq '[.private, .archived] | @tsv' 2>/dev/null)
+            meta=$(gh api "repos/$repo" --jq '[.private, .archived] | @tsv' 2>/dev/null || true)
             private=$(printf '%s' "$meta" | cut -f1)
             archived=$(printf '%s' "$meta" | cut -f2)
             # Archived repos cannot run workflows at all; that is intentional.
             [ "$archived" = "true" ] && continue
 
             wf=$(gh api "repos/$repo/actions/workflows" \
-                   --jq '.workflows[] | select(.name=="Build") | [.state, .id] | @tsv' 2>/dev/null)
+                   --jq '.workflows[] | select(.name=="Build") | [.state, .id] | @tsv' 2>/dev/null || true)
 
             if [ -z "$wf" ]; then
               if printf '%s\n' "$MANUAL" | grep -qxF "$repo"; then
@@ -145,7 +151,7 @@ jobs:
             fi
 
             last=$(gh api "repos/$repo/actions/workflows/$id/runs?per_page=1" \
-                     --jq '.workflow_runs[0].created_at // empty' 2>/dev/null)
+                     --jq '.workflow_runs[0].created_at // empty' 2>/dev/null || true)
             if [ -z "$last" ]; then
               note "NEVER_RAN|$repo|Build is active but has no runs on record"
             else
@@ -157,7 +163,7 @@ jobs:
 
           # ---- 4: this repo's own scheduled rebuild --------------------------
           sstate=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows" \
-                     --jq '.workflows[] | select(.name=="Satis Build") | .state' 2>/dev/null)
+                     --jq '.workflows[] | select(.name=="Satis Build") | .state' 2>/dev/null || true)
           if [ "$sstate" != "active" ]; then
             note "INDEX_STALE|$GITHUB_REPOSITORY|Satis Build is '$sstate' — the 3h rebuild safety net is gone; the keepalive in satis.yml has failed"
           fi
@@ -172,7 +178,7 @@ jobs:
             # Explicit tri-state: granted / not granted / could not tell. Do not
             # treat an API failure as "not granted" or the report fills with noise.
             grant=$(gh api "repos/$repo/actions/organization-secrets" \
-                      --jq 'if ([.secrets[].name] | index("PACKAGIST_UPDATE_PAT")) then "yes" else "no" end' 2>/dev/null)
+                      --jq 'if ([.secrets[].name] | index("PACKAGIST_UPDATE_PAT")) then "yes" else "no" end' 2>/dev/null || true)
             case "$grant" in
               yes) ;;
               no)  note "NO_PAT_GRANT|$repo|not in the PACKAGIST_UPDATE_PAT allow-list — rebuilds wait for the 3h cron" ;;
@@ -191,7 +197,7 @@ jobs:
           urgent=0
           : > alert.txt
           for kind in INDEX_STALE DISABLED NO_BUILD_WF NEVER_RAN STALE_RUN NO_PAT_GRANT; do
-            rows=$(grep "^$kind|" findings.txt 2>/dev/null)
+            rows=$(grep "^$kind|" findings.txt 2>/dev/null || true)
             [ -z "$rows" ] && continue
             case "$kind" in
               INDEX_STALE)  title="Rebuild safety net gone"; sev=urgent ;;
