@@ -23,7 +23,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wc-smartship/tree/2.0.4",
                     "issues": "https://github.com/generoi/wc-smartship/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

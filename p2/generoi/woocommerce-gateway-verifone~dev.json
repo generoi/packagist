@@ -22,7 +22,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-gateway-verifone/tree/fix/deprecated-dynamic-props",
                     "issues": "https://github.com/generoi/woocommerce-gateway-verifone/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-gateway-verifone",
@@ -46,7 +47,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-gateway-verifone/tree/1.5.0",
                     "issues": "https://github.com/generoi/woocommerce-gateway-verifone/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

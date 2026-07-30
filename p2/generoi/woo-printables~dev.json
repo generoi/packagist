@@ -23,7 +23,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woo-printables/tree/1.6.1",
                     "issues": "https://github.com/generoi/woo-printables/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

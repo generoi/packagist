@@ -3,25 +3,48 @@
         "generoi/seoaiwp": [
             {
                 "name": "generoi/seoaiwp",
+                "version": "dev-chore/bump-checkout-v5",
+                "version_normalized": "dev-chore/bump-checkout-v5",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoaiwp.git",
+                    "reference": "e8702102000b6a56e3afa69f0b18b1bb0142a51c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoaiwp/zipball/e8702102000b6a56e3afa69f0b18b1bb0142a51c",
+                    "reference": "e8702102000b6a56e3afa69f0b18b1bb0142a51c",
+                    "shasum": ""
+                },
+                "time": "2026-07-30T12:49:03+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoaiwp/tree/chore/bump-checkout-v5",
+                    "issues": "https://github.com/generoi/seoaiwp/issues"
+                }
+            },
+            {
+                "name": "generoi/seoaiwp",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoaiwp.git",
-                    "reference": "1959783a9d449b02a8e66462174304950f149f02"
+                    "reference": "ce74390fe98ff07f2e4b83052073195c417639b4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoaiwp/zipball/1959783a9d449b02a8e66462174304950f149f02",
-                    "reference": "1959783a9d449b02a8e66462174304950f149f02",
+                    "url": "https://api.github.com/repos/generoi/seoaiwp/zipball/ce74390fe98ff07f2e4b83052073195c417639b4",
+                    "reference": "ce74390fe98ff07f2e4b83052073195c417639b4",
                     "shasum": ""
                 },
-                "time": "2026-07-30T10:50:39+00:00",
+                "time": "2026-07-30T12:50:58+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",
                 "support": {
-                    "source": "https://github.com/generoi/seoaiwp/tree/3.44.0",
+                    "source": "https://github.com/generoi/seoaiwp/tree/master",
                     "issues": "https://github.com/generoi/seoaiwp/issues"
                 }
             }
