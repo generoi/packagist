@@ -23,7 +23,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-measurement-price-calculator/tree/3.23.7",
                     "issues": "https://github.com/generoi/woocommerce-measurement-price-calculator/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

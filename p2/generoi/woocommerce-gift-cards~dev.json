@@ -23,7 +23,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-gift-cards/tree/2.4.1",
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-gift-cards",
@@ -46,7 +47,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-gift-cards/tree/patch-wp_is_block_theme",
                     "issues": "https://github.com/generoi/woocommerce-gift-cards/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

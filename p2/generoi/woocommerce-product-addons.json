@@ -43,7 +43,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues",
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/v3.0.33"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -87,7 +88,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues",
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/v3.8.0"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -110,7 +112,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.0.3",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -133,7 +136,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.1.0",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -156,7 +160,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.1.1",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -179,7 +184,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.1.2",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -202,7 +208,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.2.0",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -225,7 +232,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.2.1",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -248,7 +256,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.3.0",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -271,7 +280,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.3.1",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -294,7 +304,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.4.0",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -317,7 +328,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.5.0",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -340,7 +352,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.6.0",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "generoi/woocommerce-product-addons",
@@ -363,7 +376,8 @@
                 "support": {
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.7.0",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

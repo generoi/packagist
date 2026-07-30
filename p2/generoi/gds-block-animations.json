@@ -90,6 +90,51 @@
                     "issues": "https://github.com/generoi/gds-block-animations/issues",
                     "source": "https://github.com/generoi/gds-block-animations/tree/v0.1.1"
                 }
+            },
+            {
+                "name": "generoi/gds-block-animations",
+                "version": "v0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-block-animations.git",
+                    "reference": "5739f9e324fb25c4533d3dcfea68c264ce31c37c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/5739f9e324fb25c4533d3dcfea68c264ce31c37c",
+                    "reference": "5739f9e324fb25c4533d3dcfea68c264ce31c37c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2026-03-30T11:30:07+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonatan Storlund",
+                        "email": "storlundjonatan@gmail.com"
+                    }
+                ],
+                "description": "Animate WordPress blocks on scroll with customizable settings.",
+                "homepage": "https://github.com/generoi/gds-block-animations",
+                "keywords": [
+                    "gutenberg",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/gds-block-animations/issues",
+                    "source": "https://github.com/generoi/gds-block-animations/tree/v0.2.0"
+                }
             }
         ]
     }
