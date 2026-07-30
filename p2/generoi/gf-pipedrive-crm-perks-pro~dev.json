@@ -72,43 +72,20 @@
             },
             {
                 "name": "generoi/gf-pipedrive-crm-perks-pro",
-                "version": "dev-fix/surface-crmperks-refusal",
-                "version_normalized": "dev-fix/surface-crmperks-refusal",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:generoi/gf-pipedrive-crm-perks-pro.git",
-                    "reference": "e4e1f9e0cc949af4f37801b3e7bb181cda8af147"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gf-pipedrive-crm-perks-pro/zipball/e4e1f9e0cc949af4f37801b3e7bb181cda8af147",
-                    "reference": "e4e1f9e0cc949af4f37801b3e7bb181cda8af147",
-                    "shasum": ""
-                },
-                "time": "2026-07-30T13:00:22+00:00",
-                "type": "wordpress-plugin",
-                "homepage": "https://www.crmperks.com/plugins/gravity-forms-plugins/gravity-forms-pipedrive-plugin/",
-                "support": {
-                    "source": "https://github.com/generoi/gf-pipedrive-crm-perks-pro/tree/fix/surface-crmperks-refusal",
-                    "issues": "https://github.com/generoi/gf-pipedrive-crm-perks-pro/issues"
-                }
-            },
-            {
-                "name": "generoi/gf-pipedrive-crm-perks-pro",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gf-pipedrive-crm-perks-pro.git",
-                    "reference": "0e2785cd758b854f1da3098731a9cccbdb63de03"
+                    "reference": "76d849858292cdb6e02fac40a2f5e89b6994ff26"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gf-pipedrive-crm-perks-pro/zipball/0e2785cd758b854f1da3098731a9cccbdb63de03",
-                    "reference": "0e2785cd758b854f1da3098731a9cccbdb63de03",
+                    "url": "https://api.github.com/repos/generoi/gf-pipedrive-crm-perks-pro/zipball/76d849858292cdb6e02fac40a2f5e89b6994ff26",
+                    "reference": "76d849858292cdb6e02fac40a2f5e89b6994ff26",
                     "shasum": ""
                 },
-                "time": "2026-07-30T12:51:28+00:00",
+                "time": "2026-07-30T13:08:07+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.crmperks.com/plugins/gravity-forms-plugins/gravity-forms-pipedrive-plugin/",
