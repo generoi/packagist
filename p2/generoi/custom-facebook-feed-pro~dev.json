@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/custom-facebook-feed-pro.git",
-                    "reference": "d1cf08effbd50d1483db309201193d863efaf05e"
+                    "reference": "7fdbae040f166a1da193be6f233abbdcfac7586c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/d1cf08effbd50d1483db309201193d863efaf05e",
-                    "reference": "d1cf08effbd50d1483db309201193d863efaf05e",
+                    "url": "https://api.github.com/repos/generoi/custom-facebook-feed-pro/zipball/7fdbae040f166a1da193be6f233abbdcfac7586c",
+                    "reference": "7fdbae040f166a1da193be6f233abbdcfac7586c",
                     "shasum": ""
                 },
-                "time": "2026-06-11T05:46:33+00:00",
+                "time": "2026-07-30T05:09:24+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/custom-facebook-feed/",
                 "support": {
-                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.8.1",
+                    "source": "https://github.com/generoi/custom-facebook-feed-pro/tree/4.9.0",
                     "issues": "https://github.com/generoi/custom-facebook-feed-pro/issues"
                 }
             }
