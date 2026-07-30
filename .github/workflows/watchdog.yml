@@ -22,7 +22,8 @@
 #
 # AUTH — every check here is cross-repo, so GITHUB_TOKEN is no use: it is scoped
 # to this repo alone. Authenticates as the `genero-watchdog-bot` GitHub App,
-# installed org-wide, via WATCHDOG_BOT_APP_ID / WATCHDOG_BOT_PRIVATE_KEY.
+# installed org-wide. Its client id is inlined below (not a secret); the only
+# credential is WATCHDOG_BOT_PRIVATE_KEY.
 #
 # That app is deliberately READ-ONLY across the board — Metadata, Contents,
 # Actions, Secrets (names only, never values), Variables and Pull requests, all
@@ -78,11 +79,18 @@ jobs:
 
       # `owner` rather than the default (this repo) so the minted token carries
       # the installation's full org-wide repository access, not just packagist.
+      #
+      # The client id is inlined rather than kept in a secret because it is not
+      # one: `GET /orgs/generoi/installations` returns it to any org member, and
+      # client ids appear in plain sight in OAuth URLs. Storing it as a secret
+      # would also have Actions mask it in logs, which only makes this step
+      # harder to debug. WATCHDOG_BOT_PRIVATE_KEY is the actual credential.
       - name: Mint a watchdog token
         id: app-token
         uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         with:
-          app-id: ${{ secrets.WATCHDOG_BOT_APP_ID }}
+          # genero-watchdog-bot, app id 4435941, installation 150091135
+          client-id: Iv23liz33BWq0KR7KZMS
           private-key: ${{ secrets.WATCHDOG_BOT_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
 
@@ -100,7 +108,7 @@ jobs:
           set -uo pipefail
 
           if [ -z "${GH_TOKEN:-}" ]; then
-            echo "::error title=No token::Could not mint a genero-watchdog-bot token. Check WATCHDOG_BOT_APP_ID / WATCHDOG_BOT_PRIVATE_KEY are granted to this repo, and that the app is installed org-wide. See the header of this workflow file."
+            echo "::error title=No token::Could not mint a genero-watchdog-bot token. Check WATCHDOG_BOT_PRIVATE_KEY is granted to this repo, that the client-id below still matches the app, and that the app is installed org-wide. See the header of this workflow file."
             exit 1
           fi
 
