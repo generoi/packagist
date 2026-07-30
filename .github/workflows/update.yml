@@ -4,17 +4,50 @@ on:
   workflow_call:
     secrets:
       token:
-        required: true
+        # Not `required: true` — see "Trigger rebuild" below. A caller that
+        # hasn't been granted `PACKAGIST_UPDATE_PAT` degrades to the scheduled
+        # rebuild instead of failing.
+        required: false
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      # Requires Contents (write) permission
+      # Requires a token with Contents (write) on generoi/packagist — that's
+      # the permission GitHub demands for `POST /dispatches`.
+      #
+      # `PACKAGIST_UPDATE_PAT` is an org secret scoped to selected repositories,
+      # so a newly added plugin repo only gets it once someone adds it to the
+      # allow-list, which is easy to forget:
+      #   https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT
+      #
+      # Missing token is NOT an error. This dispatch only buys latency — satis
+      # rebuilds every 3h and re-reads every `type: vcs` tag, so the release
+      # lands either way. Warn and exit green rather than painting the caller's
+      # build red for a rebuild that was going to happen anyway.
       - name: Trigger rebuild
+        env:
+          TOKEN: ${{ secrets.token }}
         run: |
+          if [ -z "$TOKEN" ]; then
+            {
+              echo "### Satis rebuild skipped"
+              echo
+              echo "\`PACKAGIST_UPDATE_PAT\` is not available to \`${{ github.repository }}\`,"
+              echo "so no immediate rebuild was triggered. The next scheduled"
+              echo "[Satis Build](https://github.com/generoi/packagist/actions/workflows/satis.yml)"
+              echo "(every 3h) will index this release."
+              echo
+              echo "To get instant rebuilds, grant the secret to this repository:"
+              echo "<https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT>"
+            } >> "$GITHUB_STEP_SUMMARY"
+
+            echo "::warning title=Satis rebuild skipped::PACKAGIST_UPDATE_PAT is not available to ${{ github.repository }} — falling back to the scheduled rebuild (every 3h). Grant it at https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT"
+            exit 0
+          fi
+
           curl -L --fail-with-body \
             -X POST \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${{ secrets.token }}" \
+            -H "Authorization: Bearer $TOKEN" \
             -d '{"event_type":"Update - ${{ github.repository }}","client_payload":{"repository":"${{ github.repository }}"}}' \
             https://api.github.com/repos/generoi/packagist/dispatches

@@ -8,10 +8,17 @@ on:
     branches:
       - master
   schedule:
-    # Daily 04:30 UTC — picks up new upstream releases for packages declared
-    # in `release-packages.json` (GitHub-released proprietary plugins that
-    # don't have a Genero-owned fork driving satis via the VCS pattern).
-    - cron: '30 4 * * *'
+    # Every 3h — picks up new upstream releases for packages declared in
+    # `release-packages.json` (GitHub-released proprietary plugins that don't
+    # have a Genero-owned fork driving satis via the VCS pattern), and re-reads
+    # the tags of every `type: vcs` entry.
+    #
+    # This is also the safety net for the push-based path: plugin repos trigger
+    # an immediate rebuild via `update.yml`, but that needs `PACKAGIST_UPDATE_PAT`
+    # to be granted to the calling repo. When it isn't, `update.yml` warns and
+    # exits green — the next scheduled build indexes the tag regardless. The
+    # 04:30 slot still lands after the plugin update crons (nominally 04:05 UTC).
+    - cron: '30 */3 * * *'
 env:
   BUILD_DIR: build
 

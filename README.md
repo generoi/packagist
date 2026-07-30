@@ -62,13 +62,27 @@ distributes the plugin:
 
 3. Add [`@generoi/deploy`](https://github.com/orgs/generoi/teams/deploy) as a collaborator with `read` access. **Do _NOT_ grant write access.**
 
-4. Change the [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) secret permissions to be allowed to be used by the repository.
+4. _Optional._ Change the [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) secret permissions to be allowed to be used by the repository. This only buys an **immediate** satis rebuild after a release — skip it and the plugin still gets indexed by the next scheduled build (every 3h). When the secret isn't granted, [`update.yml`](./.github/workflows/update.yml) emits a warning and exits green rather than failing the plugin repo's build.
 
 5. Add the plugin to [`satis.json`](./satis.json) in this repository.
 
 6. Trigger an initial build which will download the latest plugin version, commit it, tag it, push it, release it and if successful trigger a rebuild in this repository.
 
 7. Whenever a new version is found using the cron schedule, the plugin will be updated, released and finally a rebuild of this repository will be once again triggered.
+
+### How a release reaches the index
+
+Two independent paths, so no single missing credential can strand a release:
+
+- **Push-based (fast, best-effort)** — the plugin repo's `update-satis` job calls
+  [`update.yml`](./.github/workflows/update.yml), which POSTs a `repository_dispatch`
+  here and rebuilds within a minute. Needs `PACKAGIST_UPDATE_PAT` (step 4 above).
+- **Scheduled (slower, guaranteed)** — [`satis.yml`](./.github/workflows/satis.yml)
+  runs every 3h and re-reads the tags of every `type: vcs` entry plus every
+  upstream release in `release-packages.json`. Requires no per-repo config.
+
+Need it indexed right now and the push path isn't wired up? Just run the build
+manually: `gh workflow run satis.yml --repo generoi/packagist`.
 
 ### Add a plugin (direct GitHub-release mirror)
 
