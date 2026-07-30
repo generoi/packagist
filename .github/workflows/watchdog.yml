@@ -1,0 +1,260 @@
+# Watchdog for the plugin-mirror pipeline feeding this satis index.
+#
+# Nothing used to notice when a mirror stopped updating. generoi/wc-paytrail sat
+# dead for 130 days while two live stores ran a payment gateway three releases
+# behind; generoi/woocommerce-gateway-verifone for roughly 15 months. Both were
+# found by hand.
+#
+# LIVENESS: this is a public repo, so a scheduled workflow here is subject to the
+# same 60-day inactivity auto-disable it exists to report. That is handled by the
+# `keepalive` job in satis.yml, which runs every 3h and pushes an empty commit
+# when master goes quiet — a push resets the repo-level clock and so protects this
+# workflow too. Do not move the keepalive in here: this workflow only runs weekly,
+# so if it were ever disabled it could not revive itself.
+#
+# WHAT IT CATCHES, all things that previously rotted in silence:
+#   1. Mirror Build workflows auto-disabled by inactivity.
+#   2. Mirrors in satis.json with no updater at all, so nothing ever bumps them.
+#   3. Build workflows that stopped running for any other reason.
+#   4. This repo's own Satis Build being disabled, which loses the 3h safety net.
+#   5. Repos missing the PACKAGIST_UPDATE_PAT grant. Since #10 a missing grant
+#      warns and exits green by design, so nothing else would ever report it.
+#
+# AUTH — every check here is cross-repo, so GITHUB_TOKEN is no use: it is scoped
+# to this repo alone. Authenticates as the `genero-watchdog-bot` GitHub App,
+# installed org-wide, via WATCHDOG_BOT_APP_ID / WATCHDOG_BOT_PRIVATE_KEY.
+#
+# That app is deliberately READ-ONLY across the board — Metadata, Contents,
+# Actions, Secrets (names only, never values), Variables and Pull requests, all
+# `read`. It is a general-purpose identity for unattended monitoring, so any
+# future watchdog can reuse it. Keep it read-only: an identity that cannot change
+# anything is trivial to approve and safe to install everywhere. If something
+# ever needs to write, give it its own app rather than widening this one — the
+# same reason this is not folded into `genero-vuln-bot`, which holds
+# `contents:write` org-wide for opening PRs.
+#
+# A PAT was the first plan and is a bad fit: it expires within a year and dies
+# with the account that created it, which is a poor property for a job whose
+# entire purpose is noticing things that silently stopped working. App tokens are
+# minted per run, last an hour, and never need rotating.
+
+name: Watchdog
+
+on:
+  schedule:
+    # Mondays 06:00 UTC. Clear of the 04:05 mirror crons and the 04:30 rebuild,
+    # so the states we read have settled.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+env:
+  # Genero-authored packages: released by hand on a tag, so having no Build
+  # workflow is correct and not a finding. There is no reliable way to tell these
+  # apart from a frozen third-party mirror automatically — commit histories are a
+  # handful of commits and the tag layouts are identical — so the classification
+  # is explicit on purpose. An unfiltered check reported 7 false positives out of
+  # 10. A new satis package showing up under "No updater" means someone has to
+  # decide which kind it is, which is the right prompt to get.
+  MANUAL: |
+    generoi/b2b-roles
+    generoi/gds-assistant
+    generoi/gds-block-animations
+    generoi/gds-content-translation
+    generoi/gds-mcp
+    generoi/gravityforms-altcha
+    generoi/gravityforms-elisadesk
+  # Repos we knowingly leave broken, as `repo=reason`. Listed rather than silently
+  # skipped so they still appear in the report, struck through — an invisible
+  # ignore list is how woocommerce-gateway-verifone went unnoticed for 15 months.
+  IGNORED: ''
+  STALE_RUN_DAYS: '7'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      # `owner` rather than the default (this repo) so the minted token carries
+      # the installation's full org-wide repository access, not just packagist.
+      - name: Mint a watchdog token
+        id: app-token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ secrets.WATCHDOG_BOT_APP_ID }}
+          private-key: ${{ secrets.WATCHDOG_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - name: Audit the mirror pipeline
+        id: audit
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          set -uo pipefail
+
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::error title=No token::Could not mint a genero-watchdog-bot token. Check WATCHDOG_BOT_APP_ID / WATCHDOG_BOT_PRIVATE_KEY are granted to this repo, and that the app is installed org-wide. See the header of this workflow file."
+            exit 1
+          fi
+
+          jq -r '.repositories[] | select(.type=="vcs") | .url' satis.json \
+            | sed -E 's#https://github.com/##; s#\.git$##' | sort -u > repos.txt
+          echo "Auditing $(wc -l < repos.txt) vcs mirrors from satis.json"
+
+          : > findings.txt
+          manual_count=0
+
+          note() { printf '%s\n' "$1" >> findings.txt; }
+
+          ignored_reason() {
+            printf '%s' "$IGNORED" | while IFS='=' read -r r reason; do
+              [ "$r" = "$1" ] && { printf '%s' "$reason"; return; }
+            done
+          }
+
+          # ---- 1..3: per-mirror workflow health -----------------------------
+          while read -r repo; do
+            [ -z "$repo" ] && continue
+
+            meta=$(gh api "repos/$repo" --jq '[.private, .archived] | @tsv' 2>/dev/null)
+            private=$(printf '%s' "$meta" | cut -f1)
+            archived=$(printf '%s' "$meta" | cut -f2)
+            # Archived repos cannot run workflows at all; that is intentional.
+            [ "$archived" = "true" ] && continue
+
+            wf=$(gh api "repos/$repo/actions/workflows" \
+                   --jq '.workflows[] | select(.name=="Build") | [.state, .id] | @tsv' 2>/dev/null)
+
+            if [ -z "$wf" ]; then
+              if printf '%s\n' "$MANUAL" | grep -qxF "$repo"; then
+                manual_count=$(( manual_count + 1 ))
+              else
+                note "NO_BUILD_WF|$repo|no Build workflow and not on the manual-release list — nothing updates it"
+              fi
+              continue
+            fi
+
+            state=$(printf '%s' "$wf" | cut -f1)
+            id=$(printf '%s' "$wf" | cut -f2)
+
+            if [ "$state" != "active" ]; then
+              vis=$([ "$private" = "true" ] && echo private || echo public)
+              note "DISABLED|$repo|Build is '$state' ($vis)"
+              continue
+            fi
+
+            last=$(gh api "repos/$repo/actions/workflows/$id/runs?per_page=1" \
+                     --jq '.workflow_runs[0].created_at // empty' 2>/dev/null)
+            if [ -z "$last" ]; then
+              note "NEVER_RAN|$repo|Build is active but has no runs on record"
+            else
+              age=$(( ( $(date +%s) - $(date -d "$last" +%s) ) / 86400 ))
+              [ "$age" -gt "$STALE_RUN_DAYS" ] && \
+                note "STALE_RUN|$repo|Build last ran ${age}d ago ($last)"
+            fi
+          done < repos.txt
+
+          # ---- 4: this repo's own scheduled rebuild --------------------------
+          sstate=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows" \
+                     --jq '.workflows[] | select(.name=="Satis Build") | .state' 2>/dev/null)
+          if [ "$sstate" != "active" ]; then
+            note "INDEX_STALE|$GITHUB_REPOSITORY|Satis Build is '$sstate' — the 3h rebuild safety net is gone; the keepalive in satis.yml has failed"
+          fi
+
+          # ---- 5: PACKAGIST_UPDATE_PAT grants -------------------------------
+          # Only meaningful for mirrors that actually call update.yml.
+          while read -r repo; do
+            [ -z "$repo" ] && continue
+            gh api "repos/$repo/contents/.github/workflows/build.yml" \
+              -H "Accept: application/vnd.github.raw" 2>/dev/null \
+              | grep -q 'PACKAGIST_UPDATE_PAT' || continue
+            # Explicit tri-state: granted / not granted / could not tell. Do not
+            # treat an API failure as "not granted" or the report fills with noise.
+            grant=$(gh api "repos/$repo/actions/organization-secrets" \
+                      --jq 'if ([.secrets[].name] | index("PACKAGIST_UPDATE_PAT")) then "yes" else "no" end' 2>/dev/null)
+            case "$grant" in
+              yes) ;;
+              no)  note "NO_PAT_GRANT|$repo|not in the PACKAGIST_UPDATE_PAT allow-list — rebuilds wait for the 3h cron" ;;
+              *)   echo "::warning::Could not read org-secret grants for $repo (PAT scope?); skipped." ;;
+            esac
+          done < repos.txt
+
+          # ---- report -------------------------------------------------------
+          {
+            echo "## Satis watchdog"
+            echo
+            echo "Audited **$(wc -l < repos.txt)** \`type: vcs\` mirrors in \`satis.json\`."
+            echo
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          urgent=0
+          : > alert.txt
+          for kind in INDEX_STALE DISABLED NO_BUILD_WF NEVER_RAN STALE_RUN NO_PAT_GRANT; do
+            rows=$(grep "^$kind|" findings.txt 2>/dev/null)
+            [ -z "$rows" ] && continue
+            case "$kind" in
+              INDEX_STALE)  title="Rebuild safety net gone"; sev=urgent ;;
+              DISABLED)     title="Workflow disabled"; sev=urgent ;;
+              NO_BUILD_WF)  title="No updater"; sev=info ;;
+              NEVER_RAN)    title="Never ran"; sev=urgent ;;
+              STALE_RUN)    title="Not running"; sev=urgent ;;
+              NO_PAT_GRANT) title="Missing PAT grant"; sev=info ;;
+            esac
+
+            echo "### $title" >> "$GITHUB_STEP_SUMMARY"
+            while IFS='|' read -r _ repo msg; do
+              reason=$(ignored_reason "$repo")
+              if [ -n "$reason" ]; then
+                echo "- ~~\`$repo\`~~ — $msg _(known: $reason)_" >> "$GITHUB_STEP_SUMMARY"
+                continue
+              fi
+              echo "- \`$repo\` — $msg" >> "$GITHUB_STEP_SUMMARY"
+              if [ "$sev" = "urgent" ]; then
+                urgent=$(( urgent + 1 ))
+                printf '\xe2\x80\xa2 %s — %s\n' "$repo" "$msg" >> alert.txt
+              fi
+            done <<< "$rows"
+            echo >> "$GITHUB_STEP_SUMMARY"
+          done
+
+          if [ "$urgent" -eq 0 ]; then
+            echo "No unacknowledged problems." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          echo >> "$GITHUB_STEP_SUMMARY"
+          echo "<sub>${manual_count} package(s) skipped as hand-released by design (\`MANUAL\` in this workflow).</sub>" \
+            >> "$GITHUB_STEP_SUMMARY"
+
+          {
+            echo "urgent=$urgent"
+            echo "alert<<XEOFX"
+            cat alert.txt
+            echo "XEOFX"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Notify Google Chat
+        if: ${{ steps.audit.outputs.urgent != '0' }}
+        env:
+          WEBHOOK: ${{ secrets.GOOGLE_CHAT_FAUCET_WEBHOOK }}
+          ALERT: ${{ steps.audit.outputs.alert }}
+          COUNT: ${{ steps.audit.outputs.urgent }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          if [ -z "${WEBHOOK:-}" ]; then
+            echo "::warning::GOOGLE_CHAT_FAUCET_WEBHOOK not available to this repo; report is in the run summary only."
+            exit 0
+          fi
+          text=$(printf '*Satis watchdog: %s plugin mirror(s) not updating*\n%s\n<%s|Full report>' \
+                   "$COUNT" "$ALERT" "$RUN_URL")
+          jq -n --arg t "$text" '{text: $t}' \
+            | curl -sS --fail-with-body -X POST -H 'Content-Type: application/json' -d @- "$WEBHOOK" >/dev/null
+          echo "Notified."
+
+      # Fail the run so it is visible in the Actions list even if Chat is muted.
+      - name: Fail on unacknowledged findings
+        if: ${{ steps.audit.outputs.urgent != '0' }}
+        run: |
+          echo "::error title=Mirrors not updating::${{ steps.audit.outputs.urgent }} unacknowledged finding(s) — see the run summary."
+          exit 1

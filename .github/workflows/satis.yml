@@ -27,6 +27,55 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # GitHub auto-disables scheduled workflows in PUBLIC repos after 60 days with no
+  # repository activity, and workflow runs do not count — only pushes do. This
+  # repo is public and its `master` history is human-driven: observed gaps of 77,
+  # 111 and 139 days. Publishing to `gh-pages` may or may not reset the timer
+  # (undocumented, and this repo has not been idle long enough since the cron was
+  # added on 2026-05-15 to find out), so do not rely on it.
+  #
+  # If the timer ever does expire, the 3h rebuild stops and the watchdog in
+  # watchdog.yml goes quiet with it — the exact silent failure both exist to
+  # prevent. So keep the clock alive explicitly. This lives in *this* workflow
+  # rather than watchdog.yml because this one runs every 3h: a push here resets
+  # the repo-level clock and therefore protects both workflows.
+  #
+  # Same mechanism as generoi/github-action-update-plugins#15, which does this for
+  # the plugin mirrors. Runs before the build so a failure here is visible without
+  # blocking a rebuild.
+  keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Reset the inactivity timer if master has gone quiet
+        env:
+          THRESHOLD_DAYS: '45'
+        run: |
+          set -euo pipefail
+          age=$(( ( $(date +%s) - $(git log -1 --format=%ct) ) / 86400 ))
+          echo "master last changed ${age}d ago; threshold ${THRESHOLD_DAYS}d."
+          if [ "$age" -lt "$THRESHOLD_DAYS" ]; then
+            echo "Within threshold, nothing to do."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: keepalive
+
+          No changes to master in ${age} days. Empty commit to reset GitHub's
+          60-day inactivity timer, which would otherwise auto-disable the
+          scheduled Satis Build and the watchdog in this public repository."
+          git push origin HEAD:master
+          echo "::notice title=Keepalive::Pushed an empty commit (master was ${age}d stale) to keep the scheduled workflows alive."
+
   builder:
     runs-on: ubuntu-latest
     steps:
