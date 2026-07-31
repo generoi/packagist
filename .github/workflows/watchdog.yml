@@ -19,6 +19,10 @@
 #   4. This repo's own Satis Build being disabled, which loses the 3h safety net.
 #   5. Repos missing the PACKAGIST_UPDATE_PAT grant. Since #10 a missing grant
 #      warns and exits green by design, so nothing else would ever report it.
+#   6. Repos where no workflow calls the rebuild hook at all, so a new tag is
+#      only picked up by the 3h cron. Composer reports "Nothing to modify in
+#      lock file" and exits 0 against a stale index, so this reads downstream as
+#      "already up to date" rather than as a failure.
 #
 # AUTH — every check here is cross-repo, so GITHUB_TOKEN is no use: it is scoped
 # to this repo alone. Authenticates as the `genero-watchdog-bot` GitHub App,
@@ -56,6 +60,13 @@ env:
   # is explicit on purpose. An unfiltered check reported 7 false positives out of
   # 10. A new satis package showing up under "No updater" means someone has to
   # decide which kind it is, which is the right prompt to get.
+  #
+  # This exempts check 1 ONLY. Being hand-released is a reason to have no Build
+  # workflow; it is not a reason to have no rebuild trigger, and these packages
+  # need one more than the mirrors do — a mirror at least gets bumped daily by
+  # its updater, whereas a hand-tagged package moves only when someone tags it.
+  # Check 6 therefore covers this list too. Four of these seven had no trigger
+  # when that check was written.
   MANUAL: |
     generoi/b2b-roles
     generoi/gds-assistant
@@ -117,6 +128,7 @@ jobs:
           echo "Auditing $(wc -l < repos.txt) vcs mirrors from satis.json"
 
           : > findings.txt
+          : > active.txt
           manual_count=0
 
           note() { printf '%s\n' "$1" >> findings.txt; }
@@ -136,6 +148,9 @@ jobs:
             archived=$(printf '%s' "$meta" | cut -f2)
             # Archived repos cannot run workflows at all; that is intentional.
             [ "$archived" = "true" ] && continue
+            # Checks 5 and 6 below reuse this list so they do not have to re-ask
+            # every repo whether it is archived.
+            printf '%s\n' "$repo" >> active.txt
 
             wf=$(gh api "repos/$repo/actions/workflows" \
                    --jq '.workflows[] | select(.name=="Build") | [.state, .id] | @tsv' 2>/dev/null || true)
@@ -176,23 +191,59 @@ jobs:
             note "INDEX_STALE|$GITHUB_REPOSITORY|Satis Build is '$sstate' — the 3h rebuild safety net is gone; the keepalive in satis.yml has failed"
           fi
 
-          # ---- 5: PACKAGIST_UPDATE_PAT grants -------------------------------
-          # Only meaningful for mirrors that actually call update.yml.
+          # ---- 5..6: rebuild wiring, then PAT grants -------------------------
+          # Which workflow in $1 calls update.yml? Echoes its filename, or nothing.
+          #
+          # This used to read `.github/workflows/build.yml` and nothing else,
+          # which quietly excluded every hand-released package: those put the call
+          # in release.yml. So the packages whose only rebuild trigger *is* this
+          # hook were the ones the check never looked at.
+          #
+          # Reads via `.content` + base64 rather than the raw media type — the raw
+          # Accept header does not reliably return raw bytes across gh versions,
+          # and when it silently returns JSON instead, the grep finds nothing and
+          # every repo looks unhooked.
+          hook_workflow() {
+            local repo="$1" f names body
+            names=$(gh api "repos/$repo/contents/.github/workflows" --jq '.[].name' 2>/dev/null || true)
+            [ -z "$names" ] && return
+            while read -r f; do
+              [ -z "$f" ] && continue
+              body=$(gh api "repos/$repo/contents/.github/workflows/$f" --jq '.content' 2>/dev/null | base64 -d 2>/dev/null || true)
+              if printf '%s' "$body" | grep -q 'packagist/.github/workflows/update.yml'; then
+                printf '%s' "$f"
+                return
+              fi
+            done <<< "$names"
+          }
+
           while read -r repo; do
             [ -z "$repo" ] && continue
-            gh api "repos/$repo/contents/.github/workflows/build.yml" \
-              -H "Accept: application/vnd.github.raw" 2>/dev/null \
-              | grep -q 'PACKAGIST_UPDATE_PAT' || continue
+            hookwf=$(hook_workflow "$repo")
+
+            # ---- 6: nothing dispatches a rebuild on release ------------------
+            # Costs latency rather than correctness — the 3h cron still indexes
+            # the tag — so this is info, not urgent. It is reported for manual
+            # packages too: being hand-released excuses having no Build workflow
+            # (check 1), it does not excuse having no rebuild trigger. gds-mcp sat
+            # on the MANUAL list with no trigger at all, and a tagged release read
+            # as installed while composer kept resolving the previous commit.
+            if [ -z "$hookwf" ]; then
+              note "NO_REBUILD_HOOK|$repo|no workflow calls the satis rebuild hook — new tags wait for the 3h cron"
+              continue
+            fi
+
+            # ---- 5: PACKAGIST_UPDATE_PAT grants -----------------------------
             # Explicit tri-state: granted / not granted / could not tell. Do not
             # treat an API failure as "not granted" or the report fills with noise.
             grant=$(gh api "repos/$repo/actions/organization-secrets" \
                       --jq 'if ([.secrets[].name] | index("PACKAGIST_UPDATE_PAT")) then "yes" else "no" end' 2>/dev/null || true)
             case "$grant" in
               yes) ;;
-              no)  note "NO_PAT_GRANT|$repo|not in the PACKAGIST_UPDATE_PAT allow-list — rebuilds wait for the 3h cron" ;;
+              no)  note "NO_PAT_GRANT|$repo|$hookwf calls the rebuild hook but the repo is not in the PACKAGIST_UPDATE_PAT allow-list — rebuilds wait for the 3h cron" ;;
               *)   echo "::warning::Could not read org-secret grants for $repo (PAT scope?); skipped." ;;
             esac
-          done < repos.txt
+          done < active.txt
 
           # ---- report -------------------------------------------------------
           {
@@ -204,7 +255,7 @@ jobs:
 
           urgent=0
           : > alert.txt
-          for kind in INDEX_STALE DISABLED NO_BUILD_WF NEVER_RAN STALE_RUN NO_PAT_GRANT; do
+          for kind in INDEX_STALE DISABLED NO_BUILD_WF NEVER_RAN STALE_RUN NO_REBUILD_HOOK NO_PAT_GRANT; do
             rows=$(grep "^$kind|" findings.txt 2>/dev/null || true)
             [ -z "$rows" ] && continue
             case "$kind" in
@@ -213,6 +264,7 @@ jobs:
               NO_BUILD_WF)  title="No updater"; sev=info ;;
               NEVER_RAN)    title="Never ran"; sev=urgent ;;
               STALE_RUN)    title="Not running"; sev=urgent ;;
+              NO_REBUILD_HOOK) title="No rebuild hook"; sev=info ;;
               NO_PAT_GRANT) title="Missing PAT grant"; sev=info ;;
             esac
 
