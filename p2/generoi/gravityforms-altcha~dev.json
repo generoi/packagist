@@ -415,17 +415,17 @@
             },
             {
                 "name": "generoi/gravityforms-altcha",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "dev-fix/surface-validation-message",
+                "version_normalized": "dev-fix/surface-validation-message",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gravityforms-altcha.git",
-                    "reference": "aa6e4568199d4a063bfe19bd7dd1a513d35a9ac7"
+                    "reference": "71a334194a0a4e0ff3165ea01a2e02c502abb62c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms-altcha/zipball/aa6e4568199d4a063bfe19bd7dd1a513d35a9ac7",
-                    "reference": "aa6e4568199d4a063bfe19bd7dd1a513d35a9ac7",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-altcha/zipball/71a334194a0a4e0ff3165ea01a2e02c502abb62c",
+                    "reference": "71a334194a0a4e0ff3165ea01a2e02c502abb62c",
                     "shasum": ""
                 },
                 "require": {
@@ -439,7 +439,77 @@
                     "wp-phpunit/wp-phpunit": "^7.0",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-07-31T10:45:11+00:00",
+                "time": "2026-07-31T11:26:11+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Genero\\GravityFormsAltcha\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Genero\\GravityFormsAltcha\\Tests\\": "test/unit/",
+                        "Genero\\GravityFormsAltcha\\Tests\\Mocked\\": "test/mocked/",
+                        "Genero\\GravityFormsAltcha\\Tests\\Integration\\": "test/integration/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:integration": [
+                        "phpunit -c phpunit.integration.xml.dist"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "Invisible ALTCHA spam protection for Gravity Forms",
+                "homepage": "https://github.com/generoi/gravityforms-altcha",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms-altcha/tree/fix/surface-validation-message",
+                    "issues": "https://github.com/generoi/gravityforms-altcha/issues"
+                }
+            },
+            {
+                "name": "generoi/gravityforms-altcha",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gravityforms-altcha.git",
+                    "reference": "636c0d23073bd69d2fac3e7cd053da31a4adbdd6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-altcha/zipball/636c0d23073bd69d2fac3e7cd053da31a4adbdd6",
+                    "reference": "636c0d23073bd69d2fac3e7cd053da31a4adbdd6",
+                    "shasum": ""
+                },
+                "require": {
+                    "altcha-org/altcha": "^2.0",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "brain/monkey": "^2.6",
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^7.0",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-07-31T11:30:38+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -480,7 +550,7 @@
                 "description": "Invisible ALTCHA spam protection for Gravity Forms",
                 "homepage": "https://github.com/generoi/gravityforms-altcha",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms-altcha/tree/v0.6.0",
+                    "source": "https://github.com/generoi/gravityforms-altcha/tree/v0.6.1",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 }
             }
