@@ -3,17 +3,17 @@
         "generoi/gravityforms-elisadesk": [
             {
                 "name": "generoi/gravityforms-elisadesk",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "dev-ci/satis-rebuild-hook",
+                "version_normalized": "dev-ci/satis-rebuild-hook",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gravityforms-elisadesk.git",
-                    "reference": "c4df744367e899957960cfd358a00127568f192e"
+                    "reference": "32cfdb5b9152f09d6607a5aedcf163a2dc705fef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms-elisadesk/zipball/c4df744367e899957960cfd358a00127568f192e",
-                    "reference": "c4df744367e899957960cfd358a00127568f192e",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-elisadesk/zipball/32cfdb5b9152f09d6607a5aedcf163a2dc705fef",
+                    "reference": "32cfdb5b9152f09d6607a5aedcf163a2dc705fef",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,74 @@
                     "laravel/pint": "^1.17",
                     "phpunit/phpunit": "^9.6 || ^10.0"
                 },
-                "time": "2026-05-15T13:26:02+00:00",
+                "time": "2026-07-31T15:50:16+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Genero\\ElisaDesk\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Genero\\ElisaDesk\\Tests\\": "test/unit/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "developers@genero.fi",
+                        "homepage": "https://genero.fi"
+                    }
+                ],
+                "description": "Gravity Forms feed addon that posts entries to Elisa Desk's generic form API.",
+                "homepage": "https://github.com/generoi/gravityforms-elisadesk",
+                "keywords": [
+                    "elisa-desk",
+                    "gravityforms",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/gravityforms-elisadesk/issues",
+                    "source": "https://github.com/generoi/gravityforms-elisadesk/tree/ci/satis-rebuild-hook"
+                }
+            },
+            {
+                "name": "generoi/gravityforms-elisadesk",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gravityforms-elisadesk.git",
+                    "reference": "3792eaf5f7d052c6cead396787dbef6b2976191e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-elisadesk/zipball/3792eaf5f7d052c6cead396787dbef6b2976191e",
+                    "reference": "3792eaf5f7d052c6cead396787dbef6b2976191e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.6 || ^10.0"
+                },
+                "time": "2026-07-31T15:59:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -66,7 +133,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/generoi/gravityforms-elisadesk/issues",
-                    "source": "https://github.com/generoi/gravityforms-elisadesk/tree/v1.0.1"
+                    "source": "https://github.com/generoi/gravityforms-elisadesk/tree/main"
                 }
             }
         ]

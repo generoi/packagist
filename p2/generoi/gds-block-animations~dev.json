@@ -48,6 +48,51 @@
             },
             {
                 "name": "generoi/gds-block-animations",
+                "version": "dev-ci/satis-rebuild-hook",
+                "version_normalized": "dev-ci/satis-rebuild-hook",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-block-animations.git",
+                    "reference": "1aaa4d818c8aa98856b20e742807c5cf2ddecabc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/1aaa4d818c8aa98856b20e742807c5cf2ddecabc",
+                    "reference": "1aaa4d818c8aa98856b20e742807c5cf2ddecabc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2026-07-31T15:50:00+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonatan Storlund",
+                        "email": "storlundjonatan@gmail.com"
+                    }
+                ],
+                "description": "Animate WordPress blocks on scroll with customizable settings.",
+                "homepage": "https://github.com/generoi/gds-block-animations",
+                "keywords": [
+                    "gutenberg",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/gds-block-animations/issues",
+                    "source": "https://github.com/generoi/gds-block-animations/tree/ci/satis-rebuild-hook"
+                }
+            },
+            {
+                "name": "generoi/gds-block-animations",
                 "version": "dev-feat/should-animate-filter-and-onreveal-helper",
                 "version_normalized": "dev-feat/should-animate-filter-and-onreveal-helper",
                 "source": {
@@ -98,18 +143,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-block-animations.git",
-                    "reference": "5739f9e324fb25c4533d3dcfea68c264ce31c37c"
+                    "reference": "691e81610756340e1d384d52882ad9f87f72ac94"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/5739f9e324fb25c4533d3dcfea68c264ce31c37c",
-                    "reference": "5739f9e324fb25c4533d3dcfea68c264ce31c37c",
+                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/691e81610756340e1d384d52882ad9f87f72ac94",
+                    "reference": "691e81610756340e1d384d52882ad9f87f72ac94",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0.0"
                 },
-                "time": "2026-03-30T11:30:07+00:00",
+                "time": "2026-07-31T15:58:32+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "archive": {
@@ -134,7 +179,7 @@
                 ],
                 "support": {
                     "issues": "https://github.com/generoi/gds-block-animations/issues",
-                    "source": "https://github.com/generoi/gds-block-animations/tree/v0.2.0"
+                    "source": "https://github.com/generoi/gds-block-animations/tree/master"
                 }
             }
         ]
