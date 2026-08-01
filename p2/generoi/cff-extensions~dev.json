@@ -3,25 +3,48 @@
         "generoi/cff-extensions": [
             {
                 "name": "generoi/cff-extensions",
+                "version": "dev-fix/changelog-from-readme",
+                "version_normalized": "dev-fix/changelog-from-readme",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/cff-extensions.git",
+                    "reference": "8d8dd26eaf8764f9e6c686e127f42ba5c7c70b8e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/cff-extensions/zipball/8d8dd26eaf8764f9e6c686e127f42ba5c7c70b8e",
+                    "reference": "8d8dd26eaf8764f9e6c686e127f42ba5c7c70b8e",
+                    "shasum": ""
+                },
+                "time": "2026-08-01T15:59:03+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://smashballoon.com/custom-facebook-feed/extensions/",
+                "support": {
+                    "source": "https://github.com/generoi/cff-extensions/tree/fix/changelog-from-readme",
+                    "issues": "https://github.com/generoi/cff-extensions/issues"
+                }
+            },
+            {
+                "name": "generoi/cff-extensions",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/cff-extensions.git",
-                    "reference": "e6674af99c8cb50e92f02e598fa9885b1f288104"
+                    "reference": "8eff71f5d264ce758ae7c07ed5411c999e30487a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/cff-extensions/zipball/e6674af99c8cb50e92f02e598fa9885b1f288104",
-                    "reference": "e6674af99c8cb50e92f02e598fa9885b1f288104",
+                    "url": "https://api.github.com/repos/generoi/cff-extensions/zipball/8eff71f5d264ce758ae7c07ed5411c999e30487a",
+                    "reference": "8eff71f5d264ce758ae7c07ed5411c999e30487a",
                     "shasum": ""
                 },
-                "time": "2024-09-23T14:22:41+00:00",
+                "time": "2026-08-01T16:00:26+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://smashballoon.com/custom-facebook-feed/extensions/",
                 "support": {
-                    "source": "https://github.com/generoi/cff-extensions/tree/1.7.3",
+                    "source": "https://github.com/generoi/cff-extensions/tree/master",
                     "issues": "https://github.com/generoi/cff-extensions/issues"
                 }
             }

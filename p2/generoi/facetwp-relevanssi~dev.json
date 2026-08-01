@@ -3,25 +3,48 @@
         "generoi/facetwp-relevanssi": [
             {
                 "name": "generoi/facetwp-relevanssi",
+                "version": "dev-feat/changelog-from-help-center",
+                "version_normalized": "dev-feat/changelog-from-help-center",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/facetwp-relevanssi.git",
+                    "reference": "ab7bca57b1cae7873ea017e94d464e30985e7ce4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/facetwp-relevanssi/zipball/ab7bca57b1cae7873ea017e94d464e30985e7ce4",
+                    "reference": "ab7bca57b1cae7873ea017e94d464e30985e7ce4",
+                    "shasum": ""
+                },
+                "time": "2026-08-01T16:07:53+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://facetwp.com/add-ons/relevanssi/",
+                "support": {
+                    "source": "https://github.com/generoi/facetwp-relevanssi/tree/feat/changelog-from-help-center",
+                    "issues": "https://github.com/generoi/facetwp-relevanssi/issues"
+                }
+            },
+            {
+                "name": "generoi/facetwp-relevanssi",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/facetwp-relevanssi.git",
-                    "reference": "73e67b3017692d7b47fe374847d5aa397a813480"
+                    "reference": "526eb1e6047b5a942d8c96d242bb1509d6662f11"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/facetwp-relevanssi/zipball/73e67b3017692d7b47fe374847d5aa397a813480",
-                    "reference": "73e67b3017692d7b47fe374847d5aa397a813480",
+                    "url": "https://api.github.com/repos/generoi/facetwp-relevanssi/zipball/526eb1e6047b5a942d8c96d242bb1509d6662f11",
+                    "reference": "526eb1e6047b5a942d8c96d242bb1509d6662f11",
                     "shasum": ""
                 },
-                "time": "2024-09-27T11:29:43+00:00",
+                "time": "2026-08-01T16:08:45+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://facetwp.com/add-ons/relevanssi/",
                 "support": {
-                    "source": "https://github.com/generoi/facetwp-relevanssi/tree/0.8.2",
+                    "source": "https://github.com/generoi/facetwp-relevanssi/tree/master",
                     "issues": "https://github.com/generoi/facetwp-relevanssi/issues"
                 }
             }
