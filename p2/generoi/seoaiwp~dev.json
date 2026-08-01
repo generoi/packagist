@@ -26,20 +26,43 @@
             },
             {
                 "name": "generoi/seoaiwp",
+                "version": "dev-fix/changelog-version-field",
+                "version_normalized": "dev-fix/changelog-version-field",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/seoaiwp.git",
+                    "reference": "53243605ca9f22c3c78c6a397dad8249b72eee30"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/seoaiwp/zipball/53243605ca9f22c3c78c6a397dad8249b72eee30",
+                    "reference": "53243605ca9f22c3c78c6a397dad8249b72eee30",
+                    "shasum": ""
+                },
+                "time": "2026-08-01T14:30:22+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpseoai.com/",
+                "support": {
+                    "source": "https://github.com/generoi/seoaiwp/tree/fix/changelog-version-field",
+                    "issues": "https://github.com/generoi/seoaiwp/issues"
+                }
+            },
+            {
+                "name": "generoi/seoaiwp",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/seoaiwp.git",
-                    "reference": "ce74390fe98ff07f2e4b83052073195c417639b4"
+                    "reference": "68320bde4181ad93c4e5b98af745e058ee23dedc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/seoaiwp/zipball/ce74390fe98ff07f2e4b83052073195c417639b4",
-                    "reference": "ce74390fe98ff07f2e4b83052073195c417639b4",
+                    "url": "https://api.github.com/repos/generoi/seoaiwp/zipball/68320bde4181ad93c4e5b98af745e058ee23dedc",
+                    "reference": "68320bde4181ad93c4e5b98af745e058ee23dedc",
                     "shasum": ""
                 },
-                "time": "2026-07-30T12:50:58+00:00",
+                "time": "2026-08-01T15:43:01+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpseoai.com/",

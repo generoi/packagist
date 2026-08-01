@@ -26,6 +26,29 @@
             },
             {
                 "name": "generoi/wp-media-folder",
+                "version": "dev-fix/changelog-heading-normalisation",
+                "version_normalized": "dev-fix/changelog-heading-normalisation",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-media-folder.git",
+                    "reference": "47e2d645b85959f0a10e38824f7e36b1b7397d3d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-media-folder/zipball/47e2d645b85959f0a10e38824f7e36b1b7397d3d",
+                    "reference": "47e2d645b85959f0a10e38824f7e36b1b7397d3d",
+                    "shasum": ""
+                },
+                "time": "2026-08-01T14:31:34+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.joomunited.com/wordpress-products/wp-media-folder",
+                "support": {
+                    "source": "https://github.com/generoi/wp-media-folder/tree/fix/changelog-heading-normalisation",
+                    "issues": "https://github.com/generoi/wp-media-folder/issues"
+                }
+            },
+            {
+                "name": "generoi/wp-media-folder",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
