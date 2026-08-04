@@ -72,10 +72,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/generoi/gf-pipedrive-crm-perks-pro.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/generoi/gravityforms.git"
         },
         {
