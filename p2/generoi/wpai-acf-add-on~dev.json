@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpai-acf-add-on.git",
-                    "reference": "4b86b8445023db8b8eb1fb0a28a15b7dfb59f593"
+                    "reference": "c22c6a204d8a0792d78857f20d3f0778e707806f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/4b86b8445023db8b8eb1fb0a28a15b7dfb59f593",
-                    "reference": "4b86b8445023db8b8eb1fb0a28a15b7dfb59f593",
+                    "url": "https://api.github.com/repos/generoi/wpai-acf-add-on/zipball/c22c6a204d8a0792d78857f20d3f0778e707806f",
+                    "reference": "c22c6a204d8a0792d78857f20d3f0778e707806f",
                     "shasum": ""
                 },
-                "time": "2025-11-12T04:11:55+00:00",
+                "time": "2026-08-04T05:10:07+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/4.0.1",
+                    "source": "https://github.com/generoi/wpai-acf-add-on/tree/4.0.2",
                     "issues": "https://github.com/generoi/wpai-acf-add-on/issues"
                 }
             }
