@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$e304ed8f14c67bed08a336a805bfcb764b18c485.json": {
-            "sha1": "e304ed8f14c67bed08a336a805bfcb764b18c485"
+        "include/all$cf2258f4798fe3de87628fecf4fd7ed418685135.json": {
+            "sha1": "cf2258f4798fe3de87628fecf4fd7ed418685135"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -24,7 +24,6 @@
         "generoi/gds-content-translation",
         "generoi/gds-mcp",
         "generoi/gf-pardot-pro",
-        "generoi/gf-pipedrive-crm-perks-pro",
         "generoi/gravity-forms-user-verification",
         "generoi/gravityforms",
         "generoi/gravityforms-altcha",
