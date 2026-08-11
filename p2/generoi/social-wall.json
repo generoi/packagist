@@ -92,6 +92,29 @@
                     "source": "https://github.com/generoi/social-wall/tree/2.4.2",
                     "issues": "https://github.com/generoi/social-wall/issues"
                 }
+            },
+            {
+                "name": "generoi/social-wall",
+                "version": "2.4.3",
+                "version_normalized": "2.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/social-wall.git",
+                    "reference": "f81dcdbe55dde31af5d89b479e86fc02a5903438"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/social-wall/zipball/f81dcdbe55dde31af5d89b479e86fc02a5903438",
+                    "reference": "f81dcdbe55dde31af5d89b479e86fc02a5903438",
+                    "shasum": ""
+                },
+                "time": "2026-08-11T04:35:55+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/social-wall/",
+                "support": {
+                    "source": "https://github.com/generoi/social-wall/tree/2.4.3",
+                    "issues": "https://github.com/generoi/social-wall/issues"
+                }
             }
         ]
     }
