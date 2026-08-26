@@ -60,7 +60,10 @@ distributes the plugin:
           token: ${{ secrets.PACKAGIST_UPDATE_PAT }}
     ```
 
-3. Add [`@generoi/deploy`](https://github.com/orgs/generoi/teams/deploy) as a collaborator with `read` access. **Do _NOT_ grant write access.**
+3. Grant read access to the plugin repository, in two places:
+
+    * Install [`genero-composer-bot`](https://github.com/organizations/generoi/settings/installations) on it. This is what *this* repo's satis build reads tags and contents with, and the build fails loudly if a `type: vcs` entry in `satis.json` is not covered.
+    * Add [`@generoi/deploy`](https://github.com/orgs/generoi/teams/deploy) as a collaborator with `read` access. **Do _NOT_ grant write access.** This is still needed because consuming projects authenticate Composer with `PACKAGIST_GITHUB_TOKEN`, a PAT on that machine user. It goes away once site repos move onto the app too.
 
 4. _Optional._ Change the [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) secret permissions to be allowed to be used by the repository. This only buys an **immediate** satis rebuild after a release — skip it and the plugin still gets indexed by the next scheduled build (every 3h). When the secret isn't granted, [`update.yml`](./.github/workflows/update.yml) emits a warning and exits green rather than failing the plugin repo's build.
 
@@ -122,7 +125,9 @@ no proprietary metadata, no custom `composer.json`).
 
 ### Prerequisites
 
-- [`GENEROI_DEPLOY_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/GENEROI_DEPLOY_PAT) action secret containg a Personal Access Token of `@generoi/deploy` with Conents (read) access. This is used by this repo to read plugin tags/contents from every package listed in `satis.json`. [(settings link)](https://github.com/organizations/generoi/settings/personal-access-tokens/367034)
+- `genero-composer-bot`, a GitHub App with Contents (read) and Metadata (read), installed on every `type: vcs` repository in `satis.json`. [`satis.yml`](./.github/workflows/satis.yml) mints a token from it per run to read plugin tags and contents. Its client id is inlined in the workflow (it is not a secret, same as the watchdog's); the only credential is the `COMPOSER_BOT_PRIVATE_KEY` org secret, scoped to this repository.
+
+    Replaced `GENEROI_DEPLOY_PAT`, a PAT on the `generoi-deploy` machine user. Same reasoning as `genero-watchdog-bot` in [`watchdog.yml`](./.github/workflows/watchdog.yml): app tokens are minted per run, expire in an hour, never need rotating, and are scoped by the installation rather than by whatever the machine user has accumulated invitations to.
 - [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) action secret containg a Personal Access Token of a user with _write_ access to this repository. The token is limited to only this repository with Contents (write) access. [(settings link)](https://github.com/organizations/generoi/settings/personal-access-tokens/944959)
 - [`WCCOM_ACCESS_TOKEN`](https://github.com/organizations/generoi/settings/secrets/actions/WCCOM_ACCESS_TOKEN) and [`WCCOM_ACCESS_TOKEN_SECRET`](https://github.com/organizations/generoi/settings/secrets/actions/WCCOM_ACCESS_TOKEN_SECRET) action secrets which contain the OAuth2 tokens stored in wp_options of the store which is connected to WooCommerce.
 - `LICENSE_KEY` is added as a Repository Secret to each relevant plugin repository. The secret contains the license key.

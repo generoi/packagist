@@ -83,6 +83,60 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Reads tags and composer.json from every `type: vcs` mirror in satis.json.
+      #
+      # Was GENEROI_DEPLOY_PAT, a personal access token belonging to the
+      # generoi-deploy machine user, whose reach came from a team membership
+      # nobody audits — in practice 171 private repos, 20 of them with write.
+      # The argument against a PAT is the one already made at length in the
+      # header of watchdog.yml: it expires, it dies with the account that
+      # created it, and its scope drifts. This token is minted per run, lasts an
+      # hour against a three-minute build, and can only see what the app is
+      # installed on.
+      #
+      # `owner` rather than the default (this repo) so the minted token carries
+      # the installation's full repository list. The client id is not a secret;
+      # see the note in watchdog.yml for why it is inlined.
+      - name: Mint a Composer token
+        id: app-token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          # genero-composer-bot, app id TBD, installation TBD
+          client-id: TBD
+          private-key: ${{ secrets.COMPOSER_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      # A mirror that satis.json lists but the app is not installed on does not
+      # fail the build — Composer reads it as a repository with no versions, and
+      # we publish an index that is silently missing the package. Downstream,
+      # `composer update` on a site then reports the plugin as unresolvable, or
+      # worse resolves nothing at all and exits 0.
+      #
+      # That is the same silent-rot failure this repo's watchdog exists to
+      # catch, so catch it before anything is built rather than after it ships.
+      # Under an "all repositories" installation this compares against every
+      # repo in the org and passes trivially, which is also correct.
+      - name: Check the token covers every mirror in satis.json
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          set -euo pipefail
+
+          gh api installation/repositories --paginate \
+            --jq '.repositories[].full_name' | sort -u > /tmp/installed.txt
+
+          jq -r '.repositories[] | select(.type=="vcs") | .url' satis.json \
+            | sed -E 's#https://github.com/##; s#\.git$##' | sort -u > /tmp/wanted.txt
+
+          missing=$(comm -23 /tmp/wanted.txt /tmp/installed.txt)
+          if [ -n "$missing" ]; then
+            echo "::error title=Mirror not covered::genero-composer-bot is not installed on the repositories listed below, so satis cannot read their tags and they would drop out of the index. Add them at https://github.com/organizations/generoi/settings/installations"
+            printf '%s\n' "$missing" | sed 's/^/  - /'
+            exit 1
+          fi
+
+          echo "All $(wc -l < /tmp/wanted.txt) mirrors are covered by the installation."
+
       - name: Create composer.json
         run: echo "{}" > composer.json
 
@@ -101,19 +155,43 @@ jobs:
 
       - name: Synthesise GitHub-release package entries
         env:
-          # GitHub-released closed-source plugins live under public repos —
-          # GITHUB_TOKEN is enough; falls back to anonymous (60/h rate limit)
-          # if absent, which is fine since we run at most once a day.
-          GITHUB_TOKEN: ${{ secrets.GENEROI_DEPLOY_PAT || secrets.GITHUB_TOKEN }}
+          # GitHub-released closed-source plugins live under public repos, so
+          # the job's own GITHUB_TOKEN is enough — it is only here to lift the
+          # anonymous 60/h rate limit. Deliberately not the app token: these are
+          # upstream repos under other owners, which no installation of ours
+          # covers.
+          GITHUB_TOKEN: ${{ github.token }}
         run: node generate-release-packages.js satis.json satis.merged.json
 
       - name: Docker pull
         run: docker pull composer/satis
 
       - name: Docker build
+        env:
+          COMPOSER_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           export COMPOSER_HOME="$HOME/.composer"
-          composer config -g github-oauth.github.com "${{ secrets.GENEROI_DEPLOY_PAT }}"
+
+          # Two entries, because Composer reaches GitHub two ways and an app
+          # token is only accepted on one of them out of the box.
+          #
+          #   github-oauth  — the GitHub API, which is how GitHubDriver reads
+          #                   tags and composer.json for every `type: vcs` entry.
+          #                   Works with an installation token as-is.
+          #   http-basic    — the git-over-HTTPS fallback GitHubDriver drops to
+          #                   when the API path is unavailable. Composer sends a
+          #                   github-oauth token with the username
+          #                   `x-oauth-basic`; installation tokens require
+          #                   `x-access-token`, so without this line the
+          #                   fallback fails with the thoroughly misleading
+          #                   "Support for password authentication was removed".
+          #                   composer/composer#11064.
+          #
+          # Both land in $COMPOSER_HOME/auth.json, which is mounted into the
+          # satis container below.
+          composer config -g github-oauth.github.com "$COMPOSER_TOKEN"
+          composer config -g -a http-basic.github.com x-access-token "$COMPOSER_TOKEN"
+
           docker run --rm --init \
             --user $(id -u):$(id -g) \
             --volume $(pwd):/build \
