@@ -196,6 +196,23 @@ jobs:
       - name: Rewrite dist URLs for release-based packages
         run: node rewrite-dist-urls.js ${{ env.BUILD_DIR }}
 
+      # Runs before the branch switch below, while satis.merged.json and this
+      # script are still in the worktree — `git checkout gh-pages` replaces
+      # them. Reads the published index out of the ref rather than the working
+      # tree for the same reason.
+      - name: Refuse to publish a shorter index
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/previous-index && mkdir -p /tmp/previous-index
+          if git rev-parse --verify -q origin/gh-pages >/dev/null \
+            && git cat-file -e origin/gh-pages:p2 2>/dev/null; then
+            git archive origin/gh-pages -- p2 | tar -x -C /tmp/previous-index
+          fi
+          node check-index-shrink.js \
+            /tmp/previous-index/p2 \
+            "${{ env.BUILD_DIR }}/p2" \
+            satis.merged.json
+
       - name: Publish to GitHub pages
         run: |
           rm composer.json satis.merged.json

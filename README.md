@@ -88,6 +88,27 @@ Two independent paths, so no single missing credential can strand a release:
 Need it indexed right now and the push path isn't wired up? Just run the build
 manually: `gh workflow run satis.yml --repo generoi/packagist`.
 
+### "Refusing to publish a shorter index"
+
+A build that reads every mirror successfully can still come out short. Composer
+records a 404 on an individual tag's `composer.json` and carries on — only 401,
+403, 429 and 5xx are rethrown — so one flaky request drops one version while the
+build stays green. Publishing wipes `p2/` and copies the build over it, so that
+short result would replace good metadata, and downstream it reads as an
+unresolvable plugin rather than as a failed build.
+
+[`check-index-shrink.js`](./check-index-shrink.js) compares the build against
+what is already published and fails before the publish step if any package or
+tagged version went missing. `~dev` files are ignored; branches come and go.
+
+- **A transient 404.** Just re-run the build. It normally passes.
+- **A package you removed from `satis.json`.** Not a failure — the check reads
+  the source repository off the published versions, sees it is no longer
+  declared, and lets it through.
+- **A package renamed in its own `composer.json`.** Reported as disappeared,
+  because from here it is indistinguishable from a mirror that stopped
+  resolving. Confirm the rename, then re-run.
+
 ### Add a plugin (direct GitHub-release mirror)
 
 Use this when upstream already publishes a versioned release zip on
