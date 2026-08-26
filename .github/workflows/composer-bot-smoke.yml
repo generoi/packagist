@@ -1,0 +1,97 @@
+# TEMPORARY — delete before merging chore/composer-bot-token.
+#
+# Proves genero-composer-bot can actually authenticate Composer before anyone
+# does the 71-repo installation chore. Runs the real production path (the satis
+# container, the same auth.json mount) against a one-package satis.json built
+# from generoi/polylang-wc, which is the only repo the app is installed on right
+# now. Publishes nothing.
+name: Composer bot smoke test
+
+on:
+  push:
+    branches:
+      - chore/composer-bot-token
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Mint a Composer token
+        id: app-token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          # genero-composer-bot, app id 4725940, installation 156728348
+          client-id: Iv23liSq2pR9zC6lUtCH
+          private-key: ${{ secrets.COMPOSER_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - name: What can this token see?
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: gh api installation/repositories --paginate --jq '.repositories[].full_name'
+
+      # The claim under test, stated in composer/composer#11064: an installation
+      # token is accepted over git-over-HTTPS only with the username
+      # `x-access-token`. `github-oauth` sends `x-oauth-basic`, so if that were
+      # enough, both of these would pass. Assert the difference rather than
+      # trusting the issue thread.
+      - name: Which git-over-HTTPS username does the token need?
+        env:
+          TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          set +e
+          git ls-remote "https://x-access-token:${TOKEN}@github.com/generoi/polylang-wc.git" HEAD >/dev/null 2>&1
+          access=$?
+          git ls-remote "https://${TOKEN}:x-oauth-basic@github.com/generoi/polylang-wc.git" HEAD >/dev/null 2>&1
+          oauth=$?
+          echo "x-access-token: exit $access | x-oauth-basic: exit $oauth"
+          if [ "$access" -ne 0 ]; then
+            echo "::error title=git-over-HTTPS rejected the token::x-access-token should have worked. Check the app is installed on generoi/polylang-wc with Contents read."
+            exit 1
+          fi
+          if [ "$oauth" -eq 0 ]; then
+            echo "::notice title=Both usernames work::x-oauth-basic was accepted too, so the extra http-basic entry in satis.yml is belt-and-braces rather than load-bearing. Leave it in; it costs nothing."
+          else
+            echo "::notice title=Confirmed::x-oauth-basic is rejected, so the http-basic entry in satis.yml is what keeps Composer's git fallback working."
+          fi
+
+      - name: Build a one-package index
+        env:
+          COMPOSER_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          set -euo pipefail
+          echo "{}" > composer.json
+
+          jq '.repositories = [.repositories[] | select(.url | test("polylang-wc"))]' \
+            satis.json > satis.smoke.json
+          jq -c '.repositories' satis.smoke.json
+
+          export COMPOSER_HOME="$HOME/.composer"
+          composer config -g github-oauth.github.com "$COMPOSER_TOKEN"
+          composer config -g -a http-basic.github.com x-access-token "$COMPOSER_TOKEN"
+
+          docker run --rm --init \
+            --user "$(id -u):$(id -g)" \
+            --volume "$(pwd):/build" \
+            --volume "${COMPOSER_HOME}:/composer" \
+            composer/satis -vvv build /build/satis.smoke.json /build/smoke --no-interaction
+
+      # satis exits 0 on a repository it cannot read — it just emits no
+      # versions. That is precisely the silent failure the coverage check in
+      # satis.yml exists to prevent, so assert on the output, not the exit code.
+      - name: Assert the package actually made it into the index
+        run: |
+          set -euo pipefail
+          f=smoke/p2/generoi/polylang-wc.json
+          if [ ! -f "$f" ]; then
+            echo "::error title=Package missing::satis produced no metadata for generoi/polylang-wc — the token could not read it."
+            find smoke -maxdepth 3 -type f | head -30
+            exit 1
+          fi
+          n=$(jq '.packages["generoi/polylang-wc"] | length' "$f")
+          echo "versions indexed: $n"
+          jq -r '.packages["generoi/polylang-wc"][0] | "latest: \(.version)  dist: \(.dist.url)"' "$f"
+          [ "$n" -gt 0 ] || { echo "::error title=No versions::Index built but empty."; exit 1; }
+          echo "::notice title=Composer auth works::genero-composer-bot indexed $n versions of generoi/polylang-wc."
