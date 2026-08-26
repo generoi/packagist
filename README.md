@@ -62,7 +62,7 @@ distributes the plugin:
 
 3. Add [`@generoi/deploy`](https://github.com/orgs/generoi/teams/deploy) as a collaborator with `read` access. **Do _NOT_ grant write access.**
 
-    Nothing else is needed for the satis build itself: `genero-composer-bot` is installed on all repositories, so a new mirror is covered the moment it exists. If that installation is ever narrowed to selected repositories, the build fails naming the repo rather than quietly publishing an index without it.
+    Nothing else is needed for the satis build itself: `genero-composer-bot` is installed on all repositories, so a new mirror is covered the moment it exists. If that installation is ever narrowed to selected repositories, the build fails naming the repo up front, rather than partway through the satis run.
 
     The collaborator step is still required because consuming projects authenticate Composer with `PACKAGIST_GITHUB_TOKEN`, a PAT on that machine user. It goes away once site repos move onto the app too.
 
@@ -126,7 +126,7 @@ no proprietary metadata, no custom `composer.json`).
 
 ### Prerequisites
 
-- `genero-composer-bot`, a GitHub App with Contents (read) and Metadata (read), installed on all repositories in the org. [`satis.yml`](./.github/workflows/satis.yml) mints a token from it per run to read plugin tags and contents, and checks the installation still covers every `type: vcs` entry in `satis.json` before building. Its client id is inlined in the workflow (it is not a secret, same as the watchdog's); the only credential is the `COMPOSER_BOT_PRIVATE_KEY` org secret, scoped to this repository.
+- `genero-composer-bot`, a GitHub App with Contents (read) and Metadata (read), installed on all repositories in the org. [`satis.yml`](./.github/workflows/satis.yml) mints a token from it per run to read plugin tags and contents, and checks the installation still covers every `type: vcs` entry in `satis.json` before building. Note that `release-packages.json` sources must be **public** repositories — that script authenticates with the job's own `GITHUB_TOKEN`, which no app installation backs. Its client id is inlined in the workflow (it is not a secret, same as the watchdog's); the only credential is the `COMPOSER_BOT_PRIVATE_KEY` org secret, scoped to this repository.
 
     Replaced `GENEROI_DEPLOY_PAT`, a PAT on the `generoi-deploy` machine user. Same reasoning as `genero-watchdog-bot` in [`watchdog.yml`](./.github/workflows/watchdog.yml): app tokens are minted per run, expire in an hour, never need rotating, and are scoped by the installation rather than by whatever the machine user has accumulated invitations to.
 - [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) action secret containg a Personal Access Token of a user with _write_ access to this repository. The token is limited to only this repository with Contents (write) access. [(settings link)](https://github.com/organizations/generoi/settings/personal-access-tokens/944959)
