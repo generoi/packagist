@@ -85,14 +85,11 @@ jobs:
 
       # Reads tags and composer.json from every `type: vcs` mirror in satis.json.
       #
-      # Was GENEROI_DEPLOY_PAT, a personal access token belonging to the
-      # generoi-deploy machine user, whose reach came from a team membership
-      # nobody audits — in practice 171 private repos, 20 of them with write.
-      # The argument against a PAT is the one already made at length in the
-      # header of watchdog.yml: it expires, it dies with the account that
-      # created it, and its scope drifts. This token is minted per run, lasts an
-      # hour against a three-minute build, and can only see what the app is
-      # installed on.
+      # Was GENEROI_DEPLOY_PAT, a personal access token on the generoi-deploy
+      # machine user. Same reasoning as the app token in watchdog.yml: minted
+      # per run, expires in an hour against a three-minute build, never needs
+      # rotating, and scoped by what the app is installed on rather than by what
+      # the machine user has been granted.
       #
       # `owner` rather than the default (this repo) so the minted token carries
       # the installation's full repository list. The client id is not a secret;
