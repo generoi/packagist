@@ -1,0 +1,49 @@
+# TEMPORARY — deleted before merge. The script is unit-tested locally against a
+# copy of the real index; what is untested is the workflow glue that gets the
+# published index out of origin/gh-pages inside an Actions checkout.
+name: Shrink guard smoke test
+on:
+  push:
+    branches:
+      - fix/index-shrink-guard
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract the published index, exactly as satis.yml does
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/previous-index && mkdir -p /tmp/previous-index
+          if git rev-parse --verify -q origin/gh-pages >/dev/null \
+            && git cat-file -e origin/gh-pages:p2 2>/dev/null; then
+            git archive origin/gh-pages -- p2 | tar -x -C /tmp/previous-index
+          fi
+          echo "extracted $(find /tmp/previous-index/p2 -name '*.json' | wc -l) files"
+
+      - name: An unchanged index passes
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/current && cp -r /tmp/previous-index/p2 /tmp/current
+          node check-index-shrink.js /tmp/previous-index/p2 /tmp/current satis.json
+
+      - name: A missing tag fails
+        run: |
+          set +e
+          jq 'del(.packages["generoi/polylang-wc"][0])' \
+            /tmp/previous-index/p2/generoi/polylang-wc.json > /tmp/current/generoi/polylang-wc.json
+          node check-index-shrink.js /tmp/previous-index/p2 /tmp/current satis.json
+          rc=$?
+          echo "exit code: $rc (expected 1)"
+          [ "$rc" -eq 1 ] || { echo "::error title=Guard did not fire::a dropped tag was published anyway"; exit 1; }
+
+      - name: A package removed from satis.json passes
+        run: |
+          set -euo pipefail
+          cp /tmp/previous-index/p2/generoi/polylang-wc.json /tmp/current/generoi/polylang-wc.json
+          rm /tmp/current/generoi/facetwp.json
+          jq 'del(.repositories[] | select(.url | test("/facetwp\\.git$")))' satis.json > /tmp/trimmed.json
+          node check-index-shrink.js /tmp/previous-index/p2 /tmp/current /tmp/trimmed.json
