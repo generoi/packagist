@@ -83,6 +83,56 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Reads tags and composer.json from every `type: vcs` mirror in satis.json.
+      #
+      # Was GENEROI_DEPLOY_PAT, a personal access token on the generoi-deploy
+      # machine user. Same reasoning as the app token in watchdog.yml: minted
+      # per run, expires in an hour against a three-minute build, never needs
+      # rotating, and scoped by what the app is installed on rather than by what
+      # the machine user has been granted.
+      #
+      # `owner` rather than the default (this repo) so the minted token carries
+      # the installation's full repository list. The client id is not a secret;
+      # see the note in watchdog.yml for why it is inlined.
+      - name: Mint a Composer token
+        id: app-token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          # genero-composer-bot, app id 4725940, installation 156728348
+          client-id: Iv23liSq2pR9zC6lUtCH
+          private-key: ${{ secrets.COMPOSER_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      # satis runs without --skip-errors below, so a mirror the token cannot
+      # read already fails the build rather than dropping out of the index
+      # quietly: Composer raises InvalidRepositoryException and satis rethrows
+      # it. This check does not change that outcome, it improves the error. It
+      # names every uncovered repository at once, before the container starts,
+      # instead of failing on whichever one satis happened to reach first.
+      #
+      # Under an "all repositories" installation it compares against every repo
+      # in the org and passes trivially, which is also correct.
+      - name: Check the token covers every mirror in satis.json
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          set -euo pipefail
+
+          gh api installation/repositories --paginate \
+            --jq '.repositories[].full_name' | sort -u > /tmp/installed.txt
+
+          jq -r '.repositories[] | select(.type=="vcs") | .url' satis.json \
+            | sed -E 's#https://github.com/##; s#\.git$##' | sort -u > /tmp/wanted.txt
+
+          missing=$(comm -23 /tmp/wanted.txt /tmp/installed.txt)
+          if [ -n "$missing" ]; then
+            echo "::error title=Mirror not covered::genero-composer-bot is not installed on the repositories listed below, so satis cannot read their tags and they would drop out of the index. Add them at https://github.com/organizations/generoi/settings/installations"
+            printf '%s\n' "$missing" | sed 's/^/  - /'
+            exit 1
+          fi
+
+          echo "All $(wc -l < /tmp/wanted.txt) mirrors covered by $(wc -l < /tmp/installed.txt) installed repositories."
+
       - name: Create composer.json
         run: echo "{}" > composer.json
 
@@ -101,24 +151,47 @@ jobs:
 
       - name: Synthesise GitHub-release package entries
         env:
-          # GitHub-released closed-source plugins live under public repos —
-          # GITHUB_TOKEN is enough; falls back to anonymous (60/h rate limit)
-          # if absent, which is fine since we run at most once a day.
-          GITHUB_TOKEN: ${{ secrets.GENEROI_DEPLOY_PAT || secrets.GITHUB_TOKEN }}
+          # GitHub-released closed-source plugins live under public repos, so
+          # the job's own GITHUB_TOKEN is enough — it is only here to lift the
+          # anonymous 60/h rate limit. Deliberately not the app token: these are
+          # upstream repos under other owners, which no installation of ours
+          # covers.
+          GITHUB_TOKEN: ${{ github.token }}
         run: node generate-release-packages.js satis.json satis.merged.json
 
       - name: Docker pull
         run: docker pull composer/satis
 
       - name: Docker build
+        env:
+          COMPOSER_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           export COMPOSER_HOME="$HOME/.composer"
-          composer config -g github-oauth.github.com "${{ secrets.GENEROI_DEPLOY_PAT }}"
+
+          # Both entries, because this combination is the one verified end to
+          # end. In practice http-basic shadows github-oauth for github.com —
+          # Composer warns about the overlap and then sends even the API
+          # request as Basic with the username `x-access-token`. That username
+          # is what an installation token requires over git-over-HTTPS, where
+          # github-oauth's `x-oauth-basic` is rejected outright
+          # (composer/composer#11064), and api.github.com accepts it too. So
+          # keep both rather than trimming to whichever reads tidier.
+          #
+          # They land in $COMPOSER_HOME/auth.json, mounted into the satis
+          # container below.
+          composer config -g github-oauth.github.com "$COMPOSER_TOKEN"
+          composer config -g -a http-basic.github.com x-access-token "$COMPOSER_TOKEN"
+
           docker run --rm --init \
             --user $(id -u):$(id -g) \
             --volume $(pwd):/build \
             --volume "${COMPOSER_HOME}:/composer" \
             composer/satis -vvv build /build/satis.merged.json /build/${{ env.BUILD_DIR }} --no-interaction
+
+          # auth.json sits inside the actions/cache path above, so leaving it
+          # would upload a live credential into the cache tarball at the end of
+          # the job. Nothing after this step reads it.
+          rm -f "$COMPOSER_HOME/auth.json"
 
       - name: Rewrite dist URLs for release-based packages
         run: node rewrite-dist-urls.js ${{ env.BUILD_DIR }}
