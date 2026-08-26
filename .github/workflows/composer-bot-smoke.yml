@@ -37,16 +37,32 @@ jobs:
       # `x-access-token`. `github-oauth` sends `x-oauth-basic`, so if that were
       # enough, both of these would pass. Assert the difference rather than
       # trusting the issue thread.
+      #
+      # Runs from /tmp, not the checkout. actions/checkout writes
+      # `http.https://github.com/.extraheader` into the repo's local git config,
+      # carrying this job's own GITHUB_TOKEN — which is scoped to packagist
+      # alone. Inside the checkout that header wins over credentials in the URL,
+      # so both probes 403 identically and the test says nothing. Same trap
+      # composer-update/scripts/open-or-refresh-pr.sh unsets by hand.
       - name: Which git-over-HTTPS username does the token need?
+        working-directory: /tmp
         env:
           TOKEN: ${{ steps.app-token.outputs.token }}
+          GIT_TERMINAL_PROMPT: '0'
         run: |
           set +e
-          git ls-remote "https://x-access-token:${TOKEN}@github.com/generoi/polylang-wc.git" HEAD >/dev/null 2>&1
+          git config --global --get-regexp '^http\.' || echo "(no global http.* config)"
+
+          out_access=$(git ls-remote "https://x-access-token:${TOKEN}@github.com/generoi/polylang-wc.git" HEAD 2>&1)
           access=$?
-          git ls-remote "https://${TOKEN}:x-oauth-basic@github.com/generoi/polylang-wc.git" HEAD >/dev/null 2>&1
+          out_oauth=$(git ls-remote "https://${TOKEN}:x-oauth-basic@github.com/generoi/polylang-wc.git" HEAD 2>&1)
           oauth=$?
-          echo "x-access-token: exit $access | x-oauth-basic: exit $oauth"
+
+          echo "x-access-token: exit $access"
+          echo "$out_access" | sed 's/^/    /'
+          echo "x-oauth-basic:  exit $oauth"
+          echo "$out_oauth" | sed 's/^/    /'
+
           if [ "$access" -ne 0 ]; then
             echo "::error title=git-over-HTTPS rejected the token::x-access-token should have worked. Check the app is installed on generoi/polylang-wc with Contents read."
             exit 1
@@ -54,7 +70,7 @@ jobs:
           if [ "$oauth" -eq 0 ]; then
             echo "::notice title=Both usernames work::x-oauth-basic was accepted too, so the extra http-basic entry in satis.yml is belt-and-braces rather than load-bearing. Leave it in; it costs nothing."
           else
-            echo "::notice title=Confirmed::x-oauth-basic is rejected, so the http-basic entry in satis.yml is what keeps Composer's git fallback working."
+            echo "::notice title=Confirmed::x-oauth-basic is rejected, so the http-basic entry in satis.yml is what keeps Composer git fallback working."
           fi
 
       - name: Build a one-package index
