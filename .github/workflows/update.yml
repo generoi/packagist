@@ -21,7 +21,7 @@ jobs:
       #   https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT
       #
       # Missing token is NOT an error. This dispatch only buys latency — satis
-      # rebuilds every 3h and re-reads every `type: vcs` tag, so the release
+      # rebuilds twice a day and re-reads every `type: vcs` tag, so the release
       # lands either way. Warn and exit green rather than painting the caller's
       # build red for a rebuild that was going to happen anyway.
       - name: Trigger rebuild
@@ -35,13 +35,13 @@ jobs:
               echo "\`PACKAGIST_UPDATE_PAT\` is not available to \`${{ github.repository }}\`,"
               echo "so no immediate rebuild was triggered. The next scheduled"
               echo "[Satis Build](https://github.com/generoi/packagist/actions/workflows/satis.yml)"
-              echo "(every 3h) will index this release."
+              echo "(twice a day) will index this release."
               echo
               echo "To get instant rebuilds, grant the secret to this repository:"
               echo "<https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT>"
             } >> "$GITHUB_STEP_SUMMARY"
 
-            echo "::warning title=Satis rebuild skipped::PACKAGIST_UPDATE_PAT is not available to ${{ github.repository }} — falling back to the scheduled rebuild (every 3h). Grant it at https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT"
+            echo "::warning title=Satis rebuild skipped::PACKAGIST_UPDATE_PAT is not available to ${{ github.repository }} — falling back to the scheduled rebuild (twice a day). Grant it at https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT"
             exit 0
           fi
 
