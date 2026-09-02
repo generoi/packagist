@@ -155,12 +155,22 @@ jobs:
         id: get-date
         run: echo "date=$(/bin/date -u "+%F")" >> $GITHUB_OUTPUT
 
-      - name: Cache dependencies and build
+      # Composer's repository metadata only. `build/` used to be listed here too
+      # and never cached anything: the publish step below does `rm -rf build/`
+      # before the job ends, so the directory is always gone by the time the
+      # post-cache step runs. That is not a bug to fix by keeping the directory
+      # — it has to go, or `git add -A` would commit the whole satis output
+      # into gh-pages a second time — and caching it would buy nothing anyway,
+      # since satis regenerates the full index on every build and has no
+      # incremental mode that reads the previous output.
+      #
+      # The key is per-day with a prefix fallback, so the first build of the day
+      # restores yesterday's metadata and saves a fresh copy; later builds hit
+      # it exactly and skip the save.
+      - name: Cache Composer metadata
         uses: actions/cache@v4
         with:
-          path: |
-            ~/.composer
-            ${{ env.BUILD_DIR }}
+          path: ~/.composer
           key: ${{ runner.os }}-php-${{ steps.get-date.outputs.date }}
           restore-keys: ${{ runner.os }}-php-
 
