@@ -253,16 +253,23 @@ jobs:
           # changed nothing but a timestamp, and then a Pages deploy to publish
           # the new timestamp.
           #
-          # Anything that genuinely changes the index also changes p2/ or
-          # packages.json — index.html's package listing is rendered from the
-          # same data — so "nothing outside index.html moved" is a sound test for
-          # "the index is unchanged".
+          # A new or changed package always moves p2/, packages.json or include/,
+          # so ignoring index.html is a sound test for "no package changed".
+          #
+          # It is NOT a sound test for "nothing changed", which is why `push` is
+          # excluded: satis renders satis.json's `name` and `homepage` into the
+          # page title and header, and those appear in no other output file. A
+          # commit that edits only those would build a new index.html and nothing
+          # else, and the check below would swallow it. A push to master is the
+          # only way those reach the build, and there are a handful a month, so
+          # publishing all of them unconditionally costs nothing.
           #
           # The badge now reads as the last time the index actually changed
           # rather than the last time a cron ran, which is the more useful of the
           # two. Run health is visible in the Actions tab either way.
-          if git diff --cached --quiet -- . ':(exclude)index.html'; then
-            echo "::notice title=No index change::The package index is unchanged — nothing to publish."
+          if [ "${{ github.event_name }}" != "push" ] \
+            && git diff --cached --quiet -- . ':(exclude)index.html'; then
+            echo "::notice title=No index change::No package changed — nothing to publish."
             exit 0
           fi
 
