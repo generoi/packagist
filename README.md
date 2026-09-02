@@ -66,7 +66,7 @@ distributes the plugin:
 
     The collaborator step is still required because consuming projects authenticate Composer with `PACKAGIST_GITHUB_TOKEN`, a PAT on that machine user. It goes away once site repos move onto the app too.
 
-4. _Optional._ Change the [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) secret permissions to be allowed to be used by the repository. This only buys an **immediate** satis rebuild after a release — skip it and the plugin still gets indexed by the next scheduled build (every 3h). When the secret isn't granted, [`update.yml`](./.github/workflows/update.yml) emits a warning and exits green rather than failing the plugin repo's build.
+4. _Optional._ Change the [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) secret permissions to be allowed to be used by the repository. This only buys an **immediate** satis rebuild after a release — skip it and the plugin still gets indexed by the next scheduled build (twice a day). When the secret isn't granted, [`update.yml`](./.github/workflows/update.yml) emits a warning and exits green rather than failing the plugin repo's build.
 
 5. Add the plugin to [`satis.json`](./satis.json) in this repository.
 
@@ -82,7 +82,7 @@ Two independent paths, so no single missing credential can strand a release:
   [`update.yml`](./.github/workflows/update.yml), which POSTs a `repository_dispatch`
   here and rebuilds within a minute. Needs `PACKAGIST_UPDATE_PAT` (step 4 above).
 - **Scheduled (slower, guaranteed)** — [`satis.yml`](./.github/workflows/satis.yml)
-  runs every 3h and re-reads the tags of every `type: vcs` entry plus every
+  runs twice a day and re-reads the tags of every `type: vcs` entry plus every
   upstream release in `release-packages.json`. Requires no per-repo config.
 
 Need it indexed right now and the push path isn't wired up? Just run the build

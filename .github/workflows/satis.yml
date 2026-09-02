@@ -8,17 +8,26 @@ on:
     branches:
       - master
   schedule:
-    # Every 3h — picks up new upstream releases for packages declared in
+    # Twice a day — picks up new upstream releases for packages declared in
     # `release-packages.json` (GitHub-released proprietary plugins that don't
     # have a Genero-owned fork driving satis via the VCS pattern), and re-reads
     # the tags of every `type: vcs` entry.
     #
-    # This is also the safety net for the push-based path: plugin repos trigger
-    # an immediate rebuild via `update.yml`, but that needs `PACKAGIST_UPDATE_PAT`
-    # to be granted to the calling repo. When it isn't, `update.yml` warns and
-    # exits green — the next scheduled build indexes the tag regardless. The
-    # 04:30 slot still lands after the plugin update crons (nominally 04:05 UTC).
-    - cron: '30 */3 * * *'
+    # This is a safety net, not the primary path. Plugin repos trigger an
+    # immediate rebuild via `update.yml`, which needs `PACKAGIST_UPDATE_PAT` to
+    # be granted to the calling repo; when it isn't, `update.yml` warns and exits
+    # green, and the next scheduled build indexes the tag regardless.
+    #
+    # It ran every 3h, which is eight full rebuilds a day to catch the rare
+    # release the dispatch path missed — and the dispatch path currently covers
+    # every mirror in satis.json, with `release-packages.json` empty. A backstop
+    # does not need to run more often than the thing it is backing up. Worst-case
+    # latency for a mirror that loses its PAT grant goes from 3h to 12h; the
+    # watchdog reports that grant gap on its own schedule anyway.
+    #
+    # The 04:30 slot still lands after the plugin update crons (nominally 04:05
+    # UTC); 16:30 gives a second pass inside the working day.
+    - cron: '30 4,16 * * *'
 env:
   BUILD_DIR: build
 
@@ -34,10 +43,10 @@ jobs:
   # (undocumented, and this repo has not been idle long enough since the cron was
   # added on 2026-05-15 to find out), so do not rely on it.
   #
-  # If the timer ever does expire, the 3h rebuild stops and the watchdog in
-  # watchdog.yml goes quiet with it — the exact silent failure both exist to
+  # If the timer ever does expire, the scheduled rebuild stops and the watchdog
+  # in watchdog.yml goes quiet with it — the exact silent failure both exist to
   # prevent. So keep the clock alive explicitly. This lives in *this* workflow
-  # rather than watchdog.yml because this one runs every 3h: a push here resets
+  # rather than watchdog.yml because this one runs twice a day: a push here resets
   # the repo-level clock and therefore protects both workflows.
   #
   # Same mechanism as generoi/github-action-update-plugins#15, which does this for
@@ -46,6 +55,8 @@ jobs:
   keepalive:
     if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
+    # A checkout and, at most, one empty commit.
+    timeout-minutes: 5
     permissions:
       contents: write
     steps:
@@ -78,6 +89,10 @@ jobs:
 
   builder:
     runs-on: ubuntu-latest
+    # Without this the job inherits GitHub's 360-minute ceiling. The work is
+    # ~70 sequential GitHub API traversals inside `composer/satis build`, any
+    # one of which can stall rather than fail. ~3x the slowest healthy run.
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -230,5 +245,26 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
+
+          # satis stamps a "Last updated" time into index.html on every build, so
+          # a rebuild that found nothing new still produced a commit — and every
+          # commit here triggers a pages-build-deployment. That was the majority
+          # of this repo's Actions usage: a run of the scheduled build that
+          # changed nothing but a timestamp, and then a Pages deploy to publish
+          # the new timestamp.
+          #
+          # Anything that genuinely changes the index also changes p2/ or
+          # packages.json — index.html's package listing is rendered from the
+          # same data — so "nothing outside index.html moved" is a sound test for
+          # "the index is unchanged".
+          #
+          # The badge now reads as the last time the index actually changed
+          # rather than the last time a cron ran, which is the more useful of the
+          # two. Run health is visible in the Actions tab either way.
+          if git diff --cached --quiet -- . ':(exclude)index.html'; then
+            echo "::notice title=No index change::The package index is unchanged — nothing to publish."
+            exit 0
+          fi
+
           git commit -m "Updated repository"
           git push

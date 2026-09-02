@@ -7,7 +7,7 @@
 #
 # LIVENESS: this is a public repo, so a scheduled workflow here is subject to the
 # same 60-day inactivity auto-disable it exists to report. That is handled by the
-# `keepalive` job in satis.yml, which runs every 3h and pushes an empty commit
+# `keepalive` job in satis.yml, which runs twice a day and pushes an empty commit
 # when master goes quiet — a push resets the repo-level clock and so protects this
 # workflow too. Do not move the keepalive in here: this workflow only runs weekly,
 # so if it were ever disabled it could not revive itself.
@@ -16,13 +16,14 @@
 #   1. Mirror Build workflows auto-disabled by inactivity.
 #   2. Mirrors in satis.json with no updater at all, so nothing ever bumps them.
 #   3. Build workflows that stopped running for any other reason.
-#   4. This repo's own Satis Build being disabled, which loses the 3h safety net.
+#   4. This repo's own Satis Build being disabled, which loses the scheduled
+#      rebuild safety net.
 #   5. Repos missing the PACKAGIST_UPDATE_PAT grant. Since #10 a missing grant
 #      warns and exits green by design, so nothing else would ever report it.
 #   6. Repos where no workflow calls the rebuild hook at all, so a new tag is
-#      only picked up by the 3h cron. Composer reports "Nothing to modify in
-#      lock file" and exits 0 against a stale index, so this reads downstream as
-#      "already up to date" rather than as a failure.
+#      only picked up by the scheduled rebuild. Composer reports "Nothing to
+#      modify in lock file" and exits 0 against a stale index, so this reads
+#      downstream as "already up to date" rather than as a failure.
 #
 # AUTH — every check here is cross-repo, so GITHUB_TOKEN is no use: it is scoped
 # to this repo alone. Authenticates as the `genero-watchdog-bot` GitHub App,
@@ -188,7 +189,7 @@ jobs:
           sstate=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows" \
                      --jq '.workflows[] | select(.name=="Satis Build") | .state' 2>/dev/null || true)
           if [ "$sstate" != "active" ]; then
-            note "INDEX_STALE|$GITHUB_REPOSITORY|Satis Build is '$sstate' — the 3h rebuild safety net is gone; the keepalive in satis.yml has failed"
+            note "INDEX_STALE|$GITHUB_REPOSITORY|Satis Build is '$sstate' — the scheduled rebuild safety net is gone; the keepalive in satis.yml has failed"
           fi
 
           # ---- 5..6: rebuild wiring, then PAT grants -------------------------
@@ -222,14 +223,14 @@ jobs:
             hookwf=$(hook_workflow "$repo")
 
             # ---- 6: nothing dispatches a rebuild on release ------------------
-            # Costs latency rather than correctness — the 3h cron still indexes
-            # the tag — so this is info, not urgent. It is reported for manual
+            # Costs latency rather than correctness — the scheduled rebuild
+            # still indexes the tag — so this is info, not urgent. It is reported for manual
             # packages too: being hand-released excuses having no Build workflow
             # (check 1), it does not excuse having no rebuild trigger. gds-mcp sat
             # on the MANUAL list with no trigger at all, and a tagged release read
             # as installed while composer kept resolving the previous commit.
             if [ -z "$hookwf" ]; then
-              note "NO_REBUILD_HOOK|$repo|no workflow calls the satis rebuild hook — new tags wait for the 3h cron"
+              note "NO_REBUILD_HOOK|$repo|no workflow calls the satis rebuild hook — new tags wait for the scheduled rebuild"
               continue
             fi
 
@@ -240,7 +241,7 @@ jobs:
                       --jq 'if ([.secrets[].name] | index("PACKAGIST_UPDATE_PAT")) then "yes" else "no" end' 2>/dev/null || true)
             case "$grant" in
               yes) ;;
-              no)  note "NO_PAT_GRANT|$repo|$hookwf calls the rebuild hook but the repo is not in the PACKAGIST_UPDATE_PAT allow-list — rebuilds wait for the 3h cron" ;;
+              no)  note "NO_PAT_GRANT|$repo|$hookwf calls the rebuild hook but the repo is not in the PACKAGIST_UPDATE_PAT allow-list — rebuilds wait for the scheduled rebuild" ;;
               *)   echo "::warning::Could not read org-secret grants for $repo (PAT scope?); skipped." ;;
             esac
           done < active.txt
