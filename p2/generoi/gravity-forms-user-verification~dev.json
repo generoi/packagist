@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravity-forms-user-verification.git",
-                    "reference": "5c849fe16fe72568be17bc13deca4d8fe41675a2"
+                    "reference": "510652f972cce8d7e97c51206e3f1a8980705124"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravity-forms-user-verification/zipball/5c849fe16fe72568be17bc13deca4d8fe41675a2",
-                    "reference": "5c849fe16fe72568be17bc13deca4d8fe41675a2",
+                    "url": "https://api.github.com/repos/generoi/gravity-forms-user-verification/zipball/510652f972cce8d7e97c51206e3f1a8980705124",
+                    "reference": "510652f972cce8d7e97c51206e3f1a8980705124",
                     "shasum": ""
                 },
-                "time": "2026-08-14T04:42:57+00:00",
+                "time": "2026-09-05T04:23:00+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://albertbrueckmann.de/produkte/addon-double-opt-in-for-gravity-forms-en/",
                 "support": {
-                    "source": "https://github.com/generoi/gravity-forms-user-verification/tree/2.7.3",
+                    "source": "https://github.com/generoi/gravity-forms-user-verification/tree/2.7.4",
                     "issues": "https://github.com/generoi/gravity-forms-user-verification/issues"
                 }
             }
