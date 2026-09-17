@@ -589,6 +589,29 @@
                     "source": "https://github.com/generoi/wpml-media-translation/tree/3.1.2",
                     "issues": "https://github.com/generoi/wpml-media-translation/issues"
                 }
+            },
+            {
+                "name": "generoi/wpml-media-translation",
+                "version": "5.0.0",
+                "version_normalized": "5.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-media-translation.git",
+                    "reference": "e0130805a9a121a9cfc881478127a8a96f5a7a33"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/e0130805a9a121a9cfc881478127a8a96f5a7a33",
+                    "reference": "e0130805a9a121a9cfc881478127a8a96f5a7a33",
+                    "shasum": ""
+                },
+                "time": "2026-09-17T04:25:08+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/5.0.0",
+                    "issues": "https://github.com/generoi/wpml-media-translation/issues"
+                }
             }
         ]
     }

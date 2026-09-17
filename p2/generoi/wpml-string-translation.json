@@ -976,6 +976,29 @@
                     "source": "https://github.com/generoi/wpml-string-translation/tree/3.5.4",
                     "issues": "https://github.com/generoi/wpml-string-translation/issues"
                 }
+            },
+            {
+                "name": "generoi/wpml-string-translation",
+                "version": "5.0.0",
+                "version_normalized": "5.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "96d88c204cd4a41dc1ef0411d5053aaed91151f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/96d88c204cd4a41dc1ef0411d5053aaed91151f5",
+                    "reference": "96d88c204cd4a41dc1ef0411d5053aaed91151f5",
+                    "shasum": ""
+                },
+                "time": "2026-09-17T04:25:08+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/5.0.0",
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues"
+                }
             }
         ]
     }
