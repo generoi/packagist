@@ -138,6 +138,29 @@
                     "source": "https://github.com/generoi/wp-media-folder/tree/6.2.7",
                     "issues": "https://github.com/generoi/wp-media-folder/issues"
                 }
+            },
+            {
+                "name": "generoi/wp-media-folder",
+                "version": "6.2.8",
+                "version_normalized": "6.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-media-folder.git",
+                    "reference": "ce55b236d901643d598adf870fa642bc8ce121c4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-media-folder/zipball/ce55b236d901643d598adf870fa642bc8ce121c4",
+                    "reference": "ce55b236d901643d598adf870fa642bc8ce121c4",
+                    "shasum": ""
+                },
+                "time": "2026-09-18T04:24:05+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.joomunited.com/wordpress-products/wp-media-folder",
+                "support": {
+                    "source": "https://github.com/generoi/wp-media-folder/tree/6.2.8",
+                    "issues": "https://github.com/generoi/wp-media-folder/issues"
+                }
             }
         ]
     }
