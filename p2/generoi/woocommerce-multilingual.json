@@ -681,6 +681,29 @@
                     "source": "https://github.com/generoi/woocommerce-multilingual/tree/5.6.0",
                     "issues": "https://github.com/generoi/woocommerce-multilingual/issues"
                 }
+            },
+            {
+                "name": "generoi/woocommerce-multilingual",
+                "version": "5.6.1",
+                "version_normalized": "5.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-multilingual.git",
+                    "reference": "646ba9c237bd10407739fc2ea394ddc8dbd2da75"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-multilingual/zipball/646ba9c237bd10407739fc2ea394ddc8dbd2da75",
+                    "reference": "646ba9c237bd10407739fc2ea394ddc8dbd2da75",
+                    "shasum": ""
+                },
+                "time": "2026-09-23T04:25:20+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://wpml.org",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-multilingual/tree/5.6.1",
+                    "issues": "https://github.com/generoi/woocommerce-multilingual/issues"
+                }
             }
         ]
     }
