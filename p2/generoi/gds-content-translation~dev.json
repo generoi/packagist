@@ -201,12 +201,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-content-translation.git",
-                    "reference": "55022e6b7fcb71d9648a1a0728acb5d54688532b"
+                    "reference": "ffcd9b129d9d793b67b5f8820d62e9dca2140c60"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/55022e6b7fcb71d9648a1a0728acb5d54688532b",
-                    "reference": "55022e6b7fcb71d9648a1a0728acb5d54688532b",
+                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/ffcd9b129d9d793b67b5f8820d62e9dca2140c60",
+                    "reference": "ffcd9b129d9d793b67b5f8820d62e9dca2140c60",
                     "shasum": ""
                 },
                 "require": {
@@ -218,7 +218,7 @@
                     "wp-phpunit/wp-phpunit": "^7.0",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-10-01T09:33:18+00:00",
+                "time": "2026-10-01T10:05:45+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -260,7 +260,7 @@
                 "description": "Polylang Pro helpers for block translation rules, link remapping, and editorial translation status",
                 "homepage": "https://github.com/generoi/gds-content-translation",
                 "support": {
-                    "source": "https://github.com/generoi/gds-content-translation/tree/v1.1.0",
+                    "source": "https://github.com/generoi/gds-content-translation/tree/v1.1.1",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 }
             },
