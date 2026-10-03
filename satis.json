@@ -68,6 +68,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/generoi/wp-woocommerce-store-balance.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/generoi/gf-pardot-pro.git"
         },
         {
