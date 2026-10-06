@@ -1,14 +1,15 @@
 {
     "packages": [],
     "includes": {
-        "include/all$835409508b18664148f03ec871979f852aac6fc6.json": {
-            "sha1": "835409508b18664148f03ec871979f852aac6fc6"
+        "include/all$8333cd3b42ac7cfeba1fd2d5845d2cd65116cb8e.json": {
+            "sha1": "8333cd3b42ac7cfeba1fd2d5845d2cd65116cb8e"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
     "available-packages": [
         "generoi/advanced-custom-fields-pro",
         "generoi/b2b-roles",
+        "generoi/best-woocommerce-feed-pro",
         "generoi/cff-extensions",
         "generoi/complianz-gdpr-premium",
         "generoi/custom-facebook-feed-pro",

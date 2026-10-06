@@ -1,0 +1,29 @@
+{
+    "packages": {
+        "generoi/best-woocommerce-feed-pro": [
+            {
+                "name": "generoi/best-woocommerce-feed-pro",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/best-woocommerce-feed-pro.git",
+                    "reference": "7e93a9dc1d8f661f37f086371795eb4048299458"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/best-woocommerce-feed-pro/zipball/7e93a9dc1d8f661f37f086371795eb4048299458",
+                    "reference": "7e93a9dc1d8f661f37f086371795eb4048299458",
+                    "shasum": ""
+                },
+                "time": "2026-10-06T17:35:14+00:00",
+                "default-branch": true,
+                "type": "wordpress-plugin",
+                "support": {
+                    "source": "https://github.com/generoi/best-woocommerce-feed-pro/tree/master",
+                    "issues": "https://github.com/generoi/best-woocommerce-feed-pro/issues"
+                }
+            }
+        ]
+    }
+}
