@@ -31,20 +31,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/polylang-wc.git",
-                    "reference": "debbb5eeea1d14d472abc413aaaae2135f3b232f"
+                    "reference": "8fa919b079878c2e1234f33b12a33f95c58c8298"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/polylang-wc/zipball/debbb5eeea1d14d472abc413aaaae2135f3b232f",
-                    "reference": "debbb5eeea1d14d472abc413aaaae2135f3b232f",
+                    "url": "https://api.github.com/repos/generoi/polylang-wc/zipball/8fa919b079878c2e1234f33b12a33f95c58c8298",
+                    "reference": "8fa919b079878c2e1234f33b12a33f95c58c8298",
                     "shasum": ""
                 },
-                "time": "2026-10-06T04:28:05+00:00",
+                "time": "2026-10-13T04:32:04+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://polylang.pro/downloads/polylang-for-woocommerce/",
                 "support": {
-                    "source": "https://github.com/generoi/polylang-wc/tree/2.2.6",
+                    "source": "https://github.com/generoi/polylang-wc/tree/2.2.7",
                     "issues": "https://github.com/generoi/polylang-wc/issues"
                 }
             }
