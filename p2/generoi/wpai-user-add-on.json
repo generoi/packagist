@@ -69,6 +69,29 @@
                     "source": "https://github.com/generoi/wpai-user-add-on/tree/1.1.9",
                     "issues": "https://github.com/generoi/wpai-user-add-on/issues"
                 }
+            },
+            {
+                "name": "generoi/wpai-user-add-on",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpai-user-add-on.git",
+                    "reference": "3a80d2e21054cd63fa6b5b19860dbf85fbcaafe3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpai-user-add-on/zipball/3a80d2e21054cd63fa6b5b19860dbf85fbcaafe3",
+                    "reference": "3a80d2e21054cd63fa6b5b19860dbf85fbcaafe3",
+                    "shasum": ""
+                },
+                "time": "2026-10-16T04:22:48+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wpai-user-add-on/tree/2.0.0",
+                    "issues": "https://github.com/generoi/wpai-user-add-on/issues"
+                }
             }
         ]
     }
