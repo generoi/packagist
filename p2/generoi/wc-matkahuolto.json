@@ -46,6 +46,29 @@
                     "source": "https://github.com/generoi/wc-matkahuolto/tree/2.2.0",
                     "issues": "https://github.com/generoi/wc-matkahuolto/issues"
                 }
+            },
+            {
+                "name": "generoi/wc-matkahuolto",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wc-matkahuolto.git",
+                    "reference": "64d2b0d0ae0669dbc17ba8a7bc6d20b091826da9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wc-matkahuolto/zipball/64d2b0d0ae0669dbc17ba8a7bc6d20b091826da9",
+                    "reference": "64d2b0d0ae0669dbc17ba8a7bc6d20b091826da9",
+                    "shasum": ""
+                },
+                "time": "2026-10-21T04:25:24+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://markup.fi/products/woocommerce-matkahuolto",
+                "support": {
+                    "source": "https://github.com/generoi/wc-matkahuolto/tree/2.2.1",
+                    "issues": "https://github.com/generoi/wc-matkahuolto/issues"
+                }
             }
         ]
     }
