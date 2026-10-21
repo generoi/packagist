@@ -93,6 +93,51 @@
             },
             {
                 "name": "generoi/gds-block-animations",
+                "version": "v0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-block-animations.git",
+                    "reference": "949bee2e2b81d8821912363420ae13b6ad8c5cc4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-block-animations/zipball/949bee2e2b81d8821912363420ae13b6ad8c5cc4",
+                    "reference": "949bee2e2b81d8821912363420ae13b6ad8c5cc4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0.0"
+                },
+                "time": "2026-10-21T17:35:28+00:00",
+                "type": "wordpress-plugin",
+                "archive": {
+                    "exclude": [
+                        ".gitignore"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jonatan Storlund",
+                        "email": "storlundjonatan@gmail.com"
+                    }
+                ],
+                "description": "Animate WordPress blocks on scroll with customizable settings.",
+                "homepage": "https://github.com/generoi/gds-block-animations",
+                "keywords": [
+                    "gutenberg",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/generoi/gds-block-animations/issues",
+                    "source": "https://github.com/generoi/gds-block-animations/tree/v0.1.2"
+                }
+            },
+            {
+                "name": "generoi/gds-block-animations",
                 "version": "v0.2.0",
                 "version_normalized": "0.2.0.0",
                 "source": {
