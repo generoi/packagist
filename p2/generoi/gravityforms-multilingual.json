@@ -341,6 +341,29 @@
                     "source": "https://github.com/generoi/gravityforms-multilingual/tree/5.1.0",
                     "issues": "https://github.com/generoi/gravityforms-multilingual/issues"
                 }
+            },
+            {
+                "name": "generoi/gravityforms-multilingual",
+                "version": "5.2.0",
+                "version_normalized": "5.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms-multilingual.git",
+                    "reference": "e1db0acab056510e1998128d8ac038443d62e174"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-multilingual/zipball/e1db0acab056510e1998128d8ac038443d62e174",
+                    "reference": "e1db0acab056510e1998128d8ac038443d62e174",
+                    "shasum": ""
+                },
+                "time": "2026-10-22T04:23:56+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms-multilingual/tree/5.2.0",
+                    "issues": "https://github.com/generoi/gravityforms-multilingual/issues"
+                }
             }
         ]
     }

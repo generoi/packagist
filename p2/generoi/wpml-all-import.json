@@ -272,6 +272,29 @@
                     "source": "https://github.com/generoi/wpml-all-import/tree/5.0.0",
                     "issues": "https://github.com/generoi/wpml-all-import/issues"
                 }
+            },
+            {
+                "name": "generoi/wpml-all-import",
+                "version": "5.2.0",
+                "version_normalized": "5.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-all-import.git",
+                    "reference": "399f5c89fc851e5a6d55bfbd733d1edbe1cc639b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/399f5c89fc851e5a6d55bfbd733d1edbe1cc639b",
+                    "reference": "399f5c89fc851e5a6d55bfbd733d1edbe1cc639b",
+                    "shasum": ""
+                },
+                "time": "2026-10-22T04:21:55+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-all-import/tree/5.2.0",
+                    "issues": "https://github.com/generoi/wpml-all-import/issues"
+                }
             }
         ]
     }
