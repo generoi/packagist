@@ -929,16 +929,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-mcp.git",
-                    "reference": "e25b9dcbb04f1a98132ad689f8da520e97656ec6"
+                    "reference": "ae93f6e797d77c572ae5ff31c43c431c11a9a396"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/e25b9dcbb04f1a98132ad689f8da520e97656ec6",
-                    "reference": "e25b9dcbb04f1a98132ad689f8da520e97656ec6",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/ae93f6e797d77c572ae5ff31c43c431c11a9a396",
+                    "reference": "ae93f6e797d77c572ae5ff31c43c431c11a9a396",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=8.0.0"
+                    "php": ">=8.1"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.17",
@@ -949,7 +949,7 @@
                     "wp-phpunit/wp-phpunit": "^7.0",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-10-28T16:22:38+00:00",
+                "time": "2026-10-28T16:38:39+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
