@@ -72,6 +72,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/generoi/gds-llms.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/generoi/gf-pardot-pro.git"
         },
         {
