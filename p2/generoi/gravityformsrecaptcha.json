@@ -552,6 +552,29 @@
                     "source": "https://github.com/generoi/gravityformsrecaptcha/tree/2.2.2",
                     "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
                 }
+            },
+            {
+                "name": "generoi/gravityformsrecaptcha",
+                "version": "2.2.3",
+                "version_normalized": "2.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityformsrecaptcha.git",
+                    "reference": "2220160f4b6e16e586c8995db76d450d97bc2709"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityformsrecaptcha/zipball/2220160f4b6e16e586c8995db76d450d97bc2709",
+                    "reference": "2220160f4b6e16e586c8995db76d450d97bc2709",
+                    "shasum": ""
+                },
+                "time": "2026-10-30T04:18:07+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.gravityhelp.com",
+                "support": {
+                    "source": "https://github.com/generoi/gravityformsrecaptcha/tree/2.2.3",
+                    "issues": "https://github.com/generoi/gravityformsrecaptcha/issues"
+                }
             }
         ]
     }
