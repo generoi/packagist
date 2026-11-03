@@ -3,6 +3,29 @@
         "generoi/wpml-string-translation": [
             {
                 "name": "generoi/wpml-string-translation",
+                "version": "dev-chore/remove-malware-scan",
+                "version_normalized": "dev-chore/remove-malware-scan",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-string-translation.git",
+                    "reference": "e153d071dadb2135784efa0c9d5458ed00b5a07f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-string-translation/zipball/e153d071dadb2135784efa0c9d5458ed00b5a07f",
+                    "reference": "e153d071dadb2135784efa0c9d5458ed00b5a07f",
+                    "shasum": ""
+                },
+                "time": "2026-11-03T01:40:17+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-string-translation/tree/chore/remove-malware-scan",
+                    "issues": "https://github.com/generoi/wpml-string-translation/issues"
+                }
+            },
+            {
+                "name": "generoi/wpml-string-translation",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {

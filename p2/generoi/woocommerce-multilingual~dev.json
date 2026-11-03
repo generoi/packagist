@@ -3,6 +3,29 @@
         "generoi/woocommerce-multilingual": [
             {
                 "name": "generoi/woocommerce-multilingual",
+                "version": "dev-chore/remove-malware-scan",
+                "version_normalized": "dev-chore/remove-malware-scan",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/woocommerce-multilingual.git",
+                    "reference": "6ec70a9748121f0940aff1fee915b642bcfdb26b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/woocommerce-multilingual/zipball/6ec70a9748121f0940aff1fee915b642bcfdb26b",
+                    "reference": "6ec70a9748121f0940aff1fee915b642bcfdb26b",
+                    "shasum": ""
+                },
+                "time": "2026-11-03T01:40:29+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://wpml.org",
+                "support": {
+                    "source": "https://github.com/generoi/woocommerce-multilingual/tree/chore/remove-malware-scan",
+                    "issues": "https://github.com/generoi/woocommerce-multilingual/issues"
+                }
+            },
+            {
+                "name": "generoi/woocommerce-multilingual",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {

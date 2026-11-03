@@ -276,6 +276,29 @@
                     "source": "https://github.com/generoi/wp-all-export-pro/tree/2.0.1",
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
+            },
+            {
+                "name": "generoi/wp-all-export-pro",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wp-all-export-pro.git",
+                    "reference": "f440b8f966b89d399d6848d97ad728f6ea1bb3e7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wp-all-export-pro/zipball/f440b8f966b89d399d6848d97ad728f6ea1bb3e7",
+                    "reference": "f440b8f966b89d399d6848d97ad728f6ea1bb3e7",
+                    "shasum": ""
+                },
+                "time": "2026-10-22T04:22:37+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "http://www.wpallimport.com",
+                "support": {
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/2.0.2",
+                    "issues": "https://github.com/generoi/wp-all-export-pro/issues"
+                }
             }
         ]
     }

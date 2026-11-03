@@ -21,7 +21,7 @@
                 "type": "wordpress-plugin",
                 "homepage": "http://www.wpallimport.com",
                 "support": {
-                    "source": "https://github.com/generoi/wp-all-export-pro/tree/master",
+                    "source": "https://github.com/generoi/wp-all-export-pro/tree/2.0.2",
                     "issues": "https://github.com/generoi/wp-all-export-pro/issues"
                 }
             }

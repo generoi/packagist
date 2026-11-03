@@ -3,6 +3,29 @@
         "generoi/wpml-wpforms": [
             {
                 "name": "generoi/wpml-wpforms",
+                "version": "dev-chore/remove-malware-scan",
+                "version_normalized": "dev-chore/remove-malware-scan",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-wpforms.git",
+                    "reference": "ac384ac690efedf6f80240c70a21f7634b1427c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-wpforms/zipball/ac384ac690efedf6f80240c70a21f7634b1427c8",
+                    "reference": "ac384ac690efedf6f80240c70a21f7634b1427c8",
+                    "shasum": ""
+                },
+                "time": "2026-11-03T01:40:40+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-wpforms/tree/chore/remove-malware-scan",
+                    "issues": "https://github.com/generoi/wpml-wpforms/issues"
+                }
+            },
+            {
+                "name": "generoi/wpml-wpforms",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
