@@ -3,48 +3,25 @@
         "generoi/wpml-media-translation": [
             {
                 "name": "generoi/wpml-media-translation",
-                "version": "dev-chore/remove-malware-scan",
-                "version_normalized": "dev-chore/remove-malware-scan",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:generoi/wpml-media-translation.git",
-                    "reference": "9baad49cb824630814db62a370f131ec21e0e25e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/9baad49cb824630814db62a370f131ec21e0e25e",
-                    "reference": "9baad49cb824630814db62a370f131ec21e0e25e",
-                    "shasum": ""
-                },
-                "time": "2026-11-03T01:40:35+00:00",
-                "type": "wordpress-plugin",
-                "homepage": "https://wpml.org/",
-                "support": {
-                    "source": "https://github.com/generoi/wpml-media-translation/tree/chore/remove-malware-scan",
-                    "issues": "https://github.com/generoi/wpml-media-translation/issues"
-                }
-            },
-            {
-                "name": "generoi/wpml-media-translation",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpml-media-translation.git",
-                    "reference": "a4e9878fccfc293150d5aee0febe006f42b5cf39"
+                    "reference": "9dc0df6942c8fc6b3155501ce949bf7a0b8b4310"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/a4e9878fccfc293150d5aee0febe006f42b5cf39",
-                    "reference": "a4e9878fccfc293150d5aee0febe006f42b5cf39",
+                    "url": "https://api.github.com/repos/generoi/wpml-media-translation/zipball/9dc0df6942c8fc6b3155501ce949bf7a0b8b4310",
+                    "reference": "9dc0df6942c8fc6b3155501ce949bf7a0b8b4310",
                     "shasum": ""
                 },
-                "time": "2026-10-22T04:24:10+00:00",
+                "time": "2026-11-03T01:57:51+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/wpml-media-translation/tree/5.2.0",
+                    "source": "https://github.com/generoi/wpml-media-translation/tree/master",
                     "issues": "https://github.com/generoi/wpml-media-translation/issues"
                 }
             },

@@ -3,48 +3,25 @@
         "generoi/wpml-wpforms": [
             {
                 "name": "generoi/wpml-wpforms",
-                "version": "dev-chore/remove-malware-scan",
-                "version_normalized": "dev-chore/remove-malware-scan",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:generoi/wpml-wpforms.git",
-                    "reference": "ac384ac690efedf6f80240c70a21f7634b1427c8"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpml-wpforms/zipball/ac384ac690efedf6f80240c70a21f7634b1427c8",
-                    "reference": "ac384ac690efedf6f80240c70a21f7634b1427c8",
-                    "shasum": ""
-                },
-                "time": "2026-11-03T01:40:40+00:00",
-                "type": "wordpress-plugin",
-                "homepage": "https://wpml.org/",
-                "support": {
-                    "source": "https://github.com/generoi/wpml-wpforms/tree/chore/remove-malware-scan",
-                    "issues": "https://github.com/generoi/wpml-wpforms/issues"
-                }
-            },
-            {
-                "name": "generoi/wpml-wpforms",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpml-wpforms.git",
-                    "reference": "9d429123a0067110a57d0fe3a01579e52eb468e9"
+                    "reference": "951d8d0cbc68c5a6d840120858b5f0d4ea709aab"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpml-wpforms/zipball/9d429123a0067110a57d0fe3a01579e52eb468e9",
-                    "reference": "9d429123a0067110a57d0fe3a01579e52eb468e9",
+                    "url": "https://api.github.com/repos/generoi/wpml-wpforms/zipball/951d8d0cbc68c5a6d840120858b5f0d4ea709aab",
+                    "reference": "951d8d0cbc68c5a6d840120858b5f0d4ea709aab",
                     "shasum": ""
                 },
-                "time": "2026-10-22T04:24:12+00:00",
+                "time": "2026-11-03T01:57:56+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/wpml-wpforms/tree/5.2.0",
+                    "source": "https://github.com/generoi/wpml-wpforms/tree/master",
                     "issues": "https://github.com/generoi/wpml-wpforms/issues"
                 }
             }

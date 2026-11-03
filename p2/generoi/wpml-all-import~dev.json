@@ -3,48 +3,25 @@
         "generoi/wpml-all-import": [
             {
                 "name": "generoi/wpml-all-import",
-                "version": "dev-chore/remove-malware-scan",
-                "version_normalized": "dev-chore/remove-malware-scan",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:generoi/wpml-all-import.git",
-                    "reference": "4687126765af7eb2c79b37e39ad37bfc3f9d2fff"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/4687126765af7eb2c79b37e39ad37bfc3f9d2fff",
-                    "reference": "4687126765af7eb2c79b37e39ad37bfc3f9d2fff",
-                    "shasum": ""
-                },
-                "time": "2026-11-03T01:40:10+00:00",
-                "type": "wordpress-plugin",
-                "homepage": "https://wpml.org/",
-                "support": {
-                    "source": "https://github.com/generoi/wpml-all-import/tree/chore/remove-malware-scan",
-                    "issues": "https://github.com/generoi/wpml-all-import/issues"
-                }
-            },
-            {
-                "name": "generoi/wpml-all-import",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wpml-all-import.git",
-                    "reference": "399f5c89fc851e5a6d55bfbd733d1edbe1cc639b"
+                    "reference": "b4c17f8da47743ef03c6eb38063506c073ec9d5c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/399f5c89fc851e5a6d55bfbd733d1edbe1cc639b",
-                    "reference": "399f5c89fc851e5a6d55bfbd733d1edbe1cc639b",
+                    "url": "https://api.github.com/repos/generoi/wpml-all-import/zipball/b4c17f8da47743ef03c6eb38063506c073ec9d5c",
+                    "reference": "b4c17f8da47743ef03c6eb38063506c073ec9d5c",
                     "shasum": ""
                 },
-                "time": "2026-10-22T04:21:55+00:00",
+                "time": "2026-11-03T01:57:31+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/wpml-all-import/tree/5.2.0",
+                    "source": "https://github.com/generoi/wpml-all-import/tree/master",
                     "issues": "https://github.com/generoi/wpml-all-import/issues"
                 }
             }
