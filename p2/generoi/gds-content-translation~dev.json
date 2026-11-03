@@ -610,6 +610,76 @@
             },
             {
                 "name": "generoi/gds-content-translation",
+                "version": "dev-feat/soft-hyphens",
+                "version_normalized": "dev-feat/soft-hyphens",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-content-translation.git",
+                    "reference": "c6aab603b54944282c3198af40a5b2e1e8369966"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/c6aab603b54944282c3198af40a5b2e1e8369966",
+                    "reference": "c6aab603b54944282c3198af40a5b2e1e8369966",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0.0",
+                    "vanderlee/syllable": "^1.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^7.0",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-11-03T14:41:59+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\ContentTranslation\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\ContentTranslation\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-content-translation vendor/bin/phpunit"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "Polylang Pro helpers for block translation rules, link remapping, and editorial translation status",
+                "homepage": "https://github.com/generoi/gds-content-translation",
+                "support": {
+                    "source": "https://github.com/generoi/gds-content-translation/tree/feat/soft-hyphens",
+                    "issues": "https://github.com/generoi/gds-content-translation/issues"
+                }
+            },
+            {
+                "name": "generoi/gds-content-translation",
                 "version": "dev-feat/strings-alts-screens",
                 "version_normalized": "dev-feat/strings-alts-screens",
                 "source": {
@@ -1098,16 +1168,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-content-translation.git",
-                    "reference": "3fe9e0fea5dc9ddf635123777f84ea1598c78225"
+                    "reference": "affdd760e6ab0b1b333dcb02eecc93bb91a5ab41"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/3fe9e0fea5dc9ddf635123777f84ea1598c78225",
-                    "reference": "3fe9e0fea5dc9ddf635123777f84ea1598c78225",
+                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/affdd760e6ab0b1b333dcb02eecc93bb91a5ab41",
+                    "reference": "affdd760e6ab0b1b333dcb02eecc93bb91a5ab41",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=8.0.0"
+                    "php": ">=8.0.0",
+                    "vanderlee/syllable": "^1.9"
                 },
                 "require-dev": {
                     "laravel/pint": "^1.17",
@@ -1115,7 +1186,7 @@
                     "wp-phpunit/wp-phpunit": "^7.0",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-11-03T14:14:24+00:00",
+                "time": "2026-11-03T14:44:22+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -1157,7 +1228,7 @@
                 "description": "Polylang Pro helpers for block translation rules, link remapping, and editorial translation status",
                 "homepage": "https://github.com/generoi/gds-content-translation",
                 "support": {
-                    "source": "https://github.com/generoi/gds-content-translation/tree/v1.6.0",
+                    "source": "https://github.com/generoi/gds-content-translation/tree/v1.6.1",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 }
             },
