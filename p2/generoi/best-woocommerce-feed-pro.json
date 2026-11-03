@@ -44,6 +44,28 @@
                     "source": "https://github.com/generoi/best-woocommerce-feed-pro/tree/6.5.25",
                     "issues": "https://github.com/generoi/best-woocommerce-feed-pro/issues"
                 }
+            },
+            {
+                "name": "generoi/best-woocommerce-feed-pro",
+                "version": "6.5.26",
+                "version_normalized": "6.5.26.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/best-woocommerce-feed-pro.git",
+                    "reference": "317a576ac98c4ec8e48d8e7ec23fb86ba21a81ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/best-woocommerce-feed-pro/zipball/317a576ac98c4ec8e48d8e7ec23fb86ba21a81ed",
+                    "reference": "317a576ac98c4ec8e48d8e7ec23fb86ba21a81ed",
+                    "shasum": ""
+                },
+                "time": "2026-11-03T15:01:57+00:00",
+                "type": "wordpress-plugin",
+                "support": {
+                    "source": "https://github.com/generoi/best-woocommerce-feed-pro/tree/6.5.26",
+                    "issues": "https://github.com/generoi/best-woocommerce-feed-pro/issues"
+                }
             }
         ]
     }
