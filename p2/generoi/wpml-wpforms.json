@@ -138,6 +138,29 @@
                     "source": "https://github.com/generoi/wpml-wpforms/tree/5.2.0",
                     "issues": "https://github.com/generoi/wpml-wpforms/issues"
                 }
+            },
+            {
+                "name": "generoi/wpml-wpforms",
+                "version": "5.3.0",
+                "version_normalized": "5.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/wpml-wpforms.git",
+                    "reference": "a8a7a76bee5afa3d0736da7d2e16394d267a5371"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/wpml-wpforms/zipball/a8a7a76bee5afa3d0736da7d2e16394d267a5371",
+                    "reference": "a8a7a76bee5afa3d0736da7d2e16394d267a5371",
+                    "shasum": ""
+                },
+                "time": "2026-11-06T04:16:06+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://wpml.org/",
+                "support": {
+                    "source": "https://github.com/generoi/wpml-wpforms/tree/5.3.0",
+                    "issues": "https://github.com/generoi/wpml-wpforms/issues"
+                }
             }
         ]
     }

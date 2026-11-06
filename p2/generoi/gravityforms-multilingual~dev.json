@@ -8,20 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/gravityforms-multilingual.git",
-                    "reference": "52afffc32f2ef112106758421422177c59285f19"
+                    "reference": "4c930f3edb4cfcae24ab23d9a1c2d4191510471f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms-multilingual/zipball/52afffc32f2ef112106758421422177c59285f19",
-                    "reference": "52afffc32f2ef112106758421422177c59285f19",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-multilingual/zipball/4c930f3edb4cfcae24ab23d9a1c2d4191510471f",
+                    "reference": "4c930f3edb4cfcae24ab23d9a1c2d4191510471f",
                     "shasum": ""
                 },
-                "time": "2026-11-03T01:57:41+00:00",
+                "time": "2026-11-06T04:15:59+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://wpml.org/",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms-multilingual/tree/master",
+                    "source": "https://github.com/generoi/gravityforms-multilingual/tree/5.3.0",
                     "issues": "https://github.com/generoi/gravityforms-multilingual/issues"
                 }
             },
