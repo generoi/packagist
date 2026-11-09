@@ -60,19 +60,19 @@ distributes the plugin:
           token: ${{ secrets.PACKAGIST_UPDATE_PAT }}
     ```
 
-3. Add [`@generoi/deploy`](https://github.com/orgs/generoi/teams/deploy) as a collaborator with `read` access. **Do _NOT_ grant write access.**
+3. Give `genero-composer-bot` read access to the new repository: open its [installation settings](https://github.com/organizations/generoi/settings/installations/156728348), add the repository under **Repository access**, and save. The installation covers **selected** repositories only, so a repo you don't add stays invisible to it.
 
-    Nothing else is needed for the satis build itself: `genero-composer-bot` is installed on all repositories, so a new mirror is covered the moment it exists. If that installation is ever narrowed to selected repositories, the build fails naming the repo up front, rather than partway through the satis run.
+    Skip this and the satis build fails up front naming the repo, and every site that requires the package fails CI the same way: a single `generoi/*` package 404s and Composer dies on `git clone --mirror`, while every other private package resolves.
 
-    The collaborator step is still required because consuming projects authenticate Composer with `PACKAGIST_GITHUB_TOKEN`, a PAT on that machine user. It goes away once site repos move onto the app too.
+4. Add [`@generoi/deploy`](https://github.com/orgs/generoi/teams/deploy) as a collaborator with `read` access. **Do _NOT_ grant write access.** Still needed while some workflows authenticate Composer with `PACKAGIST_GITHUB_TOKEN`, a PAT on that machine user; it goes away once every site repo is on the app.
 
-4. _Optional._ Change the [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) secret permissions to be allowed to be used by the repository. This only buys an **immediate** satis rebuild after a release — skip it and the plugin still gets indexed by the next scheduled build (twice a day). When the secret isn't granted, [`update.yml`](./.github/workflows/update.yml) emits a warning and exits green rather than failing the plugin repo's build.
+5. _Optional._ Change the [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) secret permissions to be allowed to be used by the repository. This only buys an **immediate** satis rebuild after a release — skip it and the plugin still gets indexed by the next scheduled build (twice a day). When the secret isn't granted, [`update.yml`](./.github/workflows/update.yml) emits a warning and exits green rather than failing the plugin repo's build.
 
-5. Add the plugin to [`satis.json`](./satis.json) in this repository.
+6. Add the plugin to [`satis.json`](./satis.json) in this repository.
 
-6. Trigger an initial build which will download the latest plugin version, commit it, tag it, push it, release it and if successful trigger a rebuild in this repository.
+7. Trigger an initial build which will download the latest plugin version, commit it, tag it, push it, release it and if successful trigger a rebuild in this repository.
 
-7. Whenever a new version is found using the cron schedule, the plugin will be updated, released and finally a rebuild of this repository will be once again triggered.
+8. Whenever a new version is found using the cron schedule, the plugin will be updated, released and finally a rebuild of this repository will be once again triggered.
 
 ### How a release reaches the index
 
@@ -147,7 +147,7 @@ no proprietary metadata, no custom `composer.json`).
 
 ### Prerequisites
 
-- `genero-composer-bot`, a GitHub App with Contents (read) and Metadata (read), installed on all repositories in the org. [`satis.yml`](./.github/workflows/satis.yml) mints a token from it per run to read plugin tags and contents, and checks the installation still covers every `type: vcs` entry in `satis.json` before building. Note that `release-packages.json` sources must be **public** repositories — that script authenticates with the job's own `GITHUB_TOKEN`, which no app installation backs. Its client id is inlined in the workflow (it is not a secret, same as the watchdog's); the only credential is the `COMPOSER_BOT_PRIVATE_KEY` org secret, scoped to this repository.
+- `genero-composer-bot`, a GitHub App with Contents (read) and Metadata (read), installed on **selected** repositories (each new mirror is added by hand, step 3 above). [`satis.yml`](./.github/workflows/satis.yml) mints a token from it per run to read plugin tags and contents, and checks the installation still covers every `type: vcs` entry in `satis.json` before building. Note that `release-packages.json` sources must be **public** repositories — that script authenticates with the job's own `GITHUB_TOKEN`, which no app installation backs. Its client id is inlined in the workflow (it is not a secret, same as the watchdog's); the only credential is the `COMPOSER_BOT_PRIVATE_KEY` org secret, scoped to this repository.
 
     Replaced `GENEROI_DEPLOY_PAT`, a PAT on the `generoi-deploy` machine user. Same reasoning as `genero-watchdog-bot` in [`watchdog.yml`](./.github/workflows/watchdog.yml): app tokens are minted per run, expire in an hour, never need rotating, and are scoped by the installation rather than by whatever the machine user has accumulated invitations to.
 - [`PACKAGIST_UPDATE_PAT`](https://github.com/organizations/generoi/settings/secrets/actions/PACKAGIST_UPDATE_PAT) action secret containg a Personal Access Token of a user with _write_ access to this repository. The token is limited to only this repository with Contents (write) access. [(settings link)](https://github.com/organizations/generoi/settings/personal-access-tokens/944959)
