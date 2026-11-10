@@ -22,7 +22,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-wpforms/tree/0.4.1",
                     "issues": "https://github.com/generoi/wpml-wpforms/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-wpforms",
@@ -45,7 +46,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-wpforms/tree/0.5.0",
                     "issues": "https://github.com/generoi/wpml-wpforms/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-wpforms",
@@ -68,7 +70,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-wpforms/tree/0.5.1",
                     "issues": "https://github.com/generoi/wpml-wpforms/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-wpforms",
@@ -91,7 +94,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-wpforms/tree/5.0.0",
                     "issues": "https://github.com/generoi/wpml-wpforms/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-wpforms",
@@ -114,7 +118,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-wpforms/tree/5.1.0",
                     "issues": "https://github.com/generoi/wpml-wpforms/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-wpforms",
@@ -137,7 +142,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-wpforms/tree/5.2.0",
                     "issues": "https://github.com/generoi/wpml-wpforms/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-wpforms",
@@ -160,7 +166,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-wpforms/tree/5.3.0",
                     "issues": "https://github.com/generoi/wpml-wpforms/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

@@ -22,7 +22,8 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityformswebhooks/tree/1.5",
                     "issues": "https://github.com/generoi/gravityformswebhooks/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gravityformswebhooks",
@@ -45,7 +46,8 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityformswebhooks/tree/1.6.0",
                     "issues": "https://github.com/generoi/gravityformswebhooks/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gravityformswebhooks",
@@ -68,7 +70,8 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityformswebhooks/tree/1.7.0",
                     "issues": "https://github.com/generoi/gravityformswebhooks/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

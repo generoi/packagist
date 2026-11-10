@@ -22,7 +22,8 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.0",
                     "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gravityformsgoogleanalytics",
@@ -45,7 +46,8 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.3.1",
                     "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gravityformsgoogleanalytics",
@@ -68,7 +70,8 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.4.0",
                     "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gravityformsgoogleanalytics",
@@ -91,7 +94,8 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityformsgoogleanalytics/tree/2.4.1",
                     "issues": "https://github.com/generoi/gravityformsgoogleanalytics/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

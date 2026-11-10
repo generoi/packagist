@@ -45,7 +45,8 @@
                     "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
                     "source": "https://github.com/generoi/woocommerce-subscriptions/tree/3.0.7"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/woocommerce-subscriptions",
@@ -90,7 +91,8 @@
                     "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
                     "source": "https://github.com/generoi/woocommerce-subscriptions/tree/6.6.1"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/woocommerce-subscriptions",
@@ -135,7 +137,8 @@
                     "issues": "https://github.com/generoi/woocommerce-subscriptions/issues",
                     "source": "https://github.com/generoi/woocommerce-subscriptions/tree/6.6.2"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

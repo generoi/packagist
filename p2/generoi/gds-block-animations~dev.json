@@ -44,7 +44,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/gds-block-animations/issues",
                     "source": "https://github.com/generoi/gds-block-animations/tree/block-animations"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gds-block-animations",
@@ -89,7 +90,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/gds-block-animations/issues",
                     "source": "https://github.com/generoi/gds-block-animations/tree/ci/satis-rebuild-hook"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gds-block-animations",
@@ -134,7 +136,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/gds-block-animations/issues",
                     "source": "https://github.com/generoi/gds-block-animations/tree/feat/should-animate-filter-and-onreveal-helper"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gds-block-animations",
@@ -179,7 +182,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/gds-block-animations/issues",
                     "source": "https://github.com/generoi/gds-block-animations/tree/fix/null-block-name"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gds-block-animations",
@@ -225,7 +229,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/gds-block-animations/issues",
                     "source": "https://github.com/generoi/gds-block-animations/tree/master"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gds-block-animations",
@@ -270,7 +275,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/gds-block-animations/issues",
                     "source": "https://github.com/generoi/gds-block-animations/tree/v0.1.2"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

@@ -24,7 +24,8 @@
                     "source": "https://github.com/generoi/woocommerce-product-addons/tree/7.7.0",
                     "issues": "https://github.com/generoi/woocommerce-product-addons/issues"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

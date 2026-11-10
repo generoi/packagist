@@ -23,7 +23,8 @@
                 "support": {
                     "source": "https://github.com/generoi/polylang-pro/tree/3.9.2",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/polylang-pro",
@@ -46,7 +47,8 @@
                 "support": {
                     "source": "https://github.com/generoi/polylang-pro/tree/v3.3.1",
                     "issues": "https://github.com/generoi/polylang-pro/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

@@ -22,7 +22,8 @@
                 "support": {
                     "source": "https://github.com/generoi/facetwp/tree/feature/csp",
                     "issues": "https://github.com/generoi/facetwp/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/facetwp",
@@ -46,7 +47,8 @@
                 "support": {
                     "source": "https://github.com/generoi/facetwp/tree/4.5",
                     "issues": "https://github.com/generoi/facetwp/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/facetwp",
@@ -69,7 +71,8 @@
                 "support": {
                     "source": "https://github.com/generoi/facetwp/tree/patch-csp",
                     "issues": "https://github.com/generoi/facetwp/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/facetwp",
@@ -92,7 +95,8 @@
                 "support": {
                     "source": "https://github.com/generoi/facetwp/tree/v4.2.4",
                     "issues": "https://github.com/generoi/facetwp/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

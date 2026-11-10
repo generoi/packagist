@@ -20,7 +20,8 @@
                 "type": "wordpress-muplugin",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/1.0.0"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -41,7 +42,8 @@
                 "type": "wordpress-muplugin",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/2.0.2"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -62,7 +64,8 @@
                 "type": "wordpress-muplugin",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/2.3.2"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -83,7 +86,8 @@
                 "type": "wordpress-muplugin",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/v2.3.6"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -104,7 +108,8 @@
                 "type": "wordpress-muplugin",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/v2.4.3"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -125,7 +130,8 @@
                 "type": "wordpress-muplugin",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/v3.0.0"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -146,7 +152,8 @@
                 "type": "wordpress-muplugin",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/v3.0.1"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -167,7 +174,8 @@
                 "type": "wordpress-muplugin",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.1.1"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -189,7 +197,8 @@
                 "homepage": "https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.6.0"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -211,7 +220,8 @@
                 "homepage": "https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.6.1"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -233,7 +243,8 @@
                 "homepage": "https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/",
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.7.0"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

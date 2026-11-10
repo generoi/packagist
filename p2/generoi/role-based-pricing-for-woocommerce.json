@@ -44,7 +44,8 @@
                     "issues": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
                     "source": "https://github.com/generoi/role-based-pricing-for-woocommerce/tree/2.1.1"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

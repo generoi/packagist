@@ -22,7 +22,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpai-user-add-on/tree/1.1.10",
                     "issues": "https://github.com/generoi/wpai-user-add-on/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpai-user-add-on",
@@ -45,7 +46,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpai-user-add-on/tree/1.1.8",
                     "issues": "https://github.com/generoi/wpai-user-add-on/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpai-user-add-on",
@@ -68,7 +70,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpai-user-add-on/tree/1.1.9",
                     "issues": "https://github.com/generoi/wpai-user-add-on/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpai-user-add-on",
@@ -91,7 +94,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpai-user-add-on/tree/2.0.0",
                     "issues": "https://github.com/generoi/wpai-user-add-on/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

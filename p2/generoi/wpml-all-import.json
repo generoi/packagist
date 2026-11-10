@@ -44,7 +44,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/wpml-all-import/issues",
                     "source": "https://github.com/generoi/wpml-all-import/tree/v2.0.3"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-all-import",
@@ -89,7 +90,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/wpml-all-import/issues",
                     "source": "https://github.com/generoi/wpml-all-import/tree/v2.0.5"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-all-import",
@@ -134,7 +136,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/wpml-all-import/issues",
                     "source": "https://github.com/generoi/wpml-all-import/tree/v2.0.8"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-all-import",
@@ -179,7 +182,8 @@
                 "support": {
                     "issues": "https://github.com/generoi/wpml-all-import/issues",
                     "source": "https://github.com/generoi/wpml-all-import/tree/v2.1.1"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-all-import",
@@ -202,7 +206,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-all-import/tree/2.3.0",
                     "issues": "https://github.com/generoi/wpml-all-import/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-all-import",
@@ -225,7 +230,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-all-import/tree/2.3.1",
                     "issues": "https://github.com/generoi/wpml-all-import/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-all-import",
@@ -248,7 +254,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-all-import/tree/2.3.2",
                     "issues": "https://github.com/generoi/wpml-all-import/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-all-import",
@@ -271,7 +278,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-all-import/tree/5.0.0",
                     "issues": "https://github.com/generoi/wpml-all-import/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-all-import",
@@ -294,7 +302,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-all-import/tree/5.2.0",
                     "issues": "https://github.com/generoi/wpml-all-import/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wpml-all-import",
@@ -317,7 +326,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wpml-all-import/tree/5.3.0",
                     "issues": "https://github.com/generoi/wpml-all-import/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

@@ -23,7 +23,8 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityforms/tree/3.2.2",
                     "issues": "https://github.com/generoi/gravityforms/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/gravityforms",
@@ -46,7 +47,8 @@
                 "support": {
                     "source": "https://github.com/generoi/gravityforms/tree/v2.7.11",
                     "issues": "https://github.com/generoi/gravityforms/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

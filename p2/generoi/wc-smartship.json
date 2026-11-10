@@ -23,7 +23,8 @@
                     "source": "https://github.com/generoi/wc-smartship/tree/2.0.2",
                     "issues": "https://github.com/generoi/wc-smartship/issues"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wc-smartship",
@@ -47,7 +48,8 @@
                     "source": "https://github.com/generoi/wc-smartship/tree/2.0.3",
                     "issues": "https://github.com/generoi/wc-smartship/issues"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wc-smartship",
@@ -71,7 +73,8 @@
                     "source": "https://github.com/generoi/wc-smartship/tree/2.0.4",
                     "issues": "https://github.com/generoi/wc-smartship/issues"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }

@@ -22,7 +22,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/4.7.3",
                     "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wb-paytrail-maksutavat",
@@ -45,7 +46,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/fix/release-notes-from-plugin-readme",
                     "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             },
             {
                 "name": "generoi/wb-paytrail-maksutavat",
@@ -69,7 +71,8 @@
                 "support": {
                     "source": "https://github.com/generoi/wb-paytrail-maksutavat/tree/6.0.9",
                     "issues": "https://github.com/generoi/wb-paytrail-maksutavat/issues"
-                }
+                },
+                "published-time": "2026-11-10T16:15:32+00:00"
             }
         ]
     }
