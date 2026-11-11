@@ -23,7 +23,7 @@
                     "source": "https://github.com/generoi/wp-media-folder/tree/chore/bump-checkout-v5",
                     "issues": "https://github.com/generoi/wp-media-folder/issues"
                 },
-                "published-time": "2026-11-10T16:36:05+00:00"
+                "published-time": "2026-11-11T04:18:28+00:00"
             },
             {
                 "name": "generoi/wp-media-folder",
@@ -47,7 +47,7 @@
                     "source": "https://github.com/generoi/wp-media-folder/tree/fix/changelog-heading-normalisation",
                     "issues": "https://github.com/generoi/wp-media-folder/issues"
                 },
-                "published-time": "2026-11-10T16:36:05+00:00"
+                "published-time": "2026-11-11T04:18:28+00:00"
             },
             {
                 "name": "generoi/wp-media-folder",
@@ -72,7 +72,7 @@
                     "source": "https://github.com/generoi/wp-media-folder/tree/6.3.0",
                     "issues": "https://github.com/generoi/wp-media-folder/issues"
                 },
-                "published-time": "2026-11-10T16:36:05+00:00"
+                "published-time": "2026-11-11T04:18:28+00:00"
             }
         ]
     }

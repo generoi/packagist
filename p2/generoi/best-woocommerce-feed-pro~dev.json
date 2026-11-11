@@ -8,22 +8,22 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/best-woocommerce-feed-pro.git",
-                    "reference": "317a576ac98c4ec8e48d8e7ec23fb86ba21a81ed"
+                    "reference": "b7f853e1164acfcc49b6aff1b370e912b6f4a809"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/best-woocommerce-feed-pro/zipball/317a576ac98c4ec8e48d8e7ec23fb86ba21a81ed",
-                    "reference": "317a576ac98c4ec8e48d8e7ec23fb86ba21a81ed",
+                    "url": "https://api.github.com/repos/generoi/best-woocommerce-feed-pro/zipball/b7f853e1164acfcc49b6aff1b370e912b6f4a809",
+                    "reference": "b7f853e1164acfcc49b6aff1b370e912b6f4a809",
                     "shasum": ""
                 },
-                "time": "2026-11-03T15:01:57+00:00",
+                "time": "2026-11-11T04:15:02+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "support": {
-                    "source": "https://github.com/generoi/best-woocommerce-feed-pro/tree/6.5.26",
+                    "source": "https://github.com/generoi/best-woocommerce-feed-pro/tree/6.5.27",
                     "issues": "https://github.com/generoi/best-woocommerce-feed-pro/issues"
                 },
-                "published-time": "2026-11-10T16:36:05+00:00"
+                "published-time": "2026-11-11T04:18:28+00:00"
             }
         ]
     }
