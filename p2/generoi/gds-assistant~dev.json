@@ -66,7 +66,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/add-vertex-ai-provider",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -133,7 +133,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/chore/lower-wp-requirement-to-6.5",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -200,7 +200,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/editor-ux",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -267,7 +267,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/failsafe-write-guards",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -334,7 +334,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/abilities-mcp-public-meta",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -401,7 +401,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/builtin-web-tools",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -468,7 +468,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/mcp-oauth-client-form",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -535,7 +535,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/prompt-injection-defense",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -602,7 +602,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/provider-caching",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -669,7 +669,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/report-bug-skill",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -736,7 +736,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/8-features",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -803,7 +803,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/context-compression",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -870,7 +870,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/media-uploads-and-fixes",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -937,7 +937,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/multi-provider",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1004,7 +1004,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/release-workflow",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1071,7 +1071,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/dataview-refresh",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1138,7 +1138,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/logging-and-forms",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1205,7 +1205,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/mcp-callback-cookie-auth",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1272,7 +1272,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/provider-compat",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1339,7 +1339,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/streamdown-tool-markers",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1406,7 +1406,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/ux-polish",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1473,7 +1473,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/v0.4.1-tool-result-trust",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1546,7 +1546,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/v0.4.3-foundation",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1613,7 +1613,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/live-editor-edits",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1687,7 +1687,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/v0.5.0",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1760,7 +1760,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/refactor/v0.4.4-modal-carve",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1827,7 +1827,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/refresh-models-pricing",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1894,7 +1894,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/undo-restore",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1961,7 +1961,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/voice-input",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-11T04:18:28+00:00"
+                "published-time": "2026-11-11T04:35:51+00:00"
             }
         ]
     }
