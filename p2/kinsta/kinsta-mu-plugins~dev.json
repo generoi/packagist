@@ -22,7 +22,7 @@
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/feat/release-notes-from-changelog-page"
                 },
-                "published-time": "2026-11-12T04:35:33+00:00"
+                "published-time": "2026-11-12T16:36:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -44,7 +44,7 @@
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/fix/php82-warning"
                 },
-                "published-time": "2026-11-12T04:35:33+00:00"
+                "published-time": "2026-11-12T16:36:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -68,7 +68,7 @@
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/master"
                 },
-                "published-time": "2026-11-12T04:35:33+00:00"
+                "published-time": "2026-11-12T16:36:32+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -90,7 +90,7 @@
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/php8_warning_fix"
                 },
-                "published-time": "2026-11-12T04:35:33+00:00"
+                "published-time": "2026-11-12T16:36:32+00:00"
             }
         ]
     }
