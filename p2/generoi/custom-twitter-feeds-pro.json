@@ -23,7 +23,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.10.0",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -47,7 +47,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.11.0",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -71,7 +71,31 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.11.1",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
+            },
+            {
+                "name": "generoi/custom-twitter-feeds-pro",
+                "version": "2.12.0",
+                "version_normalized": "2.12.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/custom-twitter-feeds-pro.git",
+                    "reference": "26e139243d20493ab80c422b19528fdafd4126b3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/26e139243d20493ab80c422b19528fdafd4126b3",
+                    "reference": "26e139243d20493ab80c422b19528fdafd4126b3",
+                    "shasum": ""
+                },
+                "time": "2026-11-13T04:15:29+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://smashballoon.com/custom-twitter-feeds/",
+                "support": {
+                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.12.0",
+                    "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
+                },
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -95,7 +119,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.4.3",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -119,7 +143,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.4.4",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -143,7 +167,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.4.5",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -167,7 +191,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.4.6",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -191,7 +215,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.0",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -215,7 +239,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.1",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -239,7 +263,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.2",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -263,7 +287,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.3",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -287,7 +311,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.4",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -311,7 +335,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.5",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -335,7 +359,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.5.6",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -359,7 +383,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.6.0",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -383,7 +407,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.6.1",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -407,7 +431,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.6.2",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -431,7 +455,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.7.0",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -455,7 +479,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.8.0",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             },
             {
                 "name": "generoi/custom-twitter-feeds-pro",
@@ -479,7 +503,7 @@
                     "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.9.0",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-12T16:36:32+00:00"
+                "published-time": "2026-11-13T04:18:00+00:00"
             }
         ]
     }
