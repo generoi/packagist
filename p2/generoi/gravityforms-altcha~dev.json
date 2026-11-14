@@ -70,7 +70,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/classify-verification-failures",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-14T04:35:11+00:00"
+                "published-time": "2026-11-14T16:35:27+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -141,7 +141,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/gf-logging",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-14T04:35:11+00:00"
+                "published-time": "2026-11-14T16:35:27+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -212,7 +212,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/logging",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-14T04:35:11+00:00"
+                "published-time": "2026-11-14T16:35:27+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -283,7 +283,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/replay-protection-and-cost",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-14T04:35:11+00:00"
+                "published-time": "2026-11-14T16:35:27+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -346,7 +346,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/settings-opt-in",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-14T04:35:11+00:00"
+                "published-time": "2026-11-14T16:35:27+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -417,7 +417,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/fix/renew-expired-challenge",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-14T04:35:11+00:00"
+                "published-time": "2026-11-14T16:35:27+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -488,7 +488,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/fix/surface-validation-message",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-14T04:35:11+00:00"
+                "published-time": "2026-11-14T16:35:27+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -560,7 +560,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/v0.6.2",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-14T04:35:11+00:00"
+                "published-time": "2026-11-14T16:35:27+00:00"
             }
         ]
     }
