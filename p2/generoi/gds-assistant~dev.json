@@ -66,7 +66,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/add-vertex-ai-provider",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -133,7 +133,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/chore/lower-wp-requirement-to-6.5",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -200,7 +200,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/editor-ux",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -267,7 +267,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/failsafe-write-guards",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -334,7 +334,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/abilities-mcp-public-meta",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -401,7 +401,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/builtin-web-tools",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -468,7 +468,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/mcp-oauth-client-form",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -535,7 +535,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/prompt-injection-defense",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -602,7 +602,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/provider-caching",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -669,80 +669,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feat/report-bug-skill",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
-            },
-            {
-                "name": "generoi/gds-assistant",
-                "version": "dev-feat/validate-block-markup",
-                "version_normalized": "dev-feat/validate-block-markup",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/generoi/gds-assistant.git",
-                    "reference": "91dbe2e03893abcc72dfb15404ed947c8b1a5ada"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/91dbe2e03893abcc72dfb15404ed947c8b1a5ada",
-                    "reference": "91dbe2e03893abcc72dfb15404ed947c8b1a5ada",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=8.3.0"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.29",
-                    "php-stubs/wp-cli-stubs": "^2.12",
-                    "phpstan/phpstan": "^2.2",
-                    "phpunit/phpunit": "^9.0",
-                    "szepeviktor/phpstan-wordpress": "^2.0",
-                    "wp-phpunit/wp-phpunit": "^7.0",
-                    "yoast/phpunit-polyfills": "^2.0"
-                },
-                "time": "2026-11-15T02:55:11+00:00",
-                "type": "wordpress-plugin",
-                "autoload": {
-                    "psr-4": {
-                        "GeneroWP\\Assistant\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "GeneroWP\\Assistant\\Tests\\": "tests/"
-                    }
-                },
-                "scripts": {
-                    "lint": [
-                        "pint --test"
-                    ],
-                    "lint:fix": [
-                        "pint"
-                    ],
-                    "test": [
-                        "phpunit"
-                    ],
-                    "test:wp-env": [
-                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-assistant vendor/bin/phpunit"
-                    ],
-                    "stan": [
-                        "./vendor/bin/phpstan analyse --memory-limit=1G"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Genero",
-                        "email": "info@genero.fi"
-                    }
-                ],
-                "description": "AI-powered admin assistant with WordPress tool access",
-                "homepage": "https://github.com/generoi/gds-assistant",
-                "support": {
-                    "source": "https://github.com/generoi/gds-assistant/tree/feat/validate-block-markup",
-                    "issues": "https://github.com/generoi/gds-assistant/issues"
-                },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -809,7 +736,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/8-features",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -876,7 +803,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/context-compression",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -943,7 +870,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/media-uploads-and-fixes",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1010,7 +937,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/multi-provider",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1077,7 +1004,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/feature/release-workflow",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1144,7 +1071,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/dataview-refresh",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1211,7 +1138,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/logging-and-forms",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1278,7 +1205,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/mcp-callback-cookie-auth",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1345,7 +1272,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/provider-compat",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1412,7 +1339,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/streamdown-tool-markers",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1479,7 +1406,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/ux-polish",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1546,7 +1473,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/v0.4.1-tool-result-trust",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1619,7 +1546,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/fix/v0.4.3-foundation",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1686,7 +1613,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/live-editor-edits",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1695,12 +1622,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-assistant.git",
-                    "reference": "4ea21bd4ccea607a65dd405c17bdbfccc23040f1"
+                    "reference": "603f71a6b762c76554d3a6cf9310e6e5c26aa300"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/4ea21bd4ccea607a65dd405c17bdbfccc23040f1",
-                    "reference": "4ea21bd4ccea607a65dd405c17bdbfccc23040f1",
+                    "url": "https://api.github.com/repos/generoi/gds-assistant/zipball/603f71a6b762c76554d3a6cf9310e6e5c26aa300",
+                    "reference": "603f71a6b762c76554d3a6cf9310e6e5c26aa300",
                     "shasum": ""
                 },
                 "require": {
@@ -1715,7 +1642,7 @@
                     "wp-phpunit/wp-phpunit": "^7.0",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-06-01T16:59:04+00:00",
+                "time": "2026-11-15T04:01:21+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -1757,10 +1684,10 @@
                 "description": "AI-powered admin assistant with WordPress tool access",
                 "homepage": "https://github.com/generoi/gds-assistant",
                 "support": {
-                    "source": "https://github.com/generoi/gds-assistant/tree/v0.5.0",
+                    "source": "https://github.com/generoi/gds-assistant/tree/main",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1833,7 +1760,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/refactor/v0.4.4-modal-carve",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1900,7 +1827,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/refresh-models-pricing",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -1967,7 +1894,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/undo-restore",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             },
             {
                 "name": "generoi/gds-assistant",
@@ -2034,7 +1961,7 @@
                     "source": "https://github.com/generoi/gds-assistant/tree/voice-input",
                     "issues": "https://github.com/generoi/gds-assistant/issues"
                 },
-                "published-time": "2026-11-15T03:36:16+00:00"
+                "published-time": "2026-11-15T04:35:32+00:00"
             }
         ]
     }
