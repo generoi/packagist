@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$cbb1f05b242c2610d17d7b7dac18443d01b9bb86.json": {
-            "sha1": "cbb1f05b242c2610d17d7b7dac18443d01b9bb86"
+        "include/all$bf0e9c5b25bdd505e1965f449c683be1a6c77312.json": {
+            "sha1": "bf0e9c5b25bdd505e1965f449c683be1a6c77312"
         }
     },
     "metadata-url": "/packagist/p2/%package%.json",
@@ -23,7 +23,6 @@
         "generoi/gds-assistant",
         "generoi/gds-block-animations",
         "generoi/gds-content-translation",
-        "generoi/gds-mcp",
         "generoi/gf-pardot-pro",
         "generoi/gravity-forms-user-verification",
         "generoi/gravityforms",
