@@ -64,10 +64,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/generoi/gds-mcp.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/generoi/gds-content-translation.git"
         },
         {
