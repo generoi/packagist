@@ -3,6 +3,30 @@
         "generoi/gravityforms": [
             {
                 "name": "generoi/gravityforms",
+                "version": "dev-fix/wp-cli-cron-exit",
+                "version_normalized": "dev-fix/wp-cli-cron-exit",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:generoi/gravityforms.git",
+                    "reference": "047a5393336fa649db0b709752f616d9b3fa20e0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms/zipball/047a5393336fa649db0b709752f616d9b3fa20e0",
+                    "reference": "047a5393336fa649db0b709752f616d9b3fa20e0",
+                    "shasum": ""
+                },
+                "time": "2026-11-16T13:00:29+00:00",
+                "type": "wordpress-plugin",
+                "homepage": "https://www.gravityforms.com/",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms/tree/fix/wp-cli-cron-exit",
+                    "issues": "https://github.com/generoi/gravityforms/issues"
+                },
+                "published-time": "2026-11-16T16:36:20+00:00"
+            },
+            {
+                "name": "generoi/gravityforms",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
@@ -24,7 +48,7 @@
                     "source": "https://github.com/generoi/gravityforms/tree/3.2.2",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gravityforms",
@@ -48,7 +72,7 @@
                     "source": "https://github.com/generoi/gravityforms/tree/v2.7.11",
                     "issues": "https://github.com/generoi/gravityforms/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             }
         ]
     }

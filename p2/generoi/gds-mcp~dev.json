@@ -69,7 +69,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/blocks-get-defaults",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -145,7 +145,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/ci/satis-rebuild-hook",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -221,7 +221,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/docs/oauth-connect-guide",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -291,7 +291,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/ability-integration-tests",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -361,7 +361,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/blocks-patch-template-id",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -437,7 +437,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/content-replace-ability",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -513,7 +513,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/expose-core-abilities",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -583,7 +583,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/gravity-forms-feeds-ability",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -653,7 +653,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/gravity-forms-update",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -723,7 +723,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/mail-send",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -793,7 +793,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/mail-send-min-tier",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -863,7 +863,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/media-upload",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -939,7 +939,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/oauth-server",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1009,7 +1009,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feat/woocommerce-integration",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1079,7 +1079,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/feature/generic-crud",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1155,7 +1155,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/audit-high",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1231,7 +1231,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/audit-medium-low",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1301,7 +1301,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/gravity-forms-gfapi-migration",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1377,7 +1377,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/machine-translate-single-post",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1453,7 +1453,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/php-errors",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1529,7 +1529,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/resource-uri-compat",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1599,7 +1599,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/response-enrichment",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1669,7 +1669,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/stdclass-schema-sync",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1739,7 +1739,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/v0.5.0-undo-and-list-filters",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1815,7 +1815,83 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/fix/v0.5.1-foundation",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
+            },
+            {
+                "name": "generoi/gds-mcp",
+                "version": "dev-fix/wc-11-3-mcp-flag",
+                "version_normalized": "dev-fix/wc-11-3-mcp-flag",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-mcp.git",
+                    "reference": "9875d76d2c534b053d1052785f50aa2e56720be5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-mcp/zipball/9875d76d2c534b053d1052785f50aa2e56720be5",
+                    "reference": "9875d76d2c534b053d1052785f50aa2e56720be5",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "php-stubs/wp-cli-stubs": "^2.12",
+                    "phpstan/phpstan": "^2.2",
+                    "phpunit/phpunit": "^9.0",
+                    "szepeviktor/phpstan-wordpress": "^2.0",
+                    "wp-phpunit/wp-phpunit": "^7.0",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-11-16T16:30:46+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\MCP\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-mcp vendor/bin/phpunit"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ],
+                    "stan": [
+                        "./vendor/bin/phpstan analyse --memory-limit=1G"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "WordPress MCP abilities for content management, translations, and forms",
+                "homepage": "https://github.com/generoi/gds-mcp",
+                "support": {
+                    "source": "https://github.com/generoi/gds-mcp/tree/fix/wc-11-3-mcp-flag",
+                    "issues": "https://github.com/generoi/gds-mcp/issues"
+                },
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1892,7 +1968,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/v0.10.0",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -1962,7 +2038,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/nav-menu-items-ability",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             },
             {
                 "name": "generoi/gds-mcp",
@@ -2032,7 +2108,7 @@
                     "source": "https://github.com/generoi/gds-mcp/tree/wp70-abilities-api",
                     "issues": "https://github.com/generoi/gds-mcp/issues"
                 },
-                "published-time": "2026-11-16T04:43:41+00:00"
+                "published-time": "2026-11-16T16:36:20+00:00"
             }
         ]
     }
