@@ -70,7 +70,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/classify-verification-failures",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-18T13:48:58+00:00"
+                "published-time": "2026-11-18T15:50:12+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -141,7 +141,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/gf-logging",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-18T13:48:58+00:00"
+                "published-time": "2026-11-18T15:50:12+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -212,7 +212,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/logging",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-18T13:48:58+00:00"
+                "published-time": "2026-11-18T15:50:12+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -283,7 +283,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/replay-protection-and-cost",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-18T13:48:58+00:00"
+                "published-time": "2026-11-18T15:50:12+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -354,7 +354,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/report-to-monitoring",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-18T13:48:58+00:00"
+                "published-time": "2026-11-18T15:50:12+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -417,7 +417,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/feat/settings-opt-in",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-18T13:48:58+00:00"
+                "published-time": "2026-11-18T15:50:12+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -488,7 +488,78 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/fix/renew-expired-challenge",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-18T13:48:58+00:00"
+                "published-time": "2026-11-18T15:50:12+00:00"
+            },
+            {
+                "name": "generoi/gravityforms-altcha",
+                "version": "dev-fix/renew-expired-on-resume",
+                "version_normalized": "dev-fix/renew-expired-on-resume",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gravityforms-altcha.git",
+                    "reference": "587cfdb801930dc173b3a3c309ce44067ed183af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-altcha/zipball/587cfdb801930dc173b3a3c309ce44067ed183af",
+                    "reference": "587cfdb801930dc173b3a3c309ce44067ed183af",
+                    "shasum": ""
+                },
+                "require": {
+                    "altcha-org/altcha": "^2.0",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "brain/monkey": "^2.6",
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^7.0",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-11-18T15:31:11+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Genero\\GravityFormsAltcha\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Genero\\GravityFormsAltcha\\Tests\\": "test/unit/",
+                        "Genero\\GravityFormsAltcha\\Tests\\Mocked\\": "test/mocked/",
+                        "Genero\\GravityFormsAltcha\\Tests\\Integration\\": "test/integration/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:integration": [
+                        "phpunit -c phpunit.integration.xml.dist"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "Invisible ALTCHA spam protection for Gravity Forms",
+                "homepage": "https://github.com/generoi/gravityforms-altcha",
+                "support": {
+                    "source": "https://github.com/generoi/gravityforms-altcha/tree/fix/renew-expired-on-resume",
+                    "issues": "https://github.com/generoi/gravityforms-altcha/issues"
+                },
+                "published-time": "2026-11-18T15:50:12+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -559,7 +630,7 @@
                     "source": "https://github.com/generoi/gravityforms-altcha/tree/fix/surface-validation-message",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-18T13:48:58+00:00"
+                "published-time": "2026-11-18T15:50:12+00:00"
             },
             {
                 "name": "generoi/gravityforms-altcha",
@@ -568,12 +639,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gravityforms-altcha.git",
-                    "reference": "d981536e748480d2dc641295945b1d6ec252a8c7"
+                    "reference": "7713cf452339baf7ae388ae0add75bf86669b2d0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gravityforms-altcha/zipball/d981536e748480d2dc641295945b1d6ec252a8c7",
-                    "reference": "d981536e748480d2dc641295945b1d6ec252a8c7",
+                    "url": "https://api.github.com/repos/generoi/gravityforms-altcha/zipball/7713cf452339baf7ae388ae0add75bf86669b2d0",
+                    "reference": "7713cf452339baf7ae388ae0add75bf86669b2d0",
                     "shasum": ""
                 },
                 "require": {
@@ -587,7 +658,7 @@
                     "wp-phpunit/wp-phpunit": "^7.0",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-11-18T13:44:08+00:00",
+                "time": "2026-11-18T15:44:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -628,10 +699,10 @@
                 "description": "Invisible ALTCHA spam protection for Gravity Forms",
                 "homepage": "https://github.com/generoi/gravityforms-altcha",
                 "support": {
-                    "source": "https://github.com/generoi/gravityforms-altcha/tree/v0.8.0",
+                    "source": "https://github.com/generoi/gravityforms-altcha/tree/v0.8.1",
                     "issues": "https://github.com/generoi/gravityforms-altcha/issues"
                 },
-                "published-time": "2026-11-18T13:48:58+00:00"
+                "published-time": "2026-11-18T15:50:12+00:00"
             }
         ]
     }
