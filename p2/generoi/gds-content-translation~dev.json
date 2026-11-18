@@ -69,7 +69,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/chore/generic-examples",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -125,7 +125,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/ci/satis-rebuild-hook",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -195,7 +195,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/ai-review-followup",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -265,7 +265,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/ai-translation-audit",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -335,7 +335,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/gap-checks",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -405,7 +405,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/glossary",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -475,7 +475,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/page-scan",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -545,7 +545,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/phpunit-tests",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -616,7 +616,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/review-external-machine-translations",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -686,7 +686,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/review-robustness",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -757,7 +757,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/soft-hyphens",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -827,7 +827,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/strings-alts-screens",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -897,7 +897,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/feat/untranslated-assets",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -967,7 +967,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/fix/audit-and-review",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -1037,7 +1037,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/fix/media-forms-robustness",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -1107,7 +1107,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/fix/media-in-patterns",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -1177,7 +1177,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/fix/preserve-query-string-on-translated-links",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -1248,7 +1248,78 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/fix/relink-lost-ids",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
+            },
+            {
+                "name": "generoi/gds-content-translation",
+                "version": "dev-fix/review-inactive-languages",
+                "version_normalized": "dev-fix/review-inactive-languages",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generoi/gds-content-translation.git",
+                    "reference": "c14e23a0b7e577b30990d3ca195724b486730a39"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/c14e23a0b7e577b30990d3ca195724b486730a39",
+                    "reference": "c14e23a0b7e577b30990d3ca195724b486730a39",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.0.0",
+                    "vanderlee/syllable": "^1.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17",
+                    "phpunit/phpunit": "^9.0",
+                    "wp-phpunit/wp-phpunit": "^7.0",
+                    "yoast/phpunit-polyfills": "^2.0"
+                },
+                "time": "2026-11-18T06:56:48+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "GeneroWP\\ContentTranslation\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "GeneroWP\\ContentTranslation\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "pint --test"
+                    ],
+                    "lint:fix": [
+                        "pint"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ],
+                    "test:wp-env": [
+                        "wp-env run tests-cli --env-cwd=wp-content/plugins/gds-content-translation vendor/bin/phpunit"
+                    ],
+                    "build:production": [
+                        "@composer install --optimize-autoloader --no-dev"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Genero",
+                        "email": "info@genero.fi"
+                    }
+                ],
+                "description": "Polylang Pro helpers for block translation rules, link remapping, and editorial translation status",
+                "homepage": "https://github.com/generoi/gds-content-translation",
+                "support": {
+                    "source": "https://github.com/generoi/gds-content-translation/tree/fix/review-inactive-languages",
+                    "issues": "https://github.com/generoi/gds-content-translation/issues"
+                },
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -1318,7 +1389,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/fix/review-remarks-one-click",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -1389,7 +1460,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/fix/translation-review-and-deepl-code",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -1398,12 +1469,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/gds-content-translation.git",
-                    "reference": "9e2a1b955b1d73926186d853b71060731055d58e"
+                    "reference": "3229612dc2dfd81e5faa4b4fb95e2291ec236246"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/9e2a1b955b1d73926186d853b71060731055d58e",
-                    "reference": "9e2a1b955b1d73926186d853b71060731055d58e",
+                    "url": "https://api.github.com/repos/generoi/gds-content-translation/zipball/3229612dc2dfd81e5faa4b4fb95e2291ec236246",
+                    "reference": "3229612dc2dfd81e5faa4b4fb95e2291ec236246",
                     "shasum": ""
                 },
                 "require": {
@@ -1416,7 +1487,7 @@
                     "wp-phpunit/wp-phpunit": "^7.0",
                     "yoast/phpunit-polyfills": "^2.0"
                 },
-                "time": "2026-11-17T11:45:28+00:00",
+                "time": "2026-11-18T06:57:05+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
@@ -1458,10 +1529,10 @@
                 "description": "Polylang Pro helpers for block translation rules, link remapping, and editorial translation status",
                 "homepage": "https://github.com/generoi/gds-content-translation",
                 "support": {
-                    "source": "https://github.com/generoi/gds-content-translation/tree/v1.7.0",
+                    "source": "https://github.com/generoi/gds-content-translation/tree/v1.7.1",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -1531,7 +1602,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/memoize-block-link-translation",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             },
             {
                 "name": "generoi/gds-content-translation",
@@ -1601,7 +1672,7 @@
                     "source": "https://github.com/generoi/gds-content-translation/tree/release/1.6.0",
                     "issues": "https://github.com/generoi/gds-content-translation/issues"
                 },
-                "published-time": "2026-11-18T04:34:57+00:00"
+                "published-time": "2026-11-18T07:01:35+00:00"
             }
         ]
     }
