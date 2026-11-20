@@ -8,23 +8,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/custom-twitter-feeds-pro.git",
-                    "reference": "26e139243d20493ab80c422b19528fdafd4126b3"
+                    "reference": "51c02f65ab54dcaf26ce80eb1fa0cbfacf91a088"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/26e139243d20493ab80c422b19528fdafd4126b3",
-                    "reference": "26e139243d20493ab80c422b19528fdafd4126b3",
+                    "url": "https://api.github.com/repos/generoi/custom-twitter-feeds-pro/zipball/51c02f65ab54dcaf26ce80eb1fa0cbfacf91a088",
+                    "reference": "51c02f65ab54dcaf26ce80eb1fa0cbfacf91a088",
                     "shasum": ""
                 },
-                "time": "2026-11-13T04:15:29+00:00",
+                "time": "2026-11-20T04:15:26+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://smashballoon.com/custom-twitter-feeds/",
                 "support": {
-                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.12.0",
+                    "source": "https://github.com/generoi/custom-twitter-feeds-pro/tree/2.12.1",
                     "issues": "https://github.com/generoi/custom-twitter-feeds-pro/issues"
                 },
-                "published-time": "2026-11-19T16:36:04+00:00"
+                "published-time": "2026-11-20T04:19:04+00:00"
             }
         ]
     }
