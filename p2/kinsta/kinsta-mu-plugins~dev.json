@@ -22,7 +22,7 @@
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/feat/release-notes-from-changelog-page"
                 },
-                "published-time": "2026-11-23T16:36:48+00:00"
+                "published-time": "2026-11-24T04:20:08+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -44,7 +44,7 @@
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/fix/php82-warning"
                 },
-                "published-time": "2026-11-23T16:36:48+00:00"
+                "published-time": "2026-11-24T04:20:08+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -53,22 +53,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/generoi/kinsta-mu-plugins.git",
-                    "reference": "b475d5e2778c7b4af3f066bf470885712d58ae9c"
+                    "reference": "45fcb2e021a00b375b8be23646f2da07d035970c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/b475d5e2778c7b4af3f066bf470885712d58ae9c",
-                    "reference": "b475d5e2778c7b4af3f066bf470885712d58ae9c",
+                    "url": "https://api.github.com/repos/generoi/kinsta-mu-plugins/zipball/45fcb2e021a00b375b8be23646f2da07d035970c",
+                    "reference": "45fcb2e021a00b375b8be23646f2da07d035970c",
                     "shasum": ""
                 },
-                "time": "2026-10-10T04:26:27+00:00",
+                "time": "2026-11-24T04:16:10+00:00",
                 "default-branch": true,
                 "type": "wordpress-muplugin",
                 "homepage": "https://kinsta.com/docs/wordpress-hosting/kinsta-mu-plugin/",
                 "support": {
-                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/master"
+                    "source": "https://github.com/generoi/kinsta-mu-plugins/tree/3.8.0"
                 },
-                "published-time": "2026-11-23T16:36:48+00:00"
+                "published-time": "2026-11-24T04:20:08+00:00"
             },
             {
                 "name": "kinsta/kinsta-mu-plugins",
@@ -90,7 +90,7 @@
                 "support": {
                     "source": "https://github.com/generoi/kinsta-mu-plugins/tree/php8_warning_fix"
                 },
-                "published-time": "2026-11-23T16:36:48+00:00"
+                "published-time": "2026-11-24T04:20:08+00:00"
             }
         ]
     }
