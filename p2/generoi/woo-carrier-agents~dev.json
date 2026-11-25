@@ -24,7 +24,8 @@
                     "source": "https://github.com/generoi/woo-carrier-agents/tree/2.1.6",
                     "issues": "https://github.com/generoi/woo-carrier-agents/issues"
                 },
-                "published-time": "2026-11-24T16:36:35+00:00"
+                "abandoned": true,
+                "published-time": "2026-11-25T04:19:11+00:00"
             },
             {
                 "name": "generoi/woo-carrier-agents",
@@ -48,7 +49,8 @@
                     "source": "https://github.com/generoi/woo-carrier-agents/tree/v1.5.2",
                     "issues": "https://github.com/generoi/woo-carrier-agents/issues"
                 },
-                "published-time": "2026-11-24T16:36:35+00:00"
+                "abandoned": true,
+                "published-time": "2026-11-25T04:19:11+00:00"
             }
         ]
     }

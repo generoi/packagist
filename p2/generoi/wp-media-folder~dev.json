@@ -23,7 +23,7 @@
                     "source": "https://github.com/generoi/wp-media-folder/tree/chore/bump-checkout-v5",
                     "issues": "https://github.com/generoi/wp-media-folder/issues"
                 },
-                "published-time": "2026-11-24T16:36:35+00:00"
+                "published-time": "2026-11-25T04:19:11+00:00"
             },
             {
                 "name": "generoi/wp-media-folder",
@@ -47,7 +47,7 @@
                     "source": "https://github.com/generoi/wp-media-folder/tree/fix/changelog-heading-normalisation",
                     "issues": "https://github.com/generoi/wp-media-folder/issues"
                 },
-                "published-time": "2026-11-24T16:36:35+00:00"
+                "published-time": "2026-11-25T04:19:11+00:00"
             },
             {
                 "name": "generoi/wp-media-folder",
@@ -56,23 +56,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/wp-media-folder.git",
-                    "reference": "8b321530349e36e5296fa41490dc7c84f818db70"
+                    "reference": "e13ad11dd9c280256120cce8a9dbb469ef8fcfea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/wp-media-folder/zipball/8b321530349e36e5296fa41490dc7c84f818db70",
-                    "reference": "8b321530349e36e5296fa41490dc7c84f818db70",
+                    "url": "https://api.github.com/repos/generoi/wp-media-folder/zipball/e13ad11dd9c280256120cce8a9dbb469ef8fcfea",
+                    "reference": "e13ad11dd9c280256120cce8a9dbb469ef8fcfea",
                     "shasum": ""
                 },
-                "time": "2026-10-14T04:24:54+00:00",
+                "time": "2026-11-25T04:16:08+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://www.joomunited.com/wordpress-products/wp-media-folder",
                 "support": {
-                    "source": "https://github.com/generoi/wp-media-folder/tree/6.3.0",
+                    "source": "https://github.com/generoi/wp-media-folder/tree/6.3.1",
                     "issues": "https://github.com/generoi/wp-media-folder/issues"
                 },
-                "published-time": "2026-11-24T16:36:35+00:00"
+                "published-time": "2026-11-25T04:19:11+00:00"
             }
         ]
     }
