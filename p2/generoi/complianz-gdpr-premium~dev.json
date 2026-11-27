@@ -23,7 +23,7 @@
                     "source": "https://github.com/generoi/complianz-gdpr-premium/tree/feature/csp",
                     "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
                 },
-                "published-time": "2026-11-26T22:37:54+00:00"
+                "published-time": "2026-11-27T04:19:21+00:00"
             },
             {
                 "name": "generoi/complianz-gdpr-premium",
@@ -32,23 +32,23 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:generoi/complianz-gdpr-premium.git",
-                    "reference": "0e5f3379bc899ebfb5e8a5d67e14de91bdf4806f"
+                    "reference": "b9d1c560ccecdd52284a6445c8843a37d24738d8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/0e5f3379bc899ebfb5e8a5d67e14de91bdf4806f",
-                    "reference": "0e5f3379bc899ebfb5e8a5d67e14de91bdf4806f",
+                    "url": "https://api.github.com/repos/generoi/complianz-gdpr-premium/zipball/b9d1c560ccecdd52284a6445c8843a37d24738d8",
+                    "reference": "b9d1c560ccecdd52284a6445c8843a37d24738d8",
                     "shasum": ""
                 },
-                "time": "2026-11-24T04:16:30+00:00",
+                "time": "2026-11-27T04:16:53+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "homepage": "https://complianz.io/",
                 "support": {
-                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.6.8",
+                    "source": "https://github.com/generoi/complianz-gdpr-premium/tree/7.6.9",
                     "issues": "https://github.com/generoi/complianz-gdpr-premium/issues"
                 },
-                "published-time": "2026-11-26T22:37:54+00:00"
+                "published-time": "2026-11-27T04:19:21+00:00"
             }
         ]
     }
